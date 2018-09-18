@@ -1,7 +1,6 @@
 import argparse
 
-from evaluation.evaluation_utils import LinkMetricsResults, \
-    ReferenceMetricsResults
+from evaluation.evaluation_utils import Results
 from utils.utils import init_logging, read_json
 
 if __name__ == '__main__':
@@ -16,10 +15,5 @@ if __name__ == '__main__':
 
     dataset = read_json(args.dataset)
 
-#   reference-based metrics
-    ref_metrics_results = ReferenceMetricsResults(dataset)
-    ref_metrics_results.print_summary()
-
-#   link-based metrics
-    link_metrics_results = LinkMetricsResults(dataset)
-    link_metrics_results.print_summary()
+    results = Results(dataset)
+    results.print_summary()

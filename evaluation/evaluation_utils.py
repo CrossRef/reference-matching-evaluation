@@ -138,6 +138,17 @@ class LinkMetricsResults:
             print('  Average F1: {:.4f}'.format(self.get_average_f1_by_doc()))
 
 
+class Results:
+
+    def __init__(self, dataset):
+        self.reference_metrics_results = ReferenceMetricsResults(dataset)
+        self.link_metrics_results = LinkMetricsResults(dataset)
+
+    def print_summary(self):
+        self.reference_metrics_results.print_summary()
+        self.link_metrics_results.print_summary()
+
+
 def split_by_attr(dataset, attr):
     attr_values = set([d[attr] for d in dataset if d[attr] is not None])
     split_dataset = {a: [] for a in attr_values}
