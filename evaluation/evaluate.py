@@ -18,11 +18,8 @@ if __name__ == '__main__':
 
 #   reference-based metrics
     ref_metrics_results = ReferenceMetricsResults(dataset)
-    print('Raw results: {}'.format(ref_metrics_results.results))
-    print('Accuracy: {}'.format(ref_metrics_results.get_accuracy()))
+    ref_metrics_results.print_summary()
 
-#   link-baised metrics
+#   link-based metrics
     link_metrics_results = LinkMetricsResults(dataset)
-    print('Precision: {}'.format(link_metrics_results.get_precision()))
-    print('Recall: {}'.format(link_metrics_results.get_recall()))
-    print('F1: {}'.format(link_metrics_results.get_f1()))
+    link_metrics_results.print_summary()
