@@ -1,6 +1,7 @@
 import json
-import urllib.parse
+import logging
 import re
+import urllib.parse
 
 from functools import lru_cache
 from habanero import Crossref
@@ -65,7 +66,13 @@ def parse_filter_text(filter_text):
 
 def create_ref_string(doi, style):
     headers = {'Accept': 'text/x-bibliography; style={}'.format(style)}
-    _, _, ref_string = remote_call("{}/{}".format(CN_BASE_URL, doi), headers)
+    code, _, ref_string = remote_call('{}/{}'.format(CN_BASE_URL, doi),
+                                      headers)
+    if code != 200:
+        logging.error(
+            'Creating ref string in style {} for DOI {} failed with code {}'.
+            format(style, doi, code))
+        return None
     for rem in ['doi\:10\..*',
                 'Available at: http://dx.doi.org/.*',
                 'Crossref. Web.']:
@@ -76,8 +83,17 @@ def create_ref_string(doi, style):
 
 
 def search(string):
+    if string is None:
+        return None
     headers = crapi_key()
-    query = "{}/works?query.bibliographic={}" \
+    query = '{}/works?query.bibliographic={}' \
         .format(BASE_URL, urllib.parse.quote(string, safe=''))
-    _, _, result = remote_call(query, headers=headers)
-    return json.loads(result)['message']['items']
+    code, _, result = remote_call(query, headers=headers)
+    if code != 200:
+        logging.error('Searching for string {} failed with code {}'.
+                      format(string, code))
+        return None
+    result_message = json.loads(result)['message']
+    if 'items' in result_message:
+        return result_message['items']
+    return None
