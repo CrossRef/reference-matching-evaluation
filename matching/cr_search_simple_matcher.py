@@ -15,6 +15,8 @@ class Matcher:
 
     def match(self, ref_string):
         logging.debug('Matching string {}'.format(ref_string))
+        if ref_string is None:
+            return None
         results = search(ref_string)
         if results is None or not results:
             logging.debug('Searching for string {} got empty results'
