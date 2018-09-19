@@ -40,3 +40,9 @@ def read_json(file_path):
     with open(file_path, 'r') as file:
         data = json.loads(file.read())
     return data
+
+
+def safe_div(a, b, c):
+    if b == 0:
+        return c
+    return a / b

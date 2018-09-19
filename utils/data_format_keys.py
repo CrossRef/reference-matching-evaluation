@@ -18,8 +18,14 @@ DATASET_REF_STRING = 'ref_string'
 DATASET_MATCHER = 'matcher'
 
 # evaluation fields
-EVAL_CORRECT_LINK = 'correct_link'
-EVAL_CORRECT_NO_LINK = 'correct_no_link'
-EVAL_INCORRECT_LINK = 'incorrect_link'
-EVAL_INCORRECT_EXISTS = 'incorrect_exists'
-EVAL_INCORRECT_MISSING = 'incorrect_missing'
+EVAL_R_CORRECT_LINK = 'correct links'
+EVAL_R_CORRECT_NO_LINK = 'correct missing links'
+EVAL_R_INCORRECT_LINK = 'incorrect links'
+EVAL_R_INCORRECT_EXISTS = 'incorrect existing links'
+EVAL_R_INCORRECT_MISSING = 'incorrect missing links'
+
+EVAL_R_ACCURACY = 'accuracy'
+
+EVAL_L_PRECISION = 'precision'
+EVAL_L_RECALL = 'recall'
+EVAL_L_F1 = 'F1'
