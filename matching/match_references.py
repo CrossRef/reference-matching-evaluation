@@ -2,10 +2,10 @@ import argparse
 import logging
 import utils.data_format_keys as dfk
 
-from dataset.generate_strings import read_ref_strings
+from dataset.generate_dataset import read_dataset, save_dataset
 from matching.match_config import MATCHER
 from multiprocessing import Pool
-from utils.utils import init_logging, save_json
+from utils.utils import init_logging
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='run a citation matcher')
@@ -18,15 +18,15 @@ if __name__ == '__main__':
 
     init_logging(args.verbose)
 
-    dataset = read_ref_strings(args.dataset)
+    dataset = read_dataset(args.dataset)
 
     logging.info('Matching with matcher: {}'.format(MATCHER.description()))
     with Pool() as p:
         results = p.map(MATCHER.match,
                         [item[dfk.DATASET_REF_STRING] for item in dataset])
 
-    [d.update({dfk.DATASET_DOI_TEST: r,
+    [d.update({dfk.DATASET_TARGET_TEST: {dfk.CR_ITEM_DOI: r},
                dfk.DATASET_MATCHER: MATCHER.description()})
         for r, d in zip(results, dataset)]
-    save_json(dataset, args.output)
+    save_dataset(dataset, args.output)
     logging.info('Matched dataset saved in {}'.format(args.output))

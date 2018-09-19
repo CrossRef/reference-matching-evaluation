@@ -1,5 +1,6 @@
 import utils.data_format_keys as dfk
 
+from dataset.dataset_utils import get_target_gt_doi, get_target_test_doi
 from statistics import mean
 
 
@@ -12,25 +13,25 @@ class ReferenceMetricsResults:
 
         self.results[dfk.EVAL_CORRECT_LINK] = \
             len([d for d in dataset
-                 if d[dfk.DATASET_DOI_GT] == d[dfk.DATASET_DOI_TEST]
-                 and d[dfk.DATASET_DOI_GT] is not None])
+                 if get_target_gt_doi(d) == get_target_test_doi(d)
+                 and get_target_gt_doi(d) is not None])
         self.results[dfk.EVAL_CORRECT_NO_LINK] = \
             len([d for d in dataset
-                 if d[dfk.DATASET_DOI_GT] == d[dfk.DATASET_DOI_TEST]
-                 and d[dfk.DATASET_DOI_GT] is None])
+                 if get_target_gt_doi(d) == get_target_test_doi(d)
+                 and get_target_gt_doi(d) is None])
         self.results[dfk.EVAL_INCORRECT_LINK] = \
             len([d for d in dataset
-                 if d[dfk.DATASET_DOI_GT] != d[dfk.DATASET_DOI_TEST]
-                 and d[dfk.DATASET_DOI_GT] is not None
-                 and d[dfk.DATASET_DOI_TEST] is not None])
+                 if get_target_gt_doi(d) != get_target_test_doi(d)
+                 and get_target_gt_doi(d) is not None
+                 and get_target_test_doi(d) is not None])
         self.results[dfk.EVAL_INCORRECT_EXISTS] = \
             len([d for d in dataset
-                 if d[dfk.DATASET_DOI_GT] != d[dfk.DATASET_DOI_TEST]
-                 and d[dfk.DATASET_DOI_GT] is None])
+                 if get_target_gt_doi(d) != get_target_test_doi(d)
+                 and get_target_gt_doi(d) is None])
         self.results[dfk.EVAL_INCORRECT_MISSING] = \
             len([d for d in dataset
-                 if d[dfk.DATASET_DOI_GT] != d[dfk.DATASET_DOI_TEST]
-                 and d[dfk.DATASET_DOI_TEST] is None])
+                 if get_target_gt_doi(d) != get_target_test_doi(d)
+                 and get_target_test_doi(d) is None])
 
     def __get_fraction(self, category):
         return self.results[category] / self.total
@@ -71,15 +72,15 @@ class LinkMetricsResults:
     def __init__(self, dataset, split_by_doc=True):
         self.correct = \
             len([d for d in dataset
-                 if d[dfk.DATASET_DOI_GT] == d[dfk.DATASET_DOI_TEST]
-                 and d[dfk.DATASET_DOI_GT] is not None])
+                 if get_target_gt_doi(d) == get_target_test_doi(d)
+                 and get_target_gt_doi(d) is not None])
         self.gt = len([d for d in dataset
-                       if d[dfk.DATASET_DOI_GT] is not None])
+                       if get_target_gt_doi(d) is not None])
         self.test = len([d for d in dataset
-                         if d[dfk.DATASET_DOI_TEST] is not None])
+                         if get_target_test_doi(d) is not None])
         self.results_by_doc = {}
         if split_by_doc:
-            dataset_by_doc = split_by_target_doc(dataset)
+            dataset_by_doc = split_by_doc_attr(dataset)
             self.results_by_doc = {doc: LinkMetricsResults(d, False)
                                    for doc, d in dataset_by_doc.items()}
 
@@ -149,19 +150,17 @@ class Results:
         self.link_metrics_results.print_summary()
 
 
-def split_by_attr(dataset, attr):
-    attr_values = set([d[attr] for d in dataset if d[attr] is not None])
-    split_dataset = {a: [] for a in attr_values}
+def split_by_doc_attr(dataset, attr=dfk.CR_ITEM_DOI):
+    split_values = set([d[dfk.DATASET_TARGET_GT][attr]
+                        for d in dataset
+                        if d[dfk.DATASET_TARGET_GT][attr] is not None])
+    split_dataset = {v: [] for v in split_values}
     for item in dataset:
-        if item[attr] is not None:
-            split_dataset[item[attr]].append(item)
-    return split_dataset
-
-
-def split_by_target_doc(dataset):
-    split_dataset = split_by_attr(dataset, dfk.DATASET_DOI_GT)
-    for item in dataset:
-        if item[dfk.DATASET_DOI_TEST] in split_dataset:
-            if item not in split_dataset[item[dfk.DATASET_DOI_TEST]]:
-                split_dataset[item[dfk.DATASET_DOI_TEST]].append(item)
+        gt_attr = item[dfk.DATASET_TARGET_GT][attr]
+        test_attr = item[dfk.DATASET_TARGET_TEST][attr]
+        if gt_attr is not None:
+            split_dataset[gt_attr].append(item)
+        if test_attr in split_dataset:
+            if item not in split_dataset[test_attr]:
+                split_dataset[test_attr].append(item)
     return split_dataset

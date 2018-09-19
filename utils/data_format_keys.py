@@ -11,8 +11,8 @@ SAMPLE_SAMPLE = 'sample'
 
 # fields of the dataset
 DATASET_REF_ID = 'ref_id'
-DATASET_DOI_GT = 'doi_gt'
-DATASET_DOI_TEST = 'doi_test'
+DATASET_TARGET_GT = 'target_gt'
+DATASET_TARGET_TEST = 'target_test'
 DATASET_STYLE = 'style'
 DATASET_REF_STRING = 'ref_string'
 DATASET_MATCHER = 'matcher'
