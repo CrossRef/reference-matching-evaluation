@@ -2,9 +2,10 @@ import argparse
 import logging
 import utils.data_format_keys as dfk
 
-from dataset.generate_dataset import read_dataset, save_dataset
+from dataset.generate_dataset import keep_fields, read_dataset, save_dataset
 from matching.match_config import MATCHER
 from multiprocessing import Pool
+from utils.cr_utils import get_item
 from utils.utils import init_logging
 
 if __name__ == '__main__':
@@ -28,5 +29,10 @@ if __name__ == '__main__':
     [d.update({dfk.DATASET_TARGET_TEST: {dfk.CR_ITEM_DOI: r},
                dfk.DATASET_MATCHER: MATCHER.description()})
         for r, d in zip(results, dataset)]
+    for d in dataset:
+        if d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI] is not None:
+            item = get_item(d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI])
+            item = keep_fields(item, d[dfk.DATASET_TARGET_GT].keys())
+            d[dfk.DATASET_TARGET_TEST] = item
     save_dataset(dataset, args.output)
     logging.info('Matched dataset saved in {}'.format(args.output))

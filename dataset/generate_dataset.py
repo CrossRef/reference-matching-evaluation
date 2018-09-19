@@ -45,6 +45,10 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--styles',
                         help='comma-separated list of citationstyle names',
                         type=str, default='apa')
+    parser.add_argument('-a', '--attributes',
+                        help='comma-separated list of ' +
+                             'Crossref item attributes to keep',
+                        type=str)
     parser.add_argument('-s', '--sample', help='input sample file',
                         type=str, required=True)
     parser.add_argument('-o', '--output', help='output dataset file',
@@ -53,8 +57,12 @@ if __name__ == '__main__':
 
     init_logging(args.verbose)
 
+    attributes = []
+    if args.attributes is not None:
+        attributes = args.attributes.split(',')
+
     sample_data = read_sample_data(args.sample)
     sample_ref_strings = generate_dataset(sample_data[dfk.SAMPLE_SAMPLE],
                                           args.styles.split(','),
-                                          [])
+                                          attributes)
     save_dataset(sample_ref_strings, args.output)

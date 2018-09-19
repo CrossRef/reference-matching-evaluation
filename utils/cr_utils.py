@@ -97,3 +97,17 @@ def search(string):
     if 'items' in result_message:
         return result_message['items']
     return None
+
+
+def get_item(doi):
+    if doi is None:
+        return None
+    headers = crapi_key()
+    query = '{}/works/{}'.format(BASE_URL, urllib.parse.quote(doi, safe=''))
+    code, _, result = remote_call(query, headers=headers)
+    if code != 200:
+        logging.error('Getting item {} failed with code {}'.
+                      format(doi, code))
+        return None
+    result_message = json.loads(result)['message']
+    return result_message
