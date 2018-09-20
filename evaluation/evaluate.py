@@ -1,6 +1,7 @@
 import argparse
+import utils.data_format_keys as dfk
 
-from evaluation.evaluation_utils import Results, SplitResults
+from evaluation.evaluation_utils import Results
 from utils.utils import init_logging, read_json
 
 if __name__ == '__main__':
@@ -9,6 +10,7 @@ if __name__ == '__main__':
                         action='store_true')
     parser.add_argument('-d', '--dataset', required=True, type=str)
     parser.add_argument('-s', '--splitattr', type=str)
+    parser.add_argument('-o', '--outputdoc', type=str)
 
     args = parser.parse_args()
 
@@ -19,6 +21,5 @@ if __name__ == '__main__':
     results = Results(dataset)
     results.print_summary()
 
-    if args.splitattr:
-        split_results = SplitResults(dataset, args.splitattr)
-        split_results.print_summary()
+    if args.outputdoc:
+        results.get(dfk.EVAL_DOC_METRICS).to_csv(args.outputdoc, index=False)

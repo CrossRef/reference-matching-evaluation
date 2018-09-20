@@ -1,3 +1,4 @@
+import pandas as pd
 import utils.data_format_keys as dfk
 
 from dataset.dataset_utils import get_target_gt_doi, get_target_test_doi
@@ -5,54 +6,82 @@ from statistics import mean
 from utils.utils import safe_div
 
 
+REFERENCE_METRICS = \
+    [dfk.EVAL_REF_TOTAL, dfk.EVAL_CORR_LINK_C, dfk.EVAL_CORR_NO_LINK_C,
+     dfk.EVAL_INCORR_LINK_C, dfk.EVAL_INCORR_EXISTS_C,
+     dfk.EVAL_INCORR_MISSING_C, dfk.EVAL_CORR_LINK_F, dfk.EVAL_CORR_NO_LINK_F,
+     dfk.EVAL_INCORR_LINK_F, dfk.EVAL_INCORR_EXISTS_F,
+     dfk.EVAL_INCORR_MISSING_F, dfk.EVAL_ACCURACY]
+
+REFERENCE_METRICS_PAIRS = \
+    [(dfk.EVAL_CORR_LINK_C, dfk.EVAL_CORR_LINK_F),
+     (dfk.EVAL_CORR_NO_LINK_C, dfk.EVAL_CORR_NO_LINK_F),
+     (dfk.EVAL_INCORR_LINK_C, dfk.EVAL_INCORR_LINK_F),
+     (dfk.EVAL_INCORR_EXISTS_C, dfk.EVAL_INCORR_EXISTS_F),
+     (dfk.EVAL_INCORR_MISSING_C, dfk.EVAL_INCORR_MISSING_F)]
+
+LINK_METRICS = [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1, dfk.EVAL_MEAN_PREC,
+                dfk.EVAL_MEAN_REC, dfk.EVAL_MEAN_F1, dfk.EVAL_DOC_METRICS]
+
+LINK_METRICS_PAIRS = [(dfk.EVAL_MEAN_PREC, dfk.EVAL_PREC),
+                      (dfk.EVAL_MEAN_REC, dfk.EVAL_REC),
+                      (dfk.EVAL_MEAN_F1, dfk.EVAL_F1)]
+
+
 class ReferenceMetricsResults:
 
     def __init__(self, dataset):
-        self.total = len(dataset)
+        self.results = {}
 
-        self.counts = {}
+        self.results[dfk.EVAL_REF_TOTAL] = len(dataset)
 
-        self.counts[dfk.EVAL_R_CORRECT_LINK] = \
+        self.results[dfk.EVAL_CORR_LINK_C] = \
             len([d for d in dataset
                  if get_target_gt_doi(d) == get_target_test_doi(d)
                  and get_target_gt_doi(d) is not None])
-        self.counts[dfk.EVAL_R_CORRECT_NO_LINK] = \
+        self.results[dfk.EVAL_CORR_NO_LINK_C] = \
             len([d for d in dataset
                  if get_target_gt_doi(d) == get_target_test_doi(d)
                  and get_target_gt_doi(d) is None])
-        self.counts[dfk.EVAL_R_INCORRECT_LINK] = \
+        self.results[dfk.EVAL_INCORR_LINK_C] = \
             len([d for d in dataset
                  if get_target_gt_doi(d) != get_target_test_doi(d)
                  and get_target_gt_doi(d) is not None
                  and get_target_test_doi(d) is not None])
-        self.counts[dfk.EVAL_R_INCORRECT_EXISTS] = \
+        self.results[dfk.EVAL_INCORR_EXISTS_C] = \
             len([d for d in dataset
                  if get_target_gt_doi(d) != get_target_test_doi(d)
                  and get_target_gt_doi(d) is None])
-        self.counts[dfk.EVAL_R_INCORRECT_MISSING] = \
+        self.results[dfk.EVAL_INCORR_MISSING_C] = \
             len([d for d in dataset
                  if get_target_gt_doi(d) != get_target_test_doi(d)
                  and get_target_test_doi(d) is None])
 
-    def get_count(self, metric):
-        return self.counts[metric]
+        for count, fraction in REFERENCE_METRICS_PAIRS:
+            self.results[fraction] = \
+                self.results[count] / self.results[dfk.EVAL_REF_TOTAL]
+
+        self.results[dfk.EVAL_ACCURACY] = \
+            (self.results[dfk.EVAL_CORR_LINK_C] +
+             self.results[dfk.EVAL_CORR_NO_LINK_C]) / \
+            self.results[dfk.EVAL_REF_TOTAL]
+
+    def get_supported_metrics(self):
+        return REFERENCE_METRICS
 
     def get(self, metric):
-        if metric == dfk.EVAL_R_ACCURACY:
-            return (self.get_count(dfk.EVAL_R_CORRECT_LINK) +
-                    self.get_count(dfk.EVAL_R_CORRECT_NO_LINK)) / self.total
-        return self.counts[metric] / self.total
+        return self.results[metric]
 
     def print_summary(self):
         print('Reference-based metrics:')
-        print('  Accuracy: {:.4f}'.format(self.get(dfk.EVAL_R_ACCURACY)))
+        print('  Number of references: {}'
+              .format(self.get(dfk.EVAL_REF_TOTAL)))
+        print('  Accuracy: {:.4f}'.format(self.get(dfk.EVAL_ACCURACY)))
         print('  Fractions of references:')
-        for metric in [dfk.EVAL_R_CORRECT_LINK, dfk.EVAL_R_CORRECT_NO_LINK,
-                       dfk.EVAL_R_INCORRECT_LINK, dfk.EVAL_R_INCORRECT_EXISTS,
-                       dfk.EVAL_R_INCORRECT_MISSING]:
-            print('    - {}: {:.4f} ({})'.format(metric,
-                                                 self.get(metric),
-                                                 self.get_count(metric)))
+        for count, fraction in REFERENCE_METRICS_PAIRS:
+            print('    - {}: {:.4f} ({})'.format(fraction,
+                                                 self.get(fraction),
+                                                 self.get(count)))
 
 
 class LinkMetricsResults:
@@ -68,54 +97,70 @@ class LinkMetricsResults:
 
         self.results = {}
 
-        self.results[dfk.EVAL_L_PRECISION] = \
+        self.results[dfk.EVAL_PREC] = \
             safe_div(correct_count, test_count, 1.)
 
-        self.results[dfk.EVAL_L_RECALL] = \
+        self.results[dfk.EVAL_REC] = \
             safe_div(correct_count, gt_count, 1.)
 
-        self.results[dfk.EVAL_L_F1] = \
-            safe_div(2 * self.results[dfk.EVAL_L_PRECISION] *
-                     self.results[dfk.EVAL_L_RECALL],
-                     self.results[dfk.EVAL_L_PRECISION] +
-                     self.results[dfk.EVAL_L_RECALL], 0.)
+        self.results[dfk.EVAL_F1] = \
+            safe_div(2 * self.results[dfk.EVAL_PREC] *
+                     self.results[dfk.EVAL_REC],
+                     self.results[dfk.EVAL_PREC] +
+                     self.results[dfk.EVAL_REC], 0.)
 
-        self.results_by_doc = {}
+        results_by_doc = {}
         if split_by_doc:
             dataset_by_doc = split_by_doc_attr(dataset)
-            self.results_by_doc = {doc: LinkMetricsResults(d, False)
-                                   for doc, d in dataset_by_doc.items()}
+            results_by_doc = [(doc, LinkMetricsResults(d, False))
+                              for doc, d in dataset_by_doc.items()]
+
+        for av, metric in LINK_METRICS_PAIRS:
+            if results_by_doc:
+                self.results[av] = \
+                    mean([r.get(metric) for _, r in results_by_doc])
+            else:
+                self.results[av] = None
+
+        doc_metrics = {'doc': [d for d, _ in results_by_doc]}
+        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]:
+            doc_metrics.update(
+                {metric: [r.get(metric) for _, r in results_by_doc]})
+        self.results[dfk.EVAL_DOC_METRICS] = pd.DataFrame(doc_metrics)
+
+    def get_supported_metrics(self):
+        return [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1,
+                dfk.EVAL_MEAN_PREC, dfk.EVAL_MEAN_REC, dfk.EVAL_MEAN_F1]
 
     def get(self, metric):
         return self.results[metric]
 
-    def get_by_doc(self, metric):
-        return {doc: r.get(metric) for doc, r in self.results_by_doc.items()}
-
-    def get_average_by_doc(self, metric):
-        return mean(self.get_by_doc(metric).values())
-
     def print_summary(self):
         print('Link-based metrics:')
-        for metric in [dfk.EVAL_L_PRECISION, dfk.EVAL_L_RECALL, dfk.EVAL_L_F1]:
+        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]:
             print('  {}: {:.4f}'.format(metric, self.get(metric)))
-        if self.results_by_doc:
-            print('Document-level metrics:')
-            for metric in [dfk.EVAL_L_PRECISION, dfk.EVAL_L_RECALL,
-                           dfk.EVAL_L_F1]:
-                print('  Average {}: {:.4f}'
-                      .format(metric, self.get_average_by_doc(metric)))
+        print('Document-level metrics:')
+        for metric in [dfk.EVAL_MEAN_PREC, dfk.EVAL_MEAN_REC,
+                       dfk.EVAL_MEAN_F1]:
+            print('  Average {}: {:.4f}'.format(metric, self.get(metric)))
 
 
 class Results:
 
     def __init__(self, dataset):
-        self.size = len(dataset)
         self.reference_metrics_results = ReferenceMetricsResults(dataset)
         self.link_metrics_results = LinkMetricsResults(dataset)
 
+    def get_supported_metrics(self):
+        return self.reference_metrics_results.get_supported_metrics() + \
+               self.link_metrics_results.get_supported_metrics()
+
+    def get(self, metric):
+        if metric in self.reference_metrics_results.get_supported_metrics():
+            return self.reference_metrics_results.get(metric)
+        return self.link_metrics_results.get(metric)
+
     def print_summary(self):
-        print('Size: {}'.format(self.size))
         self.reference_metrics_results.print_summary()
         self.link_metrics_results.print_summary()
 
@@ -130,6 +175,13 @@ class SplitResults:
             self.split_dataset = split_by_doc_attr(dataset, attr)
         self.split_results = {a: Results(s)
                               for a, s in self.split_dataset.items()}
+
+    def get_supported_metrics(self):
+        return [dfk.EVAL_SPLIT_METRICS, dfk.EVAL_SPLIT_DOC_METRICS]
+
+    def get(self, metric):
+        # TODO
+        return None
 
     def print_summary(self):
         for value, dataset in self.split_dataset.items():
