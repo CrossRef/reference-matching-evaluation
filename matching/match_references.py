@@ -26,7 +26,9 @@ if __name__ == '__main__':
         results = p.map(MATCHER.match,
                         [item[dfk.DATASET_REF_STRING] for item in dataset])
 
-    [d.update({dfk.DATASET_TARGET_TEST: {dfk.CR_ITEM_DOI: r[0]},
+    normalize = lambda doi: None if doi is None else doi.lower()
+
+    [d.update({dfk.DATASET_TARGET_TEST: {dfk.CR_ITEM_DOI: normalize(r[0])},
                dfk.DATASET_MATCHER: MATCHER.description(),
                dfk.DATASET_SCORE: r[1]})
         for r, d in zip(results, dataset)]

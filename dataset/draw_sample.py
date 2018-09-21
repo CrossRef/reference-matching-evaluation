@@ -13,7 +13,7 @@ def generate_sample_data(size, filter, query):
             dfk.SAMPLE_FILTER: filter,
             dfk.SAMPLE_QUERY: query,
             dfk.SAMPLE_SIZE: size,
-            dfk.SAMPLE_DOIS: [s[dfk.CR_ITEM_DOI] for s in sample],
+            dfk.SAMPLE_DOIS: [s[dfk.CR_ITEM_DOI].lower() for s in sample],
             dfk.SAMPLE_SAMPLE: sample}
 
 

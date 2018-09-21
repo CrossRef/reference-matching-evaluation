@@ -19,8 +19,10 @@ def read_dataset(file_path):
 
 
 def keep_fields(doc, fields):
-    return {k: f for k, f in doc.items()
+    item = {k: f for k, f in doc.items()
             if k == dfk.CR_ITEM_DOI or k in fields}
+    item[dfk.CR_ITEM_DOI] = item[dfk.CR_ITEM_DOI].lower()
+    return item
 
 
 def format_ref_string(item, style):
