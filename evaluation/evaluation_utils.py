@@ -1,4 +1,5 @@
 import pandas as pd
+import scipy.stats as st
 import utils.data_format_keys as dfk
 
 from dataset.dataset_utils import get_target_gt_doi, get_target_test_doi
@@ -23,9 +24,9 @@ REFERENCE_METRICS_PAIRS = \
 LINK_METRICS = [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1, dfk.EVAL_MEAN_PREC,
                 dfk.EVAL_MEAN_REC, dfk.EVAL_MEAN_F1, dfk.EVAL_DOC_METRICS]
 
-LINK_METRICS_PAIRS = [(dfk.EVAL_MEAN_PREC, dfk.EVAL_PREC),
-                      (dfk.EVAL_MEAN_REC, dfk.EVAL_REC),
-                      (dfk.EVAL_MEAN_F1, dfk.EVAL_F1)]
+LINK_METRICS_PAIRS = [(dfk.EVAL_MEAN_PREC, dfk.EVAL_CI_PREC, dfk.EVAL_PREC),
+                      (dfk.EVAL_MEAN_REC, dfk.EVAL_CI_REC, dfk.EVAL_REC),
+                      (dfk.EVAL_MEAN_F1, dfk.EVAL_CI_F1, dfk.EVAL_F1)]
 
 
 class ReferenceMetricsResults:
@@ -84,9 +85,44 @@ class ReferenceMetricsResults:
                                                  self.get(count)))
 
 
+class TargetLinkMetricsResults:
+
+    def __init__(self, dataset, target_doi):
+        correct_count = \
+            len([d for d in dataset if get_target_test_doi(d) == target_doi
+                 and get_target_gt_doi(d) == target_doi])
+        gt_count = \
+            len([d for d in dataset if get_target_gt_doi(d) == target_doi])
+        test_count = \
+            len([d for d in dataset if get_target_test_doi(d) == target_doi])
+        self.results = {}
+        self.results[dfk.EVAL_PREC] = \
+            safe_div(correct_count, test_count, 1.)
+
+        self.results[dfk.EVAL_REC] = \
+            safe_div(correct_count, gt_count, 1.)
+
+        self.results[dfk.EVAL_F1] = \
+            safe_div(2 * self.results[dfk.EVAL_PREC] *
+                     self.results[dfk.EVAL_REC],
+                     self.results[dfk.EVAL_PREC] +
+                     self.results[dfk.EVAL_REC], 0.)
+
+    def get_supported_metrics(self):
+        return [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]
+
+    def get(self, metric):
+        return self.results[metric]
+
+    def print_summary(self):
+        print('Link-based metrics:')
+        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]:
+            print('  {}: {:.4f}'.format(metric, self.get(metric)))
+
+
 class LinkMetricsResults:
 
-    def __init__(self, dataset, split_by_doc=True):
+    def __init__(self, dataset, target_dois):
         correct_count = len([d for d in dataset
                              if get_target_gt_doi(d) == get_target_test_doi(d)
                              and get_target_gt_doi(d) is not None])
@@ -109,17 +145,19 @@ class LinkMetricsResults:
                      self.results[dfk.EVAL_PREC] +
                      self.results[dfk.EVAL_REC], 0.)
 
-        results_by_doc = {}
-        if split_by_doc:
-            dataset_by_doc = split_by_doc_attr(dataset)
-            results_by_doc = [(doc, LinkMetricsResults(d, False))
-                              for doc, d in dataset_by_doc.items()]
+        results_by_doc = [(doi, TargetLinkMetricsResults(dataset, doi))
+                          for doi in target_dois]
 
-        for av, metric in LINK_METRICS_PAIRS:
+        for av, ci, metric in LINK_METRICS_PAIRS:
             if results_by_doc:
                 self.results[av] = \
                     mean([r.get(metric) for _, r in results_by_doc])
+                self.results[ci] = \
+                    confidenceInterval([r.get(metric)
+                                        for _, r in results_by_doc],
+                                       .95)
             else:
+                self.results[ci] = None
                 self.results[av] = None
 
         doc_metrics = {'doc': [d for d, _ in results_by_doc]}
@@ -140,9 +178,9 @@ class LinkMetricsResults:
         for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]:
             print('  {}: {:.4f}'.format(metric, self.get(metric)))
         print('Document-level metrics:')
-        for metric in [dfk.EVAL_MEAN_PREC, dfk.EVAL_MEAN_REC,
-                       dfk.EVAL_MEAN_F1]:
-            print('  Average {}: {:.4f}'.format(metric, self.get(metric)))
+        for av, ci, metric in LINK_METRICS_PAIRS:
+            print('  Average {}: {:.4f} (CI: {})'
+                  .format(metric, self.get(av), self.get(ci)))
 
 
 class Results:
@@ -167,21 +205,31 @@ class Results:
 
 class SplitResults:
 
-    def __init__(self, dataset, attr):
+    def __init__(self, dataset, attr, target_dois):
         self.attr = attr
         if attr in dataset[0]:
             self.split_dataset = split_by_ref_attr(dataset, attr)
         else:
             self.split_dataset = split_by_doc_attr(dataset, attr)
-        self.split_results = {a: Results(s)
+        self.split_results = {a: LinkMetricsResults(s, target_dois)
                               for a, s in self.split_dataset.items()}
 
+        attr_metrics = {self.attr: list(self.split_dataset.keys())}
+        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1,
+                       dfk.EVAL_MEAN_PREC, dfk.EVAL_MEAN_REC,
+                       dfk.EVAL_MEAN_F1]:
+            attr_metrics.update(
+                {metric: [self.split_results[a].get(metric)
+                          for a in attr_metrics[self.attr]]})
+
+        self.results = {}
+        self.results[dfk.EVAL_SPLIT_METRICS] = pd.DataFrame(attr_metrics)
+
     def get_supported_metrics(self):
-        return [dfk.EVAL_SPLIT_METRICS, dfk.EVAL_SPLIT_DOC_METRICS]
+        return [dfk.EVAL_SPLIT_METRICS]
 
     def get(self, metric):
-        # TODO
-        return None
+        return self.results[metric]
 
     def print_summary(self):
         for value, dataset in self.split_dataset.items():
@@ -217,3 +265,8 @@ def split_by_doc_attr(dataset, attr=dfk.CR_ITEM_DOI):
                 if item not in split_dataset[test_attr]:
                     split_dataset[test_attr].append(item)
     return split_dataset
+
+
+def confidenceInterval(sample, confidenceLevel):
+    return st.t.interval(confidenceLevel, len(sample)-1, loc=mean(sample),
+                         scale=st.sem(sample))
