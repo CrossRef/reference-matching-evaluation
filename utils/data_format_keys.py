@@ -1,12 +1,18 @@
 # fields of items from Crossref API
 CR_ITEM_DOI = 'DOI'
 CR_ITEM_SCORE = 'score'
+CR_ITEM_TITLE = 'title'
+CR_ITEM_CONTAINER_TITLE = 'container-title'
+CR_ITEM_AUTHOR = 'author'
+CR_ITEM_FAMILY = 'family'
 
 # fields of the sample
 SAMPLE_TIMESTAMP = 'timestamp'
 SAMPLE_FILTER = 'filter'
 SAMPLE_QUERY = 'query'
 SAMPLE_SIZE = 'size'
+SAMPLE_DOIS = 'sample_dois'
+SAMPLE_ORIGINAL_SIZE = 'original_size'
 SAMPLE_SAMPLE = 'sample'
 
 # fields of the dataset
@@ -16,6 +22,8 @@ DATASET_TARGET_TEST = 'target_test'
 DATASET_STYLE = 'style'
 DATASET_REF_STRING = 'ref_string'
 DATASET_MATCHER = 'matcher'
+DATASET_EVAL_DOIS = 'evaluate_dois'
+DATASET_DATASET = 'dataset'
 
 # evaluation fields
 EVAL_REF_TOTAL = 'number of references'
@@ -41,6 +49,10 @@ EVAL_F1 = 'F1'
 EVAL_MEAN_PREC = 'average precision over target docs'
 EVAL_MEAN_REC = 'average recall over target docs'
 EVAL_MEAN_F1 = 'average F1 over target docs'
+
+EVAL_CI_PREC = 'confidence interval for precision'
+EVAL_CI_REC = 'confidence interval for recall'
+EVAL_CI_F1 = 'confidence interval for F1'
 
 EVAL_DOC_METRICS = 'link-based metrics for documents'
 EVAL_SPLIT_METRICS = 'all metrics for split attribute values'

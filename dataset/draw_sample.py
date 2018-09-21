@@ -8,11 +8,13 @@ from utils.utils import init_logging, read_json, save_json, timestamp
 
 def generate_sample_data(size, filter, query):
     logging.info('Getting a sample of items')
+    sample = get_sample(size, filter, query)
     return {dfk.SAMPLE_TIMESTAMP: timestamp(),
             dfk.SAMPLE_FILTER: filter,
             dfk.SAMPLE_QUERY: query,
             dfk.SAMPLE_SIZE: size,
-            dfk.SAMPLE_SAMPLE: get_sample(size, filter, query)}
+            dfk.SAMPLE_DOIS: [s[dfk.CR_ITEM_DOI] for s in sample],
+            dfk.SAMPLE_SAMPLE: sample}
 
 
 def save_sample_data(sample_data, file_path):
