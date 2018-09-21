@@ -5,6 +5,7 @@ CR_ITEM_TITLE = 'title'
 CR_ITEM_CONTAINER_TITLE = 'container-title'
 CR_ITEM_AUTHOR = 'author'
 CR_ITEM_FAMILY = 'family'
+CR_ITEM_GIVEN = 'given'
 
 # fields of the sample
 SAMPLE_TIMESTAMP = 'timestamp'
@@ -22,7 +23,8 @@ DATASET_TARGET_TEST = 'target_test'
 DATASET_STYLE = 'style'
 DATASET_REF_STRING = 'ref_string'
 DATASET_MATCHER = 'matcher'
-DATASET_EVAL_DOIS = 'evaluate_dois'
+DATASET_SCORE = 'score'
+DATASET_DOIS = 'dataset_dois'
 DATASET_DATASET = 'dataset'
 
 # evaluation fields
