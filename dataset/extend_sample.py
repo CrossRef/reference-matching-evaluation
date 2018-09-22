@@ -22,7 +22,7 @@ def similar_search_query(item):
 
 def search_similar_items(sample, n):
     logging.info('Searching for similar items')
-    similar_items = []
+    similar_sample = []
     for item in sample:
         query = similar_search_query(item)
         similar_items = search(query)
@@ -37,9 +37,10 @@ def search_similar_items(sample, n):
             logging.debug('For item {} added similar item: {}'
                           .format(item[dfk.CR_ITEM_DOI],
                                   similar_item[dfk.CR_ITEM_DOI]))
-            similar_items.append(similar_item)
+            similar_sample.append(similar_item)
+            logging.debug('Similar items size: {}'.format(len(similar_sample)))
             added = added + 1
-    return similar_items
+    return similar_sample
 
 
 if __name__ == '__main__':
@@ -61,6 +62,7 @@ if __name__ == '__main__':
     sample_data = read_sample_data(args.sample)
     similar_records = \
         search_similar_items(sample_data[dfk.SAMPLE_SAMPLE], args.extend)
+    logging.debug('Final similar items size: {}'.format(len(similar_records)))
     extended_sample_data = sample_data
     extended_sample_data[dfk.SAMPLE_TIMESTAMP] = timestamp()
     extended_sample_data[dfk.SAMPLE_SIZE] = \

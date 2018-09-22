@@ -75,7 +75,9 @@ def create_ref_string(doi, style):
         return None
     for rem in ['doi\:10\..*',
                 'Available at: http://dx.doi.org/.*',
-                'Crossref. Web.']:
+                'Crossref. Web.',
+                '[^ ]*doi\.org/10\.[^ ]*',
+                '[^ ]*' + doi[:5] + '[^ ]*']:
         ref_string = re.sub(rem, '', ref_string)
     ref_string = re.sub('\n', ' ', ref_string)
     ref_string = re.sub(' +', ' ', ref_string)
