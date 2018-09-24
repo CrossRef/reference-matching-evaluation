@@ -21,7 +21,6 @@ class Matcher:
            wait_exponential_max=10000)
     def match(self, ref_string):
         logging.debug('Matching string {}'.format(ref_string))
-        sleep(random())
         stq_payload = {'command': 'Submit',
                        'email': stq_key()['Mailto'],
                        'key': stq_key()['Authorization'],
