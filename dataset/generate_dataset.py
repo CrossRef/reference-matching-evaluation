@@ -6,7 +6,7 @@ import utils.data_format_keys as dfk
 from dataset.custom_styles import CUSTOM_STYLES
 from dataset.draw_sample import read_sample_data
 from utils.cr_utils import create_ref_string
-from utils.utils import init_logging, read_json, save_json
+from utils.utils import init_logging, keep_fields, read_json, save_json
 
 
 def save_dataset(ref_strings, file_path):
@@ -18,11 +18,10 @@ def read_dataset(file_path):
     return read_json(file_path)
 
 
-def keep_fields(doc, fields):
-    item = {k: f for k, f in doc.items()
-            if k == dfk.CR_ITEM_DOI or k in fields}
-    item[dfk.CR_ITEM_DOI] = item[dfk.CR_ITEM_DOI].lower()
-    return item
+def generate_target_gt(item, fields):
+    target = keep_fields(item, fields + [dfk.CR_ITEM_DOI])
+    target[dfk.CR_ITEM_DOI] = item[dfk.CR_ITEM_DOI].lower()
+    return target
 
 
 def format_ref_string(item, style):
@@ -35,13 +34,11 @@ def format_ref_string(item, style):
 def generate_dataset(sample, styles, fields):
     logging.info('Generating dataset')
     prod_sample_style = itertools.product(sample, styles)
-    prod_sample_style = [(i, p[0], p[1])
-                         for i, p in enumerate(prod_sample_style)]
     results = [{dfk.DATASET_STYLE: s,
                 dfk.DATASET_REF_STRING:
                     format_ref_string(d, s),
-                dfk.DATASET_TARGET_GT: keep_fields(d, fields)}
-               for i, d, s in prod_sample_style]
+                dfk.DATASET_TARGET_GT: generate_target_gt(d, fields)}
+               for d, s in prod_sample_style]
 
     return results
 
@@ -58,6 +55,9 @@ if __name__ == '__main__':
                         help='comma-separated list of ' +
                              'Crossref item attributes to keep',
                         type=str)
+    parser.add_argument('-n', '--nulldoi',
+                        help='set target ground truth DOIs to null',
+                        action='store_true')
     parser.add_argument('-s', '--sample', help='input sample file',
                         type=str, required=True)
     parser.add_argument('-o', '--output', help='output dataset file',
@@ -74,6 +74,10 @@ if __name__ == '__main__':
     sample_ref_strings = generate_dataset(sample_data[dfk.SAMPLE_SAMPLE],
                                           args.styles.split(','),
                                           attributes)
+
+    if args.nulldoi:
+        for ref in sample_ref_strings:
+            ref[dfk.DATASET_TARGET_GT][dfk.CR_ITEM_DOI] = None
 
     dataset = {dfk.DATASET_DOIS: sample_data[dfk.SAMPLE_DOIS],
                dfk.DATASET_DATASET: sample_ref_strings}

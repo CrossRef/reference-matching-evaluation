@@ -46,3 +46,7 @@ def safe_div(a, b, c):
     if b == 0:
         return c
     return a / b
+
+
+def keep_fields(item, fields):
+    return {k: f for k, f in item.items() if k in fields}
