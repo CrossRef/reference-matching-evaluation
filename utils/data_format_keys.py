@@ -6,6 +6,9 @@ CR_ITEM_CONTAINER_TITLE = 'container-title'
 CR_ITEM_AUTHOR = 'author'
 CR_ITEM_FAMILY = 'family'
 CR_ITEM_GIVEN = 'given'
+CR_ITEM_REFERENCE = 'reference'
+CR_ITEM_DOI_ASSERTED_BY = 'doi-asserted-by'
+CR_ITEM_UNSTRUCTURED = 'unstructured'
 
 # fields of the sample
 SAMPLE_TIMESTAMP = 'timestamp'
