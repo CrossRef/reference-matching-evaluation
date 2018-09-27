@@ -5,7 +5,8 @@ import utils.data_format_keys as dfk
 from dataset.generate_dataset import read_dataset, save_dataset
 from matching.match_config import MATCHER
 from multiprocessing import Pool
-from utils.utils import init_logging
+from utils.cr_utils import get_item
+from utils.utils import init_logging, keep_fields
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='run a citation matcher')
@@ -26,17 +27,16 @@ if __name__ == '__main__':
         results = p.map(MATCHER.match,
                         [item[dfk.DATASET_REF_STRING] for item in dataset])
 
-    normalize = lambda doi: None if doi is None else doi.lower()
-
-    [d.update({dfk.DATASET_TARGET_TEST: {dfk.CR_ITEM_DOI: normalize(r[0])},
+    [d.update({dfk.DATASET_TARGET_TEST:
+               {dfk.CR_ITEM_DOI: None if r[0] is None else r[0].lower()},
                dfk.DATASET_MATCHER: MATCHER.description(),
                dfk.DATASET_SCORE: r[1]})
         for r, d in zip(results, dataset)]
-#    for d in dataset:
-#        if d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI] is not None:
-#            item = get_item(d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI])
-#            item = keep_fields(item, d[dfk.DATASET_TARGET_GT].keys())
-#            d[dfk.DATASET_TARGET_TEST] = item
+    for d in dataset:
+        if d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI] is not None:
+            item = get_item(d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI])
+            item = keep_fields(item, d[dfk.DATASET_TARGET_GT].keys())
+            d[dfk.DATASET_TARGET_TEST] = item
 
     dataset_data = {dfk.DATASET_DOIS: dataset_data[dfk.DATASET_DOIS],
                     dfk.DATASET_DATASET: dataset}
