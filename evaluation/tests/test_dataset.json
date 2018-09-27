@@ -1,0 +1,336 @@
+{
+    "dataset_dois": [
+        "10.1103/physrevb.67.134406",
+        "10.1088/1751-8121/aa8b2d",
+        "10.1007/978-3-642-69290-1_21",
+        "10.1159/000408205",
+        "10.1002/chin.199827068",
+        "10.6009/jjrt.kj00001365932",
+        "10.3366/nor.1982.0002",
+        "10.1093/benz/9780199773787.article.b00158581",
+        "10.1007/s00595-010-4393-y",
+        "10.1038/ni.3663"
+    ],
+    "dataset": [
+        {
+            "style": "ieee",
+            "ref_string": "[1]A. Zheludev, S. Raymond, L.-P. Regnault, F. H. L. Essler, K. Kakurai, T. Masuda, and K. Uchinokura, \u201cPolarization dependence of spin excitations inBaCu2Si2O7,\u201d Physical Review B, vol. 67, no. 13, Apr. 2003.",
+            "target_gt": {
+                "publisher": "American Physical Society (APS)",
+                "DOI": "10.1103/physrevb.67.134406",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "American Physical Society (APS)",
+                "DOI": "10.1103/physrevb.67.134406",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 128.32748
+        },
+        {
+            "style": "apa",
+            "ref_string": "Zheludev, A., Raymond, S., Regnault, L.-P., Essler, F. H. L., Kakurai, K., Masuda, T., & Uchinokura, K. (2003). Polarization dependence of spin excitations inBaCu2Si2O7. Physical Review B, 67(13).",
+            "target_gt": {
+                "publisher": "American Physical Society (APS)",
+                "DOI": "10.1103/physrevb.67.134406",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "American Physical Society (APS)",
+                "DOI": "10.1103/physrevb.67.134406",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 128.32748
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]M. V. Berry, \u201cGauge-invariant Aharonov\u2013Bohm streamlines,\u201d Journal of Physics A: Mathematical and Theoretical, vol. 50, no. 43, p. 43LT01, Sep. 2017.",
+            "target_gt": {
+                "publisher": "IOP Publishing",
+                "DOI": "10.1088/1751-8121/aa8b2d",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "IOP Publishing",
+                "DOI": "10.1088/1751-8121/AA8b2d",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 88.77086
+        },
+        {
+            "style": "apa",
+            "ref_string": "Berry, M. V. (2017). Gauge-invariant Aharonov\u2013Bohm streamlines. Journal of Physics A: Mathematical and Theoretical, 50(43), 43LT01.",
+            "target_gt": {
+                "publisher": "IOP Publishing",
+                "DOI": "10.1088/1751-8121/aa8b2d",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "IOP Publishing",
+                "DOI": "10.1088/1751-8121/ab2d",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 88.77086
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]R. P. Bunge, D. J. Carey, D. Higgins, C. Eldridge, and D. Roufa, \u201cCells of the Peripheral Nervous System; Requirements for Expression of Function in Tissue Culture,\u201d Hormonally Defined Media, pp. 178\u2013188, 1983.",
+            "target_gt": {
+                "publisher": "Springer Berlin Heidelberg",
+                "DOI": "10.1007/978-3-642-69290-1_21",
+                "type": "book-chapter"
+            },
+            "target_test": {
+                "publisher": "Springer Berlin Heidelberg",
+                "DOI": "10.1007/978-3-642-69290-1_2",
+                "type": "book-chapter"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 104.23286
+        },
+        {
+            "style": "apa",
+            "ref_string": "Bunge, R. P., Carey, D. J., Higgins, D., Eldridge, C., & Roufa, D. (1983). Cells of the Peripheral Nervous System; Requirements for Expression of Function in Tissue Culture. Hormonally Defined Media, 178\u2013188.",
+            "target_gt": {
+                "publisher": "Springer Berlin Heidelberg",
+                "DOI": "10.1007/978-3-642-69290-1_21",
+                "type": "book-chapter"
+            },
+            "target_test": {
+                "publisher": "Springer Berlin Heidelberg",
+                "DOI": "10.1007/978-3-642-690-1_21",
+                "type": "book-chapter"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 104.23286
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]A. Hirakawa, K. Minato, and M. Kuwahara, \u201c5 Radiocardiography,\u201d Compartmental Analysis, pp. 59\u201365.",
+            "target_gt": {
+                "publisher": "S. Karger AG",
+                "DOI": "10.1159/000408205",
+                "type": "book-chapter"
+            },
+            "target_test": {
+                "publisher": "S. Karger AG",
+                "DOI": "10.1159/000408205",
+                "type": "book-chapter"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 78.74307
+        },
+        {
+            "style": "apa",
+            "ref_string": "Hirakawa, A., Minato, K., & Kuwahara, M. (n.d.). 5 Radiocardiography. Compartmental Analysis, 59\u201365.",
+            "target_gt": {
+                "publisher": "S. Karger AG",
+                "DOI": "10.1159/000408205",
+                "type": "book-chapter"
+            },
+            "target_test": {
+                "publisher": "S. Karger AG",
+                "DOI": null,
+                "type": "book-chapter"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 78.74307
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]E. LEONEL, J. P. PAUGAM, S. CONDON-GUEUGNOT, and J.-Y. NEDELEC, \u201cChemInform Abstract: Cyclopropane Formation by Electroreductive Coupling of Activated Olefins and gem-Polyhalo Compounds.,\u201d ChemInform, vol. 29, no. 27, p. no\u2013no, Jun. 2010.",
+            "target_gt": {
+                "publisher": "Wiley",
+                "DOI": null,
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Wiley",
+                "DOI": "10.1002/chin.199827068",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 151.95644
+        },
+        {
+            "style": "apa",
+            "ref_string": "LEONEL, E., PAUGAM, J. P., CONDON-GUEUGNOT, S., & NEDELEC, J.-Y. (2010). ChemInform Abstract: Cyclopropane Formation by Electroreductive Coupling of Activated Olefins and gem-Polyhalo Compounds. ChemInform, 29(27), no\u2013no.",
+            "target_gt": {
+                "publisher": "Wiley",
+                "DOI": "10.1002/chin.199827068",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Wiley",
+                "DOI": "10.1002/chin.199827068",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 151.95644
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]Japanese Journal of Radiological Technology, vol. 15, no. 3\u20134, p. 239, 1960.",
+            "target_gt": {
+                "publisher": "Japanese Society of Radiological Technology",
+                "DOI": null,
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Japanese Society of Radiological Technology",
+                "DOI": "10.1002/chin.199827068",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 31.69033
+        },
+        {
+            "style": "apa",
+            "ref_string": "(1960). Japanese Journal of Radiological Technology, 15(3-4), 239.",
+            "target_gt": {
+                "publisher": "Japanese Society of Radiological Technology",
+                "DOI": "10.6009/jjrt.kj00001365932",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Japanese Society of Radiological Technology",
+                "DOI": "10.6009/jjrt.kj00001365933",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 31.69033
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]E. Richards, \u201cHighland emigrants to South Australia in the 1850s,\u201d Northern Scotland, vol. 5 (First Series, no. 1, pp. 1\u201329, Jan. 1982.",
+            "target_gt": {
+                "publisher": "Edinburgh University Press",
+                "DOI": "10.3366/nor.1982.0002",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Edinburgh University Press",
+                "DOI": "10.3366/nor.1982.0002",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 98.22386
+        },
+        {
+            "style": "apa",
+            "ref_string": "Richards, E. (1982). Highland emigrants to South Australia in the 1850s. Northern Scotland, 5 (First Series(1), 1\u201329.",
+            "target_gt": {
+                "publisher": "Edinburgh University Press",
+                "DOI": "10.3366/nor.1982.0002",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Edinburgh University Press",
+                "DOI": "10.3366/nor.1982.0002",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 98.22386
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]\u201cRyswyck, Edward van,\u201d Benezit Dictionary of Artists, Oct. 2011.",
+            "target_gt": {
+                "publisher": "Oxford University Press",
+                "DOI": "10.1093/benz/9780199773787.article.b00158581",
+                "type": "reference-entry"
+            },
+            "target_test": {
+                "publisher": "Oxford University Press",
+                "DOI": "10.1093/benz/9780199773787.article.b00158581",
+                "type": "reference-entry"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 80.126656
+        },
+        {
+            "style": "apa",
+            "ref_string": "Ryswyck, Edward van. (2011). Benezit Dictionary of Artists.",
+            "target_gt": {
+                "publisher": "Oxford University Press",
+                "DOI": "10.1093/benz/9780199773787.article.b00158581",
+                "type": "reference-entry"
+            },
+            "target_test": {
+                "publisher": "Oxford University Press",
+                "DOI": "10.1093/benz/9780199773787.article.b00158581",
+                "type": "reference-entry"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 80.126656
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]M. Kamiyoshihara, T. Nagashima, and I. Takeyoshi, \u201cA novel technique for closing a tracheocutaneous fistula using a hinged skin flap,\u201d Surgery Today, vol. 41, no. 8, pp. 1166\u20131168, Jul. 2011.",
+            "target_gt": {
+                "publisher": "Springer Nature",
+                "DOI": null,
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Springer Nature",
+                "DOI": null,
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 129.68605
+        },
+        {
+            "style": "apa",
+            "ref_string": "Kamiyoshihara, M., Nagashima, T., & Takeyoshi, I. (2011). A novel technique for closing a tracheocutaneous fistula using a hinged skin flap. Surgery Today, 41(8), 1166\u20131168.",
+            "target_gt": {
+                "publisher": "Springer Nature",
+                "DOI": null,
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Springer Nature",
+                "DOI": null,
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 129.68605
+        },
+        {
+            "style": "ieee",
+            "ref_string": "[1]S. H. Krovi and L. Gapin, \u201ciNKT cells need UTX-tra demethylation,\u201d Nature Immunology, vol. 18, no. 2, pp. 148\u2013150, Jan. 2017.",
+            "target_gt": {
+                "publisher": "Springer Nature",
+                "DOI": null,
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Springer Nature",
+                "DOI": "10.1038/ni.3663",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 117.37748
+        },
+        {
+            "style": "apa",
+            "ref_string": "Krovi, S. H., & Gapin, L. (2017). iNKT cells need UTX-tra demethylation. Nature Immunology, 18(2), 148\u2013150.",
+            "target_gt": {
+                "publisher": "Springer Nature",
+                "DOI": "10.1038/ni.3663",
+                "type": "journal-article"
+            },
+            "target_test": {
+                "publisher": "Springer Nature",
+                "DOI": "10.1048/ni.3663",
+                "type": "journal-article"
+            },
+            "matcher": "Crossref search matcher with DOI exclusion and minimum score -1",
+            "score": 117.37748
+        }
+    ]
+}
