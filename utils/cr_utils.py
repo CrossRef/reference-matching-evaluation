@@ -60,6 +60,8 @@ def get_sample(size=100, filter={}, query={}):
 
 
 def parse_filter_text(filter_text):
+    if filter_text is None or not filter_text:
+        return {}
     return {f.split(':')[0]: f.split(':')[1]
             for f in filter_text.split(',')}
 
