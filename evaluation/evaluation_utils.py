@@ -1,241 +1,33 @@
-import pandas as pd
 import scipy.stats as st
-import utils.data_format_keys as dfk
 
 from dataset.dataset_utils import get_target_gt_doi, get_target_test_doi
 from statistics import mean
-from utils.utils import safe_div
 
 
-REFERENCE_METRICS = \
-    [dfk.EVAL_REF_TOTAL, dfk.EVAL_CORR_LINK_C, dfk.EVAL_CORR_NO_LINK_C,
-     dfk.EVAL_INCORR_LINK_C, dfk.EVAL_INCORR_EXISTS_C,
-     dfk.EVAL_INCORR_MISSING_C, dfk.EVAL_CORR_LINK_F, dfk.EVAL_CORR_NO_LINK_F,
-     dfk.EVAL_INCORR_LINK_F, dfk.EVAL_INCORR_EXISTS_F,
-     dfk.EVAL_INCORR_MISSING_F, dfk.EVAL_ACCURACY]
-
-REFERENCE_METRICS_PAIRS = \
-    [(dfk.EVAL_CORR_LINK_C, dfk.EVAL_CORR_LINK_F),
-     (dfk.EVAL_CORR_NO_LINK_C, dfk.EVAL_CORR_NO_LINK_F),
-     (dfk.EVAL_INCORR_LINK_C, dfk.EVAL_INCORR_LINK_F),
-     (dfk.EVAL_INCORR_EXISTS_C, dfk.EVAL_INCORR_EXISTS_F),
-     (dfk.EVAL_INCORR_MISSING_C, dfk.EVAL_INCORR_MISSING_F)]
-
-LINK_METRICS = [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1, dfk.EVAL_MEAN_PREC,
-                dfk.EVAL_MEAN_REC, dfk.EVAL_MEAN_F1, dfk.EVAL_DOC_METRICS]
-
-LINK_METRICS_PAIRS = [(dfk.EVAL_MEAN_PREC, dfk.EVAL_CI_PREC, dfk.EVAL_PREC),
-                      (dfk.EVAL_MEAN_REC, dfk.EVAL_CI_REC, dfk.EVAL_REC),
-                      (dfk.EVAL_MEAN_F1, dfk.EVAL_CI_F1, dfk.EVAL_F1)]
+def doi_gt_null(item):
+    return get_target_gt_doi(item) is None
 
 
-class ReferenceMetricsResults:
-
-    def __init__(self, dataset):
-        self.results = {}
-
-        self.results[dfk.EVAL_REF_TOTAL] = len(dataset)
-
-        self.results[dfk.EVAL_CORR_LINK_C] = \
-            len([d for d in dataset
-                 if get_target_gt_doi(d) == get_target_test_doi(d)
-                 and get_target_gt_doi(d) is not None])
-        self.results[dfk.EVAL_CORR_NO_LINK_C] = \
-            len([d for d in dataset
-                 if get_target_gt_doi(d) == get_target_test_doi(d)
-                 and get_target_gt_doi(d) is None])
-        self.results[dfk.EVAL_INCORR_LINK_C] = \
-            len([d for d in dataset
-                 if get_target_gt_doi(d) != get_target_test_doi(d)
-                 and get_target_gt_doi(d) is not None
-                 and get_target_test_doi(d) is not None])
-        self.results[dfk.EVAL_INCORR_EXISTS_C] = \
-            len([d for d in dataset
-                 if get_target_gt_doi(d) != get_target_test_doi(d)
-                 and get_target_gt_doi(d) is None])
-        self.results[dfk.EVAL_INCORR_MISSING_C] = \
-            len([d for d in dataset
-                 if get_target_gt_doi(d) != get_target_test_doi(d)
-                 and get_target_test_doi(d) is None])
-
-        for count, fraction in REFERENCE_METRICS_PAIRS:
-            self.results[fraction] = \
-                self.results[count] / self.results[dfk.EVAL_REF_TOTAL]
-
-        self.results[dfk.EVAL_ACCURACY] = \
-            (self.results[dfk.EVAL_CORR_LINK_C] +
-             self.results[dfk.EVAL_CORR_NO_LINK_C]) / \
-            self.results[dfk.EVAL_REF_TOTAL]
-
-    def get_supported_metrics(self):
-        return REFERENCE_METRICS
-
-    def get(self, metric):
-        return self.results[metric]
-
-    def print_summary(self):
-        print('Reference-based metrics:')
-        print('  Number of references: {}'
-              .format(self.get(dfk.EVAL_REF_TOTAL)))
-        print('  Accuracy: {:.4f}'.format(self.get(dfk.EVAL_ACCURACY)))
-        print('  Fractions of references:')
-        for count, fraction in REFERENCE_METRICS_PAIRS:
-            print('    - {}: {:.4f} ({})'.format(fraction,
-                                                 self.get(fraction),
-                                                 self.get(count)))
+def doi_test_null(item):
+    return get_target_test_doi(item) is None
 
 
-class TargetLinkMetricsResults:
-
-    def __init__(self, dataset, target_doi):
-        correct_count = \
-            len([d for d in dataset if get_target_test_doi(d) == target_doi
-                 and get_target_gt_doi(d) == target_doi])
-        gt_count = \
-            len([d for d in dataset if get_target_gt_doi(d) == target_doi])
-        test_count = \
-            len([d for d in dataset if get_target_test_doi(d) == target_doi])
-        self.results = {}
-        self.results[dfk.EVAL_PREC] = \
-            safe_div(correct_count, test_count, 1.)
-
-        self.results[dfk.EVAL_REC] = \
-            safe_div(correct_count, gt_count, 1.)
-
-        self.results[dfk.EVAL_F1] = \
-            safe_div(2 * self.results[dfk.EVAL_PREC] *
-                     self.results[dfk.EVAL_REC],
-                     self.results[dfk.EVAL_PREC] +
-                     self.results[dfk.EVAL_REC], 0.)
-
-    def get_supported_metrics(self):
-        return [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]
-
-    def get(self, metric):
-        return self.results[metric]
-
-    def print_summary(self):
-        print('Link-based metrics:')
-        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]:
-            print('  {}: {:.4f}'.format(metric, self.get(metric)))
+def doi_equals(item):
+    if doi_gt_null(item) or doi_test_null(item):
+        return get_target_gt_doi(item) == get_target_test_doi(item)
+    return get_target_gt_doi(item).lower() == get_target_test_doi(item).lower()
 
 
-class LinkMetricsResults:
-
-    def __init__(self, dataset, target_dois):
-        correct_count = len([d for d in dataset
-                             if get_target_gt_doi(d) == get_target_test_doi(d)
-                             and get_target_gt_doi(d) is not None])
-        gt_count = len([d for d in dataset
-                        if get_target_gt_doi(d) is not None])
-        test_count = len([d for d in dataset
-                          if get_target_test_doi(d) is not None])
-
-        self.results = {}
-
-        self.results[dfk.EVAL_PREC] = \
-            safe_div(correct_count, test_count, 1.)
-
-        self.results[dfk.EVAL_REC] = \
-            safe_div(correct_count, gt_count, 1.)
-
-        self.results[dfk.EVAL_F1] = \
-            safe_div(2 * self.results[dfk.EVAL_PREC] *
-                     self.results[dfk.EVAL_REC],
-                     self.results[dfk.EVAL_PREC] +
-                     self.results[dfk.EVAL_REC], 0.)
-
-        results_by_doc = [(doi, TargetLinkMetricsResults(dataset, doi))
-                          for doi in target_dois]
-
-        for av, ci, metric in LINK_METRICS_PAIRS:
-            if results_by_doc:
-                self.results[av] = \
-                    mean([r.get(metric) for _, r in results_by_doc])
-                self.results[ci] = \
-                    confidenceInterval([r.get(metric)
-                                        for _, r in results_by_doc],
-                                       .95)
-            else:
-                self.results[ci] = None
-                self.results[av] = None
-
-        doc_metrics = {'doc': [d for d, _ in results_by_doc]}
-        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]:
-            doc_metrics.update(
-                {metric: [r.get(metric) for _, r in results_by_doc]})
-        self.results[dfk.EVAL_DOC_METRICS] = pd.DataFrame(doc_metrics)
-
-    def get_supported_metrics(self):
-        return [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1,
-                dfk.EVAL_MEAN_PREC, dfk.EVAL_MEAN_REC, dfk.EVAL_MEAN_F1]
-
-    def get(self, metric):
-        return self.results[metric]
-
-    def print_summary(self):
-        print('Link-based metrics:')
-        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1]:
-            print('  {}: {:.4f}'.format(metric, self.get(metric)))
-        print('Document-level metrics:')
-        for av, ci, metric in LINK_METRICS_PAIRS:
-            print('  Average {}: {:.4f} (CI: {})'
-                  .format(metric, self.get(av), self.get(ci)))
+def doi_gt_same(item, doi):
+    if doi_gt_null(item) or doi is None:
+        return get_target_gt_doi(item) == doi
+    return get_target_gt_doi(item).lower() == doi.lower()
 
 
-class Results:
-
-    def __init__(self, dataset):
-        self.reference_metrics_results = ReferenceMetricsResults(dataset)
-        self.link_metrics_results = LinkMetricsResults(dataset)
-
-    def get_supported_metrics(self):
-        return self.reference_metrics_results.get_supported_metrics() + \
-               self.link_metrics_results.get_supported_metrics()
-
-    def get(self, metric):
-        if metric in self.reference_metrics_results.get_supported_metrics():
-            return self.reference_metrics_results.get(metric)
-        return self.link_metrics_results.get(metric)
-
-    def print_summary(self):
-        self.reference_metrics_results.print_summary()
-        self.link_metrics_results.print_summary()
-
-
-class SplitResults:
-
-    def __init__(self, dataset, attr, target_dois):
-        self.attr = attr
-        if attr in dataset[0]:
-            self.split_dataset = split_by_ref_attr(dataset, attr)
-        else:
-            self.split_dataset = split_by_doc_attr(dataset, attr)
-        self.split_results = {a: LinkMetricsResults(s, target_dois)
-                              for a, s in self.split_dataset.items()}
-
-        attr_metrics = {self.attr: list(self.split_dataset.keys())}
-        for metric in [dfk.EVAL_PREC, dfk.EVAL_REC, dfk.EVAL_F1,
-                       dfk.EVAL_MEAN_PREC, dfk.EVAL_MEAN_REC,
-                       dfk.EVAL_MEAN_F1]:
-            attr_metrics.update(
-                {metric: [self.split_results[a].get(metric)
-                          for a in attr_metrics[self.attr]]})
-
-        self.results = {}
-        self.results[dfk.EVAL_SPLIT_METRICS] = pd.DataFrame(attr_metrics)
-
-    def get_supported_metrics(self):
-        return [dfk.EVAL_SPLIT_METRICS]
-
-    def get(self, metric):
-        return self.results[metric]
-
-    def print_summary(self):
-        for value, dataset in self.split_dataset.items():
-            print()
-            print('{}: {}'.format(self.attr, value))
-            self.split_results[value].print_summary()
+def doi_test_same(item, doi):
+    if doi_test_null(item) or doi is None:
+        return get_target_test_doi(item) == doi
+    return get_target_test_doi(item).lower() == doi.lower()
 
 
 def split_by_ref_attr(dataset, attr):
@@ -247,26 +39,8 @@ def split_by_ref_attr(dataset, attr):
     return split_dataset
 
 
-def split_by_doc_attr(dataset, attr=dfk.CR_ITEM_DOI):
-    split_values = set([d[dfk.DATASET_TARGET_GT][attr]
-                        for d in dataset
-                        if d[dfk.DATASET_TARGET_GT][attr] is not None])
-    split_dataset = {v: [] for v in split_values}
-    for item in dataset:
-        item_target = item[dfk.DATASET_TARGET_GT]
-        if attr in item_target:
-            gt_attr = item[dfk.DATASET_TARGET_GT][attr]
-            if gt_attr is not None:
-                split_dataset[gt_attr].append(item)
-        item_test = item[dfk.DATASET_TARGET_TEST]
-        if attr in item_test:
-            test_attr = item[dfk.DATASET_TARGET_TEST][attr]
-            if test_attr in split_dataset:
-                if item not in split_dataset[test_attr]:
-                    split_dataset[test_attr].append(item)
-    return split_dataset
-
-
-def confidenceInterval(sample, confidenceLevel):
-    return st.t.interval(confidenceLevel, len(sample)-1, loc=mean(sample),
+def confidence_interval(sample, confidence_level):
+    if len(set(sample)) == 1:
+        return sample[0], sample[0]
+    return st.t.interval(confidence_level, len(sample)-1, loc=mean(sample),
                          scale=st.sem(sample))
