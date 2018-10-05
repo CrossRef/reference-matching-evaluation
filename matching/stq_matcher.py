@@ -21,7 +21,7 @@ class Matcher:
            wait_exponential_max=10000)
     def match(self, ref_string):
         logging.debug('Matching string {}'.format(ref_string))
-        sleep(random())
+        sleep(5*random())
         stq_payload = {'command': 'Submit',
                        'email': stq_key()['Mailto'],
                        'key': stq_key()['Authorization'],
@@ -39,4 +39,5 @@ class Matcher:
             if href.startswith('https://doi.org/10'):
                 doi = urlparse(href).path[1:]
                 break
+        logging.debug('String {} matched to {}'.format(ref_string, doi))
         return doi, None
