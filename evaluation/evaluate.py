@@ -30,14 +30,14 @@ if __name__ == '__main__':
 
     dataset = read_json(args.dataset)
 
-    ref_results = ReferenceMetricsResults(dataset[dfk.DATASET_DATASET])
+    ref_results = ReferenceMetricsResults(dataset.get(dfk.DATASET_DATASET))
     ref_results.print_summary()
 
-    link_results = LinkMetricsResults(dataset[dfk.DATASET_DATASET])
+    link_results = LinkMetricsResults(dataset.get(dfk.DATASET_DATASET))
     link_results.print_summary()
 
-    doc_results = ByDocumentMetricsResults(dataset[dfk.DATASET_DATASET],
-                                           dataset[dfk.DATASET_DOIS])
+    doc_results = ByDocumentMetricsResults(dataset.get(dfk.DATASET_DATASET),
+                                           dataset.get(dfk.DATASET_DOIS))
     doc_results.print_summary()
 
     if args.outputdoc:
@@ -45,13 +45,15 @@ if __name__ == '__main__':
                                                      index=False)
 
     if args.splitattr:
-        if args.splitattr in dataset[dfk.DATASET_DATASET][0]:
-            split_results = SplitByRefAttrResults(dataset[dfk.DATASET_DATASET],
-                                                  args.splitattr,
-                                                  dataset[dfk.DATASET_DOIS])
+        if args.splitattr in dataset.get(dfk.DATASET_DATASET)[0]:
+            split_results = \
+                SplitByRefAttrResults(dataset.get(dfk.DATASET_DATASET),
+                                      args.splitattr,
+                                      dataset.get(dfk.DATASET_DOIS))
         else:
-            split_results = SplitByDocAttrResults(dataset[dfk.DATASET_DATASET],
-                                                  args.splitattr)
+            split_results = \
+                SplitByDocAttrResults(dataset.get(dfk.DATASET_DATASET),
+                                      args.splitattr)
         split_results.print_summary()
         if args.outputsplit:
             split_results.get(dfk.EVAL_SPLIT_METRICS).to_csv(args.outputsplit,

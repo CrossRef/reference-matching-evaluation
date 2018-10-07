@@ -28,11 +28,11 @@ if __name__ == '__main__':
         size = 0
         for path in paths:
             data = read_dataset(path)
-            filter = data[dfk.SAMPLE_FILTER]
-            query = data[dfk.SAMPLE_QUERY]
-            size = size + data[dfk.SAMPLE_SIZE]
-            all_dois.extend(data[dfk.SAMPLE_DOIS])
-            all_data.extend(data[dfk.SAMPLE_SAMPLE])
+            filter = data.get(dfk.SAMPLE_FILTER)
+            query = data.get(dfk.SAMPLE_QUERY)
+            size = size + data.get(dfk.SAMPLE_SIZE)
+            all_dois.extend(data.get(dfk.SAMPLE_DOIS, []))
+            all_data.extend(data.get(dfk.SAMPLE_SAMPLE, []))
         dataset = {dfk.SAMPLE_TIMESTAMP: timestamp(),
                    dfk.SAMPLE_FILTER: filter,
                    dfk.SAMPLE_QUERY: query,
@@ -44,8 +44,8 @@ if __name__ == '__main__':
         all_data = []
         for path in paths:
             data = read_dataset(path)
-            all_dois.extend(data[dfk.DATASET_DOIS])
-            all_data.extend(data[dfk.DATASET_DATASET])
+            all_dois.extend(data.get(dfk.DATASET_DOIS, []))
+            all_data.extend(data.get(dfk.DATASET_DATASET, []))
         dataset = {dfk.DATASET_DOIS: list(set(all_dois)),
                    dfk.DATASET_DATASET: all_data}
 

@@ -23,16 +23,16 @@ class LinkMetricsResults:
             safe_div(correct_count, gt_count, 1.)
 
         self.results[dfk.EVAL_F1] = \
-            safe_div(2 * self.results[dfk.EVAL_PREC] *
-                     self.results[dfk.EVAL_REC],
-                     self.results[dfk.EVAL_PREC] +
-                     self.results[dfk.EVAL_REC], 0.)
+            safe_div(2 * self.results.get(dfk.EVAL_PREC) *
+                     self.results.get(dfk.EVAL_REC),
+                     self.results.get(dfk.EVAL_PREC) +
+                     self.results.get(dfk.EVAL_REC), 0.)
 
     def get_supported_metrics(self):
         return self.metrics
 
     def get(self, metric):
-        return self.results[metric]
+        return self.results.get(metric)
 
     def print_summary(self):
         print('Link-based metrics:')

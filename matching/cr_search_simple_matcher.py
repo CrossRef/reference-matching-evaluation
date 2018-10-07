@@ -27,16 +27,16 @@ class Matcher:
                           .format(ref_string))
             return None, None
         for result in results:
-            if result[dfk.CR_ITEM_DOI].lower() in self.excluded_dois:
+            if result.get(dfk.CR_ITEM_DOI).lower() in self.excluded_dois:
                 print('String {} NOT matched to excluded DOI {}'
-                      .format(ref_string, result[dfk.CR_ITEM_DOI]))
+                      .format(ref_string, result.get(dfk.CR_ITEM_DOI)))
                 continue
-            if result[dfk.CR_ITEM_SCORE] < self.min_score:
+            if result.get(dfk.CR_ITEM_SCORE) < self.min_score:
                 logging.debug('Top hit for string {} has too low score {}'
                               .format(ref_string,
-                                      results[0][dfk.CR_ITEM_SCORE]))
+                                      result.get(dfk.CR_ITEM_SCORE)))
                 return None, None
             logging.debug('String {} matched to DOI {}'
-                          .format(ref_string, result[dfk.CR_ITEM_DOI]))
-            return result[dfk.CR_ITEM_DOI], result[dfk.CR_ITEM_SCORE]
+                          .format(ref_string, result.get(dfk.CR_ITEM_DOI)))
+            return result.get(dfk.CR_ITEM_DOI), result.get(dfk.CR_ITEM_SCORE)
         return None, None

@@ -23,8 +23,8 @@ class Matcher:
         logging.debug('Matching string {}'.format(ref_string))
         sleep(5*random())
         stq_payload = {'command': 'Submit',
-                       'email': stq_key()['Mailto'],
-                       'key': stq_key()['Authorization'],
+                       'email': stq_key().get('Mailto'),
+                       'key': stq_key().get('Authorization'),
                        'freetext': ref_string}
         with requests.Session() as s:
             r = s.get(STQ_URL)

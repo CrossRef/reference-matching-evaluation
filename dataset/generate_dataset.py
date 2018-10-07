@@ -22,15 +22,15 @@ def read_dataset(file_path):
 
 def generate_target_gt(item, fields):
     target = keep_fields(item, fields + [dfk.CR_ITEM_DOI])
-    target[dfk.CR_ITEM_DOI] = item[dfk.CR_ITEM_DOI].lower()
+    target[dfk.CR_ITEM_DOI] = item.get(dfk.CR_ITEM_DOI, '').lower()
     return target
 
 
 def format_ref_string(item, style):
     if style in CUSTOM_STYLES:
-        return CUSTOM_STYLES[style](item)
+        return CUSTOM_STYLES.get(style)(item)
     else:
-        return create_ref_string(item[dfk.CR_ITEM_DOI], style)
+        return create_ref_string(item.get(dfk.CR_ITEM_DOI), style)
 
 
 def generate_dataset(sample, styles, fields):
@@ -72,7 +72,7 @@ if __name__ == '__main__':
         attributes = args.attributes.split(',')
 
     sample_data = read_sample_data(args.sample)
-    sample_ref_strings = generate_dataset(sample_data[dfk.SAMPLE_SAMPLE],
+    sample_ref_strings = generate_dataset(sample_data.get(dfk.SAMPLE_SAMPLE),
                                           args.styles.split(','),
                                           attributes)
 
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         for ref in sample_ref_strings:
             ref[dfk.DATASET_TARGET_GT][dfk.CR_ITEM_DOI] = None
 
-    dataset = {dfk.DATASET_DOIS: sample_data[dfk.SAMPLE_DOIS],
+    dataset = {dfk.DATASET_DOIS: sample_data.get(dfk.SAMPLE_DOIS),
                dfk.DATASET_DATASET: sample_ref_strings}
 
     save_dataset(dataset, args.output)

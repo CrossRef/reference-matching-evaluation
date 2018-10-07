@@ -12,13 +12,14 @@ from utils.utils import init_logging, timestamp
 def similar_search_query(item):
     query = ''
     if dfk.CR_ITEM_TITLE in item:
-        query = query + ' '.join(item[dfk.CR_ITEM_TITLE])
+        query = query + ' '.join(item.get(dfk.CR_ITEM_TITLE, []))
     if dfk.CR_ITEM_CONTAINER_TITLE in item:
-        query = query + ' ' + ' '.join(item[dfk.CR_ITEM_CONTAINER_TITLE])
+        query = query + ' ' + \
+            ' '.join(item.get(dfk.CR_ITEM_CONTAINER_TITLE, []))
     if dfk.CR_ITEM_AUTHOR in item:
-        query = query + ' ' + ' '.join([a[dfk.CR_ITEM_FAMILY]
-                                        for a in item[dfk.CR_ITEM_AUTHOR]
-                                        if dfk.CR_ITEM_FAMILY in a])
+        query = query + ' ' + \
+            ' '.join([a.get(dfk.CR_ITEM_FAMILY, '')
+                      for a in item.get(dfk.CR_ITEM_AUTHOR, [])])
     return query
 
 
@@ -31,11 +32,11 @@ def add_similar(item, n):
     for similar_item in similar_items:
         if len(similar) >= n:
             return similar
-        if similar_item[dfk.CR_ITEM_DOI] == item[dfk.CR_ITEM_DOI]:
+        if similar_item.get(dfk.CR_ITEM_DOI) == item.get(dfk.CR_ITEM_DOI):
             continue
         logging.debug('For item {} added similar item: {}'
-                      .format(item[dfk.CR_ITEM_DOI],
-                              similar_item[dfk.CR_ITEM_DOI]))
+                      .format(item.get(dfk.CR_ITEM_DOI),
+                              similar_item.get(dfk.CR_ITEM_DOI)))
         similar.append(similar_item)
     return similar
 

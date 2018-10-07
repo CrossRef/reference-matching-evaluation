@@ -61,7 +61,7 @@ class TestDocAttrLinkMetrics:
         assert r.get(dfk.EVAL_F1) == approx(0)
 
     def test_full(self, datadir):
-        data = read_json(datadir + 'test_dataset.json')['dataset']
+        data = read_json(datadir + 'test_dataset.json').get('dataset')
         r = DocAttrLinkMetricsResults(data, 'type', 'journal-article')
         assert r.get(dfk.EVAL_PREC) == approx(1/2)
         assert r.get(dfk.EVAL_REC) == approx(2/3)
@@ -95,7 +95,7 @@ class TestSplitByDocAttrMetrics:
         assert r['F1'].tolist() == approx([0, 0])
 
     def test_full(self, datadir):
-        data = read_json(datadir + 'test_dataset.json')['dataset']
+        data = read_json(datadir + 'test_dataset.json').get('dataset')
         r = SplitByDocAttrResults(data, 'type')
         r = r.get(dfk.EVAL_SPLIT_METRICS)
         r = r.sort_values(by='type')
@@ -148,12 +148,12 @@ class TestSplitByRefAttrMetrics:
 
     def test_full(self, datadir):
         data = read_json(datadir + 'test_dataset.json')
-        r = SplitByRefAttrResults(data['dataset'], 'style',
-                                  data['dataset_dois'])
+        r = SplitByRefAttrResults(data.get('dataset'), 'style',
+                                  data.get('dataset_dois'))
         split_r = r.get(dfk.EVAL_SPLIT_METRICS)
         assert split_r.shape == (2, 13)
 
-        r = SplitByRefAttrResults(data['dataset'], 'style',
+        r = SplitByRefAttrResults(data.get('dataset'), 'style',
                                   ['10.1103/physrevb.67.134406',
                                    '10.1159/000408205',
                                    '10.1002/chin.199827068'])

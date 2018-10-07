@@ -71,7 +71,7 @@ class TestReferenceMetrics:
         assert r.get(dfk.EVAL_ACCURACY) == approx(0)
 
     def test_full(self, datadir):
-        data = read_json(datadir + 'test_dataset.json')['dataset']
+        data = read_json(datadir + 'test_dataset.json').get('dataset')
         r = ReferenceMetricsResults(data)
         assert r.get(dfk.EVAL_REF_TOTAL) == approx(20)
         assert r.get(dfk.EVAL_CORR_LINK_C) == approx(9)

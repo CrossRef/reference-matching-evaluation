@@ -34,13 +34,14 @@ def load_key(key):
     return json.loads(key_value)
 
 
-API_KEY = crapi_key()['Authorization']
-POLITE = crapi_key()['Mailto']
+API_KEY = crapi_key().get('Authorization')
+POLITE = crapi_key().get('Mailto')
 
 
 def get_sample_chunk(size, filter={}, query={}):
     return Crossref(base_url=BASE_URL, mailto=POLITE, api_key=API_KEY) \
-        .works(sample=size, filter=filter, query=query)['message']['items']
+        .works(sample=size, filter=filter, query=query) \
+        .get('message', {}).get('items')
 
 
 def generate_sample_args(size=0, filter={}, query={}):
@@ -98,9 +99,9 @@ def search(string):
         logging.error('Searching for string {} failed with code {}'.
                       format(string, code))
         return None
-    result_message = json.loads(result)['message']
+    result_message = json.loads(result).get('message')
     if 'items' in result_message:
-        return result_message['items']
+        return result_message.get('items')
     return None
 
 
@@ -114,5 +115,5 @@ def get_item(doi):
         logging.error('Getting item {} failed with code {}'.
                       format(doi, code))
         return None
-    result_message = json.loads(result)['message']
+    result_message = json.loads(result).get('message')
     return result_message

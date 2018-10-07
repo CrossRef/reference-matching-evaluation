@@ -68,7 +68,7 @@ class TestTargetDocLinkMetrics:
         assert r.get(dfk.EVAL_F1) == approx(0)
 
     def test_full(self, datadir):
-        data = read_json(datadir + 'test_dataset.json')['dataset']
+        data = read_json(datadir + 'test_dataset.json').get('dataset')
         r = TargetDocLinkMetricsResults(data, '10.1103/physrevb.67.134406')
         assert r.get(dfk.EVAL_PREC) == approx(1)
         assert r.get(dfk.EVAL_REC) == approx(1)
@@ -109,7 +109,7 @@ class TestByDocumentMetrics:
         assert r.get(dfk.EVAL_MEAN_F1) == approx(0)
 
     def test_full(self, datadir):
-        data = read_json(datadir + 'test_dataset.json')['dataset']
+        data = read_json(datadir + 'test_dataset.json').get('dataset')
         r = ByDocumentMetricsResults(data, ['10.1103/physrevb.67.134406',
                                             '10.1159/000408205',
                                             '10.1002/chin.199827068'])
@@ -119,11 +119,12 @@ class TestByDocumentMetrics:
 
     def test_full_summary(self, datadir):
         data = read_json(datadir + 'test_dataset.json')
-        r = ByDocumentMetricsResults(data['dataset'], data['dataset_dois'])
+        r = ByDocumentMetricsResults(data.get('dataset'),
+                                     data.get('dataset_dois'))
         doc_r = r.get(dfk.EVAL_DOC_METRICS)
         doc_r = doc_r.sort_values(by='doc')
         assert doc_r.shape == (10, 4)
-        assert doc_r['doc'].tolist() == sorted(data['dataset_dois'])
+        assert doc_r['doc'].tolist() == sorted(data.get('dataset_dois'))
         assert doc_r['precision'].tolist()[0] == approx(1/3)
         assert doc_r['precision'].tolist()[9] == approx(1)
         assert doc_r['recall'].tolist()[0] == approx(1)

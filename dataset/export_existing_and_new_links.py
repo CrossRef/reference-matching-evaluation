@@ -12,11 +12,9 @@ from utils.utils import init_logging, read_json, save_json
 
 def extract_unstructured_refs(sample_works):
     references = []
-    for work in sample_works[dfk.SAMPLE_SAMPLE]:
-        source_doi = work[dfk.CR_ITEM_DOI]
-        if dfk.CR_ITEM_REFERENCE not in work:
-            continue
-        for ref in work[dfk.CR_ITEM_REFERENCE]:
+    for work in sample_works.get(dfk.SAMPLE_SAMPLE):
+        source_doi = work.get(dfk.CR_ITEM_DOI)
+        for ref in work.get(dfk.CR_ITEM_REFERENCE, []):
             if ref.get(dfk.CR_ITEM_DOI_ASSERTED_BY) != 'publisher':
                 if ref.get(dfk.CR_ITEM_UNSTRUCTURED, False):
                     ref['source_doi'] = source_doi
@@ -50,16 +48,18 @@ if __name__ == '__main__':
     matcher = matching.cr_search_simple_matcher.Matcher(-1)
     with Pool(config.THREADS) as p:
         api_results = p.map(matcher.match,
-                            [item['unstructured'] for item in references])
+                            [item.get('unstructured', '')
+                             for item in references])
 
     matcher = matching.stq_matcher.Matcher()
     with Pool(config.THREADS) as p:
         stq_results = p.map(matcher.match,
-                            [item['unstructured'] for item in references])
+                            [item.get('unstructured', '')
+                             for item in references])
 
-    save_json([{'source_DOI': r['source_doi'].lower(),
-                'ref_string': r[dfk.CR_ITEM_UNSTRUCTURED],
-                'original_link': r[dfk.CR_ITEM_DOI].lower()
+    save_json([{'source_DOI': r.get('source_doi', '').lower(),
+                'ref_string': r.get(dfk.CR_ITEM_UNSTRUCTURED),
+                'original_link': r.get(dfk.CR_ITEM_DOI, '').lower()
                 if r.get(dfk.CR_ITEM_DOI_ASSERTED_BY) == 'crossref'
                 else None,
                 'current_STQ_link': s[0] if s[0] is None else s[0].lower(),

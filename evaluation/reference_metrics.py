@@ -38,18 +38,18 @@ class ReferenceMetricsResults:
 
         for count, fraction in self.metrics_groups:
             self.results[fraction] = \
-                self.results[count] / self.results[dfk.EVAL_REF_TOTAL]
+                self.results.get(count) / self.results.get(dfk.EVAL_REF_TOTAL)
 
         self.results[dfk.EVAL_ACCURACY] = \
-            (self.results[dfk.EVAL_CORR_LINK_C] +
-             self.results[dfk.EVAL_CORR_NO_LINK_C]) / \
-            self.results[dfk.EVAL_REF_TOTAL]
+            (self.results.get(dfk.EVAL_CORR_LINK_C) +
+             self.results.get(dfk.EVAL_CORR_NO_LINK_C)) / \
+            self.results.get(dfk.EVAL_REF_TOTAL)
 
     def get_supported_metrics(self):
         return self.metrics
 
     def get(self, metric):
-        return self.results[metric]
+        return self.results.get(metric)
 
     def print_summary(self):
         print('Reference-based metrics:')

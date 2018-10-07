@@ -53,7 +53,7 @@ class TestLinkMetrics:
         assert r.get(dfk.EVAL_F1) == approx(0)
 
     def test_full(self, datadir):
-        data = read_json(datadir + 'test_dataset.json')['dataset']
+        data = read_json(datadir + 'test_dataset.json').get('dataset')
         r = LinkMetricsResults(data)
         assert r.get(dfk.EVAL_PREC) == approx(9/17)
         assert r.get(dfk.EVAL_REC) == approx(3/5)

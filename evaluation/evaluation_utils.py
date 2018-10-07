@@ -31,11 +31,12 @@ def doi_test_same(item, doi):
 
 
 def split_by_ref_attr(dataset, attr):
-    split_values = set([d[attr] for d in dataset if d[attr] is not None])
+    split_values = set([d.get(attr)
+                        for d in dataset if d.get(attr) is not None])
     split_dataset = {v: [] for v in split_values}
     for item in dataset:
         if item[attr] is not None:
-            split_dataset[item[attr]].append(item)
+            split_dataset[item.get(attr)].append(item)
     return split_dataset
 
 

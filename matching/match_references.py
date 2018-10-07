@@ -21,12 +21,12 @@ if __name__ == '__main__':
     init_logging(args.verbose)
 
     dataset_data = read_dataset(args.dataset)
-    dataset = dataset_data[dfk.DATASET_DATASET]
+    dataset = dataset_data.get(dfk.DATASET_DATASET)
 
     logging.info('Matching with matcher: {}'.format(MATCHER.description()))
     with Pool(config.THREADS) as p:
         results = p.map(MATCHER.match,
-                        [item[dfk.DATASET_REF_STRING] for item in dataset])
+                        [item.get(dfk.DATASET_REF_STRING) for item in dataset])
 
     [d.update({dfk.DATASET_TARGET_TEST:
                {dfk.CR_ITEM_DOI: None if r[0] is None else r[0].lower()},
@@ -34,11 +34,12 @@ if __name__ == '__main__':
                dfk.DATASET_SCORE: r[1]})
         for r, d in zip(results, dataset)]
     for d in dataset:
-        if d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI] is not None:
-            item = get_item(d[dfk.DATASET_TARGET_TEST][dfk.CR_ITEM_DOI])
-            item = keep_fields(item, d[dfk.DATASET_TARGET_GT].keys())
+        if d.get(dfk.DATASET_TARGET_TEST, {}).get(dfk.CR_ITEM_DOI) is not None:
+            item = get_item(d.get(dfk.DATASET_TARGET_TEST, {})
+                            .get(dfk.CR_ITEM_DOI))
+            item = keep_fields(item, d.get(dfk.DATASET_TARGET_GT, {}).keys())
             d[dfk.DATASET_TARGET_TEST] = item
 
-    dataset_data = {dfk.DATASET_DOIS: dataset_data[dfk.DATASET_DOIS],
+    dataset_data = {dfk.DATASET_DOIS: dataset_data.get(dfk.DATASET_DOIS),
                     dfk.DATASET_DATASET: dataset}
     save_dataset(dataset_data, args.output)
