@@ -53,8 +53,9 @@ class SplitByDocAttrResults:
     def __init__(self, dataset, attr):
         self.attr = attr
 
-        values = list(set([d[dfk.DATASET_TARGET_GT][attr] for d in dataset] +
-                          [d[dfk.DATASET_TARGET_TEST][attr] for d in dataset]))
+        values = list(set(
+            [d.get(dfk.DATASET_TARGET_GT).get(attr) for d in dataset] +
+            [d.get(dfk.DATASET_TARGET_TEST).get(attr) for d in dataset]))
         self.split_results = {a: DocAttrLinkMetricsResults(dataset, attr, a)
                               for a in values}
 
