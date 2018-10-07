@@ -1,4 +1,5 @@
 import argparse
+import config
 import itertools
 import logging
 import utils.data_format_keys as dfk
@@ -35,7 +36,7 @@ def format_ref_string(item, style):
 def generate_dataset(sample, styles, fields):
     logging.info('Generating dataset')
     prod_sample_style = list(itertools.product(sample, styles))
-    with Pool() as p:
+    with Pool(config.THREADS) as p:
         results = p.starmap(format_ref_string, prod_sample_style)
     return [{dfk.DATASET_STYLE: ds[1],
              dfk.DATASET_REF_STRING: r,

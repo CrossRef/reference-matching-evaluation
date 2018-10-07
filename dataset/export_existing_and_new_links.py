@@ -1,4 +1,5 @@
 import argparse
+import config
 import logging
 import matching.cr_search_simple_matcher
 import matching.stq_matcher
@@ -47,12 +48,12 @@ if __name__ == '__main__':
     logging.info('Number of references to analyze: {}'.format(len(references)))
 
     matcher = matching.cr_search_simple_matcher.Matcher(-1)
-    with Pool() as p:
+    with Pool(config.THREADS) as p:
         api_results = p.map(matcher.match,
                             [item['unstructured'] for item in references])
 
     matcher = matching.stq_matcher.Matcher()
-    with Pool(3) as p:
+    with Pool(config.THREADS) as p:
         stq_results = p.map(matcher.match,
                             [item['unstructured'] for item in references])
 

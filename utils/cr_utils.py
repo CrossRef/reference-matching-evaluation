@@ -1,3 +1,4 @@
+import config
 import json
 import logging
 import re
@@ -53,7 +54,7 @@ def generate_sample_args(size=0, filter={}, query={}):
 def get_sample(size=100, filter={}, query={}):
     args = locals()
     results = []
-    with Pool() as pool:
+    with Pool(config.THREADS) as pool:
         results = pool.starmap(get_sample_chunk, generate_sample_args(**args))
     results = [item for sublist in results for item in sublist]
     return results

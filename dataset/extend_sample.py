@@ -1,4 +1,5 @@
 import argparse
+import config
 import logging
 import utils.data_format_keys as dfk
 
@@ -41,7 +42,7 @@ def add_similar(item, n):
 
 def search_similar_items(sample, n):
     logging.info('Searching for similar items')
-    with Pool() as p:
+    with Pool(config.THREADS) as p:
         similar_sample = p.starmap(add_similar, zip(sample, [n] * len(sample)))
     similar_sample = [item for sublist in similar_sample for item in sublist]
     logging.debug('Similar items size: {}'.format(len(similar_sample)))

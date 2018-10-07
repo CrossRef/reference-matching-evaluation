@@ -1,4 +1,5 @@
 import argparse
+import config
 import logging
 import utils.data_format_keys as dfk
 
@@ -23,7 +24,7 @@ if __name__ == '__main__':
     dataset = dataset_data[dfk.DATASET_DATASET]
 
     logging.info('Matching with matcher: {}'.format(MATCHER.description()))
-    with Pool() as p:
+    with Pool(config.THREADS) as p:
         results = p.map(MATCHER.match,
                         [item[dfk.DATASET_REF_STRING] for item in dataset])
 
