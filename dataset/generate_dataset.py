@@ -5,6 +5,7 @@ import utils.data_format_keys as dfk
 
 from dataset.custom_styles import CUSTOM_STYLES
 from dataset.draw_sample import read_sample_data
+from multiprocessing import Pool
 from utils.cr_utils import create_ref_string
 from utils.utils import init_logging, keep_fields, read_json, save_json
 
@@ -33,14 +34,13 @@ def format_ref_string(item, style):
 
 def generate_dataset(sample, styles, fields):
     logging.info('Generating dataset')
-    prod_sample_style = itertools.product(sample, styles)
-    results = [{dfk.DATASET_STYLE: s,
-                dfk.DATASET_REF_STRING:
-                    format_ref_string(d, s),
-                dfk.DATASET_TARGET_GT: generate_target_gt(d, fields)}
-               for d, s in prod_sample_style]
-
-    return results
+    prod_sample_style = list(itertools.product(sample, styles))
+    with Pool() as p:
+        results = p.starmap(format_ref_string, prod_sample_style)
+    return [{dfk.DATASET_STYLE: ds[1],
+             dfk.DATASET_REF_STRING: r,
+             dfk.DATASET_TARGET_GT: generate_target_gt(ds[0], fields)}
+            for ds, r in zip(prod_sample_style, results)]
 
 
 if __name__ == '__main__':

@@ -3,6 +3,7 @@ import logging
 import utils.data_format_keys as dfk
 
 from dataset.draw_sample import read_sample_data, save_sample_data
+from multiprocessing import Pool
 from utils.cr_utils import search
 from utils.utils import init_logging, timestamp
 
@@ -20,26 +21,30 @@ def similar_search_query(item):
     return query
 
 
+def add_similar(item, n):
+    similar = []
+    query = similar_search_query(item)
+    similar_items = search(query)
+    if similar_items is None:
+        return similar
+    for similar_item in similar_items:
+        if len(similar) >= n:
+            return similar
+        if similar_item[dfk.CR_ITEM_DOI] == item[dfk.CR_ITEM_DOI]:
+            continue
+        logging.debug('For item {} added similar item: {}'
+                      .format(item[dfk.CR_ITEM_DOI],
+                              similar_item[dfk.CR_ITEM_DOI]))
+        similar.append(similar_item)
+    return similar
+
+
 def search_similar_items(sample, n):
     logging.info('Searching for similar items')
-    similar_sample = []
-    for item in sample:
-        query = similar_search_query(item)
-        similar_items = search(query)
-        if similar_items is None:
-            continue
-        added = 0
-        for similar_item in similar_items:
-            if added >= n:
-                break
-            if similar_item[dfk.CR_ITEM_DOI] == item[dfk.CR_ITEM_DOI]:
-                continue
-            logging.debug('For item {} added similar item: {}'
-                          .format(item[dfk.CR_ITEM_DOI],
-                                  similar_item[dfk.CR_ITEM_DOI]))
-            similar_sample.append(similar_item)
-            logging.debug('Similar items size: {}'.format(len(similar_sample)))
-            added = added + 1
+    with Pool() as p:
+        similar_sample = p.starmap(add_similar, zip(sample, [n] * len(sample)))
+    similar_sample = [item for sublist in similar_sample for item in sublist]
+    logging.debug('Similar items size: {}'.format(len(similar_sample)))
     return similar_sample
 
 
