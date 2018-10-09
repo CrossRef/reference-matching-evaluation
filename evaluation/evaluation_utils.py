@@ -1,3 +1,4 @@
+import re
 import scipy.stats as st
 
 from dataset.dataset_utils import get_target_gt_doi, get_target_test_doi
@@ -13,21 +14,22 @@ def doi_test_null(item):
 
 
 def doi_equals(item):
-    if doi_gt_null(item) or doi_test_null(item):
-        return get_target_gt_doi(item) == get_target_test_doi(item)
-    return get_target_gt_doi(item).lower() == get_target_test_doi(item).lower()
+    return doi_normalize(get_target_gt_doi(item)) == \
+           doi_normalize(get_target_test_doi(item))
 
 
 def doi_gt_same(item, doi):
-    if doi_gt_null(item) or doi is None:
-        return get_target_gt_doi(item) == doi
-    return get_target_gt_doi(item).lower() == doi.lower()
+    return doi_normalize(get_target_gt_doi(item)) == doi_normalize(doi)
 
 
 def doi_test_same(item, doi):
-    if doi_test_null(item) or doi is None:
-        return get_target_test_doi(item) == doi
-    return get_target_test_doi(item).lower() == doi.lower()
+    return doi_normalize(get_target_test_doi(item)) == doi_normalize(doi)
+
+
+def doi_normalize(doi):
+    if doi is None:
+        return None
+    return re.sub(';.*', '', re.sub('//', '/', doi.lower()))
 
 
 def split_by_ref_attr(dataset, attr):
