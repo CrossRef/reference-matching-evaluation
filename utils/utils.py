@@ -1,9 +1,12 @@
 import datetime
 import json
 import logging
+import re
 import requests
+import string
 import time
 
+from random import choice, randint, random
 
 LOG_FORMAT = '%(asctime)s %(levelname)s %(message)s'
 
@@ -49,4 +52,25 @@ def safe_div(a, b, c):
 
 
 def keep_fields(item, fields):
+    if item is None:
+        return None
     return {k: f for k, f in item.items() if k in fields}
+
+
+def add_noise(s):
+    if s is None:
+        return None
+    for _ in range(3):
+        if ' ' in s and random() < 0.5:
+            pos = choice([m.start() for m in re.finditer(' ', s)])
+            s = s[:pos] + s[(pos+1):]
+    for _ in range(3):
+        if random() < 0.5:
+            pos = randint(0, len(s))
+            s = s[:pos] + ' ' + s[pos:]
+    for _ in range(5):
+        if s and random() < 0.3:
+            pos = randint(0, len(s)-1)
+            letter = choice(list(string.ascii_letters))
+            s = s[:pos] + letter + s[(pos+1):]
+    return s

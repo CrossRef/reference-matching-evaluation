@@ -8,7 +8,8 @@ from dataset.custom_styles import CUSTOM_STYLES
 from dataset.draw_sample import read_sample_data
 from multiprocessing import Pool
 from utils.cr_utils import create_ref_string
-from utils.utils import init_logging, keep_fields, read_json, save_json
+from utils.utils import add_noise, init_logging, keep_fields, read_json, \
+    save_json
 
 
 def save_dataset(ref_strings, file_path):
@@ -50,8 +51,11 @@ if __name__ == '__main__':
     parser.add_argument('-v', '--verbose', help='verbose output',
                         action='store_true')
     parser.add_argument('-l', '--styles',
-                        help='comma-separated list of citationstyle names',
+                        help='comma-separated list of citation style names',
                         type=str, default='apa')
+    parser.add_argument('-d', '--distort',
+                        help='add random noise to strings',
+                        action='store_true')
     parser.add_argument('-a', '--attributes',
                         help='comma-separated list of ' +
                              'Crossref item attributes to keep',
@@ -79,6 +83,11 @@ if __name__ == '__main__':
     if args.nulldoi:
         for ref in sample_ref_strings:
             ref[dfk.DATASET_TARGET_GT][dfk.CR_ITEM_DOI] = None
+
+    if args.distort:
+        for ref in sample_ref_strings:
+            ref[dfk.DATASET_STYLE] = ref.get(dfk.DATASET_STYLE, '') + '-noise'
+            ref[dfk.DATASET_REF_STRING] = add_noise(ref.get(dfk.DATASET_REF_STRING, ''))
 
     dataset = {dfk.DATASET_DOIS: sample_data.get(dfk.SAMPLE_DOIS),
                dfk.DATASET_DATASET: sample_ref_strings}
