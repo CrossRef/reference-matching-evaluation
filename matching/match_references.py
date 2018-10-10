@@ -37,8 +37,9 @@ if __name__ == '__main__':
         if d.get(dfk.DATASET_TARGET_TEST, {}).get(dfk.CR_ITEM_DOI) is not None:
             item = get_item(d.get(dfk.DATASET_TARGET_TEST, {})
                             .get(dfk.CR_ITEM_DOI))
-            item = keep_fields(item, d.get(dfk.DATASET_TARGET_GT, {}).keys())
-            d[dfk.DATASET_TARGET_TEST] = item
+            if item is not None:
+                item = keep_fields(item, d.get(dfk.DATASET_TARGET_GT, {}).keys())
+                d[dfk.DATASET_TARGET_TEST] = item
 
     dataset_data = {dfk.DATASET_DOIS: dataset_data.get(dfk.DATASET_DOIS),
                     dfk.DATASET_DATASET: dataset}
