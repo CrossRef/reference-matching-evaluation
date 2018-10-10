@@ -1,8 +1,9 @@
 import pandas as pd
 import utils.data_format_keys as dfk
 
-from evaluation.evaluation_utils import doi_gt_same, doi_test_same, \
-    confidence_interval
+from dataset.dataset_utils import get_target_gt_doi, get_target_test_doi
+from evaluation.evaluation_utils import doi_gt_same, doi_normalize, \
+    doi_test_same, confidence_interval
 from statistics import mean
 from utils.utils import safe_div
 
@@ -56,8 +57,21 @@ class ByDocumentMetricsResults:
              (dfk.EVAL_MEAN_REC, dfk.EVAL_CI_REC, dfk.EVAL_REC),
              (dfk.EVAL_MEAN_F1, dfk.EVAL_CI_F1, dfk.EVAL_F1)]
 
-        results_by_doc = [(doi, TargetDocLinkMetricsResults(dataset, doi))
-                          for doi in target_dois]
+        target_dois_norm = [doi_normalize(doi) for doi in target_dois]
+        dataset_split = {doi: [] for doi in target_dois_norm}
+        for d in dataset:
+            doi_gt = doi_normalize(get_target_gt_doi(d))
+            if doi_gt in target_dois_norm:
+                dataset_split[doi_gt].append(d)
+            doi_test = doi_normalize(get_target_test_doi(d))
+            if doi_test != doi_gt and  doi_test in target_dois_norm:
+                dataset_split[doi_test].append(d)
+
+        results_by_doc = \
+            [(doi,
+              TargetDocLinkMetricsResults(dataset_split[doi_normalize(doi)],
+                                          doi))
+             for doi in target_dois]
 
         self.results = {}
 
