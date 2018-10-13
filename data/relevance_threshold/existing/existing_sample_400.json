@@ -1,0 +1,4002 @@
+[
+    {
+        "ref_string": "Lau Y. K. andProkhovnik S. J.,Aust. J. Phys.,39 (1986) 339.",
+        "score": 37.559586,
+        "target_gt": {
+            "DOI": "10.1071/ph860339"
+        },
+        "target_test": {
+            "DOI": "10.1071/ph860339"
+        }
+    },
+    {
+        "ref_string": "Oldfield, R. C. (1971). The assessment and analysis of handedness: the Edinburgh inventory. Neuropsychology, 9, 97\u2013113.",
+        "score": 65.114365,
+        "target_gt": {
+            "DOI": "10.1016/0028-3932(71)90067-4"
+        },
+        "target_test": {
+            "DOI": "10.1016/0028-3932(71)90067-4"
+        }
+    },
+    {
+        "ref_string": "J.B. Hutak, With Blood and With Iron: The Lidice Story (London: Robert Hale, 1957), pp. 108\u20139.",
+        "score": 28.251839,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1017/s0368393100134935"
+        }
+    },
+    {
+        "ref_string": "Cooper C, Harvey NC, Dennison EM, van Staa TP (2006) Update on the epidemiology of Paget\u2019s disease of bone. J Bone Miner Res 21(suppl 2):3\u20138",
+        "score": 96.12435,
+        "target_gt": {
+            "DOI": "10.1359/jbmr.06s201"
+        },
+        "target_test": {
+            "DOI": "10.1359/jbmr.06s201"
+        }
+    },
+    {
+        "ref_string": "Pavio, A. (1975). Perceptual comparisons through the mind\u2019s eye. Memory and Cognition, 3, 635\u2013647.",
+        "score": 82.3963,
+        "target_gt": {
+            "DOI": "10.3758/bf03198229"
+        },
+        "target_test": {
+            "DOI": "10.3758/bf03198229"
+        }
+    },
+    {
+        "ref_string": "Xie Z, Deng X, Suo X, Zhou T, Gou Y (2015) Synthesis and characterization of zirconium diboride precursor based on polycentric bridge bonds. Mater Chem Phys 159:178\u2013184",
+        "score": 113.64554,
+        "target_gt": {
+            "DOI": "10.1016/j.matchemphys.2015.03.068"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.matchemphys.2015.03.068"
+        }
+    },
+    {
+        "ref_string": "G. \u2019t Hooft, Unitarity of the black hole scattering matrix, in proceedings of the International Conference on Fundamental Aspects of Quantum Theory to Celebrate the 60th Birthday of Yakir Aharonov, Columbia, South Carolina, December 10\u201312 1992 [ INSPIRE ].",
+        "score": 66.17227,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.21236/ada286800"
+        }
+    },
+    {
+        "ref_string": "C. H. Tieman W. D. Kollmeyer US Patent 3948934 1976",
+        "score": 23.143547,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/b978-0-08-022349-0.50029-1"
+        }
+    },
+    {
+        "ref_string": "Perry, B. J., Bridges, C.: Computerised transverse axial scanning (tomography) Part. 3. Radiation dose consideration. Brit. J. Radiol. 46, 1048?1051 (1973)",
+        "score": 77.98217,
+        "target_gt": {
+            "DOI": "10.1259/0007-1285-46-552-1048"
+        },
+        "target_test": {
+            "DOI": "10.1259/0007-1285-46-552-1048"
+        }
+    },
+    {
+        "ref_string": "Maxam A M and Gilbert W 1977 A new method of sequencing DNA. Proc. Natl. Acad. Sci. USA 74, 560\u2013564",
+        "score": 62.44771,
+        "target_gt": {
+            "DOI": "10.1073/pnas.74.2.560"
+        },
+        "target_test": {
+            "DOI": "10.1073/pnas.74.2.560"
+        }
+    },
+    {
+        "ref_string": "D. M. Powers. Evaluation: From precision, recall and F-factor to ROC, informedness, markedness, and correlation. Journal of Machine Learning Technologies, 2(1):37--63, 2011.",
+        "score": 39.24746,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1145/1143844.1143874"
+        }
+    },
+    {
+        "ref_string": "Boutelle KN, Zucker NL, Peterson CB, Rydell SA, Cafri G, Harnack L. Two novel treatments to reduce overeating in overweight children: a randomized controlled trial. J Consult Clin Psychol. 2011;79:759\u201371.",
+        "score": 105.59538,
+        "target_gt": {
+            "DOI": "10.1037/a0025713"
+        },
+        "target_test": {
+            "DOI": "10.1037/a0025713"
+        }
+    },
+    {
+        "ref_string": "Tsutsui S, et al. Macrophage infiltration and its prognostic implications in breast cancer: the relationship with VEGF expression and microvessel density. Oncol Rep. 2005;14(2):425\u201331.",
+        "score": 94.49511,
+        "target_gt": {
+            "DOI": "10.3892/or.14.2.425"
+        },
+        "target_test": {
+            "DOI": "10.3892/or.14.2.425"
+        }
+    },
+    {
+        "ref_string": "Varney ML et al. Small molecule antagonists for CXCR2 and CXCR1 inhibit human colon cancer liver metastases. Cancer Lett. 2011;300(2):180\u20138.",
+        "score": 106.93422,
+        "target_gt": {
+            "DOI": "10.1016/j.canlet.2010.10.004"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.canlet.2010.10.004"
+        }
+    },
+    {
+        "ref_string": "Bishop, R. L., and Goldberg, S. I. (1968). Tensor Analysis on Manifolds. (The Macmillan Company, New York).",
+        "score": 36.831688,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2307/2317982"
+        }
+    },
+    {
+        "ref_string": "Clusin WT, Fischmeister R, DeHaan RL (1983) Caffeine-induced current in embryonic heart cells: time course and voltage dependence. Am J Physiol 245:H528-H532",
+        "score": 103.66658,
+        "target_gt": {
+            "DOI": "10.1152/ajpheart.1983.245.3.h528"
+        },
+        "target_test": {
+            "DOI": "10.1152/ajpheart.1983.245.3.h528"
+        }
+    },
+    {
+        "ref_string": "F. A. Zhuravlev, N. A. Orlova, A. I. Plekhanov, et al., \u201cGiant Nonlinear Susceptibility of Thin Films with (Molecular J-Aggregate)-(Metal Cluster) Complexes,\u201d Pis\u2019ma Zh. Eksp. Teor. Fiz. 56(5), 264\u2013267 (1992) [JETP Lett. 56 (5), 260\u2013264 (1992)].",
+        "score": 83.30094,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1134/s0021364007180166"
+        }
+    },
+    {
+        "ref_string": "Portions per Person. \nhttps://www.cookipedia.co.uk/recipes_wiki/Portions_per_person\n\n\n        ",
+        "score": 47.098923,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1787/888933550516"
+        }
+    },
+    {
+        "ref_string": "Duchen MR (2000) Mitochondria and calcium: from cell signalling to cell death. J Physiol 529(Pt 1):57\u201368",
+        "score": 80.0855,
+        "target_gt": {
+            "DOI": "10.1111/j.1469-7793.2000.00057.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1469-7793.2000.00057.x"
+        }
+    },
+    {
+        "ref_string": "M. Albinus, E.L. Blair, B.H. Hirst, J.E. Reed, A.V. Schally andB. Shaw,The Effect of Somatostatin and Metiamide on Tachyphylaxis of Pentagastrin Stimulated Gastric Acid Secretion in the Conscious Cat, J. Physiol. (Lond.)266, 801\u2013817 (1977).",
+        "score": 124.439835,
+        "target_gt": {
+            "DOI": "10.1113/jphysiol.1977.sp011794"
+        },
+        "target_test": {
+            "DOI": "10.1113/jphysiol.1977.sp011794"
+        }
+    },
+    {
+        "ref_string": "Jung JY, Lee K, Lim HS, Kim H, Lee EJ, Lee YK (2014) Soil organic carbon characteristics relating to geomorphology near Vestre Lov\u00e9nbreen moraine in Svalard. J Ecol Environ 37:69\u201379",
+        "score": 113.00766,
+        "target_gt": {
+            "DOI": "10.5141/ecoenv.2014.009"
+        },
+        "target_test": {
+            "DOI": "10.5141/ecoenv.2014.009"
+        }
+    },
+    {
+        "ref_string": "Abragam A, Bleaney B (1970) Electron paramagnetic resonance of transition ions. Clarendon Press, Oxford",
+        "score": 45.787495,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1080/00107514.2013.800139"
+        }
+    },
+    {
+        "ref_string": "Banerjee SS, Chen DH (2009) A multifunctional magnetic nanocarrier bearing fluorescent dye for targeted drug delivery by enhanced two-photon triggered release. Nanotechnology 20(18):185103",
+        "score": 131.5887,
+        "target_gt": {
+            "DOI": "10.1088/0957-4484/20/18/185103"
+        },
+        "target_test": {
+            "DOI": "10.1088/0957-4484/20/18/185103"
+        }
+    },
+    {
+        "ref_string": "Bijlsma AY, Meskers CG, van den Eshof N, et al. Diagnostic criteria for sarcopenia and physical performance. Age (Dordr). 2014;36:275\u201385.",
+        "score": 62.26755,
+        "target_gt": {
+            "DOI": "10.1007/s11357-013-9556-5"
+        },
+        "target_test": {
+            "DOI": "10.1007/s11357-013-9556-5"
+        }
+    },
+    {
+        "ref_string": "Gernsbacher, M. A., Sauer, E. A., Geye, H. M., Schweigert, E. K., & Goldsmith, H. (2008). Infant and toddler oral- and manual-motor skills predict later speech fluency in autism. Journal of Child Psychology and Psychiatry, 49, 43\u201350.",
+        "score": 125.29497,
+        "target_gt": {
+            "DOI": "10.1111/j.1469-7610.2007.01820.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1469-7610.2007.01820.x"
+        }
+    },
+    {
+        "ref_string": "Trainer, M., , E.-Y., Hsie, , S. A., McKeen, , R., Tallamraju, , D. D., Parrish, , F. C., Fehsenfeld, , S. C., Liu, , Impact of natural hydrocarbons on hydroxyl and peroxy radicals at a remote site, J. Geophys. Res., 92, 11879-11894 1987,",
+        "score": 120.08093,
+        "target_gt": {
+            "DOI": "10.1029/jd092id10p11879"
+        },
+        "target_test": {
+            "DOI": "10.1029/jd092id10p11879"
+        }
+    },
+    {
+        "ref_string": "Liberopoulos E, Bairaktari E, Elisaf M (2002) Reversible proximal tubular disfunction in a patient with acute febrile illness, marked hyperbilirubinemia and normal renal function: evidence of leptospirosis. Nephron 91:532\u2013533",
+        "score": 161.13843,
+        "target_gt": {
+            "DOI": "10.1159/000064304"
+        },
+        "target_test": {
+            "DOI": "10.1159/000064304"
+        }
+    },
+    {
+        "ref_string": "Rasschaert G, Houf K, Imberechts H, Grijspeerdt K, De Zutter L, Heyndrickx M (2005) Comparison of five repetitive-sequence-based PCR typing methods for molecular discrimination of Salmonella enterica isolates. J Clin Microbiol 43:3615\u20133623",
+        "score": 140.01085,
+        "target_gt": {
+            "DOI": "10.1128/jcm.43.8.3615-3623.2005"
+        },
+        "target_test": {
+            "DOI": "10.1128/jcm.43.8.3615-3623.2005"
+        }
+    },
+    {
+        "ref_string": "Rotshtein, P., Henson, R. N., Treves, A., Driver, J., & Dolan, R. J. (2005). Morphing Marilyn into Maggie dissociates physical and identity face representations in the brain. Nature Neuroscience, 8, 107\u2013113.",
+        "score": 136.10283,
+        "target_gt": {
+            "DOI": "10.1038/nn1370"
+        },
+        "target_test": {
+            "DOI": "10.1038/nn1370"
+        }
+    },
+    {
+        "ref_string": "Quoted in John D. Drummond, But For These Men (New York: Award Books, 1965), p. 53.",
+        "score": 26.478561,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2307/40119501"
+        }
+    },
+    {
+        "ref_string": "Ueda, Y., & Nakagawa, S. (1990). Diction for phoneme/syllable/word-category and identification of language using HMM. In Proc. int. conf. spoken language processing (ICSLP-1990) (pp.\u00a01209\u20131212).",
+        "score": 59.61365,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1109/icslp.1996.607081"
+        }
+    },
+    {
+        "ref_string": "Manoff, S. (1997). In Topics in Complex Analysis, Differential Geometry and Mathematical Physics, Dimiev, St., and Sekigawa, K. eds. (World Sci. Publ., Singapore), pp. 177\u2013218.",
+        "score": 77.00058,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1142/9789814529518"
+        }
+    },
+    {
+        "ref_string": "Hare, R. M. (1989). Rawls\u2019 theory of justice. In N. Daniels (Ed.), Reading Rawls: Critical studies on Rawls\u2019 theory of justice (pp. 81\u2013107). Stanford: Stanford University Press.",
+        "score": 92.41284,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2307/2184013"
+        }
+    },
+    {
+        "ref_string": "Mattes B L and Route R K 1974J. Crystal Growth 27 133",
+        "score": 38.805225,
+        "target_gt": {
+            "DOI": "10.1016/s0022-0248(74)80057-6"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0022-0248(74)80057-6"
+        }
+    },
+    {
+        "ref_string": "Folger, R. and Ford, R.C. (2009), \u201cFairness is a three way street\u201d, in Ford, R. (Ed.),Service and Organizational Justice: New Directions, paper presented at Symposium at the Annual Meeting of the Academy of Management, Chicago, IL.",
+        "score": 44.41332,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1108/09564231011066097"
+        }
+    },
+    {
+        "ref_string": "Faezeh Ensan, Ebrahim Bagheri, and Dragan Ga&#353;evi&#263;. 2012. Evolutionary search-based test generation for software product line feature models. In AISE. Springer, 613--628.",
+        "score": 91.274216,
+        "target_gt": {
+            "DOI": "10.1007/978-3-642-31095-9_40"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-3-642-31095-9_40"
+        }
+    },
+    {
+        "ref_string": "Kaariainen L, Ahola T (2002) Functions of alphavirus nonstructural proteins in RNA replication. Prog Nucleic Acid Res Mol Biol 71:187\u2013222",
+        "score": 105.13247,
+        "target_gt": {
+            "DOI": "10.1016/s0079-6603(02)71044-1"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0079-6603(02)71044-1"
+        }
+    },
+    {
+        "ref_string": "Czeschlik, T., & Rost, D. H. (1988). Hochbegabte und ihre Peers (Gifted and their peers).Zeitschrift f\u00fcr P\u00e4dagogische Psychologie, 2, 1\u201323.",
+        "score": 61.638676,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1024/1010-0652.20.3.213"
+        }
+    },
+    {
+        "ref_string": "P. Manuel, I. Rajasingh, B. Rajan, R.S. Rajan, J. Comput. Theor. Nanosci. 10, 1515 (2013)",
+        "score": 56.24025,
+        "target_gt": {
+            "DOI": "10.1166/jctn.2013.2882"
+        },
+        "target_test": {
+            "DOI": "10.1166/jctn.2013.2882"
+        }
+    },
+    {
+        "ref_string": "Lomax RB, Camello C, Van CF, Petersen OH, Tepikin AV (2002) Basal and physiological Ca(2+) leak from the endoplasmic reticulum of pancreatic acinar cells. Second messenger-activated channels and translocons. J Biol Chem 277:26479\u201326485",
+        "score": 148.52724,
+        "target_gt": {
+            "DOI": "10.1074/jbc.m201845200"
+        },
+        "target_test": {
+            "DOI": "10.1074/jbc.m201845200"
+        }
+    },
+    {
+        "ref_string": "Chandar NB, Lo R, Ganguly B (2014) Chem-Biol Interact 223:58\u201368",
+        "score": 43.90161,
+        "target_gt": {
+            "DOI": "10.1016/j.cbi.2014.08.015"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.cbi.2014.08.015"
+        }
+    },
+    {
+        "ref_string": "Wake M, Lycett K, Sabin MA, et al. A shared-care model of obesity treatment for 3\u201310 year old children: protocol for the HopSCOTCH randomised controlled trial. BMC Pediatr. 2012;12:39.",
+        "score": 101.58011,
+        "target_gt": {
+            "DOI": "10.1186/1471-2431-12-39"
+        },
+        "target_test": {
+            "DOI": "10.1186/1471-2431-12-39"
+        }
+    },
+    {
+        "ref_string": "Maccioni F, Viscido A, Marini M, et al.: MRI evaluation of Crohn\u2019s disease of the small and large bowel with the use of negative superparamagnetic oral contrast agents. Abdom Imaging 2002, 27:384\u2013393.",
+        "score": 112.285324,
+        "target_gt": {
+            "DOI": "10.1007/s00261-001-0119-3"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00261-001-0119-3"
+        }
+    },
+    {
+        "ref_string": "Baba H, Ohtsuka Y, Haruna H, Lee T, Nagata S, Maeda M, Yamashiro Y, Shimizu T (2009) Studies of anti-inflammatory effects of rooibos tea in rats. Pediatr Int 51:700\u2013704",
+        "score": 124.22562,
+        "target_gt": {
+            "DOI": "10.1111/j.1442-200x.2009.02835.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1442-200x.2009.02835.x"
+        }
+    },
+    {
+        "ref_string": "Brenner, S. The genetics of Caenorhabditis elegans. Genetics 77, 71\u201394 (1974).",
+        "score": 44.13187,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1534/genetics.116.194084"
+        }
+    },
+    {
+        "ref_string": "[2] M. Maikranz-Valentin, U. Weidig, U. Schoof, H.H. Becker, and K. Steinhoff: Steel Res. Int., 2008, vol. 79, pp. 92-97.",
+        "score": 69.60709,
+        "target_gt": {
+            "DOI": "10.1002/srin.200806322"
+        },
+        "target_test": {
+            "DOI": "10.1002/srin.200806322"
+        }
+    },
+    {
+        "ref_string": "Chatard JC, Atlaoui D, Farjanel J, Louisy F, Rastel D, Gu\u00e9zennec CY. Elastic stockings, performance and leg pain recovery in 63-year-old sportsmen. Eur J Appl Physiol. 2004;93:347\u201352.",
+        "score": 127.46849,
+        "target_gt": {
+            "DOI": "10.1007/s00421-004-1163-9"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00421-004-1163-9"
+        }
+    },
+    {
+        "ref_string": "Levin , A. C. F. Lin 1992 \u2018Unit Root Tests in Panel Data: Asymptotic and Finite Sample Properties\u2019",
+        "score": 62.74387,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/s0304-4076(01)00098-7"
+        }
+    },
+    {
+        "ref_string": "Fischer N, Fischer D, Klapoetke TM, Piercey DG, Stierstorfer J. Pushing the limits of energetic materials-the synthesis and characterization of dihydroxylammonium 5,5\u2032-bistetrazole-1,1\u2032-diolate. J Mater Chem. 2012;22:20418\u201322.",
+        "score": 117.00429,
+        "target_gt": {
+            "DOI": "10.1039/c2jm33646d"
+        },
+        "target_test": {
+            "DOI": "10.1039/c2jm33646d"
+        }
+    },
+    {
+        "ref_string": "E. Giusti, Minimal Surfaces and Functions of Bounded Variation, Birkhauser Basel 1984.",
+        "score": 63.54187,
+        "target_gt": {
+            "DOI": "10.1007/978-1-4684-9486-0"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-1-4684-9486-0_8"
+        }
+    },
+    {
+        "ref_string": "E. S. Voropai, A. P. Lugovskii, and M. P. Samtsov, \u201cProperties of Polymethine Dyes in Active Layers of Optical Disks,\u201d Zh. Nauchn. Prikl. Fotogr. 38(6), 1\u20137 (1993).",
+        "score": 51.681236,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00664927"
+        }
+    },
+    {
+        "ref_string": "Hu, J. S., Juan, C. W., & Wang, J. J. (2008). A spatial-color mean-shift object tracking algorithm with scale and orientation estimation. Pattern Recognition Letters, 29(16), 2165\u20132173.",
+        "score": 120.41924,
+        "target_gt": {
+            "DOI": "10.1016/j.patrec.2008.08.007"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.patrec.2008.08.007"
+        }
+    },
+    {
+        "ref_string": "Yokel, R.A., Neurotoxicology, 2000, vol. 21, no. 6, p. 813.",
+        "score": 26.902279,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/s0161-813x(02)00090-6"
+        }
+    },
+    {
+        "ref_string": "Sullivan PF (2005) The genetics of schizophrenia. PLoS Med 2(7):e212",
+        "score": 54.49747,
+        "target_gt": {
+            "DOI": "10.1371/journal.pmed.0020212"
+        },
+        "target_test": {
+            "DOI": "10.1371/journal.pmed.0020212"
+        }
+    },
+    {
+        "ref_string": "Niu, P.; Zhang, L. L.; Liu, G.; Cheng, H. M. Graphene-like carbon nitride nanosheets for improved photocatalytic activities. Adv. Funct. Mater.\n2012, 22, 4763\u20134770.",
+        "score": 110.07349,
+        "target_gt": {
+            "DOI": "10.1002/adfm.201200922"
+        },
+        "target_test": {
+            "DOI": "10.1002/adfm.201200922"
+        }
+    },
+    {
+        "ref_string": "Sorensen HJ, Mortensen EL, Schiffman J, Reinisch JM, Maeda J, Mednick SA (2010) Early developmental milestones and risk of schizophrenia: a 45-year follow-up of the Copenhagen Perinatal Cohort. Schizophr Res 118(1\u20133):41\u201347",
+        "score": 116.39649,
+        "target_gt": {
+            "DOI": "10.1016/j.schres.2010.01.029"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.schres.2010.01.029"
+        }
+    },
+    {
+        "ref_string": "Rescorla, R. A. (1969). Pavlovian conditioned inhibition.Psychological Bulletin,72, 77\u201394.",
+        "score": 86.8551,
+        "target_gt": {
+            "DOI": "10.1037/h0027760"
+        },
+        "target_test": {
+            "DOI": "10.1037/h0027760"
+        }
+    },
+    {
+        "ref_string": "P. Cs\u00f6rg\u0151, On supersolvability of finite groups, Glasgow Math. J., 43 (2001), 327\u2013333.",
+        "score": 69.492874,
+        "target_gt": {
+            "DOI": "10.1017/s0017089501030129"
+        },
+        "target_test": {
+            "DOI": "10.1017/s0017089501030129"
+        }
+    },
+    {
+        "ref_string": "Nell, V. (1992). The case for an independent licensing board for psychology,South African Journal of Psychology, 22, 228\u2013239.",
+        "score": 82.824745,
+        "target_gt": {
+            "DOI": "10.1177/008124639202200407"
+        },
+        "target_test": {
+            "DOI": "10.1177/008124639202200407"
+        }
+    },
+    {
+        "ref_string": "Kurita, H., Koyama, T., & Osada, H. (2005). Autism spectrum quotient: Japanese version and its short forms for screening normally intelligent persons with pervasive developmental disorders. Psychiatry and Clinical Neurosciences, 59, 490\u2013496. doi: 10.1111/j.1440-1819.2005.01403.x .",
+        "score": 140.87941,
+        "target_gt": {
+            "DOI": "10.1111/j.1440-1819.2005.01403.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1440-1819.2005.01403.x"
+        }
+    },
+    {
+        "ref_string": "Guiot BH, Khoo LT, Fessler RG (2002) A minimally invasive technique for decompression of the lumbar spine. Spine 27:432\u2013438",
+        "score": 101.85571,
+        "target_gt": {
+            "DOI": "10.1097/00007632-200202150-00021"
+        },
+        "target_test": {
+            "DOI": "10.1097/00007632-200202150-00021"
+        }
+    },
+    {
+        "ref_string": "Hellstr\u00f6m K et al (2016) Ability of minus strands and modified plus strands to act as templates in Semliki Forest virus RNA replication. J Gen Virol 97(6):1395\u20131407",
+        "score": 107.88431,
+        "target_gt": {
+            "DOI": "10.1099/jgv.0.000448"
+        },
+        "target_test": {
+            "DOI": "10.1099/jgv.0.000448"
+        }
+    },
+    {
+        "ref_string": "Drazkiewicz M, Skorzynska-Polit E, Krupa Z (2003) Response of the ascorbate\u2013glutathione cycle to excess copper in Arabidopsis thaliana (L.). Plant Sci 164(2):195\u2013202",
+        "score": 124.454704,
+        "target_gt": {
+            "DOI": "10.1016/s0168-9452(02)00383-7"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0168-9452(02)00383-7"
+        }
+    },
+    {
+        "ref_string": "Shin HJ, Lee DC (2003) Study on the process to decrease the molecular weight of \u03b2-(1,6)-branched \u03b2-(1,3)-d-glucans. Korean J Biotechnol Bioeng 18:352\u2013355",
+        "score": 29.859535,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/j.carbon.2015.11.027"
+        }
+    },
+    {
+        "ref_string": "Walker J, Britton N, Yoshida K, Shimizu T, Burtz LJ, Pala A (2016) Update on the qualification of the Hakuto micro-rover for the Google Lunar X-Prize. In Field and Service Robotics. Springer, Cham, pp 313\u2013330",
+        "score": 123.67483,
+        "target_gt": {
+            "DOI": "10.1007/978-3-319-27702-8_21"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-3-319-27702-8_21"
+        }
+    },
+    {
+        "ref_string": "Dannenberg JH, van Rossum A, Schuijff L and te Riele H . (2000). Genes Dev., 14, 3051\u20133064.",
+        "score": 41.87384,
+        "target_gt": {
+            "DOI": "10.1101/gad.847700"
+        },
+        "target_test": {
+            "DOI": "10.1101/gad.847700"
+        }
+    },
+    {
+        "ref_string": "Choudhury BC, Badola R, Hussain SA, Sivakumar K (2002) Ecological, social and hydrological factors affecting the management of wetland systems in UP with special reference to Vijay Sagar and associated water bodies in Mohaba district, Okhla and associated water bodies in Ghaziabad district, Bakhira Bird Sanctuary and Nawabganj Bird Sanctuary. Research reports. Wildlife Institute of India, Dehra Dun",
+        "score": 61.479084,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.5962/bhl.title.56114"
+        }
+    },
+    {
+        "ref_string": "Ghebregzabher M, Rufini S, Monalsi B, Lato M: Thin-layer chromatography of carbohydrates. J Chromatog 127: 133?162, 1976",
+        "score": 85.526794,
+        "target_gt": {
+            "DOI": "10.1016/s0021-9673(00)80168-5"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0021-9673(00)80168-5"
+        }
+    },
+    {
+        "ref_string": "Lackenby, M.: The volume of hyperbolic alternating link complements. Proc. Lond. Math. Soc. 88, 204\u2013224 (2004)",
+        "score": 82.81526,
+        "target_gt": {
+            "DOI": "10.1112/s0024611503014291"
+        },
+        "target_test": {
+            "DOI": "10.1112/s0024611503014291"
+        }
+    },
+    {
+        "ref_string": "Fukao T, Koyasu S: PI3K and negative regulation of TLR signaling. Trends Immunol 2003, 24:358\u2013363.",
+        "score": 94.07872,
+        "target_gt": {
+            "DOI": "10.1016/s1471-4906(03)00139-x"
+        },
+        "target_test": {
+            "DOI": "10.1016/s1471-4906(03)00139-x"
+        }
+    },
+    {
+        "ref_string": "Alston, W. P. (1990). Some suggestions for divine command theorists. In M. D. Beaty (Ed.), Christian theism and the problems of philosophy (pp. 303\u2013313). Notre Dame: University of Notre Dame Press.",
+        "score": 77.68263,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1177/004057369104800218"
+        }
+    },
+    {
+        "ref_string": "Albee, G. W. (1986). Toward a just society: Lessons from observations on the primary prevention of psychopathology.American Psychologist, 41, 891\u2013898.",
+        "score": 112.95147,
+        "target_gt": {
+            "DOI": "10.1037/0003-066x.41.8.891"
+        },
+        "target_test": {
+            "DOI": "10.1037/0003-066x.41.8.891"
+        }
+    },
+    {
+        "ref_string": "Rao, K. S., & Vuppala, A.\u00a0K. (2013). Non-uniform time scale modification using instants of significant excitation and vowel onset points. Speech Communication, 55, 745\u2013756.",
+        "score": 131.97644,
+        "target_gt": {
+            "DOI": "10.1016/j.specom.2013.03.002"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.specom.2013.03.002"
+        }
+    },
+    {
+        "ref_string": "Pisella, L., Berberovic, N., & Mattingley, J. B. (2004). Impaired working memory for location but not for colour or shape in visual neglect: A comparison of parietal and non-parietal lesions. Cortex, 40, 379\u2013390.",
+        "score": 154.42734,
+        "target_gt": {
+            "DOI": "10.1016/s0010-9452(08)70132-1"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0010-9452(08)70132-1"
+        }
+    },
+    {
+        "ref_string": "Ndiaye PN, Miquel J, Ba CT, Feliu C, Marchand B (2002) Spermiogenesis and sperm ultrastructure of Scaphiostomum palaearcticum Mas-Coma, Esteban et Valero, 1986 (Trematoda, Digenea, Brachylaimidae). Acta Parasitol 47:259\u2013271",
+        "score": 108.13191,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00009870"
+        }
+    },
+    {
+        "ref_string": "Kurer MA, Stamou KM, Wilson TR, et al.: Early symptomatic recurrence after intestinal resection in Crohn\u2019s disease is unpredictable. Colorectal Dis 2007, 9:567\u2013571.",
+        "score": 92.26696,
+        "target_gt": {
+            "DOI": "10.1111/j.1463-1318.2006.01202.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1463-1318.2006.01202.x"
+        }
+    },
+    {
+        "ref_string": "J. Allan, B. Croft, A. Moffat, and M. Sanderson. Frontiers, challenges, and opportunities for information retrieval. Report from SWIRL 2012. SIGIR Forum, 46(1):2--32, 2012.",
+        "score": 115.37424,
+        "target_gt": {
+            "DOI": "10.1145/2215676.2215678"
+        },
+        "target_test": {
+            "DOI": "10.1145/2215676.2215678"
+        }
+    },
+    {
+        "ref_string": "Dinda BB, Houser SR (1990) Transient inward current has a clear reversal potential in feline ventricular myocytes. Biophys J 57:132a",
+        "score": 38.04061,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1469-7793.2000.t01-1-00533.x"
+        }
+    },
+    {
+        "ref_string": "Focke M, Kosse D, M\u00fcller C, Reinecke H, Zengerle R, von Stetten F (2010) Lab-on-a-foil: microfluidics on thin and flexible films. Lab Chip 10:1365\u20131386",
+        "score": 137.49142,
+        "target_gt": {
+            "DOI": "10.1039/c001195a"
+        },
+        "target_test": {
+            "DOI": "10.1039/c001195a"
+        }
+    },
+    {
+        "ref_string": "Peris P, Alvarez L, Vidal S, Martinez MA, Monegal A, Gua\u0148abens N (2007) Treatment with tiludronate has a similar effect to risedronate on Paget\u2019s disease activity assessed by bone markers and bone scintigraphy. Clin Exp Rheumatol 25:206\u2013210",
+        "score": 74.04719,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/s8756-3282(00)00279-9"
+        }
+    },
+    {
+        "ref_string": "Lipp P, Mechann S, Pott L (1987) Effects of calcium release from sarcoplasmic reticulum on membrane currents in guinea pig atrial cardioballs. Pfl\u00fcgers Arch 410:121?131",
+        "score": 106.479164,
+        "target_gt": {
+            "DOI": "10.1007/bf00581904"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00581904"
+        }
+    },
+    {
+        "ref_string": "M. Albinus, J.D. Reed, A. Gomez-Pan, A.V. Schally andD.H. Coy,Comparison of the Inhibition of Histamine and Pentagastrin Stimulated Gastric Acid Secretion by Somatostatin in the Cat, Agents and Actions7, 501\u2013506 (1977).",
+        "score": 113.38974,
+        "target_gt": {
+            "DOI": "10.1007/bf02111121"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf02111121"
+        }
+    },
+    {
+        "ref_string": "Rao R, Hao CM, Breyer MD: Hypertonic stress activates glycogen synthase kinase 3beta-mediated apoptosis of renal medullary interstitial cells, suppressing an NFkappaB-driven cyclooxygenase-2-dependent survival pathway. J Biol Chem 2004, 279:3949\u20133955.",
+        "score": 136.13173,
+        "target_gt": {
+            "DOI": "10.1074/jbc.m309325200"
+        },
+        "target_test": {
+            "DOI": "10.1074/jbc.m309325200"
+        }
+    },
+    {
+        "ref_string": "Li, T.H.S., Yeh, Y.C., Wu, J.D., Hsiao, M.Y., Chen, C.Y.: Multifunctional intelligent autonomous parking controllers for carlike mobile robots. IEEE Trans. Ind. Electron. 57(5), 1687\u20131699 (2010)",
+        "score": 97.77435,
+        "target_gt": {
+            "DOI": "10.1109/tie.2009.2033093"
+        },
+        "target_test": {
+            "DOI": "10.1109/tie.2009.2033093"
+        }
+    },
+    {
+        "ref_string": "A.T. Balaban, F. Harary, Tetrahedron 24, 2505 (1968)",
+        "score": 60.319542,
+        "target_gt": {
+            "DOI": "10.1016/s0040-4020(01)82523-0"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0040-4020(01)82523-0"
+        }
+    },
+    {
+        "ref_string": "Higa S, Sawada K, Nagaoka K, Nagatani K, Yoshida K (2016) Measurement of stress distributions of a wheel with grousers traveling on loose soil. In Robotics and Automation (ICRA), 2016 IEEE International Conference on 2016, pp 2828\u20132833",
+        "score": 141.52682,
+        "target_gt": {
+            "DOI": "10.1109/icra.2016.7487445"
+        },
+        "target_test": {
+            "DOI": "10.1109/icra.2016.7487445"
+        }
+    },
+    {
+        "ref_string": "Williams, R. M. 1979. \u201cChange and Stability in Values and Value Systems: A Sociological Perspective.\u201dUnderstanding Human Values. Ed. M. Rokeach. New York: Free Press. 15\u201346.",
+        "score": 55.40139,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1093/sf/59.4.1330"
+        }
+    },
+    {
+        "ref_string": "Schmulling T, Fladung M, Grossman K, Shell J (1993) Hormonal content and sensitivity of transgenic tobacco and potato plants expressing single rol genes of A. rhizogenes T-DNA. Plant J 3:371\u2013382",
+        "score": 131.66805,
+        "target_gt": {
+            "DOI": "10.1046/j.1365-313x.1993.t01-20-00999.x"
+        },
+        "target_test": {
+            "DOI": "10.1046/j.1365-313x.1993.t01-20-00999.x"
+        }
+    },
+    {
+        "ref_string": "Mill, J. S. (1911), A System of Logic: Ratiocinative and Inductive. London: Longmans, Green and Co. First published in 1843.",
+        "score": 53.566376,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.5962/bhl.title.25118"
+        }
+    },
+    {
+        "ref_string": "Byne W, White L, Parella M, Adams R, Harvey PD, Davis KL (1998) Tardive dyskinesia in a chronically institutionalized population of elderly schizophrenic patients: prevalence and association with cognitive impairment. Int J Geriatr Psychiatry 13:473\u2013479",
+        "score": 126.85353,
+        "target_gt": {
+            "DOI": "10.1002/(sici)1099-1166(199807)13:7<473::aid-gps800>3.0.co;2-z"
+        },
+        "target_test": {
+            "DOI": "10.1002/(sici)1099-1166(199807)13:7<473::aid-gps800>3.0.co;2-z"
+        }
+    },
+    {
+        "ref_string": "Nieto, JJ, Rodr\u00edguez-L\u00f3pez, R: Contractive mapping theorems in partially ordered sets and applications to ordinary differential equations. Order 22, 223-239 (2005)",
+        "score": 111.75141,
+        "target_gt": {
+            "DOI": "10.1007/s11083-005-9018-5"
+        },
+        "target_test": {
+            "DOI": "10.1007/s11083-005-9018-5"
+        }
+    },
+    {
+        "ref_string": "J. Moll, S. Daehne, J. R. Durrant, and D. A. Wiersma, \u201cOptical Dynamics of Excitons in J-Aggregates of a Carbocyanine Dye,\u201d J. Chem. Phys. 102(16), 6362\u20136370 (1995).",
+        "score": 90.228325,
+        "target_gt": {
+            "DOI": "10.1063/1.1703017"
+        },
+        "target_test": {
+            "DOI": "10.1063/1.1703017"
+        }
+    },
+    {
+        "ref_string": "Cifrian B, Garcia-Corrales P, Martinez-Alos S (1993) Ultrastructural study of the spermatogenesis and mature spermatozoa of Dicrocoelium dendriticum (Plathelminthes, Digenea). Parasitol Res 79:204\u2013212",
+        "score": 143.8234,
+        "target_gt": {
+            "DOI": "10.1007/bf00931894"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00931894"
+        }
+    },
+    {
+        "ref_string": "Christgen M, von Ahsen S, Christgen H, L\u00e4nger F, Kreipe H (2015) The region of interest (ROI) size impacts on Ki67 quantification by computer-assisted image analysis in breast cancer. Human Pathology",
+        "score": 149.3967,
+        "target_gt": {
+            "DOI": "10.1016/j.humpath.2015.05.016"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.humpath.2015.05.016"
+        }
+    },
+    {
+        "ref_string": "Halleux C, Schneider YJ. Iron absorption by intestinal epithelial cells: 1. CaCo2 cells cultivated in serum-free medium, on polyethyleneterephthalate microporous membranes, as an in vitro model. In Vitro Cell Dev Biol 27A: 293\u2013302, 1991.",
+        "score": 133.25032,
+        "target_gt": {
+            "DOI": "10.1007/bf02630906"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf02630906"
+        }
+    },
+    {
+        "ref_string": "Zhou L, Kang J, Fan L, Ma X, Zhao H, Han J, Wang B, Guo D (2008) Simultaneous analysis of coumarins and secoiridoids in Cortex Fraxini by high-performance liquid chromatography-diode array detection-electrospray ionization tandem mass spectrometry. J Pharm Biomed Anal 47:39\u201346",
+        "score": 140.04823,
+        "target_gt": {
+            "DOI": "10.1016/j.jpba.2007.12.009"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.jpba.2007.12.009"
+        }
+    },
+    {
+        "ref_string": "Kleinert, H., and Pelster, A. (1999). Gen. Rel. Grav.\n31, 1439.",
+        "score": 34.757343,
+        "target_gt": {
+            "DOI": "10.1023/a:1026701613987"
+        },
+        "target_test": {
+            "DOI": "10.1023/a:1026701613987"
+        }
+    },
+    {
+        "ref_string": "X. Wang, Y. Yan, Z. Sun and C. Liu, LES investigation into the generation of momentum deficits in the supersonic wake of a micro-ramp, Journal of Mechanical Science and Technology, 28 (4) (2014) 1327\u20131337.",
+        "score": 87.12855,
+        "target_gt": {
+            "DOI": "10.1007/s12206-013-1164-x"
+        },
+        "target_test": {
+            "DOI": "10.1007/s12206-013-1164-x"
+        }
+    },
+    {
+        "ref_string": "United Nations (2007a) Report of the Secretary-General on Chad and the Central African Republic, S/2007/488.",
+        "score": 44.440617,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1093/ww/9780199540884.013.u42550"
+        }
+    },
+    {
+        "ref_string": "D. D. Lewis and W. A. Gale. A sequential algorithm for training text classifiers. In Proceedings of the 17th ACM International Conference on Research and Development in Information Retrieval (SIGIR 1994), pages 3--12, Dublin, IE, 1994.",
+        "score": 79.28781,
+        "target_gt": {
+            "DOI": "10.1007/978-1-4471-2099-5_1"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-1-4471-2099-5_1"
+        }
+    },
+    {
+        "ref_string": "David Astels. 2003. Test-Driven Development: A Practical Guide: A Practical Guide. Prentice Hall PTR.",
+        "score": 76.49878,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1145/966221.966666"
+        }
+    },
+    {
+        "ref_string": "Sengupta B (2006) Water quality status of Yamuna River (1999\u20132005). Assessment and Development of River Basin Series: ADSORBS/41/2006-07, CPCB Ministry of Environment and Forests, Delhi",
+        "score": 51.447037,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1002/047147844x.wq1502"
+        }
+    },
+    {
+        "ref_string": "Makam AN, Nguyen OK, Auerbach AD. Diagnostic accuracy and effectiveness of automated electronic sepsis alert systems: a systematic review. J Hosp Med. 2015;10:396\u2013402.",
+        "score": 98.45235,
+        "target_gt": {
+            "DOI": "10.1002/jhm.2347"
+        },
+        "target_test": {
+            "DOI": "10.1002/jhm.2347"
+        }
+    },
+    {
+        "ref_string": "Cardinale, R. C., Shih, P., Fishman, I., Ford, L. M., & Muller, R.-A. (2013). Pervasive rightward asymmetry shifts of functional networks in autism spectrum disorder. JAMA Psychiatry, 70, 975\u2013982. doi: 10.1001/jamapsychiatry.2013.382 .",
+        "score": 131.56984,
+        "target_gt": {
+            "DOI": "10.1001/jamapsychiatry.2013.382"
+        },
+        "target_test": {
+            "DOI": "10.1001/jamapsychiatry.2013.382"
+        }
+    },
+    {
+        "ref_string": "UN General Assembly (2011) Political declaration of the high-level meeting of the general assembly on the prevention and control of non-communicable diseases (NCDs). New York: UN. Available: http://www.un.org/en/ga/ncdmeeting2011/ .",
+        "score": 68.678635,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.18356/f0ca7f43-en"
+        }
+    },
+    {
+        "ref_string": "Dale, P. S., Bates, E., Reznick, J. S., & Morisset, C. (1989). The validity of a parent report instrument of child language at twenty months. Journal of Child Language, 16(02), 239\u2013249.",
+        "score": 124.22533,
+        "target_gt": {
+            "DOI": "10.1017/s0305000900010394"
+        },
+        "target_test": {
+            "DOI": "10.1017/s0305000900010394"
+        }
+    },
+    {
+        "ref_string": "Akhrymuk I, Kulemzin SV, Frolova EI (2012) Evasion of the innate immune response: the Old World alphavirus nsP2 protein induces rapid degradation of Rpb1, a catalytic subunit of RNA polymerase II. J Virol 86(13):7180\u20137191",
+        "score": 150.47531,
+        "target_gt": {
+            "DOI": "10.1128/jvi.00541-12"
+        },
+        "target_test": {
+            "DOI": "10.1128/jvi.00541-12"
+        }
+    },
+    {
+        "ref_string": "Joseph, K.S., Hage, D.S.: The effects of glycation on the binding of human serum albumin to warfarin and L-tryptophan. J. Pharm. Biomed. Anal. 53, 811\u2013818 (2010)",
+        "score": 69.77561,
+        "target_gt": {
+            "DOI": "10.1016/j.jpba.2010.04.035"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.jpba.2010.04.035"
+        }
+    },
+    {
+        "ref_string": "Danek M, Jensen KF, Murray CB, Bawendi MG (1996) Synthesis of luminescent thin-film CdSe/ZnSe quantum dot composites using CdSe quantum dots passivated with an overlayer of ZnSe. Chem Mater 8(1):173",
+        "score": 144.58893,
+        "target_gt": {
+            "DOI": "10.1021/cm9503137"
+        },
+        "target_test": {
+            "DOI": "10.1021/cm9503137"
+        }
+    },
+    {
+        "ref_string": "Donner MW, Silbiger ML: Cinefluorographic analysis of pharyngeal swallowing in neuromuscular disorders. Am J Med Sci 251:600?616, 1966",
+        "score": 73.123566,
+        "target_gt": {
+            "DOI": "10.1097/00000441-196605000-00013"
+        },
+        "target_test": {
+            "DOI": "10.1097/00000441-196605000-00013"
+        }
+    },
+    {
+        "ref_string": "Gierz, G., Lawson, J. D. and Stralka, A., Quasicontinuous posets, Houston J. Math., 9, 1983, 191\u2013208.",
+        "score": 43.16959,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.4153/cmb-1983-073-9"
+        }
+    },
+    {
+        "ref_string": "Crandall, D.H., Phaneuf, R.A., Falk, R.A., Beli?, D.S., Dunn, G.H.: Phys. Rev. A25, 143 (1982)",
+        "score": 40.38845,
+        "target_gt": {
+            "DOI": "10.1103/physreva.25.143"
+        },
+        "target_test": {
+            "DOI": "10.1103/physreva.25.143"
+        }
+    },
+    {
+        "ref_string": "Burton, A. M., Bruce, V., & Dench, N. (1993). What\u2019s the difference between men and women? Evidence from facial measurement. Perception, 22, 153\u2013176.",
+        "score": 101.82351,
+        "target_gt": {
+            "DOI": "10.1068/p220153"
+        },
+        "target_test": {
+            "DOI": "10.1068/p220153"
+        }
+    },
+    {
+        "ref_string": "Moyes, Jojo. \u2018BBC Joins Forces with Granada to Make TV Shows\u2019. The Independent, 2 August 2000.",
+        "score": 31.533525,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1093/ww/9780199540884.013.251210"
+        }
+    },
+    {
+        "ref_string": "Pierro L, Brancato R, Minicucci M, Pece A (1994) Echographic diagnosis of Drusen of the optic nerve head in patients with angioid streaks. Ophthalmologica 208:239\u2013242",
+        "score": 142.4053,
+        "target_gt": {
+            "DOI": "10.1159/000310498"
+        },
+        "target_test": {
+            "DOI": "10.1159/000310498"
+        }
+    },
+    {
+        "ref_string": "Amzel L M and Pedersen P L 1983 Proton ATPases: structure and mechanism. Annu. Rev. Biochem. 52, 801\u2013824",
+        "score": 97.02568,
+        "target_gt": {
+            "DOI": "10.1146/annurev.bi.52.070183.004101"
+        },
+        "target_test": {
+            "DOI": "10.1146/annurev.bi.52.070183.004101"
+        }
+    },
+    {
+        "ref_string": "Kim, T., Song, Y.T., Chung, L., Huynh, D.T.: Software architecture analysis: a dynamic slicing approach. ACIS Int. J. Comput. Inf. Sci. 1(2), 91\u2013103 (2000)",
+        "score": 48.992294,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1109/cmpsac.1999.812677"
+        }
+    },
+    {
+        "ref_string": "Giddens, A. (1992)The transformation of intimacyPolity Press: Cambridge.",
+        "score": 26.501457,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.12745/et.15.1.887"
+        }
+    },
+    {
+        "ref_string": "Payne MC, Teter MP, Allan DC, Arias TA, Joannopoulos JD (1992) Iterative minimization techniques for ab initio total-energy calculations: molecular dynamics and conjugate gradients. Rev Mod Phys 64(4):1045",
+        "score": 99.084404,
+        "target_gt": {
+            "DOI": "10.1103/revmodphys.64.1045"
+        },
+        "target_test": {
+            "DOI": "10.1103/revmodphys.64.1045"
+        }
+    },
+    {
+        "ref_string": "Gon\u00e7alves R, Costa OL (2008) Influence of moisture content in longitudinal, radial and tangential ultrasonic velocity for two Brazilian wood species. Wood Fiber Sci 40(4):580\u2013586",
+        "score": 45.978157,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s10086-008-0954-8"
+        }
+    },
+    {
+        "ref_string": "Cuypers A, Vangronsveld J, Clijsters H (2002) Peroxidases in roots and primary leaves of Phaseolus vulgaris copper and zinc phytotoxicity: a comparison. J Plant Physiol 159(8):869\u2013876",
+        "score": 134.92699,
+        "target_gt": {
+            "DOI": "10.1078/0176-1617-00676"
+        },
+        "target_test": {
+            "DOI": "10.1078/0176-1617-00676"
+        }
+    },
+    {
+        "ref_string": "F. C. Spano and S. Mukamel, \u201cNonlinear Susceptibilities of Molecular Aggregates: Enhancement of chi(3) by Size,\u201d Phys. Rev. A: At., Mol., Opt. Phys. 40(10), 5783\u20135801 (1989).",
+        "score": 111.03744,
+        "target_gt": {
+            "DOI": "10.1103/physreva.40.5783"
+        },
+        "target_test": {
+            "DOI": "10.1103/physreva.40.5783"
+        }
+    },
+    {
+        "ref_string": "Stanley, M.: So simple a thing as a star: jeans, eddington, and the growth of astrophysical phenomenology. Br. J. Hist. Sci. 40, 53\u201382 (2007)",
+        "score": 90.36687,
+        "target_gt": {
+            "DOI": "10.1017/s0007087406008740"
+        },
+        "target_test": {
+            "DOI": "10.1017/s0007087406008740"
+        }
+    },
+    {
+        "ref_string": "Heidegger, M. (1976). Was ist Metaphysik? In Wegmarken [GA 9] (pp. 103\u2013122). Frankfurt: Klostermann.",
+        "score": 35.718075,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.5840/heideggerstud20163217"
+        }
+    },
+    {
+        "ref_string": "Chen XH, Gao RL, Zhen ZY, Qian XD, Xu WH. Expression of apoptosis-related proteins in the human bone marrow hematopoietic cells treated by Panax Notoginosides. J Experim Hematol (Chin) 2006;14:343\u2013346.",
+        "score": 37.03408,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1745-7254.2007.00551.x"
+        }
+    },
+    {
+        "ref_string": "Jacques Maritain, Distinguish to Unite or the Degrees of Knowledge. Translated by Gerald B. Phelan (New York: Charles Scribner\u2019s, 1959)",
+        "score": 56.099957,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1086/602915"
+        }
+    },
+    {
+        "ref_string": "Liu, X. E.; Park, M.; Kim, M. G.; Gupta, S.; Wang, X. J.; Wu, G.; Cho, J. High-performance non-spinel cobaltmanganese mixed oxide-based bifunctional electrocatalysts for rechargeable zinc-air batteries. Nano Energy\n2016, 20, 315\u2013325.",
+        "score": 112.331375,
+        "target_gt": {
+            "DOI": "10.1016/j.nanoen.2015.11.030"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.nanoen.2015.11.030"
+        }
+    },
+    {
+        "ref_string": "Hall, J.R., Mitchell, K.R., Jackson-Weaver, O., Kooser, A.S., Cron, B.R., Crossey, L.J., and Takacs-Vesbach, C.D., Molecular characterization of the diversity and distribution of a thermal spring microbial community by using rRNA and metabolic genes, Appl. Environ. Microbiol., 2008, vol. 74, pp. 4910\u20134922.",
+        "score": 133.94106,
+        "target_gt": {
+            "DOI": "10.1128/aem.00233-08"
+        },
+        "target_test": {
+            "DOI": "10.1128/aem.00233-08"
+        }
+    },
+    {
+        "ref_string": "Fox, C. J., Moon, S. Y., Iaria, G., & Barton, J. J. (2009). The correlates of subjective perception of identity and expression in the face network: an fMRI adaptation study. NeuroImage, 44, 569\u2013580.",
+        "score": 121.243614,
+        "target_gt": {
+            "DOI": "10.1016/j.neuroimage.2008.09.011"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.neuroimage.2008.09.011"
+        }
+    },
+    {
+        "ref_string": "Paschos NK, Abuhemoud K, Gantsos A et al (2014) Management of proximal interphalangeal joint hyperextension injuries: a randomized controlled trial. J Hand Surg [Am] 39(3):449\u2013454",
+        "score": 102.12024,
+        "target_gt": {
+            "DOI": "10.1016/j.jhsa.2013.11.038"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.jhsa.2013.11.038"
+        }
+    },
+    {
+        "ref_string": "Naughton, M., & Specht, D. (2011). Leading wisely in difficult times: Three cases of faith and business. New York: Paulist Press.",
+        "score": 31.473856,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1017/s0360966900021721"
+        }
+    },
+    {
+        "ref_string": "Ganguly, S. et al. Decitabine in patients with relapsed acute myeloid leukemia (AML) after allogeneic stem cell transplantation (allo-SCT). Ann. Hematol. 92, 549\u2013550 (2013).",
+        "score": 107.605385,
+        "target_gt": {
+            "DOI": "10.1007/s00277-012-1607-y"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00277-012-1607-y"
+        }
+    },
+    {
+        "ref_string": "Gold, R., Faust, M., & Goldestein, A. (2010). Semantic integration during metaphor comprehension in Asperger syndrome. Brain and Language, 113, 124\u2013134. doi: 10.1016/j.bandl.2010.03.002 .",
+        "score": 112.89727,
+        "target_gt": {
+            "DOI": "10.1016/j.bandl.2010.03.002"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.bandl.2010.03.002"
+        }
+    },
+    {
+        "ref_string": "Fu\u00df u.Derra: Arch. f. exper. Path.156, 64 (1930); Dtsch. Z. Chir.235, 201 (1932).",
+        "score": 38.78324,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/bf01859313"
+        }
+    },
+    {
+        "ref_string": "Lloyd S (1979) Homologous and heterologous immunization against the metacestodes ofTaenia saginata andT. taeniaeformis, in cattle and mice. Z Parasitenkd 60:87?96",
+        "score": 127.13431,
+        "target_gt": {
+            "DOI": "10.1007/bf00928974"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00928974"
+        }
+    },
+    {
+        "ref_string": "Varma, A. K. and Prasad, J., An analogue of a problem of P. Er\u00f6s and E. Feldheim on L p convergence of interpolatory processes, J. Approx. Theory, 56, 1989, 225\u2013240.",
+        "score": 88.214485,
+        "target_gt": {
+            "DOI": "10.1016/0021-9045(89)90112-3"
+        },
+        "target_test": {
+            "DOI": "10.1016/0021-9045(89)90112-3"
+        }
+    },
+    {
+        "ref_string": "C. J. van Rijsbergen. Information Retrieval. Butterworths, London, UK, second edition, 1979.",
+        "score": 50.62027,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1002/asi.4630300621"
+        }
+    },
+    {
+        "ref_string": "Iyengar, A., & Challenger, J. (1997). Improving web server performance by caching dynamic data. In Proceedings of the USENIX Symposium on Internet Technologies and Systems (pp. 49-60).",
+        "score": 46.161804,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/0-387-27727-7_5"
+        }
+    },
+    {
+        "ref_string": "Trapnell C, Williams BA, Pertea G, Mortazavi A, Kwan G, van Baren MJ, Salzberg SL, Wold BJ, Pachter L (2010) Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation. Nat Biotechnol 28:511\u2013515",
+        "score": 165.53484,
+        "target_gt": {
+            "DOI": "10.1038/nbt.1621"
+        },
+        "target_test": {
+            "DOI": "10.1038/nbt.1621"
+        }
+    },
+    {
+        "ref_string": "Stone, M. H., The theory of representation for Boolean algebras, Trans. Amer. Math. Soc., 40, 1936, 37\u2013111.",
+        "score": 71.98971,
+        "target_gt": {
+            "DOI": "10.1090/s0002-9947-1936-1501865-8"
+        },
+        "target_test": {
+            "DOI": "10.1090/s0002-9947-1936-1501865-8"
+        }
+    },
+    {
+        "ref_string": "K\u00f6hler, Kristina. \u2018\u201cYou People are Not Watching Enough Television\u201d. Nach-Denken \u00fcber Serien und Serielle Formen\u2019 in Robert Blanchet, Kristina K\u00f6hler, Tereza Smid and Julia Zutavern (eds), Serielle Formen: von den fr\u00fchen Film-Serials zu aktuellen Quality TV und Online Serien. Marburg: Sch\u00fcren, 2011, 11\u201336.",
+        "score": 76.7552,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/978-3-658-16558-1_7"
+        }
+    },
+    {
+        "ref_string": "Gao RL, Chen XH, Lin XJ, Qian XD, Xu WH, Chong BH. Effects of notoginosides on proliferation and upregulation of GR nuclear transcription factor in hematopoietic cells. Acta Pharmacol Sin 2007;28:703\u2013711.",
+        "score": 102.23476,
+        "target_gt": {
+            "DOI": "10.1111/j.1745-7254.2007.00551.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1745-7254.2007.00551.x"
+        }
+    },
+    {
+        "ref_string": "Mohapatra BR, Broersma K, Mazumder A (2007) Comparison of five Rep-PCR genomic fingerprinting methods for differentiation of fecal Escherichia coli from humans, poultry and wild birds. FEMS Microbiol Lett 277:98\u2013106",
+        "score": 128.70592,
+        "target_gt": {
+            "DOI": "10.1111/j.1574-6968.2007.00948.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1574-6968.2007.00948.x"
+        }
+    },
+    {
+        "ref_string": "Fernandez-Medarde, A., Santos, E.: Ras in cancer and developmental diseases. Genes Cancer 2, 344\u2013358 (2011)",
+        "score": 86.24798,
+        "target_gt": {
+            "DOI": "10.1177/1947601911411084"
+        },
+        "target_test": {
+            "DOI": "10.1177/1947601911411084"
+        }
+    },
+    {
+        "ref_string": "Russel WB, Saville DA, Schowalter WR (1989) Colloidal dispersions. Cambridge University Press, Cambridge, UK",
+        "score": 69.621796,
+        "target_gt": {
+            "DOI": "10.1017/cbo9780511608810"
+        },
+        "target_test": {
+            "DOI": "10.1017/cbo9780511608810"
+        }
+    },
+    {
+        "ref_string": "Tesink, C. M. J. Y., Buitelaar, J. K., Petersson, K. M., van der Gaag, R. J., Kan, C. C., Tendolkar, I., & Hagoort, P. (2009). Neural correlates of pragmatic language comprehension in autism spectrum disorders. Brain, 132, 1941\u20131952. doi: 10.1093/brain/awp103 .",
+        "score": 130.38867,
+        "target_gt": {
+            "DOI": "10.1093/brain/awp103"
+        },
+        "target_test": {
+            "DOI": "10.1093/brain/awp103"
+        }
+    },
+    {
+        "ref_string": "E. Y.-X. Chen and T. J. Marks, Chem. Rev. 100, 1391 (2000).",
+        "score": 35.19635,
+        "target_gt": {
+            "DOI": "10.1021/cr980462j"
+        },
+        "target_test": {
+            "DOI": "10.1021/cr980462j"
+        }
+    },
+    {
+        "ref_string": "Halloran, M. E., Longini, I. M. & Struchiner, C. J. Binomial and stochastic transmission models. In \u201cDesign and Analysis of Vaccine Studies, Statistics for Biology and Health\u201d (Springer., New York 2010, pp. 63\u201384).",
+        "score": 99.03707,
+        "target_gt": {
+            "DOI": "10.1007/978-0-387-68636-3_4"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-0-387-68636-3_4"
+        }
+    },
+    {
+        "ref_string": "Bishop, C. M. (2006). Pattern Recognition and Machine Learning. Springer.",
+        "score": 43.73422,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1108/03684920710743466"
+        }
+    },
+    {
+        "ref_string": "Schwyn B, Neilands JB (1987) Universal chemical assay for the detection and determination of siderophores. Anal Biochem 160:47\u201356",
+        "score": 92.31019,
+        "target_gt": {
+            "DOI": "10.1016/0003-2697(87)90612-9"
+        },
+        "target_test": {
+            "DOI": "10.1016/0003-2697(87)90612-9"
+        }
+    },
+    {
+        "ref_string": "Kuehlwein, K. T.; and Rosen, H. E. (1993)Cognitive therapies in action: Evolving innovative practiceJossey-Bass: San Francisco.",
+        "score": 47.082115,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1891/0889-8391.8.1.76"
+        }
+    },
+    {
+        "ref_string": "Sch\u00e4rf, W. (1989). The role of people's courts in transitions. In H. Corder (Ed.),Democracy and the judiciary. Cape Town: IDASA.",
+        "score": 35.660557,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1177/030913259602000414"
+        }
+    },
+    {
+        "ref_string": "P. T. Holland, in Analysis of Pesticides in Ground and Surface Water I, H.-J. Stan and W. Ebing, Eds., Chemistry of Plant Protection11, Springer-Verlag, Berlin, Heidelberg, Germany, 67 (1995).",
+        "score": 58.75243,
+        "target_gt": {
+            "DOI": "10.1007/978-3-662-03156-8"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-3-662-03156-8_1"
+        }
+    },
+    {
+        "ref_string": "Masson JP, Desmoulin JP, Charpin P, Bougon R (1976) Inorg Chem 15:2529",
+        "score": 69.64094,
+        "target_gt": {
+            "DOI": "10.1021/ic50164a042"
+        },
+        "target_test": {
+            "DOI": "10.1021/ic50164a042"
+        }
+    },
+    {
+        "ref_string": "Masuoka A.: Semisimplicity criteria for irreducible Hopf algebras in positive characteristic. Proc. Am. Math. Soc. 137(6), 1925\u20131932 (2009)",
+        "score": 100.341835,
+        "target_gt": {
+            "DOI": "10.1090/s0002-9939-09-09863-3"
+        },
+        "target_test": {
+            "DOI": "10.1090/s0002-9939-09-09863-3"
+        }
+    },
+    {
+        "ref_string": "Van Essen DC (2005) A population-average, landmark- and surface-based (PALS) atlas of human cerebral cortex. Neuroimage 28(3):635\u2013662",
+        "score": 121.402405,
+        "target_gt": {
+            "DOI": "10.1016/j.neuroimage.2005.06.058"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.neuroimage.2005.06.058"
+        }
+    },
+    {
+        "ref_string": "Martins LL, Mourato MP (2006) Effect of excess copper on tomato plants: growth parameters, enzyme activities, chlorophyll and mineral content. J Plant Nutr 29:2179\u20132198",
+        "score": 117.375015,
+        "target_gt": {
+            "DOI": "10.1080/01904160600972845"
+        },
+        "target_test": {
+            "DOI": "10.1080/01904160600972845"
+        }
+    },
+    {
+        "ref_string": "Kubota K, Kubota T, Kamei D, Murakami M, Kudo I, Aso T, Morita I: Change in prostaglandin E synthases (PGESs) in microsomal PGES-1 knockout mice in a preterm delivery model. J Endocrinol 2005, 187:339\u2013345.",
+        "score": 125.03022,
+        "target_gt": {
+            "DOI": "10.1677/joe.1.06169"
+        },
+        "target_test": {
+            "DOI": "10.1677/joe.1.06169"
+        }
+    },
+    {
+        "ref_string": "Pirildar S, Gonul AS, Taneli F, Akdeniz F (2004) Low serum levels of brain-derived neurotrophic factor in patients with schizophrenia do not elevate after antipsychotic treatment. Prog Neuropsychopharmacol Biol Psychiatry 28:709\u2013713",
+        "score": 123.56605,
+        "target_gt": {
+            "DOI": "10.1016/j.pnpbp.2004.05.008"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.pnpbp.2004.05.008"
+        }
+    },
+    {
+        "ref_string": "Khan-Malek C, Robert L, Salut R (2009) Femtosecond laser machining and lamination for large-area flexible organic microfluidic chips. Eur Appl Phys 46(1):12503\u201312508",
+        "score": 131.28215,
+        "target_gt": {
+            "DOI": "10.1051/epjap/2009027"
+        },
+        "target_test": {
+            "DOI": "10.1051/epjap/2009027"
+        }
+    },
+    {
+        "ref_string": "Song GY, et al. An MVA vaccine overcomes tolerance to human p53 in mice and humans. Cancer Immunol Immunother. 2007;56(8):1193\u2013205.",
+        "score": 76.53484,
+        "target_gt": {
+            "DOI": "10.1007/s00262-006-0270-3"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00262-006-0270-3"
+        }
+    },
+    {
+        "ref_string": "Nell, V. (1993). Structural blocks to a liberatory psychology in South Africa. In L. Nicholas (Ed.),Psychology and Oppression: Critiques and proposals. Johannesburg: Skotaville.",
+        "score": 50.75033,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2307/525048"
+        }
+    },
+    {
+        "ref_string": "ST, I, 76, 5, answer to objection 4. Twentieth-century Thomists such as Joseph Mar\u00e9chal and Joseph Donceel used passages like this to maintain that we have an innate drive to know; see Joseph F. Donceel, Natural Theology (New York: Sheed and Ward, 1962)",
+        "score": 73.58472,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1086/486291"
+        }
+    },
+    {
+        "ref_string": "McBride, Stephanie. \u2018Where the Viewer is King\u2019. Circa Art Magazine 94 (2000): 11.",
+        "score": 67.031296,
+        "target_gt": {
+            "DOI": "10.2307/25563635"
+        },
+        "target_test": {
+            "DOI": "10.2307/25563635"
+        }
+    },
+    {
+        "ref_string": "Japanese Committee on Clinical Guideline of Diagnosis and Treatment of Paget\u2019s Disease of Bone in Japan Osteoporosis Society (2005) Atlas of Paget\u2019s disease of bone (in Japanese). Osteoporosis Jpn 13(suppl)",
+        "score": 78.71415,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s00774-005-0670-z"
+        }
+    },
+    {
+        "ref_string": "Rep. Progr. Phys 2017 10.1088/1361-6633/aa8a02",
+        "score": 34.480556,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1088/1361-6633/aa7d45"
+        }
+    },
+    {
+        "ref_string": "Kadoli R, Akhtar K, Ganesan N (2008) Static analysis of functionally graded beams using higher order shear deformation theory. Appl Math Model 32(12):2509\u20132525",
+        "score": 117.84858,
+        "target_gt": {
+            "DOI": "10.1016/j.apm.2007.09.015"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.apm.2007.09.015"
+        }
+    },
+    {
+        "ref_string": "B. Li, C. Vendome, M. Linares-Vasquez, D. Poshyvanyk, and N.A. Kraft. 2016. Automatically Documenting Unit Test Cases. In Proceedings of ICST'16.",
+        "score": 99.19751,
+        "target_gt": {
+            "DOI": "10.1109/icst.2016.30"
+        },
+        "target_test": {
+            "DOI": "10.1109/icst.2016.30"
+        }
+    },
+    {
+        "ref_string": "[4] R. George, A. Bardelcik, and M.J. Worswick: J. Mater. Process. Tech., 2012, vol. 212, pp. 2386-99.",
+        "score": 48.163654,
+        "target_gt": {
+            "DOI": "10.1016/j.jmatprotec.2012.06.028"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.jmatprotec.2012.06.028"
+        }
+    },
+    {
+        "ref_string": "Lee TH, Chuang LY and Hung WC . (2000). Oncogene, 19, 3766\u20133773.",
+        "score": 52.152233,
+        "target_gt": {
+            "DOI": "10.1038/sj.onc.1203715"
+        },
+        "target_test": {
+            "DOI": "10.1038/sj.onc.1203715"
+        }
+    },
+    {
+        "ref_string": "Eddington, A.S.: New Pathways in Science. Cambridge University Press, Cambridge (1935)",
+        "score": 46.83999,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1017/s0031819100018234"
+        }
+    },
+    {
+        "ref_string": "Levron C, Ternengo S, Marchand B (2003) Ultrastructure of spermiogenesis and the spermatozoon of Helicometra fasciata (Digenea, Opecoelidae), a parasite of Labrus merula (Pisces, Teleostei). Acta Parasitol 48:255\u2013264",
+        "score": 97.08226,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s00436-004-1115-7"
+        }
+    },
+    {
+        "ref_string": "Lowe, D.: Local feature view clustering for 3d object recognition. CVPR\u00a02(1), 1682\u20131688 (2001)",
+        "score": 74.53395,
+        "target_gt": {
+            "DOI": "10.1109/cvpr.2001.990541"
+        },
+        "target_test": {
+            "DOI": "10.1109/cvpr.2001.990541"
+        }
+    },
+    {
+        "ref_string": "S Gopalakrishnan, Pump research and development: past, present, and future -an American perspective, Journal of Fluids Engineering, 121 (1999) 237\u2013247.",
+        "score": 85.94828,
+        "target_gt": {
+            "DOI": "10.1115/1.2822197"
+        },
+        "target_test": {
+            "DOI": "10.1115/1.2822197"
+        }
+    },
+    {
+        "ref_string": "Lotto, L., Dell\u2019Acqua, R., & Job, R. (2001). Le figure PD/DPSS. Misure di accordo sul nome, tipicit\u00e0, familiarit\u00e0, et\u00e0 di acquisizione e tempi di denominazione per 266 figure. Giornale italiano di Psicologia, 28, 231\u2013245.",
+        "score": 76.02493,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1484/m.gifbib-eb.4.2018012"
+        }
+    },
+    {
+        "ref_string": "Winston, J. S., O\u2019Doherty, J., & Dolan, R. J. (2003). Common and distinct neural responses during direct and incidental processing of multiple facial emotions. NeuroImage, 20, 84\u201397.",
+        "score": 118.06118,
+        "target_gt": {
+            "DOI": "10.1016/s1053-8119(03)00303-3"
+        },
+        "target_test": {
+            "DOI": "10.1016/s1053-8119(03)00303-3"
+        }
+    },
+    {
+        "ref_string": "Hitchfield, E. (1973).In search of promise. London: Longman.",
+        "score": 24.54678,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1093/sw/18.5.124"
+        }
+    },
+    {
+        "ref_string": "Ciammola A, Sassone J, Cannella M, Calza S, Poletti B, Frati L, Squitieri F, Silani V (2007) Low brain-derived neurotrophic factor (BDNF) levels in serum of Huntington\u2019s disease patients. Am J Med Genet B Neuropsychiatr Genet 144B:574\u2013577",
+        "score": 155.61707,
+        "target_gt": {
+            "DOI": "10.1002/ajmg.b.30501"
+        },
+        "target_test": {
+            "DOI": "10.1002/ajmg.b.30501"
+        }
+    },
+    {
+        "ref_string": "Karimi Khaledi M, Suda KJ, Shelton CM (2012) Tardive dyskinesia after short-term treatment with oral metoclopramide in an adolescent. Int J Clin Pharm 34:822\u2013824",
+        "score": 128.95183,
+        "target_gt": {
+            "DOI": "10.1007/s11096-012-9685-4"
+        },
+        "target_test": {
+            "DOI": "10.1007/s11096-012-9685-4"
+        }
+    },
+    {
+        "ref_string": "Mart\u00b4\u0131nez, D., Burget, L., Ferrer, L., & Scheffer, N. (2012). iVector-based prosodic system for language identification. In ICASSP.",
+        "score": 80.12031,
+        "target_gt": {
+            "DOI": "10.1109/icassp.2012.6289008"
+        },
+        "target_test": {
+            "DOI": "10.1109/icassp.2012.6289008"
+        }
+    },
+    {
+        "ref_string": "Vaughn JN, Nelson RL, Song Q, Cregan PB, Li Z (2014) The genetic architecture of seed composition in soybean is refined by Genome-Wide Association scans across multiple populations. G3-Genes Genomes. Genetics 4(11):2283\u20132294. doi: 10.1534/g3.114.013433",
+        "score": 143.39066,
+        "target_gt": {
+            "DOI": "10.1534/g3.114.013433"
+        },
+        "target_test": {
+            "DOI": "10.1534/g3.114.013433"
+        }
+    },
+    {
+        "ref_string": "Tsunoda Y, Stuenkel EL, Williams JA (1990) Oscillatory mode of calcium signaling in rat pancreatic acinar cells. Am J Physiol 258:C147\u2013C155",
+        "score": 109.658554,
+        "target_gt": {
+            "DOI": "10.1152/ajpcell.1990.258.1.c147"
+        },
+        "target_test": {
+            "DOI": "10.1152/ajpcell.1990.258.1.c147"
+        }
+    },
+    {
+        "ref_string": "Filomatori CV, Rega AF (2003) On the mechanism of activation of the plasma membrane Ca2+-ATPase by ATP and acidic phospholipids. J Biol Chem 278:22265\u201322271",
+        "score": 126.120415,
+        "target_gt": {
+            "DOI": "10.1074/jbc.m302657200"
+        },
+        "target_test": {
+            "DOI": "10.1074/jbc.m302657200"
+        }
+    },
+    {
+        "ref_string": "M. Furuki, M. Tian, Y. Sato, et al., \u201cTerahertz Demultiplexing by a Single-Shot Time-to-Space Conversion Using a Film of Squarylium Dye J Aggregates,\u201d Appl. Phys. Lett. 77(4), 472\u2013474 (2000).",
+        "score": 109.12923,
+        "target_gt": {
+            "DOI": "10.1063/1.127014"
+        },
+        "target_test": {
+            "DOI": "10.1063/1.127014"
+        }
+    },
+    {
+        "ref_string": "\n          Pritchard HW, Manger KR. \n          1998\n          . A calorimetric perspective on desiccation stress during preservation procedures with recalcitrant seeds of Quercus robur L. Cryo-Letters19 (Supplement 1), 23\u201330.",
+        "score": 44.102264,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.31274/rtd-180813-11848"
+        }
+    },
+    {
+        "ref_string": "Newell, K. M., Scully, D. M., McDonald, P. V., & Baillargeon, R. (1990). Task constraints and infant grip configurations. Developmental Psychobiology, 22(8), 817\u2013832.",
+        "score": 93.5768,
+        "target_gt": {
+            "DOI": "10.1002/dev.420220806"
+        },
+        "target_test": {
+            "DOI": "10.1002/dev.420220806"
+        }
+    },
+    {
+        "ref_string": "Rickard MD, Brumley JL (1981) Immunisation of calves againstTaenia saginata infection using antigens collected byin vitro incubation ofT. saginata oncospheres or by ultrasonic disintegration ofT. saginata andT. hydatigena oncospheres. Res Vet Sci 30:99?103",
+        "score": 84.85572,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/0014-4894(71)90067-1"
+        }
+    },
+    {
+        "ref_string": "Li S, Mingyan E, Yu B (2008) Adriamycin induces myocardium apoptosis through activation of nuclear factor kappaB in rat. Mol Biol Rep 35(4):489\u2013494. doi: 10.1007/s11033-007-9112-4",
+        "score": 96.399796,
+        "target_gt": {
+            "DOI": "10.1007/s11033-007-9112-4"
+        },
+        "target_test": {
+            "DOI": "10.1007/s11033-007-9112-4"
+        }
+    },
+    {
+        "ref_string": "Dorn, C., & Dustdar, S. (2006). Achieving Web Service Continuity in Ubiquitous Mobile Networks the SRR-WS Framework. In Proceedings of the International Workshop on Ubiquitous Mobile Information and collaboration Systems (UMICS).",
+        "score": 72.20821,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s00779-004-0329-0"
+        }
+    },
+    {
+        "ref_string": "Zhan Wenhuan, Zhu Zhaoyu, Yao Yantao, et al. 2006. Neotectonic movement recorded in coral reefs in the northwestern South China Sea. Quaternary Sciences (in Chinese), 26(1): 77\u201384",
+        "score": 58.92152,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s11434-006-9089-8"
+        }
+    },
+    {
+        "ref_string": "White JR et al. Identification of a potent, selective non-peptide CXCR2 antagonist that inhibits interleukin-8-induced neutrophil migration. J Biol Chem. 1998;273(17):10095\u20138.",
+        "score": 77.27497,
+        "target_gt": {
+            "DOI": "10.1074/jbc.273.17.10095"
+        },
+        "target_test": {
+            "DOI": "10.1074/jbc.273.17.10095"
+        }
+    },
+    {
+        "ref_string": "V. V. Shelkovnikov, T. N. Gerasimova, Z. M. Ivanova, and N. A. Orlova, \u201cPreparation and Investigation of Thin Films of Thiopyrylium Dyes with tert-Butyl Groups,\u201d Izv. Akad Nauk, Ser. Khim., No. 7, 1343\u20131348 (1998).",
+        "score": 80.618515,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/bf02495553"
+        }
+    },
+    {
+        "ref_string": "Skeggs, Beverley. Class, Self, Culture. London: Routledge, 2004.",
+        "score": 36.97008,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1177/0038038509340749"
+        }
+    },
+    {
+        "ref_string": "Li G, Nie J, Wang L, Shi F, Lyall AE, Lin W, Gilmore JH, Shen D (2014b) Mapping longitudinal hemispheric structural asymmetries of the human cerebral cortex from birth to 2\u00a0years of age. Cereb Cortex 24(5):1289\u20131300",
+        "score": 118.5408,
+        "target_gt": {
+            "DOI": ""
+        },
+        "target_test": {
+            "DOI": "10.1093/cercor/bhs413"
+        }
+    },
+    {
+        "ref_string": "Warren , S. G. C. J. Hahn J. London R. M. Chervin R. L. Jenne Global distribution of total cloud cover and cloud type amounts over the ocean Boulder, Colorado 1988",
+        "score": 120.879974,
+        "target_gt": {
+            "DOI": "10.2172/5415329"
+        },
+        "target_test": {
+            "DOI": "10.2172/5415329"
+        }
+    },
+    {
+        "ref_string": "Smith, L. B. (2013). It\u2019s all connected: Pathways in visual object recognition and early noun learning. American Psychologist, 68(8), 618\u2013629.",
+        "score": 117.06563,
+        "target_gt": {
+            "DOI": "10.1037/a0034185"
+        },
+        "target_test": {
+            "DOI": "10.1037/a0034185"
+        }
+    },
+    {
+        "ref_string": "Brintanja R, Selten FM (2014) Future increases in Arctic precipitation linked to local evaporation and sea ice retreat. Nature 509:479\u2013482",
+        "score": 103.74507,
+        "target_gt": {
+            "DOI": "10.1038/nature13259"
+        },
+        "target_test": {
+            "DOI": "10.1038/nature13259"
+        }
+    },
+    {
+        "ref_string": "Giunta G, Belouettar S, Carrera E (2010) Analysis of FGM beams by means of classical and advanced theories. Mech Adv Mat Struct 17(8):622\u2013635",
+        "score": 96.02038,
+        "target_gt": {
+            "DOI": "10.1080/15376494.2010.518930"
+        },
+        "target_test": {
+            "DOI": "10.1080/15376494.2010.518930"
+        }
+    },
+    {
+        "ref_string": "K. H. Brodersen, C. S. Ong, K. E. Stephan, and J. M. Buhmann. The balanced accuracy and its posterior distribution. In Proceedings of the 20th International Conference on Pattern Recognition (ICPR 2010), pages 3121--3124, Istanbul, TR, 2010.",
+        "score": 110.88701,
+        "target_gt": {
+            "DOI": "10.1109/icpr.2010.764"
+        },
+        "target_test": {
+            "DOI": "10.1109/icpr.2010.764"
+        }
+    },
+    {
+        "ref_string": "Sutherland HD: Cricopharyngeal achalasia. J Thocar Cardiovasc Surg 43:114?126, 1962",
+        "score": 29.669575,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1177/0194599812451438a113"
+        }
+    },
+    {
+        "ref_string": "J. Zhang, H. Zhu, C. Yang, Y. Li and H. Wei, Multiobjective shape optimization of helico-axial multiphase pump impeller based on NSGA-II and ANN, Energy Conversion and Management, 52 (1) (2011) 538\u2013546.",
+        "score": 111.818985,
+        "target_gt": {
+            "DOI": "10.1016/j.enconman.2010.07.029"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.enconman.2010.07.029"
+        }
+    },
+    {
+        "ref_string": "Palermo, R., & Rhodes, G. (2007). Are you always on my mind? A review of how face perception and attention interact. Neuropsychologia, 45, 75\u201392.",
+        "score": 107.10809,
+        "target_gt": {
+            "DOI": "10.1016/j.neuropsychologia.2006.04.025"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.neuropsychologia.2006.04.025"
+        }
+    },
+    {
+        "ref_string": "Albers AE, et al. T cell-tumor interaction directs the development of immunotherapies in head and neck cancer. Clin Dev Immunol. 2010;2010:236378.",
+        "score": 56.440636,
+        "target_gt": {
+            "DOI": "10.1155/2010/236378"
+        },
+        "target_test": {
+            "DOI": "10.1155/2010/236378"
+        }
+    },
+    {
+        "ref_string": "Nelson, S.D., Seybold, P.G.: Molecular structure\u2013property relationships for alkenes. J. Mol. Graph. Model. 20, 36\u201353 (2001)",
+        "score": 62.879578,
+        "target_gt": {
+            "DOI": "10.1016/s1093-3263(01)00099-7"
+        },
+        "target_test": {
+            "DOI": "10.1016/s1093-3263(01)00099-7"
+        }
+    },
+    {
+        "ref_string": "Wang , J. C. K. H. Tsai 2003 \u2018Productivity Growth and R&D Expenditure in Taiwan's Manufacturing Firms\u2019 National Bureau of Economic Research",
+        "score": 56.66195,
+        "target_gt": {
+            "DOI": "10.3386/w9724"
+        },
+        "target_test": {
+            "DOI": "10.3386/w9724"
+        }
+    },
+    {
+        "ref_string": "Quoted in Ben Pimlott, Hugh Dalton (London: Macmillan, 1985), p. 315.",
+        "score": 49.472343,
+        "target_gt": {
+            "DOI": "10.1086/ahr/93.2.422"
+        },
+        "target_test": {
+            "DOI": "10.1086/ahr/93.2.422"
+        }
+    },
+    {
+        "ref_string": "Miyazaki M (1984) Studies of the nature of tubular structures which appear in herpes simplex virus type 2-infected cells: studies with temperature-sensitive mutants. Fukuoka Acta Medika 75: 683?699 (in Japanese)",
+        "score": 49.18087,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1099/0022-1317-65-1-215"
+        }
+    },
+    {
+        "ref_string": "Wautier, J.L., Guillausseau, P.J.: Advanced glycation end products, their receptors and diabetic angiopathy. Diabetes Metab. 27, 535\u2013542 (2001)",
+        "score": 68.90582,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1046/j.1529-8027.2002.02011_16.x"
+        }
+    },
+    {
+        "ref_string": "J.S. Kajigaeshi, T. Nakagawa, N. Nagasaki, Synthesis (1985) 674.",
+        "score": 47.109608,
+        "target_gt": {
+            "DOI": "10.1055/s-1985-31305"
+        },
+        "target_test": {
+            "DOI": "10.1055/s-1985-31305"
+        }
+    },
+    {
+        "ref_string": "Zhang YK, Lee TS, Yang WT (1999) A pseudobond approach to combining quantum mechanical and molecular mechanical methods. J Chem Phys 110(1):46",
+        "score": 78.059494,
+        "target_gt": {
+            "DOI": "10.1063/1.478083"
+        },
+        "target_test": {
+            "DOI": "10.1063/1.478083"
+        }
+    },
+    {
+        "ref_string": "Evans DM, Craven JL, Murphy F, Cleary BK (1978) Comparison of \u201cearly gastric cancer\u201d in Britain and Japan. Gut 19:1\u20139",
+        "score": 77.93995,
+        "target_gt": {
+            "DOI": "10.1136/gut.19.1.1"
+        },
+        "target_test": {
+            "DOI": "10.1136/gut.19.1.1"
+        }
+    },
+    {
+        "ref_string": "Yoon J, Yoon E and Lee B, Scripta Mater 57 (2007) 25.",
+        "score": 44.174587,
+        "target_gt": {
+            "DOI": "10.1016/j.scriptamat.2007.03.025"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.scriptamat.2007.03.025"
+        }
+    },
+    {
+        "ref_string": "\u2014 1980b. \u201cThe Factorial Validity of a Modified Rokeach Value Survey from Four Diverse Samples.\u201dEducational and Psychological Measurements 40: 1073\u201379.",
+        "score": 86.22979,
+        "target_gt": {
+            "DOI": "10.1177/001316448004000435"
+        },
+        "target_test": {
+            "DOI": "10.1177/001316448004000435"
+        }
+    },
+    {
+        "ref_string": "Xu, G. Q., The average errors for Lagrange interpolation and Hermite-Fej\u00e9r interpolation on the Wiener space (in Chinese), Acta Math. Sinica, 50(6), 2007, 1281\u20131296.",
+        "score": 75.717384,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1360/012013-201"
+        }
+    },
+    {
+        "ref_string": "Like AA et al. Spontaneous diabetes mellitus: reversal and prevention in the BB/W rat with antiserum to rat lymphocytes. Science. 1979;206(4425):1421\u20133.",
+        "score": 105.92332,
+        "target_gt": {
+            "DOI": "10.1126/science.388619"
+        },
+        "target_test": {
+            "DOI": "10.1126/science.388619"
+        }
+    },
+    {
+        "ref_string": "Schmulling T, Schell J, Spena A (1989) Promoters of the rolA, B and C genes of Agrobacterium rhizogenes are differentially regulated in transgenic plants. Plant Cell 1:665\u2013670",
+        "score": 124.52744,
+        "target_gt": {
+            "DOI": "10.2307/3868956"
+        },
+        "target_test": {
+            "DOI": "10.2307/3868956"
+        }
+    },
+    {
+        "ref_string": "Caron, A. J., Butler, S. C., & Brooks, R. (2002). Gaze following at 12 and 14 months: Do eyes matter. British Journal of Developmental Psychology, 20, 225\u2013239.",
+        "score": 99.897385,
+        "target_gt": {
+            "DOI": "10.1348/026151002166424"
+        },
+        "target_test": {
+            "DOI": "10.1348/026151002166424"
+        }
+    },
+    {
+        "ref_string": "Yong Lei and James H Andrews. 2005. Minimization of randomized unit test cases. In Software Reliability Engineering, 2005. ISSRE 2005. 16th IEEE International Symposium on. IEEE, 10--pp.",
+        "score": 111.65258,
+        "target_gt": {
+            "DOI": "10.1109/issre.2005.28"
+        },
+        "target_test": {
+            "DOI": "10.1109/issre.2005.28"
+        }
+    },
+    {
+        "ref_string": "Sun SH, Murray CB (1999) Synthesis of monodisperse cobalt nanocrystals and their assembly into magnetic superlattices (invited). J Appl Phys 85(8):4325\u20134330",
+        "score": 90.3371,
+        "target_gt": {
+            "DOI": "10.1063/1.370357"
+        },
+        "target_test": {
+            "DOI": "10.1063/1.370357"
+        }
+    },
+    {
+        "ref_string": "M\u00fcller, A., Tinschert, K., Hofmann, G., Salzborn, E., Dunn, G.H., Younger, S.M., Pindzola, M.S.: Phys. Rev. A40, 3584 (1989)",
+        "score": 81.23973,
+        "target_gt": {
+            "DOI": "10.1103/physreva.40.3584"
+        },
+        "target_test": {
+            "DOI": "10.1103/physreva.40.3584"
+        }
+    },
+    {
+        "ref_string": "Yim HB, Jacobson BC, Saltzman JR, Johannes RS, Bounds BC, Lee JH, et al. Clinical outcome of the use of enteral stents for palliation of patients with malignant upper GI obstruction. Gastrointest Endosc. 2001;53:329\u201332.",
+        "score": 102.10617,
+        "target_gt": {
+            "DOI": "10.1016/s0016-5107(01)70407-5"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0016-5107(01)70407-5"
+        }
+    },
+    {
+        "ref_string": "H\u00e4usser M and Roth A. Estimating the time course of the excitatory synaptic conductance in neocortical pyramidal cells using a novel voltage jump method. J Neurosci 17: 7606\u20137625, 1997.",
+        "score": 135.13496,
+        "target_gt": {
+            "DOI": "10.1523/jneurosci.17-20-07606.1997"
+        },
+        "target_test": {
+            "DOI": "10.1523/jneurosci.17-20-07606.1997"
+        }
+    },
+    {
+        "ref_string": "Bligh E, Dyer W (1959) A rapid method of total lipid extraction and purification. Can J Biochem Physiol 37:911\u2013918",
+        "score": 85.80043,
+        "target_gt": {
+            "DOI": "10.1139/y59-099"
+        },
+        "target_test": {
+            "DOI": "10.1139/y59-099"
+        }
+    },
+    {
+        "ref_string": "Sindhwani, V., Keerthi, S., Chapelle, O.: Deterministic annealing for semi-supervised kernel machines. In: Proc. Int. Conf. on Machine Learning, pp. 841\u2013848 (2006)",
+        "score": 104.42495,
+        "target_gt": {
+            "DOI": "10.1145/1143844.1143950"
+        },
+        "target_test": {
+            "DOI": "10.1145/1143844.1143950"
+        }
+    },
+    {
+        "ref_string": "Scanlan AT, Dascombe BJ, Reaburn PRJ, Osborne M. The effects of wearing lower-body compression garments during endurance cycling. Int J Sports Physiol Perform. 2008;3:424\u201338.",
+        "score": 94.9767,
+        "target_gt": {
+            "DOI": "10.1123/ijspp.3.4.424"
+        },
+        "target_test": {
+            "DOI": "10.1123/ijspp.3.4.424"
+        }
+    },
+    {
+        "ref_string": "Maxwell, G. (1962), \u201cThe Ontological Status of Theoretical Entities\u201d, Minnesota Studies in the Philosophy of Science, Vol. III.",
+        "score": 35.990345,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/978-94-010-1449-6_32"
+        }
+    },
+    {
+        "ref_string": "The community summary report on trends and sources of zoonoses, zoonotic agents and food-borne outbreaks in the European Union in 2008. EFSA J 8:1496 (2010)",
+        "score": 118.86424,
+        "target_gt": {
+            "DOI": "10.2903/j.efsa.2010.1496"
+        },
+        "target_test": {
+            "DOI": "10.2903/j.efsa.2010.1496"
+        }
+    },
+    {
+        "ref_string": "K. Musikabhumma, T. Uozumi, T. Sano, and K. Soga, Macromol. Rapid Commun. 21, 675 (2000).",
+        "score": 60.47939,
+        "target_gt": {
+            "DOI": "10.1002/1521-3927(20000601)21:10<675::aid-marc675>3.0.co;2-i"
+        },
+        "target_test": {
+            "DOI": "10.1002/1521-3927(20000601)21:10<675::aid-marc675>3.0.co;2-i"
+        }
+    },
+    {
+        "ref_string": "Frisch MJ, Trucks GW, Schlegel HB, Scuseria GE, Robb MA, Cheeseman JR, Scalmani G, Barone V, Mennucci B, Petersson GA, Nakatsuji H, Caricato M, Li X, Hratchian HP, Izmaylov AF, Bloino J, Zheng G, Sonnenberg JL, Hada M, Ehara M, Toyota K, Fukuda R, Hasegawa J, Ishida M, Nakajima T, Honda Y, Kitao O, Nakai H, Vreven T, Montgomery JA, Peralta JrJE, Ogliaro F, Bearpark M, Heyd JJ, Brothers E, Kudin KN, Staroverov VN, Keith T, Kobayashi R, Normand J, Raghavachari K, Rendell A, Burant JC, Iyengar SS, Tomasi J, Cossi M, Rega N, Millam JM, Klene M, Knox JE, Cross JB, Bakken V, Adamo C, Jaramillo J, Gomperts R, Stratmann RE, Yazyev O, Austin AJ, Cammi R, Pomelli C, Ochterski JW, Martin RL, Morokuma K, Zakrzewski VG, Voth GA, Salvador P, Dannenberg JJ, Dapprich S, Daniels AD, Farkas O, Foresman JB, Ortiz JV, Cioslowski J, Fox DJ (2010) Gaussian 09 Revision B01. Gaussian Inc, Wallingford",
+        "score": 74.98102,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1002/9780470515235.ch1"
+        }
+    },
+    {
+        "ref_string": "Quoted in R. Petrow, The Bitter Years (London: Purnell, 1974), p. 124.",
+        "score": 21.913567,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.17660/actahortic.1974.45"
+        }
+    },
+    {
+        "ref_string": "Hrob\u00e1rik P, Reviakine R, Arbuznikov AV, Malkina OL, Malkin VG, K\u00f6hler FH, Kaupp M (2007) J Chem Phys 126:024107",
+        "score": 78.806885,
+        "target_gt": {
+            "DOI": "10.1063/1.2423003"
+        },
+        "target_test": {
+            "DOI": "10.1063/1.2423003"
+        }
+    },
+    {
+        "ref_string": "Frederick, W. C., and J. Weber. 1987. \u201cThe Values of Corporate Managers and Their Critics: An Empirical Description and Normative Implications.\u201dResearch in Corporate Social Performance and Policy: Empirical Studies of Business Ethics and Values. Ed. W. C. Frederick. Greenwich, CT: JAI Press. 131\u201352.",
+        "score": 58.024734,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.5840/ruffinoup199553"
+        }
+    },
+    {
+        "ref_string": "Gabriele Bavota, Abdallah Qusef, Rocco Oliveto, Andrea De Lucia, and David Binkley. 2012. An empirical analysis of the distribution of unit test smells and their impact on software maintenance. In ICSM'12 28th. IEEE, 56--65.",
+        "score": 140.1243,
+        "target_gt": {
+            "DOI": "10.1109/icsm.2012.6405253"
+        },
+        "target_test": {
+            "DOI": "10.1109/icsm.2012.6405253"
+        }
+    },
+    {
+        "ref_string": "Bijlsma AY, Pasma JH, Lambers D, et al. Muscle strength rather than muscle mass is associated with standing balance in elderly outpatients. J Am Med Dir Assoc. 2013;14:493\u20138.",
+        "score": 93.83524,
+        "target_gt": {
+            "DOI": "10.1016/j.jamda.2013.02.001"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.jamda.2013.02.001"
+        }
+    },
+    {
+        "ref_string": "D. Cheng, Z. Q. Yao, Y. B. Xue and H. Shen, Numerical study on seismic response of the reactor coolant pump in Advanced Passive Pressurized Water Reactor, Nuclear Engineering and Design, 278 (2014) 39\u201349.",
+        "score": 89.924194,
+        "target_gt": {
+            "DOI": "10.1016/j.nucengdes.2014.07.004"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.nucengdes.2014.07.004"
+        }
+    },
+    {
+        "ref_string": "Baumeister, R. F., Bratslavsky, E., Muraven, M., & Tice, D. M. (1998). Ego depletion: Is the active self a limited resource? Journal of Personality and Social Psychology, 74, 1252\u20131265.",
+        "score": 125.46696,
+        "target_gt": {
+            "DOI": "10.1037/0022-3514.74.5.1252"
+        },
+        "target_test": {
+            "DOI": "10.1037/0022-3514.74.5.1252"
+        }
+    },
+    {
+        "ref_string": "Toyooka K, Asama K, Watanabe Y, Muratake T, Takahashi M, Someya T, Nawa H (2002) Decreased levels of brain-derived neurotrophic factor in serum of chronic schizophrenic patients. Psychiatry Res 110:249\u2013257",
+        "score": 148.91162,
+        "target_gt": {
+            "DOI": "10.1016/s0165-1781(02)00127-0"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0165-1781(02)00127-0"
+        }
+    },
+    {
+        "ref_string": "Laemmli UK (1970) Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature 227:680\u2013685",
+        "score": 107.040634,
+        "target_gt": {
+            "DOI": "10.1038/227680a0"
+        },
+        "target_test": {
+            "DOI": "10.1038/227680a0"
+        }
+    },
+    {
+        "ref_string": "R. J. Holmes and S. R. Forrest, \u201cStrong Exciton-Photon Coupling in Organic Materials (Review),\u201d Organic Electronics, 8, 77\u201393 (2007).",
+        "score": 91.022995,
+        "target_gt": {
+            "DOI": "10.1016/j.orgel.2006.05.005"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.orgel.2006.05.005"
+        }
+    },
+    {
+        "ref_string": "Landi F, Liperoti R, Russo A, et al. Sarcopenia as a risk factor for falls in elderly individuals: Results from the ilSIRENTE study. Clin Nutr. 2012;31:652\u20138.",
+        "score": 84.000305,
+        "target_gt": {
+            "DOI": "10.1016/j.clnu.2012.02.007"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.clnu.2012.02.007"
+        }
+    },
+    {
+        "ref_string": "Moores, D.L., Nussbaumer, H.: J. Phys. B3, 161 (1970)",
+        "score": 36.603302,
+        "target_gt": {
+            "DOI": "10.1088/0022-3700/3/2/010"
+        },
+        "target_test": {
+            "DOI": "10.1088/0022-3700/3/2/010"
+        }
+    },
+    {
+        "ref_string": "S.D. Mathur, The Fuzzball proposal for black holes: An Elementary review, Fortsch. Phys. 53 (2005) 793 [ hep-th/0502050 ] [ INSPIRE ].",
+        "score": 82.03353,
+        "target_gt": {
+            "DOI": "10.1002/prop.200410203"
+        },
+        "target_test": {
+            "DOI": "10.1002/prop.200410203"
+        }
+    },
+    {
+        "ref_string": "Rutter GA, da Silva X, Leclerc I (2003) Roles of 5\u2032-AMP-activated protein kinase (AMPK) in mammalian glucose homoeostasis. Biochem J 375:1\u201316",
+        "score": 107.945915,
+        "target_gt": {
+            "DOI": "10.1042/bj20030048"
+        },
+        "target_test": {
+            "DOI": "10.1042/bj20030048"
+        }
+    },
+    {
+        "ref_string": "Worek F, Wille T, Koller M, Thiermann H (2013) Chem-Biol Interact 203:77\u201380",
+        "score": 39.115147,
+        "target_gt": {
+            "DOI": "10.1016/j.cbi.2012.07.003"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.toxlet.2012.04.018"
+        }
+    },
+    {
+        "ref_string": "Lazdunski M, Frelin C, Vigne P (1985) The sodium/hydrogen exchange system in cardiac cells: its biochemical and pharmacological properties and its role in regulating internal concentrations of sodium and internal pH. J Mol Cell Cardiol 17:1029?1042",
+        "score": 127.77304,
+        "target_gt": {
+            "DOI": "10.1016/s0022-2828(85)80119-x"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0022-2828(85)80119-x"
+        }
+    },
+    {
+        "ref_string": "Gorlin, Y.; Jaramillo, T. F. A bifunctional nonprecious metal catalyst for oxygen reduction and water oxidation. J. Am. Chem. Soc.\n2010, 132, 13612\u201313614.",
+        "score": 113.58612,
+        "target_gt": {
+            "DOI": "10.1021/ja104587v"
+        },
+        "target_test": {
+            "DOI": "10.1021/ja104587v"
+        }
+    },
+    {
+        "ref_string": "M. Chaytor, \u2018Household and kinship: Ryton in the late 16th and early 17th centuries\u2019, History Workshop journal, 10 (1980), p. 26.",
+        "score": 107.671326,
+        "target_gt": {
+            "DOI": "10.1093/hwj/10.1.25"
+        },
+        "target_test": {
+            "DOI": "10.1093/hwj/10.1.25"
+        }
+    },
+    {
+        "ref_string": "Margolis RU: Acid mucopolysaccharides and properties of bovine whole brain, white matter and myelin. Biochim Biophys Acta 141: 91?102, 1967",
+        "score": 86.110634,
+        "target_gt": {
+            "DOI": "10.1016/0304-4165(67)90248-6"
+        },
+        "target_test": {
+            "DOI": "10.1016/0304-4165(67)90248-6"
+        }
+    },
+    {
+        "ref_string": "Cao F, Kim DP, Li X, Feng C, Song Y (2002) Synthesis of polyaluminocarbosilane and reaction mechanism study. J Appl Polym Sci 85:2787\u20132792",
+        "score": 95.591606,
+        "target_gt": {
+            "DOI": "10.1002/app.10781"
+        },
+        "target_test": {
+            "DOI": "10.1002/app.10781"
+        }
+    },
+    {
+        "ref_string": "Marti, K., Eberhardt, P., Geiss, J., Spallation, fission, and neutron capture anomalies in meteoritic krypton and xenon, Z. Naturforsch, 1996, 21a: 398\u2013413.",
+        "score": 106.487404,
+        "target_gt": {
+            "DOI": "10.1515/zna-1966-0405"
+        },
+        "target_test": {
+            "DOI": "10.1515/zna-1966-0405"
+        }
+    },
+    {
+        "ref_string": "Bacher G, Szymanski WW, Kaufman SL, Zollner P, Blaas D, Allmaier G (2001) Charge-reduced nano electrospray ionization combined with differential mobility analysis of peptides, proteins, glycoproteins, noncovalent protein complexes and viruses. J Mass Spectrom 36(9):1038\u20131052",
+        "score": 159.10583,
+        "target_gt": {
+            "DOI": "10.1002/jms.208"
+        },
+        "target_test": {
+            "DOI": "10.1002/jms.208"
+        }
+    },
+    {
+        "ref_string": "Gobbini, M. I., & Haxby, J. V. (2007). Neural systems for recognition of familiar faces. Neuropsychologia, 45, 32\u201341.",
+        "score": 93.44814,
+        "target_gt": {
+            "DOI": "10.1016/j.neuropsychologia.2006.04.015"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.neuropsychologia.2006.04.015"
+        }
+    },
+    {
+        "ref_string": "John P. O\u2019Callaghan, Thomist Realism and the Linguistic Turn: Toward a More Perfect Form of Existence (Notre Dame, IN: University of Notre Dame Press, 2003)",
+        "score": 115.5864,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1177/004056390506600134"
+        }
+    },
+    {
+        "ref_string": "Fornas, J. (2002). Digital borderlands: Cultural studies of identity and interactivity on the Internet. (Digital formations, vol. 6). New York, NY: Peter Lang.",
+        "score": 58.34999,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.22230/cjc.2004v29n2a1440"
+        }
+    },
+    {
+        "ref_string": "The Organization of Economic Co-operation and Development (OECD): The OECD guideline for testing of chemicals: 420 Acute oral toxicity. 2001, Paris: OECD",
+        "score": 66.756195,
+        "target_gt": {
+            "DOI": "10.1787/9789264070943-en"
+        },
+        "target_test": {
+            "DOI": "10.1787/9789264070943-en"
+        }
+    },
+    {
+        "ref_string": "Umemori, F., Konda, K., Yokomori, R., Inoue, K.: Design and implementation of bytecode-based java slicing system. In: Source Code Analysis and Manipulation, 2003. Proceedings. Third IEEE International Workshop on, pp. 108\u2013117. IEEE (2003)",
+        "score": 125.91667,
+        "target_gt": {
+            "DOI": "10.1109/scam.2003.1238037"
+        },
+        "target_test": {
+            "DOI": "10.1109/scam.2003.1238037"
+        }
+    },
+    {
+        "ref_string": "Russo AT, White MA, Watowich SJ (2006) The crystal structure of the Venezuelan equine encephalitis alphavirus nsP2 protease. Structure 14(9):1449\u20131458",
+        "score": 119.89984,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2210/pdb2hwk/pdb"
+        }
+    },
+    {
+        "ref_string": "Diehl JA, Cheng M, Roussel MF and Sherr CJ . (1998). Genes Dev., 12, 3499\u20133511.",
+        "score": 64.86628,
+        "target_gt": {
+            "DOI": "10.1101/gad.12.22.3499"
+        },
+        "target_test": {
+            "DOI": "10.1101/gad.12.22.3499"
+        }
+    },
+    {
+        "ref_string": "Ward, R.J., Zhang, Y., and Crichton, R.R., J. Inorg. Biochem., 2001, vol. 87, nos. 1\u20132, p. 9.",
+        "score": 29.291794,
+        "target_gt": {
+            "DOI": "10.1016/s0162-0134(01)00308-7"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0162-0134(01)00308-7"
+        }
+    },
+    {
+        "ref_string": "S. Bogdanov, Nikolic, N. Trinajstic, J. Math. Chem. 3, 299 (1989)",
+        "score": 47.62411,
+        "target_gt": {
+            "DOI": "10.1007/bf01169597"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf01169597"
+        }
+    },
+    {
+        "ref_string": "Blumenthal JD, Zijdenbos A, Molloy E, Giedd JN (2002) Motion artifact in magnetic resonance imaging: implications for automated analysis. Neuroimage 16(1):89\u201392",
+        "score": 111.19295,
+        "target_gt": {
+            "DOI": "10.1006/nimg.2002.1076"
+        },
+        "target_test": {
+            "DOI": "10.1006/nimg.2002.1076"
+        }
+    },
+    {
+        "ref_string": "Herz RK, Gillespie WD, Petersen EE, Somorjai GA (1981) J Catal 67:371",
+        "score": 30.88639,
+        "target_gt": {
+            "DOI": "10.1002/chin.198142075"
+        },
+        "target_test": {
+            "DOI": "10.1002/chin.198142075"
+        }
+    },
+    {
+        "ref_string": "Stern MD, Silverman HS, Houser SR, Josephson RA, Capogrossi MC, Nichols CG, Lederer WJ, Lakatta EG (1988) Anoxic contractile failure in rat heart myocytes is caused by failure of intracellular calcium release due to alteration of the action potential. Proc Natl Acad Sci USA 85:6954?6958",
+        "score": 133.03215,
+        "target_gt": {
+            "DOI": "10.1073/pnas.85.18.6954"
+        },
+        "target_test": {
+            "DOI": "10.1073/pnas.85.18.6954"
+        }
+    },
+    {
+        "ref_string": "Jos&#233; Miguel Rojas, Jos&#233; Campos, Mattia Vivanti, Gordon Fraser, and Andrea Arcuri. 2015. Combining multiple coverage criteria in search-based unit test generation. In International Symposium on Search Based Software Engineering. Springer, 93--108.",
+        "score": 131.00612,
+        "target_gt": {
+            "DOI": "10.1007/978-3-319-22183-0_7"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-3-319-22183-0_7"
+        }
+    },
+    {
+        "ref_string": "I. Renge and U. P. Wild, \u201cSolvent, Temperature, and Excitonic Effects in the Optical Spectra of Pseudoisocyanine Monomer and J-Aggregates,\u201d J. Phys. Chem. A 101, 7977\u20137988 (1997).",
+        "score": 114.94631,
+        "target_gt": {
+            "DOI": "10.1021/jp971371d"
+        },
+        "target_test": {
+            "DOI": "10.1021/jp971371d"
+        }
+    },
+    {
+        "ref_string": "Frolov I et al (2009) Random insertion mutagenesis of sindbis virus nonstructural protein 2 and selection of variants incapable of downregulating cellular transcription. J Virol 83(18):9031\u20139044",
+        "score": 105.83192,
+        "target_gt": {
+            "DOI": "10.1128/jvi.00850-09"
+        },
+        "target_test": {
+            "DOI": "10.1128/jvi.00850-09"
+        }
+    },
+    {
+        "ref_string": "Estey, E. H. Epigenetics in clinical practice: the examples of azacitidine and decitabine in myelodysplasia and acute myeloid leukemia. Leukemia 27, 1803\u20131812 (2013).",
+        "score": 117.98752,
+        "target_gt": {
+            "DOI": "10.1038/leu.2013.173"
+        },
+        "target_test": {
+            "DOI": "10.1038/leu.2013.173"
+        }
+    },
+    {
+        "ref_string": "Gartner TK, Podleski TR: Evidence that a membrane bound lectin mediates the fusion of L6 myoblasts. Biochem Biophys Res Comm 70: 1142?1149, 1975",
+        "score": 71.0948,
+        "target_gt": {
+            "DOI": "10.1016/0006-291x(75)90770-6"
+        },
+        "target_test": {
+            "DOI": "10.1016/0006-291x(75)90770-6"
+        }
+    },
+    {
+        "ref_string": "Raphael Pham, Yauheni Stoliar, and Kurt Schneider. Automatically recommending test code examples to inexperienced developers. In FSE'15. ACM, 890--893.",
+        "score": 92.7218,
+        "target_gt": {
+            "DOI": "10.1145/2786805.2803202"
+        },
+        "target_test": {
+            "DOI": "10.1145/2786805.2803202"
+        }
+    },
+    {
+        "ref_string": "Duijndam WAL, Smeulders AWM, van Duijn P, Verweij AC (1980) Optical errors in scanning stage absorbance cytophotometry. I Procedures for correcting apparent integrated absorbance values for distributional, glare and diffraction errors. J Histochem Cytochem 28:388\u2013394",
+        "score": 174.84673,
+        "target_gt": {
+            "DOI": "10.1177/28.5.6991589"
+        },
+        "target_test": {
+            "DOI": "10.1177/28.5.6991589"
+        }
+    },
+    {
+        "ref_string": "T. N. Gerasimova and V. V. Shelkovnikov, \u201cOrganic Dyes for Constant Memory Optical Discs,\u201d Usp. Khim. 61(1), 102\u2013123 (1992) [Phys. Chem. Rev. 61, 55\u201366 (1992)].",
+        "score": 94.3916,
+        "target_gt": {
+            "DOI": "10.1070/rc1992v061n01abeh000931"
+        },
+        "target_test": {
+            "DOI": "10.1070/rc1992v061n01abeh000931"
+        }
+    },
+    {
+        "ref_string": "Gellatly, A. R. H., Cole, G. G., Fox, C., & Johnson, M. (2003). Motor inhibition may determine the relative duration of reaction times to abrupt onset displays. Perception, 32, 1377\u20131391.",
+        "score": 94.84242,
+        "target_gt": {
+            "DOI": "10.1068/p3361"
+        },
+        "target_test": {
+            "DOI": "10.1068/p3361"
+        }
+    },
+    {
+        "ref_string": "Abela, A. V. (2001). Profit and more: Catholic social teaching and the purpose of the firm. Journal of Business Ethics, 31(2), 107\u2013116.",
+        "score": 55.091946,
+        "target_gt": {
+            "DOI": "10.1023/a:1010746913619"
+        },
+        "target_test": {
+            "DOI": "10.1023/a:1010746913619"
+        }
+    },
+    {
+        "ref_string": "Zhou Di, Wu Shimin, Chen Hanzong. 2005. Some remarks on the tectonic evolution of Nansha and its adjacent regions in southern South China Sea. Geotectonica et Metallogenia (in Chinese), 29(3): 339\u2013345",
+        "score": 45.015114,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s11001-016-9290-3"
+        }
+    },
+    {
+        "ref_string": "Harris RK, Becker ED, Cabral De Menezes SM, Granger P, Hoffman RE, Zilm KW (2008) Pure Appl Chem 80:59",
+        "score": 61.746,
+        "target_gt": {
+            "DOI": "10.1351/pac200880010059"
+        },
+        "target_test": {
+            "DOI": "10.1351/pac200880010059"
+        }
+    },
+    {
+        "ref_string": "Raraty M, Ward J, Erdemli G, Vaillant C, Neoptolemos JP, Sutton R, Petersen OH (2000) Calcium-dependent enzyme activation and vacuole formation in the apical granular region of pancreatic acinar cells. Proc Natl Acad Sci USA 97:13126\u201313131",
+        "score": 137.50082,
+        "target_gt": {
+            "DOI": "10.1073/pnas.97.24.13126"
+        },
+        "target_test": {
+            "DOI": "10.1073/pnas.97.24.13126"
+        }
+    },
+    {
+        "ref_string": "Sassa K, Yueping Y (2010) Early warning of landslides. Geological Publishing House, 166 p",
+        "score": 55.62445,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/978-3-540-69970-5_20"
+        }
+    },
+    {
+        "ref_string": "Colquhoun D, Neher E, Reuter H, Stevens CF (1981) Inward current channels activated by intracellular Ca in cultured cardiac cells. Nature 294:752?754",
+        "score": 119.68278,
+        "target_gt": {
+            "DOI": "10.1038/294752a0"
+        },
+        "target_test": {
+            "DOI": "10.1038/294752a0"
+        }
+    },
+    {
+        "ref_string": "Ratcliffe, M. (2008). Feelings of Being. Oxford: Oxford University Press.",
+        "score": 37.98486,
+        "target_gt": {
+            "DOI": "10.1093/med/9780199206469.001.0001"
+        },
+        "target_test": {
+            "DOI": "10.1093/med/9780199206469.003.0002"
+        }
+    },
+    {
+        "ref_string": "Loeb L, Sanford PB, Cochran SD (1964) Soil removal as a rate process. J Am Oil Chem Soc 41:120\u2013124",
+        "score": 85.90142,
+        "target_gt": {
+            "DOI": "10.1007/bf02673487"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf02673487"
+        }
+    },
+    {
+        "ref_string": "Liang M, Hole D, Wu J, Blake T, Wu Y (2012) Expression and functional analysis of NUCLEAR FACTOR-Y, subunit B genes in barley. Planta 235:779\u2013791",
+        "score": 105.416145,
+        "target_gt": {
+            "DOI": "10.1007/s00425-011-1539-0"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00425-011-1539-0"
+        }
+    },
+    {
+        "ref_string": "Wang, D., Chen, Y., Li, Z. et al., Introduction of Chinese Meteorites (in Chinese), Beijing: Science Press, 1993, 505.",
+        "score": 33.999027,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/bf02909776"
+        }
+    },
+    {
+        "ref_string": "Verlaan S, Van Ancum JM, Pierik VD, et al. Muscle Measures and Nutritional Status at Hospital Admission Predict Survival and Independent Living of Older Patients - the EMPOWER Study. J Frailty Aging. 2017;6:161\u20136.",
+        "score": 58.65428,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1159/000478777"
+        }
+    },
+    {
+        "ref_string": "Sim\u00f3n L. (2010) Planning for EU Military Operations, EUISS Occasional Papers, 81.",
+        "score": 31.222456,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2139/ssrn.1577775"
+        }
+    },
+    {
+        "ref_string": "Hamlin MJ, Mitchell CJ, Ward FD, Draper N, Shearman JP, Kimber NE. Effect of compression garments on short-term recovery of repeated sprint and 3-Km running performance in Rugby Union players. J Strength Cond Res. 2012;26:2975\u201382.",
+        "score": 131.02492,
+        "target_gt": {
+            "DOI": "10.1519/jsc.0b013e3182711e0b"
+        },
+        "target_test": {
+            "DOI": "10.1519/jsc.0b013e3182711e0b"
+        }
+    },
+    {
+        "ref_string": "Thouless, R. H. (1931b). Phenomenal Regression to the Real Object. II. British Journal of Psychology, XXII, 1\u201330.",
+        "score": 64.26731,
+        "target_gt": {
+            "DOI": "10.1111/j.2044-8295.1931.tb00609.x"
+        },
+        "target_test": {
+            "DOI": "10.1111/j.2044-8295.1931.tb00609.x"
+        }
+    },
+    {
+        "ref_string": "Scheiders, S. M. (1989). Spirituality in the academy. Theological Studies, 50(4), 676\u2013697.",
+        "score": 58.404907,
+        "target_gt": {
+            "DOI": "10.1177/004056398905000403"
+        },
+        "target_test": {
+            "DOI": "10.1177/004056398905000403"
+        }
+    },
+    {
+        "ref_string": "D. J. Clouthier and D. A. Ramsay,Ann. Rev. Phys. Chem.,34, 31\u201358 (1983).",
+        "score": 48.185352,
+        "target_gt": {
+            "DOI": "10.1146/annurev.pc.34.100183.000335"
+        },
+        "target_test": {
+            "DOI": "10.1146/annurev.pc.34.100183.000335"
+        }
+    },
+    {
+        "ref_string": "Gabriele Bavota, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto, and Sebastiano Panichella. 2013. The evolution of project inter-dependencies in a software ecosystem: The case of apache. In ICSM. IEEE, 280--289.",
+        "score": 116.0531,
+        "target_gt": {
+            "DOI": "10.1109/icsm.2013.39"
+        },
+        "target_test": {
+            "DOI": "10.1109/icsm.2013.39"
+        }
+    },
+    {
+        "ref_string": "Mothes H, Donicke T, Friedel R, Simon M, Markgraf E, Bach O. Indocyanine-green fluorescence video angiography used clinically to evaluate tissue perfusion in microsurgery. J Trauma. 2004;57:1018\u201324.",
+        "score": 112.15192,
+        "target_gt": {
+            "DOI": "10.1097/01.ta.0000123041.47008.70"
+        },
+        "target_test": {
+            "DOI": "10.1097/01.ta.0000123041.47008.70"
+        }
+    },
+    {
+        "ref_string": "Killeen KL, Mirvis SE, Shanmuganathan K. Helical CT of diaphragmatic rupture caused by blunt trauma. AJR Am J Roentgenol 1999;173:1611\u20131616.",
+        "score": 101.24733,
+        "target_gt": {
+            "DOI": "10.2214/ajr.173.6.10584809"
+        },
+        "target_test": {
+            "DOI": "10.2214/ajr.173.6.10584809"
+        }
+    },
+    {
+        "ref_string": "Langton, S. R. H. (2009). Gaze perception: Is seeing influenced by believing? Current Biology, 19, R651\u2013R653. doi: 10.1016/j.cub.2009.06.016",
+        "score": 114.82443,
+        "target_gt": {
+            "DOI": "10.1016/j.cub.2009.06.016"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.cub.2009.06.016"
+        }
+    },
+    {
+        "ref_string": "Structural Inorganic Chemistry, 5th ed.; Oxford University Press: New York, 1986; pp 420-423.",
+        "score": 35.734264,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1524/hzhz.2013.0196"
+        }
+    },
+    {
+        "ref_string": "Fros JJ et al (2010) Chikungunya virus nonstructural protein 2 inhibits type I/II interferon-stimulated JAK-STAT signaling. J Virol 84(20):10877\u201310887",
+        "score": 104.90941,
+        "target_gt": {
+            "DOI": "10.1128/jvi.00949-10"
+        },
+        "target_test": {
+            "DOI": "10.1128/jvi.00949-10"
+        }
+    },
+    {
+        "ref_string": "Weyand CM, Fulbright JW, Goronzy JJ (2003) Immunosenescence, autoimmunity, and rheumatoid arthritis. Exp Gerontol 38:833\u2013841",
+        "score": 98.62926,
+        "target_gt": {
+            "DOI": "10.1016/s0531-5565(03)00090-1"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0531-5565(03)00090-1"
+        }
+    },
+    {
+        "ref_string": "Robinson RD, Halton DW (1982) Fine structural observations on spermatogenesis in Corriga vitta (Trematoda: Dicrocoelidae). Z Parasitenkd 68:53\u201372",
+        "score": 93.04702,
+        "target_gt": {
+            "DOI": "10.1007/bf00926658"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00926658"
+        }
+    },
+    {
+        "ref_string": "Camerini D, James SP, Stamenkovic I, Seed B: Leu-8/TQ1 is the human equivalent of the Mel-14 lymph node homing receptor. Nature 1989;342: 78\u201382.",
+        "score": 133.1861,
+        "target_gt": {
+            "DOI": "10.1038/342078a0"
+        },
+        "target_test": {
+            "DOI": "10.1038/342078a0"
+        }
+    },
+    {
+        "ref_string": "Ogden CL, Carroll MD, Curtin LR, Lamb MM, Flegal KM. Prevalence of high body mass index in US children and adolescents, 2007\u20132008. JAMA. 2010;303:242\u20139.",
+        "score": 90.431335,
+        "target_gt": {
+            "DOI": "10.1001/jama.2009.2012"
+        },
+        "target_test": {
+            "DOI": "10.1001/jama.2009.2012"
+        }
+    },
+    {
+        "ref_string": "Singh S et al. CXCR1 and CXCR2 silencing modulates CXCL8-dependent endothelial cell proliferation, migration and capillary-like structure formation. Microvasc Res. 2011;82(3):318\u201325.",
+        "score": 117.6264,
+        "target_gt": {
+            "DOI": "10.1016/j.mvr.2011.06.011"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.mvr.2011.06.011"
+        }
+    },
+    {
+        "ref_string": "J.R. Dias, Polycycl. Aromat. Compd. 34, 116 (2014)",
+        "score": 18.628391,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.4172/2167-0412.1000152"
+        }
+    },
+    {
+        "ref_string": "A.A. Dobyrinin, R. Entringer, I. Gutman, Acta Appll Math. 66, 211 (2001)",
+        "score": 50.617935,
+        "target_gt": {
+            "DOI": "10.1023/a:1010767517079"
+        },
+        "target_test": {
+            "DOI": "10.1023/a:1010767517079"
+        }
+    },
+    {
+        "ref_string": "Zhang J, Fujii S, Wu Z, Hashioka S, Tanaka Y, Shiratsuchi A, Nakanishi Y, Nakanishi H: Involvement of COX-1 and up-regulated prostaglandin E synthases in phosphatidylserine liposome-induced prostaglandin E2 production by microglia. J Neuroimmunol 2006, 172:112\u2013120.",
+        "score": 145.66129,
+        "target_gt": {
+            "DOI": "10.1016/j.jneuroim.2005.11.008"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.jneuroim.2005.11.008"
+        }
+    },
+    {
+        "ref_string": "Yokel, R.A., Meurer, K.A., Skinner, T.L., and Frefenburg, A.M., Drug Metab. Dispos., 1996, vol. 24, p. 105.",
+        "score": 28.70343,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1124/dmd.117.078352"
+        }
+    },
+    {
+        "ref_string": "Ridderstolpe L, Gill H, Granfeldt H, Ahlfeldt H, Rutberg H. Superficial and deep sternal wound complications: incidence, risk factors and mortality. Eur J Cardiothorac Surg. 2001;20(6):1168\u201375.",
+        "score": 128.998,
+        "target_gt": {
+            "DOI": "10.1016/s1010-7940(01)00991-5"
+        },
+        "target_test": {
+            "DOI": "10.1016/s1010-7940(01)00991-5"
+        }
+    },
+    {
+        "ref_string": "IUCN (International Union for Conservation of Nature) (2015) IUCN red list of threatened species, version 2014.3. http://www.iucnredlist.org . Accessed 23 April 2015",
+        "score": 70.1204,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2305/iucn.uk.2015.rlts.t34038a79854504.en"
+        }
+    },
+    {
+        "ref_string": "De Brito T, Menezes LF, Lima DMC et al (2006) Immunohistochemical and in situ hybridization studies of the liver and kidney in human leptospirosis. Virchows Arch 448:576\u2013583",
+        "score": 90.4039,
+        "target_gt": {
+            "DOI": "10.1007/s00428-006-0163-z"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00428-006-0163-z"
+        }
+    },
+    {
+        "ref_string": "Cribb TH, Bray RA, Olson PD, Littlewood DTJ (2003) Life cycle evolution in the Digenea: a new perspective from phylogeny. Adv Parasitol 54:197\u2013254",
+        "score": 97.76948,
+        "target_gt": {
+            "DOI": "10.1016/s0065-308x(03)54004-0"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0065-308x(03)54004-0"
+        }
+    },
+    {
+        "ref_string": "Ganz PA. Quality of care and cancer survivorship: the challenge of implementing the institute of medicine recommendations. J Oncol Pract. 2009;5:101\u20135.",
+        "score": 67.205734,
+        "target_gt": {
+            "DOI": "10.1200/jop.0934402"
+        },
+        "target_test": {
+            "DOI": "10.1200/jop.0934402"
+        }
+    },
+    {
+        "ref_string": "Lochs H, Mayer M, Fleig WE, et al.: Prophylaxis of postoperative relapse in Crohn\u2019s disease with mesalamine: European Cooperative Crohn\u2019s disease study VI. Gastroenterology 2000, 118:264\u2013273. [Published erratum appears in Gastroenterology 2000, 119:280.]",
+        "score": 123.89181,
+        "target_gt": {
+            "DOI": "10.1016/s0016-5085(00)70208-3"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0016-5085(00)70208-3"
+        }
+    },
+    {
+        "ref_string": "Fodor, J., & Pylyshyn, Z. (1981). How direct is visual perception? Cognition, 9, 139\u2013196.",
+        "score": 78.81903,
+        "target_gt": {
+            "DOI": "10.1016/0010-0277(81)90009-3"
+        },
+        "target_test": {
+            "DOI": "10.1016/0010-0277(81)90009-3"
+        }
+    },
+    {
+        "ref_string": "Weber J. L. May P. E. . 1989. Abundant class of human DNA polymorphisms which can be typed using the polymerase chain reaction. Am. J. Hum. Genet. 44: 388\u2013396.",
+        "score": 43.076637,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00291168"
+        }
+    },
+    {
+        "ref_string": "Baer, H. A., Singer, M. & Johnsen, J. H. (1986). Toward a critical medical anthropology.Social Science & Medicine, 23, 95\u201398.",
+        "score": 88.95787,
+        "target_gt": {
+            "DOI": "10.1016/0277-9536(86)90358-8"
+        },
+        "target_test": {
+            "DOI": "10.1016/0277-9536(86)90358-8"
+        }
+    },
+    {
+        "ref_string": "Wingler A (2002) The function of trehalose biosynthesis in plants. Phytochemistry 60(5):437\u2013440",
+        "score": 85.41016,
+        "target_gt": {
+            "DOI": "10.1016/s0031-9422(02)00137-1"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0031-9422(02)00137-1"
+        }
+    },
+    {
+        "ref_string": "Kim TH, Ku\u010da K, Jun D, Jung Y-S (2005) Bioorg Med Chem Lett 15:2914\u20132917",
+        "score": 40.397133,
+        "target_gt": {
+            "DOI": "10.1016/j.bmcl.2005.03.060"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.bmcl.2005.03.060"
+        }
+    },
+    {
+        "ref_string": "O\u2019Regan, J. K., & No\u00eb, A. (2000). What it is like to see: A sensorimotor theory of perceptual experience. Synthese, 1, 79\u2013103.",
+        "score": 47.85594,
+        "target_gt": {
+            "DOI": "10.1023/a:1012699224677"
+        },
+        "target_test": {
+            "DOI": "10.1023/a:1012699224677"
+        }
+    },
+    {
+        "ref_string": "Adler, S.S., et al.: PHENIX Collaboration. Phys. Rev. D 97, 092002 (2007)",
+        "score": 31.414722,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1063/1.2750827"
+        }
+    },
+    {
+        "ref_string": "Das et al (2014a) Heat shock protein 90 positively regulates Chikungunya virus replication by stabilizing viral non-structural protein nsP2 during infection. PLoS One 9(6):e100531",
+        "score": 122.49606,
+        "target_gt": {
+            "DOI": "10.1371/journal.pone.0100531"
+        },
+        "target_test": {
+            "DOI": "10.1371/journal.pone.0122906"
+        }
+    },
+    {
+        "ref_string": "Perdew JP (1986) Phys Rev B 33:8822",
+        "score": 40.432415,
+        "target_gt": {
+            "DOI": "10.1103/physrevb.33.8822"
+        },
+        "target_test": {
+            "DOI": "10.1103/physrevb.33.8822"
+        }
+    },
+    {
+        "ref_string": "Pew Research Center\u2019s Internet & American Life Project. (2000-2010). The Pew Internet & American Life Project is one of seven projects that make up the Pew Research Center, a nonpartisan, nonprofit \u201cfact tank\u201d that provides information on the issues, attitudes and trends shaping America and the world. Retrieved July 2, 2010, from http://www.pewinternet.org/",
+        "score": 100.421005,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.4018/978-1-4666-0315-8.ch003"
+        }
+    },
+    {
+        "ref_string": "V. S. Monakhov, On the product of two groups with cyclic subgroups of index 2, Izv. Akad. Nauk. Belarusi, Ser. Fiz.-Mat. Nauk, (1996), 21\u201324.",
+        "score": 61.00066,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.15356/0373-2444-2016-1"
+        }
+    },
+    {
+        "ref_string": "Leskawa KC, Agranoff BW: Properties of an endogenous, membrane associated sialidase activity (N-acetylneuraminidase) of the goldfish visual system. Neurochem Res 8: 97?109, 1983",
+        "score": 111.5403,
+        "target_gt": {
+            "DOI": "10.1007/bf00965657"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00965657"
+        }
+    },
+    {
+        "ref_string": "T. Lehy, A. Bonnefond, M. Dubrasquet, S. Nasca, M. Lewin andS. Bonfils,Comparative Effects of Antrocolic Transposition and Antrectomy on Fundic Mucosa and Acid Secretion of the Rat, Gastroenterology64, 421\u2013428 (1973).",
+        "score": 44.522003,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/0196-9781(86)90193-2"
+        }
+    },
+    {
+        "ref_string": "Zhang, C.; Antonietti, M.; Fellinger, T.-P. Blood ties: Co3O4 decorated blood derived carbon as a superior bifunctional electrocatalyst. Adv. Funct. Mater.\n2014, 24, 7655\u20137665.",
+        "score": 121.816025,
+        "target_gt": {
+            "DOI": "10.1002/adfm.201402770"
+        },
+        "target_test": {
+            "DOI": "10.1002/adfm.201402770"
+        }
+    },
+    {
+        "ref_string": "Gibson SI (2005) Control of plant development and gene expression by sugar signaling. Curr Opin Plant Biol 8:93\u2013102",
+        "score": 64.80243,
+        "target_gt": {
+            "DOI": "10.1016/j.pbi.2004.11.003"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.pbi.2004.11.003"
+        }
+    },
+    {
+        "ref_string": "Charo IF, Taubman MB. Chemokines in the pathogenesis of vascular disease. Circ Res 2004;95:858\u2013866.",
+        "score": 68.90342,
+        "target_gt": {
+            "DOI": "10.1161/01.res.0000146672.10582.17"
+        },
+        "target_test": {
+            "DOI": "10.1161/01.res.0000146672.10582.17"
+        }
+    },
+    {
+        "ref_string": "Singh, N.I., Devi, S.R.: Astrophys. Space Sci. 334, 231 (2011)",
+        "score": 47.081585,
+        "target_gt": {
+            "DOI": "10.1007/s10509-011-0692-z"
+        },
+        "target_test": {
+            "DOI": "10.1007/s10509-011-0739-1"
+        }
+    },
+    {
+        "ref_string": "G. Velo andD. Zwanziger:Phys. Rev.,186, 1337 (1969).",
+        "score": 52.525448,
+        "target_gt": {
+            "DOI": "10.1103/physrev.186.1337"
+        },
+        "target_test": {
+            "DOI": "10.1103/physrev.186.1337"
+        }
+    },
+    {
+        "ref_string": "Li G, Wang L, Shi F, Lin W, Shen D (2013b) Multi-atlas based simultaneous labeling of longitudinal dynamic cortical surfaces in infants. In: Mori K, Sakuma I, Sato Y, Barillot C, Navab N (eds) Medical image computing and computer-assisted intervention\u2014MICCAI 2013, vol 8149., Lecture notes in computer scienceSpringer, Berlin Heidelberg, pp 58\u201365",
+        "score": 117.961655,
+        "target_gt": {
+            "DOI": "10.1007/978-3-642-40811-3_8"
+        },
+        "target_test": {
+            "DOI": "10.1007/978-3-642-40811-3_8"
+        }
+    },
+    {
+        "ref_string": "C. Kim et al. Nonuniform cache architectures for wire-delay dominated on-chip caches.Micro, IEEE, 23(6):99--107, Nov 2003.",
+        "score": 112.14211,
+        "target_gt": {
+            "DOI": "10.1109/mm.2003.1261393"
+        },
+        "target_test": {
+            "DOI": "10.1109/mm.2003.1261393"
+        }
+    },
+    {
+        "ref_string": "Peranen J et al (1990) Nuclear localization of Semliki Forest virus-specific nonstructural protein nsP2. J Virol 64(5):1888\u20131896",
+        "score": 73.301216,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/0042-6822(92)90570-f"
+        }
+    },
+    {
+        "ref_string": "Guti\u00e9rrez, K., Rymes, B., & Larson, J. (1995). Script, counterscript, and underlife in the classroom: James Brown versus \u201cBrown v. Board of education\u201d. Harvard Educational Review, 65(3), 445\u2013471.",
+        "score": 133.47261,
+        "target_gt": {
+            "DOI": "10.17763/haer.65.3.r16146n25h4mh384"
+        },
+        "target_test": {
+            "DOI": "10.17763/haer.65.3.r16146n25h4mh384"
+        }
+    },
+    {
+        "ref_string": "Luis Fernando Cort&#233;s-Coy, Mario Linares-V&#225;squez, Jairo Aponte, and Denys Poshyvanyk. 2014. On automatically generating commit messages via summarization of source code changes. In SCAM'14. IEEE, 275--284.",
+        "score": 116.511734,
+        "target_gt": {
+            "DOI": "10.1109/scam.2014.14"
+        },
+        "target_test": {
+            "DOI": "10.1109/scam.2014.14"
+        }
+    },
+    {
+        "ref_string": "Bulgakov VP, Tchernoded GK, Mischenko NP, Shkryl Yu N, Fedoreyev SA, Zhuravlev Yu N (2004) The rolB and rolC genes activate synthesis of anthraquinones in Rubia cordifolia cells by mechanism independent of octadecanoid signaling pathway. Plant Sci 166:1069\u20131075",
+        "score": 168.80246,
+        "target_gt": {
+            "DOI": "10.1016/j.plantsci.2003.12.027"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.plantsci.2003.12.027"
+        }
+    },
+    {
+        "ref_string": "Rabe C, Steenkamp JA, Joubert E, Burger JFW, Ferreira D (1994) Phenolic metabolites from rooibos tea (Aspalathus linearis). Phytochem 35:1559\u20131565",
+        "score": 122.4308,
+        "target_gt": {
+            "DOI": "10.1016/s0031-9422(00)86894-6"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0031-9422(00)86894-6"
+        }
+    },
+    {
+        "ref_string": "Mallat Z, Corbaz A, Scoazec A, Besnard S, Les\u00e8che G, Chvatchko Y, et al. Expression of interleukin-18 in human atherosclerotic plaques and relation to plaque instability. Circulation 2001;104:1598\u20131603.",
+        "score": 152.77292,
+        "target_gt": {
+            "DOI": "10.1161/hc3901.096721"
+        },
+        "target_test": {
+            "DOI": "10.1161/hc3901.096721"
+        }
+    },
+    {
+        "ref_string": "Gibson, J. J. (1950). The perception of the visual world. Cambridge, MA: Riverside.",
+        "score": 31.21329,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2307/j.ctt1xp3nmm.13"
+        }
+    },
+    {
+        "ref_string": "Mirza, H., Giroud, A. and Koster, K., \u2018Recent Flows in Foreign Direct Investment and Technology Transfer to ASEAN Economies\u2019, Working Paper, University of Bradford School of Management, undated.",
+        "score": 59.464657,
+        "target_gt": {
+            "DOI": ""
+        },
+        "target_test": {
+            "DOI": "10.1057/9780230625013_9"
+        }
+    },
+    {
+        "ref_string": "Vallesi, A., Binns, M. A., & Shallice, T. (2008). An effect of spatial-temporal association of response codes: understanding the cognitive representations of time. Cognition, 107, 501\u2013527.",
+        "score": 115.45444,
+        "target_gt": {
+            "DOI": "10.1016/j.cognition.2007.10.011"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.cognition.2007.10.011"
+        }
+    },
+    {
+        "ref_string": "Perutz MF, Ladner JE, Simon SR, Chien Ho (1974) Influence of globin structure on the state of the heme. I Human deoxyhemoglobin. Biochemistry 13:2163\u20132173",
+        "score": 107.40454,
+        "target_gt": {
+            "DOI": "10.1021/bi00707a026"
+        },
+        "target_test": {
+            "DOI": "10.1021/bi00707a026"
+        }
+    },
+    {
+        "ref_string": "B\u00e5th, M., , The elastic wavesLgandRgalong Euroasiatic paths, Ark. Geofys., 2, 295-324 1954,",
+        "score": 24.179152,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s11512-010-0127-z"
+        }
+    },
+    {
+        "ref_string": "Tedder TF, Matsuyama T, Rothstein D, Schlossman SF, Morimoto C: Human antigen-specific memory T cells express the homing receptor (LAM-1) necessary for lymphocyte recirculation. Eur J Immunol 1990;20:1351\u20131355.",
+        "score": 121.058846,
+        "target_gt": {
+            "DOI": "10.1002/eji.1830200622"
+        },
+        "target_test": {
+            "DOI": "10.1002/eji.1830200622"
+        }
+    },
+    {
+        "ref_string": "Kumari R, Kumar R, Lynn A (2014) J Chem Inf Model 54:1951\u20131962",
+        "score": 42.796593,
+        "target_gt": {
+            "DOI": "10.1021/ci500020m"
+        },
+        "target_test": {
+            "DOI": "10.1021/ci500020m"
+        }
+    },
+    {
+        "ref_string": "Barry SP, Davidson SM, Townsend PA (2008) Molecular regulation of cardiac hypertrophy. Int J Biochem Cell Biol 40(10):2023\u20132039. doi: 10.1016/j.biocel.2008.02.020",
+        "score": 82.60379,
+        "target_gt": {
+            "DOI": "10.1016/j.biocel.2008.02.020"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.biocel.2008.02.020"
+        }
+    },
+    {
+        "ref_string": "Lu H, Yuan G, He Q, Chen H (2009) Rapid analysis of anthracycline antibiotics doxorubicin and daunorubicin by microchip capillary electrophoresis. Microchem J 92:170\u2013173",
+        "score": 104.30905,
+        "target_gt": {
+            "DOI": "10.1016/j.microc.2009.03.005"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.microc.2009.03.005"
+        }
+    },
+    {
+        "ref_string": "V. V. Nemytskii and V. V. Stepanov, Qualitative Theory of Differential Equations (Editorial URSS, Moscow, 2004; Princeton University Press, rinceton, N.J., 1960].",
+        "score": 53.335716,
+        "target_gt": {
+            "DOI": "10.1515/9781400875955"
+        },
+        "target_test": {
+            "DOI": "10.1515/9781400875955"
+        }
+    },
+    {
+        "ref_string": "De Henauw S, Verbestel V, Marild S, et al. The IDEFICS community-oriented intervention programme: a new model for childhood obesity prevention in Europe? Int J Obes. 2011;35 Suppl 1:S16\u201323.",
+        "score": 79.90681,
+        "target_gt": {
+            "DOI": "10.1038/ijo.2011.31"
+        },
+        "target_test": {
+            "DOI": "10.1038/ijo.2011.31"
+        }
+    },
+    {
+        "ref_string": "Horowitz ME, Fordis M, Krause S, McKellar J, Poplack DG. Passport for care: implementing the survivorship care plan. J Oncol Pract. 2009;5:110\u20132.",
+        "score": 102.93595,
+        "target_gt": {
+            "DOI": "10.1200/jop.0934405"
+        },
+        "target_test": {
+            "DOI": "10.1200/jop.0934405"
+        }
+    },
+    {
+        "ref_string": "Heward A, Gonzales C, Ashley C, Hwang P, Canvin S (2016) A Global Audience For New Race To The Moon: Outreach For The Google Lunar Xprize.",
+        "score": 39.836987,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1093/astrogeo/atv013"
+        }
+    },
+    {
+        "ref_string": "Leskawa KC, Erwin RE, Hogan EL: Phospholipid biosynthesis during normal and dystrophic avian muscle cell differentiation. Life Sci 38: 147?153, 1986",
+        "score": 111.615395,
+        "target_gt": {
+            "DOI": "10.1016/0024-3205(86)90006-8"
+        },
+        "target_test": {
+            "DOI": "10.1016/0024-3205(86)90006-8"
+        }
+    },
+    {
+        "ref_string": "Franken u.Sch\u00fcrmeyer: Narkose und Anaesthesie, S. 437. 1928.",
+        "score": 36.11437,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1055/b-0034-7385"
+        }
+    },
+    {
+        "ref_string": "Levron C, Ternengo S, Marchand B (2004c) Spermiogenesis and sperm ultrastructure of Poracanthium furcatum (Digenea, Opecoelidae), a parasite of Mullus surmuletus (Pisces, Teleostei). Acta Parasitol 49:190\u2013200",
+        "score": 101.16867,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/s00436-004-1199-0"
+        }
+    },
+    {
+        "ref_string": "Friedrich M, Benndorf K, Schwalb M, Hirche Hj (1990) Effects of anoxia on K and Ca currents in isolated guinea pig cardiocytes. Pfl\u00fcgers Arch 416:207?209",
+        "score": 97.99914,
+        "target_gt": {
+            "DOI": "10.1007/bf00370244"
+        },
+        "target_test": {
+            "DOI": "10.1007/bf00370244"
+        }
+    },
+    {
+        "ref_string": "Ribic, C. M. et al. Tumor microsatellite-instability status as a predictor of benefit from fluorouracil-based adjuvant chemotherapy for colon cancer. N. Engl. J. Med. 349, 247\u2013257 (2003).",
+        "score": 80.15524,
+        "target_gt": {
+            "DOI": "10.1056/nejmoa022289"
+        },
+        "target_test": {
+            "DOI": "10.1056/nejmoa022289"
+        }
+    },
+    {
+        "ref_string": "Shewbridge, C., Jang, E., Matthews, P. & Santiago, P. (2011) OECD Reviews of Evaluation and Assessment in Education, Denmark, OECD.",
+        "score": 85.72161,
+        "target_gt": {
+            "DOI": "10.1787/9789264116597-en"
+        },
+        "target_test": {
+            "DOI": "10.1787/9789264116597-en"
+        }
+    },
+    {
+        "ref_string": "Corzo CA, et al. HIF-1alpha regulates function and differentiation of myeloid-derived suppressor cells in the tumor microenvironment. J Exp Med. 2010;207(11):2439\u201353.",
+        "score": 69.45986,
+        "target_gt": {
+            "DOI": "10.1084/jem.20100587"
+        },
+        "target_test": {
+            "DOI": "10.1084/jem.20100587"
+        }
+    },
+    {
+        "ref_string": "Tchilingaryan, L. I. (1963). Changes in excitability of the motor area of the cerebral cortex during extinction of a conditioned reflex elaborated to direct electric stimulation of that area. In E. Gutman & P. Nhik (Eds.),Central and peripheral mechanisms of motor functions (pp. 167\u2013175) Prague: Publishing House of the Czechoslovak Academy of Sciences.",
+        "score": 55.82877,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/bf01124644"
+        }
+    },
+    {
+        "ref_string": "Sturdivant, F. D., J. L. Ginter, and A. G. Sawyer. 1985. \u201cManagers' Conservatism and Corporate Performance.\u201dStrategic Management Journal 6: 17\u201338.",
+        "score": 79.95003,
+        "target_gt": {
+            "DOI": "10.1002/smj.4250060103"
+        },
+        "target_test": {
+            "DOI": "10.1002/smj.4250060103"
+        }
+    },
+    {
+        "ref_string": "Williams, D. L., Cherkassky, V. L., Mason, R. A., Keller, T. A., Minshew, N. J., & Just, A. M. (2013). Brain function differences in language processing in children and adults with autism. Autism Research, 6, 288\u2013302. doi: 10.1002/aur.1291 .",
+        "score": 107.133415,
+        "target_gt": {
+            "DOI": "10.1002/aur.1291"
+        },
+        "target_test": {
+            "DOI": "10.1002/aur.1291"
+        }
+    },
+    {
+        "ref_string": "W. Norris Clarke, S.J., The Philosophical Approach to God: A New Thomistic Perspective (New York: Fordham University Press, 2007).",
+        "score": 44.320847,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.5840/acpq201084342"
+        }
+    },
+    {
+        "ref_string": "Velicogna I, Wahr J (2006) Measurements of time-variable gravity show mass loss in Antarctica. Science 311:1754",
+        "score": 92.23567,
+        "target_gt": {
+            "DOI": "10.1126/science.1123785"
+        },
+        "target_test": {
+            "DOI": "10.1126/science.1123785"
+        }
+    },
+    {
+        "ref_string": "Alves, A. A., & Moreira, J. M. (2010). The school of Salamanca. New York, London: Continuum.",
+        "score": 32.90638,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1007/978-94-007-1494-6_85"
+        }
+    },
+    {
+        "ref_string": "Kim F, Kwan S, Akana J, Yang P (2001) Langmuir-Blodgett nanorod assembly. J Am Chem Soc 123(18):4360\u20134361",
+        "score": 99.1296,
+        "target_gt": {
+            "DOI": "10.1021/ja0059138"
+        },
+        "target_test": {
+            "DOI": "10.1021/ja0059138"
+        }
+    },
+    {
+        "ref_string": "Schreckenbach G, Ziegler T (1997) J Phys Chem A 101:3388",
+        "score": 35.86097,
+        "target_gt": {
+            "DOI": "10.1021/jp963060t"
+        },
+        "target_test": {
+            "DOI": "10.1021/jp963060t"
+        }
+    },
+    {
+        "ref_string": "Bian Y, Yang F (2010) Resource and environment efficiency analysis of provinces in China: a DEA approach based on Shannon\u2019s entropy. Energy Policy 38(4):1909\u20131917. doi: 10.1016/j.enpol.2009.11.071",
+        "score": 111.8225,
+        "target_gt": {
+            "DOI": "10.1016/j.enpol.2009.11.071"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.enpol.2009.11.071"
+        }
+    },
+    {
+        "ref_string": "Lo R, Ganguly B (2014) Mol BioSyst 10:2368\u20132383",
+        "score": 33.739826,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1039/c4mb90015d"
+        }
+    },
+    {
+        "ref_string": "Parikh R, Mathai A, Parikh S, Chandra Sekhar G, Thomas R (2008) Understanding and using sensitivity, specificity and predictive values. Indian J Ophthalmol 56(1):45\u201350",
+        "score": 115.32004,
+        "target_gt": {
+            "DOI": "10.4103/0301-4738.37595"
+        },
+        "target_test": {
+            "DOI": "10.4103/0301-4738.37595"
+        }
+    },
+    {
+        "ref_string": "Cessario, R. (2013). Introduction to moral theology. Washington, DC: The Catholic University of America Press.",
+        "score": 54.340137,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.2307/j.ctt32b2xs"
+        }
+    },
+    {
+        "ref_string": "Kijima Y, Yoshinaka H, Hirata M, Arima H, Nkajo A, Shinden Y, et al. Oncoplastic surgery combining partial mastectomy and immediate volume replacement using a thoracodorsal adipofascial cutaneous flap with a crescent-shaped dermis. Surg Today. 2014;44:2098\u2013105.",
+        "score": 157.5115,
+        "target_gt": {
+            "DOI": "10.1007/s00595-013-0812-1"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00595-013-0812-1"
+        }
+    },
+    {
+        "ref_string": "Blum, A. 2004. Sorghum physiology. Pages 141\u2013223 in H. T. Nguyen and A. Blum, eds. Physiology and biotechnology integration for plant breeding. Marcel Dekker, New York, NY.",
+        "score": 71.78015,
+        "target_gt": {
+            "DOI": "10.1201/9780203022030.ch4"
+        },
+        "target_test": {
+            "DOI": "10.1201/9780203022030.ch4"
+        }
+    },
+    {
+        "ref_string": "Adams, R. (1979). Divine command metaethics modified again. Journal of Religious Ethics, 7(1), 66\u201379.",
+        "score": 44.56984,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1111/j.1467-9795.2004.00170.x"
+        }
+    },
+    {
+        "ref_string": "Mendez, D.L., Jensen, R.A., McElroy, L.A., Pena, J.M., Esquerra, R.M.: The effect of non-enzymatic glycation on the unfolding of human serum albumin. Arch. Biochem. Biophys. 444, 92\u201399 (2005)",
+        "score": 88.25141,
+        "target_gt": {
+            "DOI": "10.1016/j.abb.2005.10.019"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.abb.2005.10.019"
+        }
+    },
+    {
+        "ref_string": "Wei, S.-J., \u2018Foreign Direct Investment in China: Sources and Consequences,\u2019 in T. Ito and A. Krueger (eds), Financial Deregulation and Integration in East Asia, Chicago, University of Chicago Press, 1996, 77\u2013101.",
+        "score": 67.4001,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.7208/chicago/9780226386959.001.0001"
+        }
+    },
+    {
+        "ref_string": "K. Schoutens, H.L. Verlinde and E.P. Verlinde, Quantum black hole evaporation, Phys. Rev. D 48 (1993) 2670 [ hep-th/9304128 ] [ INSPIRE ].",
+        "score": 100.49617,
+        "target_gt": {
+            "DOI": "10.1103/physrevd.48.2670"
+        },
+        "target_test": {
+            "DOI": "10.1103/physrevd.48.2670"
+        }
+    },
+    {
+        "ref_string": "Cantley LC: The phosphoinositide 3-kinase pathway. Science 2002, 296:1655\u20131657.",
+        "score": 76.22616,
+        "target_gt": {
+            "DOI": "10.1126/science.296.5573.1655"
+        },
+        "target_test": {
+            "DOI": "10.1126/science.296.5573.1655"
+        }
+    },
+    {
+        "ref_string": "Spena A, Schm\u00fclling T, Koncz C, Schell JS (1987) Independent and synergistic activity of rol A, B and C loci in stimulating abnormal growth in plants. EMBO J 6:3891\u20133899",
+        "score": 132.36345,
+        "target_gt": {
+            "DOI": "10.1002/j.1460-2075.1987.tb02729.x"
+        },
+        "target_test": {
+            "DOI": "10.1002/j.1460-2075.1987.tb02729.x"
+        }
+    },
+    {
+        "ref_string": "Cui Y, Li Q, Liu ZZ, Geng LL, Zhao X, Chen XH, Bi KS (2012) Simultaneous determination of 20 components in red wine by LC\u2013MS: application to variations of red wine components in decanting. J Sep Sci 35:2884\u20132891",
+        "score": 139.92213,
+        "target_gt": {
+            "DOI": "10.1002/jssc.201200305"
+        },
+        "target_test": {
+            "DOI": "10.1002/jssc.201200305"
+        }
+    },
+    {
+        "ref_string": "Baroja-Fern\u00e1ndez E, Mu\u00f1oz FJ, Li J, Bahaji A, Almagro G, Montero M, Etxeberria E, Hidalgo M, Sesma MT, Pozueta-Romero J (2012) Sucrose synthase activity in the sus1/sus2/sus3/sus4 Arabidopsis mutant is sufficient to support normal cellulose and starch production. P Natl Acad Sci USA 109:321\u2013326",
+        "score": 170.22366,
+        "target_gt": {
+            "DOI": "10.1073/pnas.1117099109"
+        },
+        "target_test": {
+            "DOI": "10.1073/pnas.1117099109"
+        }
+    },
+    {
+        "ref_string": "T.N Baker: Mater. Sci. Technol. 2009, vol. 25, pp. 1083-107",
+        "score": 23.83775,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1002/ejlt.200990000"
+        }
+    },
+    {
+        "ref_string": "London F (1937) J Phys Radium 8:397",
+        "score": 38.579254,
+        "target_gt": {
+            "DOI": "10.1051/jphysrad:01937008010039700"
+        },
+        "target_test": {
+            "DOI": "10.1051/jphysrad:01937008010039700"
+        }
+    },
+    {
+        "ref_string": "Watson ML, Kingsmore SF, Johnston GI, Siegelman MH, Le Beau MM, Lemons RS, Bora NS, Howard TA, Weissman IL, McEver RP, et al: Genomic organization of the selectin family of leukocyte adhesion molecules on human and mouse chromosome 1. J Exp Med 1990;172:263\u2013272.",
+        "score": 89.60304,
+        "target_gt": {
+            "DOI": "10.1084/jem.172.1.263"
+        },
+        "target_test": {
+            "DOI": "10.1084/jem.172.1.263"
+        }
+    },
+    {
+        "ref_string": "Barajas D, Jiang Y, Nagy PD (2009) A unique role for the host ESCRT proteins in replication of Tomato bushy stunt virus. PLoS Pathog 5(12), e1000705",
+        "score": 130.29587,
+        "target_gt": {
+            "DOI": "10.1371/journal.ppat.1000705"
+        },
+        "target_test": {
+            "DOI": "10.1371/journal.ppat.1000705"
+        }
+    },
+    {
+        "ref_string": "Si YC, Zhang JP, Xie CE, Zhang LJ, Jiang XN. Effects of Panax notoginseng saponins on proliferation and differentiation of rat hippocampal neural stem cells. Am J Chin Med 2011;39:999\u20131013.",
+        "score": 106.995346,
+        "target_gt": {
+            "DOI": "10.1142/s0192415x11009366"
+        },
+        "target_test": {
+            "DOI": "10.1142/s0192415x11009366"
+        }
+    },
+    {
+        "ref_string": "Lounsbery MAF, McKenzie TL, Trost S, Smith NJ. Facilitators and barriers to adopting evidence-based physical education in elementary schools. J Phys Act Heal. 2011;8 Suppl 1:S17\u201325.",
+        "score": 81.19953,
+        "target_gt": {
+            "DOI": "10.1123/jpah.8.s1.s17"
+        },
+        "target_test": {
+            "DOI": "10.1123/jpah.8.s1.s17"
+        }
+    },
+    {
+        "ref_string": "Frese, C.K., Altelaar, A.F., Hennrich, M.L., Nolting, D., Zeller, M., Griep-Raming, J., Heck, A.J., Mohammed, S.: Improved peptide identification by targeted fragmentation using CID, HCD and ETD on an LTQ-Orbitrap Velos. J. Proteome Res. 10, 2377\u20132388 (2011)",
+        "score": 179.08437,
+        "target_gt": {
+            "DOI": "10.1021/pr1011729"
+        },
+        "target_test": {
+            "DOI": "10.1021/pr1011729"
+        }
+    },
+    {
+        "ref_string": "Li J (2003) AtomEye: an efficient atomistic configuration viewer. Model Simul Mater Sci Eng 11(2):173",
+        "score": 82.93549,
+        "target_gt": {
+            "DOI": "10.1088/0965-0393/11/2/305"
+        },
+        "target_test": {
+            "DOI": "10.1088/0965-0393/11/2/305"
+        }
+    },
+    {
+        "ref_string": "Kranz, F., & Ishai, A. (2006). Face perception is modulated by sexual preference. Current Biology, 16, 63\u201368.",
+        "score": 93.53355,
+        "target_gt": {
+            "DOI": "10.1016/j.cub.2005.10.070"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.cub.2005.10.070"
+        }
+    },
+    {
+        "ref_string": "P. Schouwinka, H. V. Berlepsch, L. Deahne, and R. F. Mahrt, \u201cObservation of Strong Exciton-Photon Coupling in an Organic Microcavity,\u201d Chem. Phys. Lett. 344, 352\u2013356 (2001).",
+        "score": 91.202896,
+        "target_gt": {
+            "DOI": "10.1016/s0009-2614(01)00808-9"
+        },
+        "target_test": {
+            "DOI": "10.1016/s0009-2614(01)00808-9"
+        }
+    },
+    {
+        "ref_string": "Zhang Y, Wu H, Xu KZ, Qiu QQ, An T, Song JR, Zhao FQ. Nonisothermal decomposition kinetics, specific heat capacity, and adiabatic time-to-explosion of Zn(NH3)(FOX-7)2. J Therm Anal Calorim. 2014;116:817\u201323.",
+        "score": 112.971176,
+        "target_gt": {
+            "DOI": "10.1007/s10973-013-3589-y"
+        },
+        "target_test": {
+            "DOI": "10.1007/s10973-013-3589-y"
+        }
+    },
+    {
+        "ref_string": "Pavlov, I. P. (1941)Psychopathology: Lectures on conditioned reflexes \u2013 Volume Two: Conditioned reflexes and psychiatryTranslated by W. Horsley Gantt. Lawrence and Wishart: London.",
+        "score": 73.76614,
+        "target_gt": {
+            "DOI": "10.1093/ptj/21.6.335"
+        },
+        "target_test": {
+            "DOI": "10.1093/ptj/21.6.335"
+        }
+    },
+    {
+        "ref_string": "Cornwall, J. R., & Naughton, M. J. (2003). Who is the good entrepreneur? An exploration within the catholic social tradition. Journal of Business Ethics, 44(1/2), 61\u201375.",
+        "score": 52.45458,
+        "target_gt": {
+            "DOI": "10.1023/a:1023294626341"
+        },
+        "target_test": {
+            "DOI": "10.1023/a:1023294626341"
+        }
+    },
+    {
+        "ref_string": "H. Zhang, S. Xu, Discrete Appl. Math. 156, 2817 (2008)",
+        "score": 35.057686,
+        "target_gt": {
+            "DOI": "10.1016/j.dam.2007.11.010"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.dam.2007.11.010"
+        }
+    },
+    {
+        "ref_string": "Gill SS, Tuteja N (2010) Reactive oxygen species and antioxidant machinery in abiotic stress tolerance in crop plants. Plant Physiol Biochem 48(12):909\u2013930",
+        "score": 110.39082,
+        "target_gt": {
+            "DOI": "10.1016/j.plaphy.2010.08.016"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.plaphy.2010.08.016"
+        }
+    },
+    {
+        "ref_string": "Rossmeisl, J.; Qu, Z.-W.; Zhu, H.; Kroes, G.-J.; N\u00f8rskov, J. K. Electrolysis of water on oxide surfaces. J. Electroanal. Chem.\n2007, 607, 83\u201389.",
+        "score": 85.617355,
+        "target_gt": {
+            "DOI": "10.1016/j.jelechem.2006.11.008"
+        },
+        "target_test": {
+            "DOI": "10.1016/j.jelechem.2006.11.008"
+        }
+    },
+    {
+        "ref_string": "In Survey of Progress in Chemistry-Volume 6; Ed.; Academic Press: New York, 1969; Chapter 1, pp 12, 13.",
+        "score": 36.843674,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.1016/b978-0-12-395706-1.50002-9"
+        }
+    },
+    {
+        "ref_string": "Frola C, Serrano J, Cantoni S, Casiglia M, Turtulici I, Loria F. CT findings of atrophy of chest wall muscle after thoracotomy: relationship between muscles involved and type of surgery. Am J Roentgenol. 1995;164:599\u2013601.",
+        "score": 134.61531,
+        "target_gt": {
+            "DOI": "10.2214/ajr.164.3.7863878"
+        },
+        "target_test": {
+            "DOI": "10.2214/ajr.164.3.7863878"
+        }
+    },
+    {
+        "ref_string": "de Niet J, Timman R, Bauer S, et al. Short message service reduces dropout in childhood obesity treatment: a randomized controlled trial. Health Psychol. 2012. doi: 10.1037/a0027498 .",
+        "score": 83.06428,
+        "target_gt": {
+            "DOI": "10.1037/a0027498"
+        },
+        "target_test": {
+            "DOI": "10.1037/a0027498"
+        }
+    },
+    {
+        "ref_string": "B. de Wit, J. Hoppe and H. Nicolai, On the Quantum Mechanics of Supermembranes, Nucl. Phys. B 305 (1988) 545 [ INSPIRE ].",
+        "score": 78.757515,
+        "target_gt": {
+            "DOI": "10.1016/0550-3213(88)90116-2"
+        },
+        "target_test": {
+            "DOI": "10.1016/0550-3213(88)90116-2"
+        }
+    },
+    {
+        "ref_string": "Lee CS, Hwang CJ, Lee SW, Ahn YJ, Kim YT, Lee DH, Lee MY (2009) Risk factors for adjacent segment disease after lumbar fusion. Eur Spine J 18(11):1637\u20131643",
+        "score": 105.736015,
+        "target_gt": {
+            "DOI": "10.1007/s00586-009-1060-3"
+        },
+        "target_test": {
+            "DOI": "10.1007/s00586-009-1060-3"
+        }
+    },
+    {
+        "ref_string": "Amyot, D., Mussbacher, G.: User requirements notation: the first ten years, the next ten years (invited paper). J. Softw. (JSW) 6(5), 747\u2013768 (2011)",
+        "score": 132.17548,
+        "target_gt": {
+            "DOI": null
+        },
+        "target_test": {
+            "DOI": "10.4304/jsw.6.5.747-768"
+        }
+    },
+    {
+        "ref_string": "Ivleva EI, Bidesi AS, Keshavan MS, Pearlson GD, Meda SA, Dodig D, Moates AF, Lu HZ, Francis AN, Tandon N, Schretlen DJ, Sweeney JA, Clementz BA, Tamminga CA (2013) Gray matter volume as an intermediate phenotype for psychosis: bipolar-schizophrenia network on intermediate phenotypes (B-SNIP). Am J Psychiatry 170(11):1285\u20131296",
+        "score": 174.77036,
+        "target_gt": {
+            "DOI": "10.1176/appi.ajp.2013.13010126"
+        },
+        "target_test": {
+            "DOI": "10.1176/appi.ajp.2013.13010126"
+        }
+    }
+]
