@@ -301,7 +301,7 @@
         {
             "ref_string": "Keimel, K. and Paseka, J., A direct proof of the Hofmann-Mislove theorem, Pro. Amer. Math. Soc., 120, 1994, 301\u2013303.",
             "target_gt": {
-                "DOI": "10.2307/2160199"
+                "DOI": "10.1090/s0002-9939-1994-1195723-0"
             },
             "target_test": {
                 "DOI": "10.1090/s0002-9939-1994-1195723-0"
@@ -2688,7 +2688,7 @@
         {
             "ref_string": "Mill, J. S. (1911), A System of Logic: Ratiocinative and Inductive. London: Longmans, Green and Co. First published in 1843.",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.5962/bhl.title.25118"
             },
             "target_test": {
                 "DOI": null
@@ -3227,7 +3227,7 @@
         {
             "ref_string": "Del Moral P (2004) Feynman-Kac Formulae. Genealogical and Interacting Particle Systems with Applications. Probability and its Applications. Springer Verlag, New York",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/978-1-4684-9393-1"
             },
             "target_test": {
                 "DOI": null
@@ -3271,7 +3271,7 @@
         {
             "ref_string": "Gershkoff-Stowe, L., Thal, D. J., Smith, L. B., & Namy, L. L. (1997). Categorization and its developmental relation to early language. Child Development, 68, 843\u2013859.",
             "target_gt": {
-                "DOI": "10.1111/j.1467-8624.1997.tb01966.x"
+                "DOI": "10.2307/1132037"
             },
             "target_test": {
                 "DOI": "10.2307/1132037"
@@ -3282,7 +3282,7 @@
         {
             "ref_string": "Henshel, A. M. 1971. \u201cThe Relationship Between Values and Behavior: A Developmental Hypothesis.\u201dChild Development 42: 1997\u20132007.",
             "target_gt": {
-                "DOI": "10.1111/j.1467-8624.1971.tb03787.x"
+                "DOI": "10.2307/1127602"
             },
             "target_test": {
                 "DOI": "10.2307/1127602"
@@ -5691,7 +5691,7 @@
         {
             "ref_string": "Tran D C, Siegel G H Jr. and Bendow B 1984Lightwave Technol. LT-2 536",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1109/jlt.1984.1073661"
             },
             "target_test": {
                 "DOI": null
@@ -7187,7 +7187,7 @@
         {
             "ref_string": "Helder H, Miersch O, Vreugdenhil D, Sembdner G (1993) Ocurrence of hydroxylated jasmonic acids in leaflets of Solanum demissum plants grown under long- and short-days conditions. Physiol Plant 88:647\u2013653. doi: 10.1111/j.1399-3054.1993.tb01384.x",
             "target_gt": {
-                "DOI": "10.1034/j.1399-3054.1993.880417.x"
+                "DOI": "10.1111/j.1399-3054.1993.tb01384.x"
             },
             "target_test": {
                 "DOI": "10.1111/j.1399-3054.1993.tb01384.x"
@@ -7209,7 +7209,7 @@
         {
             "ref_string": "Fu\u00df u.Derra: Arch. f. exper. Path.156, 64 (1930); Dtsch. Z. Chir.235, 201 (1932).",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/bf01859313"
             },
             "target_test": {
                 "DOI": null
@@ -8089,7 +8089,7 @@
         {
             "ref_string": "E. W. Knapp, \u201cLine Shapes of Molecular Aggregates Exchange Narrowing and Intersite Correlation,\u201d Chem. Phys. 85, 73\u201382 (1984).",
             "target_gt": {
-                "DOI": "10.1016/0301-0104(84)85174-5"
+                "DOI": "10.1016/s0301-0104(84)85174-5"
             },
             "target_test": {
                 "DOI": "10.1016/s0301-0104(84)85174-5"
@@ -8111,7 +8111,7 @@
         {
             "ref_string": "Hall JL (2002) Cellular mechanisms for heavy metal detoxification and tolerance. J Exp Bot 53(366):1\u201311",
             "target_gt": {
-                "DOI": "10.1093/jxb/53.366.1"
+                "DOI": "10.1093/jexbot/53.366.1"
             },
             "target_test": {
                 "DOI": "10.1093/jexbot/53.366.1"
@@ -9992,7 +9992,7 @@
         {
             "ref_string": "Weinstein SP, O\u2019Boyle E, Fisher M, Haber RS. Regulation of GLUT2 glucose transporter expression in liver by thyroid hormone: evidence for hormonal regulation of the hepatic glucose transport system. Endocrinology. 1994;135:649\u201354.",
             "target_gt": {
-                "DOI": "10.1210/en.135.2.649"
+                "DOI": "10.1210/endo.135.2.8033812"
             },
             "target_test": {
                 "DOI": "10.1210/endo.135.2.8033812"
@@ -10366,7 +10366,7 @@
         {
             "ref_string": "Baldassano RN, Han PD, Jeshion WC, et al.: Pediatric Crohn\u2019s disease: risk factors for postoperative recurrence. Am J Gastroenterol 2001, 96:2169\u20132176.",
             "target_gt": {
-                "DOI": "10.1016/s0002-9270(01)02439-x"
+                "DOI": "10.1111/j.1572-0241.2001.03876.x"
             },
             "target_test": {
                 "DOI": "10.1111/j.1572-0241.2001.03876.x"
@@ -10894,7 +10894,7 @@
         {
             "ref_string": "Gartner TK, Podleski TR: Evidence that a membrane bound lectin mediates the fusion of L6 myoblasts. Biochem Biophys Res Comm 70: 1142?1149, 1975",
             "target_gt": {
-                "DOI": "10.1016/0006-291x(75)90770-6"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1016/0006-291x(76)91022-6"

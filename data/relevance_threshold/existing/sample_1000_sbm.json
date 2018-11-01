@@ -301,7 +301,7 @@
         {
             "ref_string": "Keimel, K. and Paseka, J., A direct proof of the Hofmann-Mislove theorem, Pro. Amer. Math. Soc., 120, 1994, 301\u2013303.",
             "target_gt": {
-                "DOI": "10.2307/2160199"
+                "DOI": "10.1090/s0002-9939-1994-1195723-0"
             },
             "target_test": {
                 "DOI": "10.1090/s0002-9939-1994-1195723-0"
@@ -2688,7 +2688,7 @@
         {
             "ref_string": "Mill, J. S. (1911), A System of Logic: Ratiocinative and Inductive. London: Longmans, Green and Co. First published in 1843.",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.5962/bhl.title.25118"
             },
             "target_test": {
                 "DOI": "10.5962/bhl.title.25118"
@@ -3227,7 +3227,7 @@
         {
             "ref_string": "Del Moral P (2004) Feynman-Kac Formulae. Genealogical and Interacting Particle Systems with Applications. Probability and its Applications. Springer Verlag, New York",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/978-1-4684-9393-1"
             },
             "target_test": {
                 "DOI": "10.1007/978-1-4684-9393-1_3"
@@ -5691,7 +5691,7 @@
         {
             "ref_string": "Tran D C, Siegel G H Jr. and Bendow B 1984Lightwave Technol. LT-2 536",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1109/jlt.1984.1073661"
             },
             "target_test": {
                 "DOI": "10.1109/jlt.1984.1073661"
@@ -7209,7 +7209,7 @@
         {
             "ref_string": "Fu\u00df u.Derra: Arch. f. exper. Path.156, 64 (1930); Dtsch. Z. Chir.235, 201 (1932).",
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/bf01859313"
             },
             "target_test": {
                 "DOI": "10.1007/bf01859313"
@@ -10894,7 +10894,7 @@
         {
             "ref_string": "Gartner TK, Podleski TR: Evidence that a membrane bound lectin mediates the fusion of L6 myoblasts. Biochem Biophys Res Comm 70: 1142?1149, 1975",
             "target_gt": {
-                "DOI": "10.1016/0006-291x(75)90770-6"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1016/0006-291x(75)90770-6"

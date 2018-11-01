@@ -312,7 +312,7 @@
         "current_STQ_link": "10.1007/s10509-011-0692-z",
         "search_API_link": "10.1007/s10509-011-0739-1",
         "search_API_score": 47.081585,
-        "reason": "SBM link incorrect"
+        "reason": "original link incorrect; STQ link incorrect; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s40903-015-0021-x",
@@ -2202,7 +2202,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5962/bhl.title.25118",
         "search_API_score": 53.566376,
-        "reason": "original link null; STQ link null; SBM link incorrect"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s11738-013-1453-0",
@@ -4659,7 +4659,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1109/jlt.1984.1073661",
         "search_API_score": 27.96915,
-        "reason": "original link null; STQ link null; SBM link incorrect"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s13668-012-0025-z",
@@ -5883,7 +5883,7 @@
         "current_STQ_link": "10.1111/j.1399-3054.1993.tb01384.x",
         "search_API_link": "10.1034/j.1399-3054.1993.880417.x",
         "search_API_score": 185.72957,
-        "reason": "original link null; STQ and SBM disagree, SBM link broken"
+        "reason": "original link null; STQ and SBM disagree, both correct"
     },
     {
         "source_DOI": "10.1007/s00436-008-1259-y",
@@ -5901,7 +5901,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf01859313",
         "search_API_score": 38.78324,
-        "reason": "original link null; STQ link null; SBM link incorrect"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00428-015-1865-x",
@@ -8916,7 +8916,7 @@
         "current_STQ_link": "10.1016/0006-291x(76)91022-6",
         "search_API_link": "10.1016/0006-291x(75)90770-6",
         "search_API_score": 71.0948,
-        "reason": "original link null; STQ and SBM disagree; SBM correct"
+        "reason": "original link null; STQ and SBM disagree; both incorrect"
     },
     {
         "source_DOI": "10.1007/s10847-016-0619-y",
