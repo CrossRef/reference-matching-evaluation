@@ -15,7 +15,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1017/s0031819100018234",
         "search_API_score": 46.83999,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1029/91jb00920",
@@ -33,7 +33,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-3-540-69970-5_20",
         "search_API_score": 55.62445,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s13668-012-0025-z",
@@ -96,7 +96,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5771/9783845234588",
         "search_API_score": 51.336243,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00424-007-0360-x",
@@ -105,7 +105,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1152/ajpgi.1988.255.2.g221",
         "search_API_score": 73.726715,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3103/s1055134415030049",
@@ -132,7 +132,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1086/447358",
         "search_API_score": 119.00713,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1134/s1995078008090012",
@@ -141,7 +141,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.20953/1727-5784-2012-1-27-32",
         "search_API_score": 80.65311,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf01732412",
@@ -150,7 +150,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4159/harvard.9780674863507",
         "search_API_score": 74.0473,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s12026-012-8306-6",
@@ -204,7 +204,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1097/00007611-196604000-00008",
         "search_API_score": 34.112217,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf00659173",
@@ -213,7 +213,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1107/s0567740873003353",
         "search_API_score": 30.997478,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1134/s1061934809070041",
@@ -231,7 +231,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3386/w4580",
         "search_API_score": 81.81114,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00216-011-4998-z",
@@ -303,7 +303,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1177/030913259602000414",
         "search_API_score": 35.660557,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10509-013-1426-1",
@@ -330,7 +330,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2139/ssrn.1577775",
         "search_API_score": 31.222456,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00424-007-0360-x",
@@ -357,7 +357,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1002/1521-3927(20000601)21:10<675::aid-marc675>3.0.co",
         "search_API_score": 60.47939,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s13131-017-1008-0",
@@ -366,7 +366,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s11001-016-9290-3",
         "search_API_score": 45.015114,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3758/bf03200872",
@@ -384,7 +384,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1201/9780849397264",
         "search_API_score": 73.121254,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s10803-018-3477-1",
@@ -429,7 +429,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1524/hzhz.2013.0196",
         "search_API_score": 35.734264,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf01968104",
@@ -465,7 +465,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/525048",
         "search_API_score": 50.75033,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1134/s1995078008090012",
@@ -519,7 +519,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/0039-9140(93)80231-f",
         "search_API_score": 63.986866,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1186/s12873-017-0133-6",
@@ -537,7 +537,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4324/9780203115039",
         "search_API_score": 59.36905,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/jhep11(2016)131",
@@ -663,7 +663,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s11434-006-9089-8",
         "search_API_score": 58.92152,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10681-015-1622-x",
@@ -681,7 +681,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1037/e504462009-001",
         "search_API_score": 51.939384,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00424-007-0360-x",
@@ -744,7 +744,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1373/49.2.344",
         "search_API_score": 64.01837,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11097-006-9040-0",
@@ -807,7 +807,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s00467-008-0811-4",
         "search_API_score": 80.839714,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/978-3-319-42087-5_52-2",
@@ -825,7 +825,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1787/888933550516",
         "search_API_score": 47.098923,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11892-015-0638-x",
@@ -870,7 +870,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1006/viro.2000.0544",
         "search_API_score": 53.58752,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10270-018-0680-7",
@@ -888,7 +888,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1177/026142948500300121",
         "search_API_score": 56.673958,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00428-015-1865-x",
@@ -924,7 +924,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1097/00004424-196711000-00009",
         "search_API_score": 45.241158,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1111/j.1468-0106.2009.00446.x",
@@ -1176,7 +1176,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.7767/boehlau.9783205791652.11",
         "search_API_score": 35.585773,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11069-014-1405-z",
@@ -1356,7 +1356,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4324/9781351311168-12",
         "search_API_score": 40.957283,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3758/bf03195969",
@@ -1410,7 +1410,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5771/0042-384x-2009-4-153",
         "search_API_score": 127.7503,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00213-014-3660-9",
@@ -1446,7 +1446,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1159/000478777",
         "search_API_score": 58.65428,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.4018/978-1-4666-1942-5.ch012",
@@ -1491,7 +1491,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2753/res1060-9393330137",
         "search_API_score": 24.778263,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf00941945",
@@ -1509,7 +1509,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf02164058",
         "search_API_score": 45.20901,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1057/9780230508262_9",
@@ -1518,7 +1518,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/2495610",
         "search_API_score": 50.95759,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10228-015-0500-9",
@@ -1536,7 +1536,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1152/ajpheart.1983.245.3.h528",
         "search_API_score": 103.66658,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s10910-016-0596-9",
@@ -1626,7 +1626,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5962/bhl.title.56114",
         "search_API_score": 61.479084,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10822-017-0036-3",
@@ -1635,7 +1635,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2172/1136453",
         "search_API_score": 35.44586,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.5172/hesr.2011.20.2.120",
@@ -1698,7 +1698,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1515/zna-1966-0405",
         "search_API_score": 106.487404,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/978-3-319-42958-8_6",
@@ -1716,7 +1716,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1524/9783486717853.11",
         "search_API_score": 62.308372,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf01310998",
@@ -1761,7 +1761,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.23943/princeton/9780691175836.003.0002",
         "search_API_score": 49.167526,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf00420908",
@@ -1779,7 +1779,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s0039-6060(97)90014-3",
         "search_API_score": 41.711006,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00429-014-0917-3",
@@ -1797,7 +1797,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1177/000276427201500699",
         "search_API_score": 42.294083,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10212-010-0016-7",
@@ -1851,7 +1851,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/j.lfs.2007.06.008",
         "search_API_score": 54.15977,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11682-009-9085-0",
@@ -1896,7 +1896,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1109/icma.2005.1626882",
         "search_API_score": 136.47537,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s10910-016-0596-9",
@@ -1923,7 +1923,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4153/cmb-1983-073-9",
         "search_API_score": 43.16959,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.4018/978-1-60960-854-5.ch019",
@@ -1932,7 +1932,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.22230/cjc.2004v29n2a1440",
         "search_API_score": 58.34999,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10822-017-0036-3",
@@ -1959,7 +1959,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1017/s0142716400004616",
         "search_API_score": 42.82199,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf03172882",
@@ -2022,7 +2022,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.15258/istarules.2015.f",
         "search_API_score": 64.256325,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3758/bf03195969",
@@ -2040,7 +2040,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1111/j.1755-3768.1982.tb00616.x",
         "search_API_score": 38.074474,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf03172882",
@@ -2103,7 +2103,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/0166-1280(91)85083-j",
         "search_API_score": 44.100403,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1057/9780230508262_9",
@@ -2112,7 +2112,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/2500515",
         "search_API_score": 65.86678,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11682-009-9085-0",
@@ -2139,7 +2139,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1080/00107514.2013.800139",
         "search_API_score": 45.787495,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1093/aob/mcl022",
@@ -2238,7 +2238,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1090/s0002-9947-1936-1501865-8",
         "search_API_score": 71.98971,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s12665-013-2748-6",
@@ -2364,7 +2364,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/j.dsp.2008.04.003",
         "search_API_score": 32.91171,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-319-66188-9_7",
@@ -2373,7 +2373,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1139/h05-118",
         "search_API_score": 64.2997,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-319-51608-0_6",
@@ -2382,7 +2382,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-94-017-2862-1_6",
         "search_API_score": 101.200455,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.3758/s13414-014-0780-6",
@@ -2391,7 +2391,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1207/s15328023top2002_14",
         "search_API_score": 60.720486,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1057/9781137552952_17",
@@ -2400,7 +2400,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1525/fq.1996.50.2.04a00150",
         "search_API_score": 76.565994,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3758/s13414-014-0780-6",
@@ -2472,7 +2472,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3758/bf03197988",
         "search_API_score": 48.438225,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10772-013-9198-0",
@@ -2490,7 +2490,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s00436-004-1115-7",
         "search_API_score": 97.08226,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11661-018-4471-0",
@@ -2508,7 +2508,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1207/s15328023top0403_13",
         "search_API_score": 42.271496,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1093/aob/mcl022",
@@ -2535,7 +2535,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.18356/f0ca7f43-en",
         "search_API_score": 68.678635,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s12098-010-0189-8",
@@ -2553,7 +2553,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1109/mc.2009.56",
         "search_API_score": 61.266678,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1002/1099-0488(20000715)38:14<1931::aid-polb120>3.0.co;2-4",
@@ -2562,7 +2562,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1126/science.138.3541.675-a",
         "search_API_score": 28.104582,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.5172/hesr.2011.20.2.120",
@@ -2643,7 +2643,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-1-4684-9393-1_3",
         "search_API_score": 97.83974,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM links to a chapter"
     },
     {
         "source_DOI": "10.1007/bf01732412",
@@ -2652,7 +2652,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5840/ruffinoup199553",
         "search_API_score": 58.024734,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10803-015-2496-4",
@@ -2706,7 +2706,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3403/30250565u",
         "search_API_score": 47.866833,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00214-010-0880-x",
@@ -2733,7 +2733,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1111/j.1467-9795.2004.00170.x",
         "search_API_score": 44.56984,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s12098-010-0189-8",
@@ -2796,7 +2796,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf00009870",
         "search_API_score": 108.13191,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10551-016-3323-3",
@@ -2832,7 +2832,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s1364-6613(99)01380-7",
         "search_API_score": 49.916805,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-642-25856-5_5",
@@ -2868,7 +2868,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3386/w9724",
         "search_API_score": 56.66195,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1057/9780230508262_9",
@@ -2877,7 +2877,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1017/s0368393100134935",
         "search_API_score": 28.251839,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1029/97jd00103",
@@ -3003,7 +3003,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1017/s0360966900021721",
         "search_API_score": 31.473856,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10228-015-0500-9",
@@ -3012,7 +3012,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2305/iucn.uk.2015.rlts.t34038a79854504.en",
         "search_API_score": 70.1204,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1063/1.4940461",
@@ -3075,7 +3075,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3745/jips.2011.7.2.363",
         "search_API_score": 97.32482,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00299-008-0527-8",
@@ -3093,7 +3093,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1145/1143844.1143950",
         "search_API_score": 61.56445,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1145/3196321.3196339",
@@ -3165,7 +3165,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s0166-218x(97)81413-8",
         "search_API_score": 29.38945,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00214-010-0880-x",
@@ -3192,7 +3192,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1891/0889-8391.8.1.76",
         "search_API_score": 47.082115,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00436-008-1259-y",
@@ -3228,7 +3228,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/b978-0-08-022349-0.50029-1",
         "search_API_score": 23.143547,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11661-018-4471-0",
@@ -3255,7 +3255,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1176/appi.books.9780890423349",
         "search_API_score": 84.84672,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/978-3-642-20662-7_9",
@@ -3453,7 +3453,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4159/harvard.9780674182479.c2",
         "search_API_score": 39.431034,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10846-014-0142-6",
@@ -3471,7 +3471,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.29317/ejpfm.2017010205",
         "search_API_score": 37.337185,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10212-010-0016-7",
@@ -3687,7 +3687,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1057/9780230625013_9",
         "search_API_score": 59.464657,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10953-012-9919-z",
@@ -3840,7 +3840,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1068/p3502rvw",
         "search_API_score": 34.8812,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1145/2808194.2809449",
@@ -3867,7 +3867,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s0023-9690(02)00508-8",
         "search_API_score": 62.81387,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.4141/cjps2012-311",
@@ -3885,7 +3885,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf01862727",
         "search_API_score": 38.90204,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1145/3196321.3196339",
@@ -3912,7 +3912,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/springerreference_64238",
         "search_API_score": 49.46158,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00595-015-1181-8",
@@ -3966,7 +3966,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3724/sp.j.1123.2011.12060",
         "search_API_score": 45.091434,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1603/0022-2585-37.4.492",
@@ -3975,7 +3975,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf00291168",
         "search_API_score": 43.076637,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1057/9780230508262_9",
@@ -4029,7 +4029,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/414713",
         "search_API_score": 54.562794,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00213-014-3660-9",
@@ -4047,7 +4047,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/0006-2952(92)90359-q",
         "search_API_score": 60.99006,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10551-016-3323-3",
@@ -4074,7 +4074,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s11655-014-1790-2",
         "search_API_score": 48.838852,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1057/9781137442253_11",
@@ -4092,7 +4092,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1093/ww/9780199540884.013.u42550",
         "search_API_score": 44.440617,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-319-42958-8_6",
@@ -4119,7 +4119,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf02909776",
         "search_API_score": 33.999027,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11748-010-0759-8",
@@ -4173,7 +4173,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1177/0040571x8909200609",
         "search_API_score": 44.821453,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1057/9780230508262_9",
@@ -4182,7 +4182,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.17660/actahortic.1974.45",
         "search_API_score": 21.913567,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3758/s13414-014-0780-6",
@@ -4443,7 +4443,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1142/9789814529518",
         "search_API_score": 77.00058,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1134/s1061934809070041",
@@ -4461,7 +4461,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1145/1361348.1361355",
         "search_API_score": 55.020535,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1186/s12877-018-0812-5",
@@ -4479,7 +4479,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-90-6704-471-4_17",
         "search_API_score": 67.01661,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00249-018-1277-3",
@@ -4488,7 +4488,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s10973-015-4426-2",
         "search_API_score": 71.24986,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1145/3148330.3154522",
@@ -4533,7 +4533,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1002/rcm.1290070634",
         "search_API_score": 53.37366,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3758/s13414-014-0780-6",
@@ -4587,7 +4587,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.15258/sst.2014.42.3.06",
         "search_API_score": 49.963463,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-319-51608-0_6",
@@ -4605,7 +4605,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-3-7091-0321-0_20",
         "search_API_score": 81.34588,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00424-007-0360-x",
@@ -4641,7 +4641,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s0007-1536(84)80247-8",
         "search_API_score": 31.753704,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00774-009-0152-9",
@@ -4713,7 +4713,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1023/a:1012699224677",
         "search_API_score": 47.85594,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00209-015-1507-7",
@@ -4767,7 +4767,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/j.carbon.2015.11.027",
         "search_API_score": 29.859535,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00426-014-0636-7",
@@ -4812,7 +4812,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-90-6704-471-4_4",
         "search_API_score": 67.01276,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/bf01237788",
@@ -4821,7 +4821,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1288/00005537-197110000-00005",
         "search_API_score": 91.41709,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s11892-015-0638-x",
@@ -4893,7 +4893,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s1574-0005(05)80051-7",
         "search_API_score": 59.409386,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00113-014-2723-z",
@@ -4911,7 +4911,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s00436-004-1199-0",
         "search_API_score": 101.16867,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1517/17425240802497457",
@@ -4929,7 +4929,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1515/9783110508604-003",
         "search_API_score": 106.463455,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11748-010-0759-8",
@@ -4956,7 +4956,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3403/30213628",
         "search_API_score": 39.521687,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00214-010-0880-x",
@@ -4983,7 +4983,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/j.ctt32b2xs",
         "search_API_score": 54.340137,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00535-009-0181-0",
@@ -5001,7 +5001,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1093/sw/14.4.115",
         "search_API_score": 71.16594,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1186/s12877-018-0812-5",
@@ -5010,7 +5010,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s1878-7649(14)70288-8",
         "search_API_score": 66.137085,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10803-015-2496-4",
@@ -5136,7 +5136,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/j.ctt15zc8dr.15",
         "search_API_score": 40.51656,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1186/1742-2094-9-2",
@@ -5208,7 +5208,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1002/14651858.cd002178",
         "search_API_score": 113.00174,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00542-011-1358-z",
@@ -5226,7 +5226,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5840/process200635128",
         "search_API_score": 29.029224,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10551-016-3323-3",
@@ -5235,7 +5235,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1111/1467-9809.12096",
         "search_API_score": 36.938774,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11894-008-0109-5",
@@ -5343,7 +5343,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/j.catena.2015.08.005",
         "search_API_score": 40.21992,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10803-018-3477-1",
@@ -5379,7 +5379,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1534/genetics.116.194084",
         "search_API_score": 44.13187,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.5172/hesr.2011.20.2.120",
@@ -5388,7 +5388,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1093/ptj/21.6.335",
         "search_API_score": 73.76614,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00426-014-0636-7",
@@ -5496,7 +5496,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1038/nrneph.2014.11",
         "search_API_score": 42.673615,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00296-015-3246-9",
@@ -5514,7 +5514,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/0042-6822(92)90570-f",
         "search_API_score": 73.301216,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s13668-012-0025-z",
@@ -5523,7 +5523,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1038/oby.2009.436",
         "search_API_score": 58.41163,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11009-016-9513-8",
@@ -5550,7 +5550,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.31274/rtd-180813-11848",
         "search_API_score": 44.102264,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11655-016-2472-7",
@@ -5595,7 +5595,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3139/9783446452756.bm",
         "search_API_score": 62.455036,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00374-010-0485-5",
@@ -5613,7 +5613,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1086/602915",
         "search_API_score": 56.099957,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11764-013-0327-1",
@@ -5640,7 +5640,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1017/s1355617700231123",
         "search_API_score": 105.022484,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11892-015-0638-x",
@@ -5667,7 +5667,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-1-4612-5636-6_20",
         "search_API_score": 57.113636,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-319-40773-9_4",
@@ -5685,7 +5685,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4172/2167-0412.1000152",
         "search_API_score": 18.628391,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11406-017-9815-2",
@@ -5730,7 +5730,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-94-007-1494-6",
         "search_API_score": 57.37896,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s12273-013-0110-2",
@@ -5739,7 +5739,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.6028/nist.ir.6769",
         "search_API_score": 57.664814,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11661-018-4471-0",
@@ -5766,7 +5766,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3233/fi-2018-1680",
         "search_API_score": 36.524654,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s12273-013-0110-2",
@@ -5784,7 +5784,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/0-387-27727-7_5",
         "search_API_score": 46.161804,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10803-018-3477-1",
@@ -5820,7 +5820,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3736/jcim20100207",
         "search_API_score": 56.807014,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00299-008-0527-8",
@@ -5856,7 +5856,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-1-4615-3772-4_18",
         "search_API_score": 96.906265,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s10822-017-0036-3",
@@ -5910,7 +5910,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1109/dicta.2012.6411715",
         "search_API_score": 57.027733,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00216-011-4998-z",
@@ -6027,7 +6027,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1063/1.328693",
         "search_API_score": 36.25663,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1002/1099-0488(20000715)38:14<1931::aid-polb120>3.0.co;2-4",
@@ -6081,7 +6081,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf02495553",
         "search_API_score": 80.618515,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1038/s41598-017-07222-8",
@@ -6279,7 +6279,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1093/sf/59.4.1330",
         "search_API_score": 55.40139,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00374-010-0485-5",
@@ -6297,7 +6297,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.11606/t.18.2012.tde-10042012-105723",
         "search_API_score": 76.14272,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1145/3016078.2851166",
@@ -6306,7 +6306,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1145/1297105.1297080",
         "search_API_score": 53.44107,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1186/s12877-018-0812-5",
@@ -6459,7 +6459,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.18356/1c242c1a-en",
         "search_API_score": 61.78402,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00213-014-3660-9",
@@ -6531,7 +6531,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/s2214-109x(14)70361-4",
         "search_API_score": 42.855145,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1063/1.322578",
@@ -6612,7 +6612,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1097/pai.0b013e3181dddb20",
         "search_API_score": 112.8895,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1134/s1995078008090012",
@@ -6666,7 +6666,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/1268363",
         "search_API_score": 32.547558,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10212-010-0016-7",
@@ -6675,7 +6675,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2167/le720.0",
         "search_API_score": 96.18156,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.3103/s1055134415030049",
@@ -6720,7 +6720,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5840/heideggerstud20163217",
         "search_API_score": 35.718075,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1029/94jd00945",
@@ -6747,7 +6747,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1002/acr.20682",
         "search_API_score": 48.472214,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1134/s1061934809070041",
@@ -6756,7 +6756,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1124/dmd.117.078352",
         "search_API_score": 28.70343,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-319-40773-9_4",
@@ -6792,7 +6792,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.5840/ipq198828150",
         "search_API_score": 41.45583,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00300-018-2269-6",
@@ -6810,7 +6810,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s10114-004-0523-z",
         "search_API_score": 31.485384,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1038/sj.onc.1208450",
@@ -6828,7 +6828,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1128/jb.00623-08",
         "search_API_score": 51.82765,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00774-009-0152-9",
@@ -6891,7 +6891,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1111/j.1469-7793.2000.t01-1-00533.x",
         "search_API_score": 38.04061,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11097-006-9040-0",
@@ -6900,7 +6900,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1037/e420372004-001",
         "search_API_score": 42.04658,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10822-017-0036-3",
@@ -6909,7 +6909,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1002/9780470515235.ch1",
         "search_API_score": 74.98102,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00296-015-3246-9",
@@ -7026,7 +7026,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1115/1.1467599",
         "search_API_score": 51.11407,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11401-012-0731-2",
@@ -7035,7 +7035,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1360/012013-201",
         "search_API_score": 75.717384,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1145/3196321.3196339",
@@ -7107,7 +7107,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/978-94-010-1449-6_32",
         "search_API_score": 35.990345,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11406-017-9815-2",
@@ -7152,7 +7152,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/0006-2952(96)00423-6",
         "search_API_score": 55.206635,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11153-016-9572-3",
@@ -7215,7 +7215,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1093/ww/9780199540884.013.251210",
         "search_API_score": 31.533525,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/978-3-319-42958-8_6",
@@ -7278,7 +7278,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4028/www.scientific.net/amm.741.749",
         "search_API_score": 33.206932,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1134/s1995078008090012",
@@ -7350,7 +7350,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/0031-3203(95)00133-6",
         "search_API_score": 34.285206,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10142-016-0537-5",
@@ -7395,7 +7395,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/0014-4894(69)90095-2",
         "search_API_score": 78.8796,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/jhep11(2016)131",
@@ -7449,7 +7449,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1090/noti1321",
         "search_API_score": 40.923935,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3758/s13414-014-0780-6",
@@ -7584,7 +7584,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3724/sp.j.1003.2011.11130",
         "search_API_score": 79.2185,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10822-017-0036-3",
@@ -7683,7 +7683,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1134/s0021364007180166",
         "search_API_score": 83.30094,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11033-014-3592-9",
@@ -7719,7 +7719,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1037/e720092007-001",
         "search_API_score": 53.810707,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10803-015-2496-4",
@@ -7791,7 +7791,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1070/sm1967v003n01abeh002360",
         "search_API_score": 46.239433,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00429-014-0917-3",
@@ -7809,7 +7809,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1086/486291",
         "search_API_score": 73.58472,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11738-013-1453-0",
@@ -7863,7 +7863,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.3133/mf1231a",
         "search_API_score": 55.5961,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s40903-015-0021-x",
@@ -8034,7 +8034,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1177/004057369104800218",
         "search_API_score": 77.68263,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s12206-016-1014-8",
@@ -8079,7 +8079,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1111/j.1745-7254.2007.00551.x",
         "search_API_score": 37.03408,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1038/s41423-018-0026-y",
@@ -8097,7 +8097,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1145/966221.966666",
         "search_API_score": 76.49878,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s11661-018-4471-0",
@@ -8196,7 +8196,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.4304/jsw.6.5.747-768",
         "search_API_score": 132.17548,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s00604-015-1588-3",
@@ -8457,7 +8457,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/bf00269000",
         "search_API_score": 78.36747,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1186/s12877-018-0812-5",
@@ -8529,7 +8529,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1167/iovs.12-11287",
         "search_API_score": 36.731525,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.3103/s1055134415030049",
@@ -8565,7 +8565,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1046/j.1440-1835.2003.00299.x",
         "search_API_score": 58.580475,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s00426-014-0636-7",
@@ -8610,7 +8610,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1016/j.csl.2008.06.005",
         "search_API_score": 58.597446,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/bf02262741",
@@ -8781,7 +8781,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1007/s001220050414",
         "search_API_score": 46.014805,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1057/9781137552952_17",
@@ -8790,7 +8790,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.2307/j.ctt4cgmsf.27",
         "search_API_score": 25.906128,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1007/s10228-015-0500-9",
@@ -8844,7 +8844,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1109/icslp.1996.607081",
         "search_API_score": 59.61365,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1134/s1061934809070041",
@@ -8871,7 +8871,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1787/9789264116597-en",
         "search_API_score": 85.72161,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link correct"
     },
     {
         "source_DOI": "10.1007/s10853-016-0101-7",
@@ -8979,7 +8979,7 @@
         "current_STQ_link": null,
         "search_API_link": "10.1177/0038038509340749",
         "search_API_score": 36.97008,
-        "reason": "original link null; STQ link null; SBM link not inspected"
+        "reason": "original link null; STQ link null; SBM link incorrect"
     },
     {
         "source_DOI": "10.1186/1742-2094-9-2",
