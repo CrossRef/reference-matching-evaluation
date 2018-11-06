@@ -17,8 +17,8 @@ class Matcher:
         self.min_similarity = min_similarity
 
     def description(self):
-        return ('Crossref search matcher with validation ' + \
-                'and minimum normalized relevance score {} ' + \
+        return ('Crossref search matcher with validation ' +
+                'and minimum normalized relevance score {} ' +
                 'and minimum candidate similarity {}') \
                 .format(self.min_score, self.min_similarity)
 
@@ -54,6 +54,8 @@ class Matcher:
         if not candidates:
             return None, None
         similarities = [self.similarity(c, ref_string) for c in candidates]
+        if max(similarities) == 0:
+            return None, None
         return candidates[similarities.index(max(similarities))], \
             max(similarities)
 
@@ -63,12 +65,12 @@ class Matcher:
         str_set = {}
 
         # weights of relevalnce score
-        cand_set['score'] = min(1, candidate['score']/100)
-        str_set['score'] = 1
+        cand_set['score'] = candidate['score']/100
+        str_set['score'] = max(1, candidate['score']/100)
 
         # weights of normalized relevance score
-        cand_set['score_norm'] = min(1, candidate['score']/len(ref_string))
-        str_set['score_norm'] = 1
+        cand_set['score_norm'] = candidate['score']/len(ref_string)
+        str_set['score_norm'] = max(1, candidate['score']/len(ref_string))
 
         # remove DOI and arXiv from reference string
         # this is done to leave only bibliographic numbers in the strings
@@ -76,6 +78,7 @@ class Matcher:
         ref_string = re.sub('(?<!\d)10\.\d{4,9}/[-\._;\(\)/:a-zA-Z0-9]+', '',
                             ref_string)
         ref_string = re.sub('(?<![a-zA-Z0-9])arXiv:[\d\.]+', '', ref_string)
+        ref_string = re.sub('\[[^\[\]]*\]', '', ref_string)
 
         # complete last page if abbreviated
         # changes "1425-37" to "1425-1437"
@@ -91,6 +94,17 @@ class Matcher:
 
         # all number appearing in the ref string
         ref_numbers = re.findall('(?<!\d)\d+(?!\d)', ref_string[5:])
+        if not ref_numbers:
+            return 0
+
+        # if volume equals year, but only one instance is present
+        # in the reference string, add another copy
+        issued = candidate['issued']['date-parts']
+        if 'volume' in candidate and issued is not None and \
+                issued[0][0] is not None and \
+                candidate['volume'] == str(issued[0][0]) and \
+                ref_numbers.count(candidate['volume']) == 1:
+            ref_numbers.append(candidate['volume'])
 
         # weights of volume
         if 'volume' in candidate:
@@ -98,7 +112,6 @@ class Matcher:
                                 cand_set, str_set)
 
         # weights for year
-        issued = candidate['issued']['date-parts']
         if issued is not None and issued[0][0] is not None:
             self.update_weights('year', str(issued[0][0]), ref_numbers,
                                 cand_set, str_set)
@@ -106,7 +119,7 @@ class Matcher:
         # weights for issue
         if 'issue' in candidate:
             self.update_weights('issue', candidate['issue'], ref_numbers,
-                                cand_set, str_set, weight=0.5)
+                                cand_set, str_set)
 
         # weights for pages
         if 'page' in candidate:
@@ -131,12 +144,14 @@ class Matcher:
             cand_set['author'] = 1
             str_set['author'] = fuzz.partial_ratio(a, b) / 100
 
-        if issued is not None and issued[0][0] is not None and str_set['year_0'] == 0:
+        # if the year wasn't found, try with year +- 1
+        if issued is not None and issued[0][0] is not None and \
+                str_set['year_0'] == 0:
             if str(issued[0][0]-1) in ref_numbers:
-                str_set['year_0'] = 0.8
+                str_set['year_0'] = 0.5
                 ref_numbers.remove(str(issued[0][0]-1))
             elif str(issued[0][0]+1) in ref_numbers:
-                str_set['year_0'] = 0.8
+                str_set['year_0'] = 0.5
                 ref_numbers.remove(str(issued[0][0]+1))
 
         # weights for the remaining numbers in the ref string
