@@ -30,42 +30,69 @@ def scramble(text):
     return ' '.join(words)
 
 
-def journal_title(record):
+def get_journal_title(record):
     try:
         return record.get(dfk.CR_ITEM_CONTAINER_TITLE, [''])[0]
     except IndexError:
         return ''
 
 
+def get_year(record):
+    issued = record['issued']['date-parts']
+    if issued is not None and issued[0][0] is not None:
+        return str(issued[0][0])
+    return ''
+
+
+def get_volume(record):
+    return record.get('volume', '')
+
+
+def get_issue(record):
+    return record.get('issue', '')
+
+
+def get_page(record):
+    return record.get('page', '')
+
+
 def degraded_all_authors(record):
     authors = get_authors(record)
     title = (record.get(dfk.CR_ITEM_TITLE, ['']))[0]
-    journal = journal_title(record)
-    ref = authors + '. ' + title + '. ' + journal
+    journal = get_journal_title(record)
+    ref = authors + '. ' + title + '. ' + journal + '. ' + \
+        get_year(record) + '. ' + get_volume(record) + '. ' + \
+        get_issue(record) + '. ' + get_page(record)
     return ref
 
 
 def degraded_one_author(record):
     authors = get_authors(record, 1)
     title = (record.get(dfk.CR_ITEM_TITLE, ['']))[0]
-    journal = journal_title(record)
-    ref = authors + '. ' + title + '. ' + journal
+    journal = get_journal_title(record)
+    ref = authors + '. ' + title + '. ' + journal + '. ' + \
+        get_year(record) + '. ' + get_volume(record) + '. ' + \
+        get_issue(record) + '. ' + get_page(record)
     return ref
 
 
 def degraded_no_stopwords(record):
     authors = get_authors(record)
     title = strip_stopwords((record.get(dfk.CR_ITEM_TITLE, ['']))[0])
-    journal = journal_title(record)
-    ref = authors + '. ' + title + '. ' + journal
+    journal = get_journal_title(record)
+    ref = authors + '. ' + title + '. ' + journal + '. ' + \
+        get_year(record) + '. ' + get_volume(record) + '. ' + \
+        get_issue(record) + '. ' + get_page(record)
     return ref
 
 
 def degraded_title_scrambled(record):
     authors = get_authors(record)
     title = scramble((record.get(dfk.CR_ITEM_TITLE, ['']))[0])
-    journal = journal_title(record)
-    ref = authors + '. ' + title + '. ' + journal
+    journal = get_journal_title(record)
+    ref = authors + '. ' + title + '. ' + journal + '. ' + \
+        get_year(record) + '. ' + get_volume(record) + '. ' + \
+        get_issue(record) + '. ' + get_page(record)
     return ref
 
 
