@@ -1,6 +1,7 @@
 import utils.data_format_keys as dfk
 
-from evaluation.evaluation_utils import doi_equals, doi_gt_null, doi_test_null
+from evaluation.evaluation_utils import confidence_interval_prop, doi_equals, \
+    doi_gt_null, doi_test_null
 
 
 class ReferenceMetricsResults:
@@ -12,7 +13,8 @@ class ReferenceMetricsResults:
              dfk.EVAL_INCORR_EXISTS_C, dfk.EVAL_INCORR_MISSING_C,
              dfk.EVAL_CORR_LINK_F, dfk.EVAL_CORR_NO_LINK_F,
              dfk.EVAL_INCORR_LINK_F, dfk.EVAL_INCORR_EXISTS_F,
-             dfk.EVAL_INCORR_MISSING_F, dfk.EVAL_ACCURACY]
+             dfk.EVAL_INCORR_MISSING_F, dfk.EVAL_ACCURACY,
+             dfk.EVAL_CI_ACCURACY]
         self.metrics_groups = \
             [(dfk.EVAL_CORR_LINK_C, dfk.EVAL_CORR_LINK_F),
              (dfk.EVAL_CORR_NO_LINK_C, dfk.EVAL_CORR_NO_LINK_F),
@@ -45,6 +47,12 @@ class ReferenceMetricsResults:
              self.results.get(dfk.EVAL_CORR_NO_LINK_C)) / \
             self.results.get(dfk.EVAL_REF_TOTAL)
 
+        self.results[dfk.EVAL_CI_ACCURACY] = \
+            confidence_interval_prop(self.results.get(dfk.EVAL_CORR_LINK_C) +
+                                     self.results.get(dfk.EVAL_CORR_NO_LINK_C),
+                                     self.results.get(dfk.EVAL_REF_TOTAL),
+                                     0.95)
+
     def get_supported_metrics(self):
         return self.metrics
 
@@ -55,7 +63,9 @@ class ReferenceMetricsResults:
         print('Reference-based metrics:')
         print('  Number of references: {}'
               .format(self.get(dfk.EVAL_REF_TOTAL)))
-        print('  Accuracy: {:.4f}'.format(self.get(dfk.EVAL_ACCURACY)))
+        print('  Accuracy: {:.4f} (CI: {})'
+              .format(self.get(dfk.EVAL_ACCURACY),
+                      self.get(dfk.EVAL_CI_ACCURACY)))
         print('  Fractions of references:')
         for count, fraction in self.metrics_groups:
             print('    - {}: {:.4f} ({})'.format(fraction,

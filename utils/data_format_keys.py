@@ -46,6 +46,7 @@ EVAL_INCORR_EXISTS_F = 'incorrect existing ref links (fraction)'
 EVAL_INCORR_MISSING_F = 'incorrect missing ref links (fraction)'
 
 EVAL_ACCURACY = 'accuracy'
+EVAL_CI_ACCURACY = 'confidence interval for accuracy'
 
 EVAL_PREC = 'precision'
 EVAL_REC = 'recall'

@@ -3,6 +3,7 @@ import scipy.stats as st
 
 from dataset.dataset_utils import get_target_gt_doi, get_target_test_doi
 from statistics import mean
+from statsmodels.stats.proportion import proportion_confint
 
 
 def doi_gt_null(item):
@@ -47,3 +48,7 @@ def confidence_interval(sample, confidence_level):
         return sample[0], sample[0]
     return st.t.interval(confidence_level, len(sample)-1, loc=mean(sample),
                          scale=st.sem(sample))
+
+
+def confidence_interval_prop(successes, count, confidence_level):
+    return proportion_confint(successes, count, alpha=1-confidence_level)
