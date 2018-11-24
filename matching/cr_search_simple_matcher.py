@@ -1,6 +1,7 @@
 import logging
 import utils.data_format_keys as dfk
 
+from evaluation.evaluation_utils import doi_normalize
 from random import random
 from utils.cr_utils import search
 from time import sleep
@@ -9,7 +10,7 @@ from time import sleep
 class Matcher:
 
     def __init__(self, min_score, excluded_dois=[]):
-        self.excluded_dois = [d.lower() for d in excluded_dois]
+        self.excluded_dois = [doi_normalize(d) for d in excluded_dois]
         self.min_score = min_score
 
     def description(self):
@@ -27,9 +28,10 @@ class Matcher:
                           .format(ref_string))
             return None, None
         for result in results:
-            if result.get(dfk.CR_ITEM_DOI).lower() in self.excluded_dois:
-                print('String {} NOT matched to excluded DOI {}'
-                      .format(ref_string, result.get(dfk.CR_ITEM_DOI)))
+            if doi_normalize(result.get(dfk.CR_ITEM_DOI)) \
+                    in self.excluded_dois:
+                logging.debug('String {} NOT matched to excluded DOI {}'
+                              .format(ref_string, result.get(dfk.CR_ITEM_DOI)))
                 continue
             if result.get(dfk.CR_ITEM_SCORE) < self.min_score:
                 logging.debug('Top hit for string {} has too low score {}'

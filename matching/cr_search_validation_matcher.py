@@ -3,6 +3,7 @@ import re
 import utils.data_format_keys as dfk
 import unidecode
 
+from evaluation.evaluation_utils import doi_normalize
 from fuzzywuzzy import fuzz
 from random import random
 from utils.cr_utils import search
@@ -12,7 +13,7 @@ from time import sleep
 class Matcher:
 
     def __init__(self, min_score, min_similarity, excluded_dois=[]):
-        self.excluded_dois = [d.lower() for d in excluded_dois]
+        self.excluded_dois = [doi_normalize() for d in excluded_dois]
         self.min_score = min_score
         self.min_similarity = min_similarity
 
@@ -35,9 +36,13 @@ class Matcher:
 
         candidates = []
         for result in results:
-            if result.get(dfk.CR_ITEM_DOI).lower() in self.excluded_dois:
+            if doi_normalize(result.get(dfk.CR_ITEM_DOI)) \
+                    in self.excluded_dois:
                 continue
-            if result.get(dfk.CR_ITEM_SCORE)/len(ref_string) >= self.min_score:
+            if not candidates:
+                candidates.append(result)
+            elif result.get(dfk.CR_ITEM_SCORE)/len(ref_string) >= \
+                    self.min_score:
                 candidates.append(result)
             else:
                 break
@@ -140,7 +145,13 @@ class Matcher:
         if 'author' in candidate and candidate['author'] \
                 and 'family' in candidate['author'][0]:
             a = unidecode.unidecode(candidate['author'][0]['family']).lower()
-            b = unidecode.unidecode(ref_string).lower()[:(2*len(a))]
+            b = unidecode.unidecode(ref_string).lower()[:(3*len(a))]
+            cand_set['author'] = 1
+            str_set['author'] = fuzz.partial_ratio(a, b) / 100
+        elif 'editor' in candidate and candidate['editor'] \
+                and 'family' in candidate['editor'][0]:
+            a = unidecode.unidecode(candidate['editor'][0]['family']).lower()
+            b = unidecode.unidecode(ref_string).lower()[:(3*len(a))]
             cand_set['author'] = 1
             str_set['author'] = fuzz.partial_ratio(a, b) / 100
 
@@ -153,6 +164,24 @@ class Matcher:
             elif str(issued[0][0]+1) in ref_numbers:
                 str_set['year_0'] = 0.5
                 ref_numbers.remove(str(issued[0][0]+1))
+
+        support = 0
+        if 'title' in candidate and candidate['title']:
+            a = unidecode.unidecode(candidate['title'][0]).lower()
+            b = unidecode.unidecode(ref_string).lower()
+            if fuzz.partial_ratio(a, b) / 100 > 0.7:
+                support = support + 1
+        for k, v in str_set.items():
+            if k == 'year_0' and v > 0:
+                support = support + 1
+            if k == 'volume_0' and v == 1:
+                support = support + 1
+            if k == 'author' and v > 0.7:
+                support = support + 1
+            if k == 'page_0' and v == 1:
+                support = support + 1
+        if support < 3:
+            return 0
 
         # weights for the remaining numbers in the ref string
         for i, r in enumerate(ref_numbers):
