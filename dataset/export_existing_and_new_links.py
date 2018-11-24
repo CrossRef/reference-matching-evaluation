@@ -1,7 +1,7 @@
 import argparse
 import config
 import logging
-import matching.cr_search_simple_matcher
+import matching.cr_search_validation_matcher
 import matching.stq_matcher
 import utils.data_format_keys as dfk
 
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     logging.info('Number of references to analyze: {}'.format(len(references)))
 
-    matcher = matching.cr_search_simple_matcher.Matcher(-1)
+    matcher = matching.cr_search_validation_matcher.Matcher(0.4, -1)
     with Pool(config.THREADS) as p:
         api_results = p.map(matcher.match,
                             [item.get('unstructured', '')
