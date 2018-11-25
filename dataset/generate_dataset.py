@@ -87,7 +87,8 @@ if __name__ == '__main__':
     if args.distort:
         for ref in sample_ref_strings:
             ref[dfk.DATASET_STYLE] = ref.get(dfk.DATASET_STYLE, '') + '-noise'
-            ref[dfk.DATASET_REF_STRING] = add_noise(ref.get(dfk.DATASET_REF_STRING, ''))
+            ref[dfk.DATASET_REF_STRING] = \
+                add_noise(ref.get(dfk.DATASET_REF_STRING, ''))
 
     dataset = {dfk.DATASET_DOIS: sample_data.get(dfk.SAMPLE_DOIS),
                dfk.DATASET_DATASET: sample_ref_strings}

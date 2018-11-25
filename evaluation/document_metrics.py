@@ -64,7 +64,7 @@ class ByDocumentMetricsResults:
             if doi_gt in target_dois_norm:
                 dataset_split[doi_gt].append(d)
             doi_test = doi_normalize(get_target_test_doi(d))
-            if doi_test != doi_gt and  doi_test in target_dois_norm:
+            if doi_test != doi_gt and doi_test in target_dois_norm:
                 dataset_split[doi_test].append(d)
 
         results_by_doc = \
