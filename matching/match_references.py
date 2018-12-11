@@ -38,9 +38,16 @@ if __name__ == '__main__':
     dataset = dataset_data.get(dfk.DATASET_DATASET)
 
     logging.info('Matching with matcher: {}'.format(MATCHER.description()))
-    with Pool(config.THREADS) as p:
-        results = p.map(MATCHER.match,
-                        [item.get(dfk.DATASET_REF_STRING) for item in dataset])
+    if dfk.DATASET_REF_STRING in dataset[0]:
+        with Pool(config.THREADS) as p:
+            results = p.map(MATCHER.match,
+                            [item.get(dfk.DATASET_REF_STRING)
+                             for item in dataset])
+    else:
+        with Pool(config.THREADS) as p:
+            results = p.map(MATCHER.match,
+                            [item.get(dfk.DATASET_REFERENCE)
+                             for item in dataset])
 
     [d.update({dfk.DATASET_TARGET_TEST:
                {dfk.CR_ITEM_DOI: None if r[0] is None else r[0].lower()},

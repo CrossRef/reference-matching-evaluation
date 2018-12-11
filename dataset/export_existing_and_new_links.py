@@ -10,15 +10,23 @@ from random import sample
 from utils.utils import init_logging, read_json, save_json
 
 
-def extract_unstructured_refs(sample_works):
+def is_unstructured(ref):
+    return dfk.CR_ITEM_UNSTRUCTURED in ref
+
+
+def is_structured(ref):
+    return not is_unstructured(ref)
+
+
+def extract_refs(sample_works, filter_fun=is_unstructured):
     references = []
     for work in sample_works.get(dfk.SAMPLE_SAMPLE):
         source_doi = work.get(dfk.CR_ITEM_DOI)
         for ref in work.get(dfk.CR_ITEM_REFERENCE, []):
-            if ref.get(dfk.CR_ITEM_DOI_ASSERTED_BY) != 'publisher':
-                if ref.get(dfk.CR_ITEM_UNSTRUCTURED, False):
-                    ref['source_doi'] = source_doi
-                    references.append(ref)
+            if ref.get(dfk.CR_ITEM_DOI_ASSERTED_BY) != 'publisher' \
+                    and filter_fun(ref):
+                ref['source_DOI'] = source_doi
+                references.append(ref)
     return references
 
 
@@ -29,6 +37,7 @@ if __name__ == '__main__':
                         action='store_true')
     parser.add_argument('-s', '--sample', type=str, required=True)
     parser.add_argument('-n', '--references', type=int)
+    parser.add_argument('-p', '--parsed', action='store_true')
     parser.add_argument('-o', '--output', type=str, required=True)
 
     args = parser.parse_args()
@@ -37,28 +46,27 @@ if __name__ == '__main__':
 
     sample_data = read_json(args.sample)
 
-    references = extract_unstructured_refs(sample_data)
-    logging.info('Number of references to analyze: {}'.format(len(references)))
+    if args.parsed:
+        references = extract_refs(sample_data, filter_fun=is_structured)
+    else:
+        references = extract_refs(sample_data, filter_fun=is_unstructured)
+    logging.info('Total number of references: {}'.format(len(references)))
 
     if args.references is not None:
         references = sample(references, args.references)
 
-    logging.info('Number of references to analyze: {}'.format(len(references)))
+    logging.info('Sampled number of references: {}'.format(len(references)))
 
     matcher = matching.cr_search_validation_matcher.Matcher(0.4, -1)
     with Pool(config.THREADS) as p:
-        api_results = p.map(matcher.match,
-                            [item.get('unstructured', '')
-                             for item in references])
+        api_results = p.map(matcher.match, references)
 
     matcher = matching.stq_matcher.Matcher()
     with Pool(config.THREADS) as p:
-        stq_results = p.map(matcher.match,
-                            [item.get('unstructured', '')
-                             for item in references])
+        stq_results = p.map(matcher.match, references)
 
-    save_json([{'source_DOI': r.get('source_doi', '').lower(),
-                'ref_string': r.get(dfk.CR_ITEM_UNSTRUCTURED),
+    save_json([{'source_DOI': r.get('source_DOI', '').lower(),
+                'reference': r,
                 'original_link': r.get(dfk.CR_ITEM_DOI, '').lower()
                 if r.get(dfk.CR_ITEM_DOI_ASSERTED_BY) == 'crossref'
                 else None,

@@ -117,3 +117,12 @@ def get_item(doi):
         return None
     result_message = json.loads(result).get('message')
     return result_message
+
+
+def generate_unstructured(reference):
+        ref_string = ''
+        for key in ['author', 'article-title', 'journal-title', 'series-title',
+                    'volume-title', 'year', 'volume', 'issue', 'first-page',
+                    'edition', 'ISSN']:
+            ref_string = ref_string + reference.get(key, '') + ' '
+        return re.sub(' +', ' ', ref_string.strip())
