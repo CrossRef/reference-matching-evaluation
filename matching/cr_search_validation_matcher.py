@@ -283,7 +283,7 @@ class Matcher:
         for k, v in str_set.items():
             if k == 'title' and v > 0.7:
                 support = support + 1
-            if k == 'ctitle' and v > 0.7:
+            if k == 'ctitle' and v > 0.3:
                 support = support + 1
             if k == 'author' and v > 0.7:
                 support = support + 1
@@ -292,21 +292,19 @@ class Matcher:
         support = 0
         exists = 0
         for k, v in str_set.items():
-            if k in ['year', 'volume', 'title', 'ctitle', 'author', 'page']:
-                exists = exists + 1
             if k == 'year' and v > 0 and cand_set[k] > 0:
                 support = support + 1
             if k == 'volume' and v == 1 and cand_set[k] > 0:
                 support = support + 1
             if k == 'title' and v > 0.7:
                 support = support + 1
-            if k == 'ctitle' and v > 0.7:
+            if k == 'ctitle' and v > 0.3:
                 support = support + 1
             if k == 'author' and v > 0.7:
                 support = support + 1
             if k == 'page' and v == 1 and cand_set[k] > 0:
                 support = support + 1
-        if support < 3:
+        if support < 4:
             return 0
 
         # generalized Jaccard similarity
