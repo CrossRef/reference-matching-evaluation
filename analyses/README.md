@@ -1,6 +1,6 @@
 # Reference matching experiments
 
-The notebooks here contain various experiments related to reference matching algorithms.
+The notebooks here contain various experiments related to reference matching algorithms. The notebooks are living documents, frequently updated as the algorithms, data and/or the Crossref collection change.
 
 Two approaches to reference matching are tested in these experiments:
 
