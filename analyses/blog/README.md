@@ -1,15 +1,18 @@
 # Reference matching experiments
 
-The notebooks here contain various experiments related to reference matching algorithms. These results were published on Crossref blog.
+The notebooks here contain various experiments related to reference matching algorithms. The results in this folder were published on Crossref blog.
 
 Two approaches to reference matching are tested in these experiments:
 
   * **STQ**: the currently used matching approach
   * **SBM**: search-based matching
+  * **SBMV**: search-based matching with validation
 
 STQ is Crossref's current matching algorithm. STQ internally uses a 3rd party parser and regular expressions and queries the Oracle. I run this matching algorithm using Simple Text Query form.
 
 SBM is a new idea, based on the search functionality of Crossref REST API. It is a very simple algorithm, which doesn't include any reference parsing step. In SBM the entire reference string is used as a query in REST API. The first hit is returned as the matched target document, if its relevance score is high enough. If the relevance score of the first hit is low, no target DOI is assigned and the reference string stays unmatched.
+
+SBMV is a variation of SBM. In SBMV, SBM is first applied and a number of top search results are selected as candidate target documents. Second, during the validation the candidates are re-scored based on the validation similarity between the input string and the candidates. Finally, the most similar candidate is chosen as the final target document, if its similarity is high enough. If the highest similarity is low, null value is returned and the reference string stays unmatched.
 
 The notebooks (reading order):
 
