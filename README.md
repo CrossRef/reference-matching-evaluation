@@ -4,9 +4,7 @@ This code allows for:
 
   * generating artificial datasets for reference matching
   * applying reference matching approaches
-  * evaluating various reference matching approaches
-
-[Here](https://docs.google.com/document/d/1X0clkjH-HM3DLVPWDgAZgS97Th4slniq28F9o-yd53k) are the notes about reference matching task in general, various ideas for dataset generation and the definitions of useful evaluation metrics.
+  * evaluating reference matching approaches
 
 Before running the scripts, add the code directory path to the environment variable PYTHONPATH.
 
@@ -124,7 +122,7 @@ Arguments:
 Export the information about a sample of existing and missing links in the current system.
 
 ```
-dataset/export_existing_and_new_links.py [-h] [-v] -s SAMPLE [-n REFERENCES] -o OUTPUT
+dataset/export_existing_and_new_links.py [-h] [-v] -s SAMPLE [-n REFERENCES] [-p] -o OUTPUT
 ```
 
 Arguments:
@@ -133,5 +131,6 @@ Arguments:
   * **-v** verbose output
   * **-s** sample file path
   * **-n** max number of output references
+  * **-p** export parsed references instead of strings
   * **-o** output file path
 
