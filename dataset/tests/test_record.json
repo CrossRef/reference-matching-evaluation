@@ -1,0 +1,439 @@
+{
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          7
+        ]
+      ],
+      "date-time": "2018-12-07T10:02:51Z",
+      "timestamp": 1544176971648
+    },
+    "reference-count": 39,
+    "publisher": "Springer Nature",
+    "issue": "4",
+    "funder": [
+      {
+        "DOI": "10.13039/501100000780",
+        "name": "European Commission",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "283595"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IJDAR"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10032-015-0249-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2015-07-02T12:36:00Z",
+      "timestamp": 1435840560000
+    },
+    "page": "317-335",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "CERMINE: automatic extraction of structured metadata from scientific literature"
+    ],
+    "prefix": "10.1007",
+    "volume": "18",
+    "author": [
+      {
+        "given": "Dominika",
+        "family": "Tkaczyk",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Paweł",
+        "family": "Szostek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mateusz",
+        "family": "Fedoryszak",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Piotr Jan",
+        "family": "Dendek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Łukasz",
+        "family": "Bolikowski",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "249_CR1",
+        "unstructured": "PubMed. http://www.ncbi.nlm.nih.gov/pubmed"
+      },
+      {
+        "key": "249_CR2",
+        "unstructured": "CERMINE. http://cermine.ceon.pl"
+      },
+      {
+        "key": "249_CR3",
+        "unstructured": "Tkaczyk, D., Szostek, P., Dendek, P.J., Fedoryszak, M., Bolikowski, L.: CERMINE—automatic extraction of metadata and references from scientific literature. In: 11th IAPR International Workshop on Document Analysis Systems, pp. 217–221 (2014)",
+        "DOI": "10.1109/DAS.2014.63",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR4",
+        "unstructured": "Tkaczyk, D., Szostek, P., Bolikowski, L.: GROTOAP2—the methodology of creating a large ground truth dataset of scientific articles. D-Lib Magazine (2014)",
+        "DOI": "10.1045/november14-tkaczyk",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR5",
+        "unstructured": "Giuffrida, G., Shek, E.C., Yang, J.: Knowledge-based metadata extraction from postscript files. In: ACM DL, pp. 77–84 (2000)",
+        "DOI": "10.1145/336597.336639",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR6",
+        "unstructured": "Constantin, A., Pettifer, S., Voronkov, A.: PDFX: fully-automated pdf-to-xml conversion of scientific literature. In: ACM Symposium on Document Engineering, pp. 177–180 (2013)",
+        "DOI": "10.1145/2494266.2494271",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR7",
+        "unstructured": "Pdf-extract. http://labs.crossref.org/pdfextract/"
+      },
+      {
+        "key": "249_CR8",
+        "unstructured": "Han, H., Giles, C.L., Manavoglu, E., Zha, H., Zhang, Z., Fox, E.A.: Automatic document metadata extraction using support vector machines. In: ACM/IEEE 2003 Joint Conference on Digital Libraries, pp. 37–48 (2003)",
+        "DOI": "10.1109/JCDL.2003.1204842",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR9",
+        "unstructured": "Kovacevic, A., Ivanovic, D., Milosavljevic, B., Konjovic, Z., Surla, D.: Automatic extraction of metadata from scientific publications for CRIS systems. Program 45(4), 376–396 (2011)",
+        "DOI": "10.1108/00330331111182094",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR10",
+        "unstructured": "Lu, X., Kahle, B., Wang, J.Z., Giles, C.L.: A metadata generation system for scanned scientific volumes. In: ACM/IEEE Joint Conference on Digital Libraries, JCDL 2008, Pittsburgh, PA, USA, 16–20 June 2008, pp. 167–176 (2008)",
+        "DOI": "10.1145/1378889.1378918",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR11",
+        "unstructured": "Marinai, S.: Metadata extraction from PDF papers for digital library ingest. In: 10th International Conference on Document Analysis and Recognition, pp. 251–255 (2009)",
+        "DOI": "10.1109/ICDAR.2009.232",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR12",
+        "unstructured": "Cui, B., Chen, X.: An improved hidden Markov model for literature metadata extraction. In: Advanced Intelligent Computing Theories and Applications, 6th International Conference on Intelligent Computing, pp. 205–212 (2010)",
+        "DOI": "10.1007/978-3-642-14922-1_26",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "7/8",
+        "key": "249_CR13",
+        "first-page": "1",
+        "volume": "18",
+        "author": "R Kern",
+        "year": "2012",
+        "journal-title": "D Lib Mag."
+      },
+      {
+        "key": "249_CR14",
+        "unstructured": "Lopez, P.: GROBID: combining automatic bibliographic data recognition and term extraction for scholarship publications. In: Research and Advanced Technology for Digital Libraries, 13th European Conference, pp. 473–474 (2009)",
+        "DOI": "10.1007/978-3-642-04346-8_62",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "4",
+        "key": "249_CR15",
+        "first-page": "1",
+        "volume": "1",
+        "author": "M Luong",
+        "year": "2010",
+        "journal-title": "IJDLS"
+      },
+      {
+        "key": "249_CR16",
+        "unstructured": "Councill, I.G., Giles, C.L., Kan, M.: Parscit: an open-source CRF reference string parsing package. In: Proceedings of the International Conference on Language Resources and Evaluation, LREC 2008, 26 May–1 June 2008, Marrakech, Morocco (2008)"
+      },
+      {
+        "key": "249_CR17",
+        "unstructured": "Gao, L., Tang, Z., Lin, X.: CEBBIP: a parser of bibliographic information in chinese electronic books. In: Proceedings of the 2009 Joint International Conference on Digital Libraries, pp. 73–76 (2009)",
+        "DOI": "10.1145/1555400.1555412",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "2",
+        "key": "249_CR18",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1007/s10032-009-0105-9",
+        "volume": "13",
+        "author": "J Zou",
+        "year": "2010",
+        "journal-title": "IJDAR"
+      },
+      {
+        "key": "249_CR19",
+        "unstructured": "Day, M., Tsai, R.T., Sung, C., Hsieh, C., Lee, C., Wu, S., Wu, K., Ong, C., Hsu, W.: Reference metadata extraction using a hierarchical knowledge representation framework. Decis. Support Syst. 43(1), 152–167 (2007)",
+        "DOI": "10.1016/j.dss.2006.08.006",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR20",
+        "unstructured": "Vilarinho, E.C.C., da Silva, A.S., Gonçalves, M.A., de Sá Mesquita, F., de Moura, E.S.: FLUX-CIM: flexible unsupervised extraction of citation metadata. In: ACM/IEEE Joint Conference on Digital Libraries, pp. 215–224 (2007)"
+      },
+      {
+        "key": "249_CR21",
+        "unstructured": "Zhang, Q., Cao, Y., Yu, H.: Parsing citations in biomedical articles using conditional random fields. Comput. Biol. Med. 41(4), 190–194 (2011)",
+        "DOI": "10.1016/j.compbiomed.2011.02.005",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "S–3",
+        "key": "249_CR22",
+        "doi-asserted-by": "crossref",
+        "first-page": "S7",
+        "DOI": "10.1186/1471-2105-12-S3-S7",
+        "volume": "12",
+        "author": "X Zhang",
+        "year": "2011",
+        "unstructured": "Zhang, X., Zou, J., Le, D.X., Thoma, G.R.: A structural SVM approach for reference parsing. BMC Bioinform. 12(S–3), S7 (2011)",
+        "journal-title": "BMC Bioinform."
+      },
+      {
+        "key": "249_CR23",
+        "unstructured": "Hetzner, E.: A simple method for citation metadata extraction using hidden markov models. In: ACM/IEEE Joint Conference on Digital Libraries, pp. 280–284 (2008)",
+        "DOI": "10.1145/1378889.1378937",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR24",
+        "unstructured": "PDFX. http://pdfx.cs.man.ac.uk/"
+      },
+      {
+        "key": "249_CR25",
+        "unstructured": "Grobid. https://github.com/grobid/grobid"
+      },
+      {
+        "key": "249_CR26",
+        "unstructured": "ParsCit. http://aye.comp.nus.edu.sg/parsCit/"
+      },
+      {
+        "issue": "3",
+        "key": "249_CR27",
+        "doi-asserted-by": "crossref",
+        "first-page": "811",
+        "DOI": "10.1016/S0031-3203(02)00101-2",
+        "volume": "36",
+        "author": "CH Lee",
+        "year": "2003",
+        "unstructured": "Lee, C.H., Kanungo, T.: The architecture of trueviz: a groundtruth/metadata editing and visualizing toolkit. Pattern Recognit. 36(3), 811–825 (2003)",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "249_CR28",
+        "unstructured": "NLM, JATS. http://dtd.nlm.nih.gov/archiving/"
+      },
+      {
+        "key": "249_CR29",
+        "unstructured": "NISO Z39.96-2012. http://www.niso.org/apps/group_public/document.php?document_id=10591"
+      },
+      {
+        "key": "249_CR30",
+        "unstructured": "iText. http://itextpdf.com/"
+      },
+      {
+        "issue": "11",
+        "key": "249_CR31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1162",
+        "DOI": "10.1109/34.244677",
+        "volume": "15",
+        "author": "L O’Gorman",
+        "year": "1993",
+        "unstructured": "O’Gorman, L.: The document spectrum for page layout analysis. IEEE Trans. Pattern Anal. Mach. Intell. 15(11), 1162–1173 (1993)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "249_CR32",
+        "unstructured": "PdfMiner. http://www.unixuser.org/euske/python/pdfminer/"
+      },
+      {
+        "issue": "3",
+        "key": "249_CR33",
+        "first-page": "27",
+        "volume": "2",
+        "author": "C Chang",
+        "year": "2011",
+        "unstructured": "Chang, C., Lin, C.: LIBSVM: a library for support vector machines. ACM TIST 2(3), 27 (2011)",
+        "journal-title": "ACM TIST"
+      },
+      {
+        "key": "249_CR34",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1080/01621459.1963.10500850",
+        "volume": "58",
+        "author": "LA Goodman",
+        "year": "1963",
+        "unstructured": "Goodman, L.A., Kruskal, W.H.: Measures of association for cross classifications iii: approximate sampling theory. J. Am. Stat. Assoc. 58, 310–364 (1963)",
+        "journal-title": "J. Am. Stat. Assoc."
+      },
+      {
+        "key": "249_CR35",
+        "unstructured": "McCallum, A.K.: MALLET: a machine learning for language toolkit (2002)"
+      },
+      {
+        "key": "249_CR36",
+        "unstructured": "Giles, C.L., Bollacker, K.D., Lawrence, S.: Citeseer: an automatic citation indexing system. In: Proceedings of the 3rd ACM International Conference on Digital Libraries, pp. 89–98 (1998)",
+        "DOI": "10.1145/276675.276685",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "249_CR37",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1023/A:1009953814988",
+        "volume": "3",
+        "author": "A McCallum",
+        "year": "2000",
+        "journal-title": "Inf. Retr."
+      },
+      {
+        "key": "249_CR38",
+        "unstructured": "Tkaczyk, D., Czeczko, A., Rusek, K., Bolikowski, L., Bogacewicz, R.: GROTOAP: ground truth for open access publications. In: Proceedings of the 12th ACM/IEEE-CS Joint Conference on Digital Libraries, pp. 381–382 (2012)",
+        "DOI": "10.1145/2232817.2232901",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "1",
+        "key": "249_CR39",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.1016/0022-2836(81)90087-5",
+        "volume": "147",
+        "author": "T Smith",
+        "year": "1981",
+        "unstructured": "Smith, T., Waterman, M.: Identification of common molecular subsequences. J. Mol. Biol. 147(1), 195–197 (1981)",
+        "journal-title": "J. Mol. Biol."
+      }
+    ],
+    "container-title": [
+      "International Journal on Document Analysis and Recognition (IJDAR)"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10032-015-0249-8",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2018-07-27T14:50:56Z",
+      "timestamp": 1532703056000
+    },
+    "score": 1,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          7,
+          3
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            12
+          ]
+        ]
+      },
+      "issue": "4"
+    },
+    "alternative-id": [
+      "249"
+    ],
+    "URL": "http://dx.doi.org/10.1007/s10032-015-0249-8",
+    "relation": {
+      "cites": []
+    },
+    "ISSN": [
+      "1433-2833",
+      "1433-2825"
+    ],
+    "issn-type": [
+      {
+        "value": "1433-2833",
+        "type": "print"
+      },
+      {
+        "value": "1433-2825",
+        "type": "electronic"
+      }
+    ],
+    "subject": [
+      "Software",
+      "Computer Vision and Pattern Recognition",
+      "Computer Science Applications"
+    ]
+  }
