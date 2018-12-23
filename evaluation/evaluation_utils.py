@@ -14,17 +14,27 @@ def doi_test_null(item):
     return get_target_test_doi(item) is None
 
 
+def doi_same(doi, dois):
+    doi = doi_normalize(doi)
+    if dois is None:
+        return doi is None
+    elif isinstance(dois, str):
+        dois = [doi_normalize(dois)]
+    else:
+        dois = [doi_normalize(i) for i in dois]
+    return doi in dois
+
+
 def doi_equals(item):
-    return doi_normalize(get_target_gt_doi(item)) == \
-           doi_normalize(get_target_test_doi(item))
+    return doi_same(get_target_test_doi(item), get_target_gt_doi(item))
 
 
 def doi_gt_same(item, doi):
-    return doi_normalize(get_target_gt_doi(item)) == doi_normalize(doi)
+    return doi_same(doi, get_target_gt_doi(item))
 
 
 def doi_test_same(item, doi):
-    return doi_normalize(get_target_test_doi(item)) == doi_normalize(doi)
+    return doi_same(doi, get_target_test_doi(item))
 
 
 def doi_normalize(doi):
