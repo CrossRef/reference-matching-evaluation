@@ -40,7 +40,7 @@ def generate_dataset(sample, styles, fields):
     with Pool(config.THREADS) as p:
         results = p.starmap(format_ref_string, prod_sample_style)
     return [{dfk.DATASET_STYLE: ds[1],
-             dfk.DATASET_REF_STRING: r,
+             dfk.DATASET_REF_STRING: '' if r is None else r,
              dfk.DATASET_TARGET_GT: generate_target_gt(ds[0], fields)}
             for ds, r in zip(prod_sample_style, results)]
 

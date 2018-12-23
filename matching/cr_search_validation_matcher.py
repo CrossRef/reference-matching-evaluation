@@ -31,6 +31,8 @@ class Matcher:
         return self.match_structured(reference)
 
     def match_string(self, ref_string):
+        if not ref_string.strip():
+            ref_string = None
         return self.match_object(ref_string, lambda s: s,
                                  self.similarity_unstructured)
 
@@ -290,7 +292,6 @@ class Matcher:
         if support < 1:
             return 0
         support = 0
-        exists = 0
         for k, v in str_set.items():
             if k == 'year' and v > 0 and cand_set[k] > 0:
                 support = support + 1

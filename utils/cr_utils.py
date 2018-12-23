@@ -73,7 +73,7 @@ def create_ref_string(doi, style):
     code, _, ref_string = remote_call('{}/{}'.format(CN_BASE_URL, doi),
                                       headers)
     if code != 200:
-        logging.error(
+        logging.debug(
             'Creating ref string in style {} for DOI {} failed with code {}'.
             format(style, doi, code))
         return None
@@ -96,7 +96,7 @@ def search(string):
         .format(BASE_URL, urllib.parse.quote(string, safe=''))
     code, _, result = remote_call(query, headers=headers)
     if code != 200:
-        logging.error('Searching for string {} failed with code {}'.
+        logging.debug('Searching for string {} failed with code {}'.
                       format(string, code))
         return None
     result_message = json.loads(result).get('message')
