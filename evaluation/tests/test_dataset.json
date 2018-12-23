@@ -17,7 +17,7 @@
             "ref_string": "[1]A. Zheludev, S. Raymond, L.-P. Regnault, F. H. L. Essler, K. Kakurai, T. Masuda, and K. Uchinokura, \u201cPolarization dependence of spin excitations inBaCu2Si2O7,\u201d Physical Review B, vol. 67, no. 13, Apr. 2003.",
             "target_gt": {
                 "publisher": "American Physical Society (APS)",
-                "DOI": "10.1103/physrevb.67.134406;po",
+                "DOI": ["10.1103/physrevb.67.134406;po", "10.1007/s00595-010-4393-y"],
                 "type": "journal-article"
             },
             "target_test": {
@@ -193,7 +193,7 @@
             "ref_string": "(1960). Japanese Journal of Radiological Technology, 15(3-4), 239.",
             "target_gt": {
                 "publisher": "Japanese Society of Radiological Technology",
-                "DOI": "10.6009/jjrt.kj00001365932",
+                "DOI": ["10.6009/jjrt.kj00001365932", "10.6009/jjrt.kj00001365934"],
                 "type": "journal-article"
             },
             "target_test": {

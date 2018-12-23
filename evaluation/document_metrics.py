@@ -60,7 +60,10 @@ class ByDocumentMetricsResults:
         target_dois_norm = [doi_normalize(doi) for doi in target_dois]
         dataset_split = {doi: [] for doi in target_dois_norm}
         for d in dataset:
-            doi_gt = doi_normalize(get_target_gt_doi(d))
+            doi_gt = get_target_gt_doi(d)
+            if isinstance(doi_gt, list):
+                doi_gt = doi_gt[0]
+            doi_gt = doi_normalize(doi_gt)
             if doi_gt in target_dois_norm:
                 dataset_split[doi_gt].append(d)
             doi_test = doi_normalize(get_target_test_doi(d))
