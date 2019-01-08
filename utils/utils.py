@@ -5,6 +5,7 @@ import re
 import requests
 import string
 import time
+import zipfile
 
 from random import choice, randint, random
 
@@ -40,8 +41,14 @@ def save_json(data, file_path):
 
 
 def read_json(file_path):
-    with open(file_path, 'r') as file:
-        data = json.loads(file.read())
+    if zipfile.is_zipfile(file_path):
+        zfile = zipfile.ZipFile(file_path)
+        for finfo in zfile.infolist():
+            with zfile.open(finfo) as file:
+                data = json.loads(file.read())
+    else:
+        with open(file_path, 'r') as file:
+            data = json.loads(file.read())
     return data
 
 
