@@ -1,0 +1,23 @@
+DIR=$1
+
+cd $DIR
+
+git clone https://github.com/CrossRef/reference-matching-evaluation.git > /dev/null 2>&1
+export PYTHONPATH=$DIR/reference-matching-evaluation
+
+git clone https://github.com/CrossRef/search-based-reference-matcher.git > /dev/null 2>&1
+cd search-based-reference-matcher/
+mvn package > /dev/null
+cd ..
+
+mkdir -p results
+DATE=$(date +"%Y-%m-%d")
+DATASET=results/dataset-$DATE.json
+OUTPUT=results/output-$DATE.json
+STRINGS=results/strings-$DATE.txt
+
+./prepare.py $DATASET $STRINGS
+java -cp $DIR/search-based-reference-matcher/target/reference-matching-jar-with-dependencies.jar org.crossref.refmatching.ReferenceMatcher -i txt -f $STRINGS -o $OUTPUT > /dev/null
+./run.py $DATASET $OUTPUT
+
+rm -rf $DIR/reference-matching-evaluation $DIR/search-based-reference-matcher

@@ -1,0 +1,12 @@
+DIR=$1
+cd $DIR
+
+git clone https://github.com/CrossRef/reference-matching-evaluation.git > /dev/null 2>&1
+export PYTHONPATH=$DIR/reference-matching-evaluation
+
+mkdir -p results
+DATASET=results/dataset-$(date +"%Y-%m-%d").json
+
+./run.py dataset.json $DATASET
+
+rm -rf $DIR/reference-matching-evaluation

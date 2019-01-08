@@ -1,0 +1,9 @@
+DIR=$1
+cd $DIR
+
+git clone https://github.com/CrossRef/reference-matching-evaluation.git > /dev/null 2>&1
+export PYTHONPATH=$DIR/reference-matching-evaluation
+
+./run.py dois.txt
+
+rm -rf $DIR/reference-matching-evaluation
