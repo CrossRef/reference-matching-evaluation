@@ -1,5 +1,6 @@
 import logging
 import requests
+import sys
 
 from bs4 import BeautifulSoup
 from random import random
@@ -12,6 +13,9 @@ URL = 'https://doi.crossref.org/openurl'
 
 
 class Matcher:
+
+    def __init__(self):
+        sys.setrecursionlimit(100000)
 
     def description(self):
         return 'OpenURL Query'
