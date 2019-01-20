@@ -146,7 +146,7 @@ class TestSearchValidationMatcher:
         assert cand_set == {'year': 1, 'volume': 1, 'page': 0.6}
         assert str_set == {'year': 1, 'volume': 0, 'page': 0.6}
 
-        matcher.update_weights_one('issuee', '34', 'metadata', cand_set,
+        matcher.update_weights_one('issue', '34', 'metadata', cand_set,
                                    str_set, weight=0.6)
-        assert cand_set == {'year': 1, 'volume': 1, 'page': 0.6}
-        assert str_set == {'year': 1, 'volume': 0, 'page': 0.6}
+        assert cand_set == {'year': 1, 'volume': 1, 'page': 0.6, 'issue': 0.3}
+        assert str_set == {'year': 1, 'volume': 0, 'page': 0.6, 'issue': 0}

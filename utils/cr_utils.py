@@ -88,12 +88,12 @@ def create_ref_string(doi, style):
     return ref_string.strip()
 
 
-def search(string):
+def search(string, rows=20):
     if string is None:
         return None
     headers = crapi_key()
-    query = '{}/works?query.bibliographic={}' \
-        .format(BASE_URL, urllib.parse.quote(string, safe=''))
+    query = '{}/works?query.bibliographic={}&rows={}' \
+        .format(BASE_URL, urllib.parse.quote(string, safe=''), rows)
     code, _, result = remote_call(query, headers=headers)
     if code != 200:
         logging.debug('Searching for string {} failed with code {}'.

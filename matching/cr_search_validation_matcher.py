@@ -12,10 +12,17 @@ from time import sleep
 
 class Matcher:
 
-    def __init__(self, min_score, min_similarity, excluded_dois=[]):
+    def __init__(self, min_score, min_similarity, excluded_dois=[],
+                 journal_file=None):
         self.excluded_dois = [doi_normalize(d) for d in excluded_dois]
         self.min_score = min_score
         self.min_similarity = min_similarity
+        self.journal_abbrev = {}
+        if journal_file is not None:
+            with open(journal_file) as f:
+                content = f.readlines()
+            content = [x.strip().split('\t') for x in content]
+            self.journal_abbrev = {l[0]: l[1] for l in content}
 
     def description(self):
         return ('Crossref search matcher with validation ' +
@@ -26,8 +33,6 @@ class Matcher:
     def match(self, reference):
         if isinstance(reference, str):
             return self.match_string(reference)
-        if 'unstructured' in reference:
-            return self.match_string(reference.get('unstructured'))
         return self.match_structured(reference)
 
     def match_string(self, ref_string):
@@ -37,14 +42,26 @@ class Matcher:
                                  self.similarity_unstructured)
 
     def match_structured(self, reference):
-        return self.match_object(reference, generate_unstructured,
-                                 self.similarity_structured)
+        candidate, score = self.match_object(reference, generate_unstructured,
+                                             self.similarity_structured)
+
+        journal_norm = re.sub('[^a-z]', '',
+                              reference.get('journal-title', '').lower())
+        if 'journal-title' in reference \
+                and journal_norm in self.journal_abbrev:
+            reference['journal-title'] = self.journal_abbrev[journal_norm]
+            candidate_j, score_j = \
+                self.match_object(reference, generate_unstructured,
+                                  self.similarity_structured)
+            if score_j > score:
+                return candidate_j, score_j
+        return candidate, score
 
     def match_object(self, reference, get_query, similarity):
         ref_string = get_query(reference)
 
         sleep(random())
-        results = search(ref_string)
+        results = search(ref_string, rows=100)
         if results is None or not results:
             logging.debug('Searching for string {} got empty results'
                           .format(ref_string))
@@ -216,16 +233,6 @@ class Matcher:
         cand_set = {}
         str_set = {}
 
-        # weights of relevalnce score
-        cand_set['score'] = candidate['score']/100
-        str_set['score'] = max(1, candidate['score']/100)
-
-        # weights of normalized relevance score
-        cand_set['score_norm'] = \
-            candidate['score']/len(generate_unstructured(ref))
-        str_set['score_norm'] = \
-            max(1, candidate['score']/len(generate_unstructured(ref)))
-
         # weights of volume
         if ref.get('volume', ''):
             self.update_weights_one('volume', candidate.get('volume', ''),
@@ -260,7 +267,7 @@ class Matcher:
             a = unidecode.unidecode(candidate.get('title', [''])[0]).lower()
             b = unidecode.unidecode(ref.get('article-title', '')).lower()
             cand_set['title'] = 1
-            str_set['title'] = fuzz.partial_ratio(a, b) / 100
+            str_set['title'] = fuzz.ratio(a, b) / 100
 
         # weights for container-title
         if ref.get('journal-title', ''):
@@ -268,7 +275,15 @@ class Matcher:
             a = a.lower()
             b = unidecode.unidecode(ref.get('journal-title', '')).lower()
             cand_set['ctitle'] = 1
-            str_set['ctitle'] = fuzz.partial_ratio(a, b) / 100
+            str_set['ctitle'] = fuzz.ratio(a, b) / 100
+
+        # weights for volume-title
+        if ref.get('volume-title', ''):
+            a = unidecode.unidecode(candidate.get('title', [''])[0])
+            a = a.lower()
+            b = unidecode.unidecode(ref.get('volume-title', '')).lower()
+            cand_set['vtitle'] = 1
+            str_set['vtitle'] = fuzz.ratio(a, b) / 100
 
         # weights for author
         if ref.get('author', ''):
@@ -278,14 +293,27 @@ class Matcher:
                 a = unidecode.unidecode(candidate['author'][0]['family'])
                 a = a.lower()
             b = unidecode.unidecode(ref.get('author', '')).lower()
+            ratio_author = fuzz.ratio(a, b)
+            a = ''
+            if 'editor' in candidate and candidate['editor'] \
+                    and 'family' in candidate['editor'][0]:
+                a = unidecode.unidecode(candidate['editor'][0]['family'])
+                a = a.lower()
+            ratio_editor = fuzz.ratio(a, b)
             cand_set['author'] = 1
-            str_set['author'] = fuzz.partial_ratio(a, b) / 100
+            str_set['author'] = max(ratio_author, ratio_editor) / 100
+
+        print(candidate['DOI'])
+        print(cand_set)
+        print(str_set)
 
         support = 0
         for k, v in str_set.items():
             if k == 'title' and v > 0.7:
                 support = support + 1
-            if k == 'ctitle' and v > 0.3:
+            if k == 'ctitle' and v > 0.7:
+                support = support + 1
+            if k == 'vtitle' and v > 0.7:
                 support = support + 1
             if k == 'author' and v > 0.7:
                 support = support + 1
@@ -299,13 +327,19 @@ class Matcher:
                 support = support + 1
             if k == 'title' and v > 0.7:
                 support = support + 1
-            if k == 'ctitle' and v > 0.3:
+            if k == 'ctitle' and v > 0.7:
+                support = support + 1
+            if k == 'vtitle' and v > 0.7:
                 support = support + 1
             if k == 'author' and v > 0.7:
                 support = support + 1
             if k == 'page' and v == 1 and cand_set[k] > 0:
                 support = support + 1
-        if support < 4:
+        if support < 3:
+            return 0
+        if candidate.get('type') == 'book-chapter' and 'first-page' not in ref:
+            return 0
+        if candidate.get('type') == 'journal-issue':
             return 0
 
         # generalized Jaccard similarity
@@ -335,3 +369,6 @@ class Matcher:
             ref_set[name] = 0
             if cand == ref:
                 ref_set[name] = weight
+        else:
+            cand_set[name] = weight/2
+            ref_set[name] = 0
