@@ -39,11 +39,11 @@ class Matcher:
         if not ref_string.strip():
             ref_string = None
         return self.match_object(ref_string, lambda s: s,
-                                 self.similarity_unstructured)
+                                 self.similarity_unstructured, 20)
 
     def match_structured(self, reference):
         candidate, score = self.match_object(reference, generate_unstructured,
-                                             self.similarity_structured)
+                                             self.similarity_structured, 100)
 
         journal_norm = re.sub('[^a-z]', '',
                               reference.get('journal-title', '').lower())
@@ -52,16 +52,16 @@ class Matcher:
             reference['journal-title'] = self.journal_abbrev[journal_norm]
             candidate_j, score_j = \
                 self.match_object(reference, generate_unstructured,
-                                  self.similarity_structured)
+                                  self.similarity_structured, 100)
             if score_j > score:
                 return candidate_j, score_j
         return candidate, score
 
-    def match_object(self, reference, get_query, similarity):
+    def match_object(self, reference, get_query, similarity, rows):
         ref_string = get_query(reference)
 
         sleep(random())
-        results = search(ref_string, rows=100)
+        results = search(ref_string, rows=rows)
         if results is None or not results:
             logging.debug('Searching for string {} got empty results'
                           .format(ref_string))
