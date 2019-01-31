@@ -3,6 +3,7 @@ import config
 import logging
 import matching.cr_search_validation_matcher
 import matching.stq_matcher
+import matching.openurl_query_matcher
 import utils.data_format_keys as dfk
 
 from multiprocessing import Pool
@@ -11,20 +12,24 @@ from utils.utils import init_logging, read_json, save_json
 
 
 def is_unstructured(ref):
-    return dfk.CR_ITEM_UNSTRUCTURED in ref
+    return ref.get(dfk.CR_ITEM_DOI_ASSERTED_BY) != 'publisher' \
+        and dfk.CR_ITEM_UNSTRUCTURED in ref
 
 
 def is_structured(ref):
     return not is_unstructured(ref)
 
 
-def extract_refs(sample_works, filter_fun=is_unstructured):
+def always(ref):
+    return True
+
+
+def extract_refs(sample_works, filter_fun=always):
     references = []
     for work in sample_works.get(dfk.SAMPLE_SAMPLE):
         source_doi = work.get(dfk.CR_ITEM_DOI)
         for ref in work.get(dfk.CR_ITEM_REFERENCE, []):
-            if ref.get(dfk.CR_ITEM_DOI_ASSERTED_BY) != 'publisher' \
-                    and filter_fun(ref):
+            if filter_fun(ref):
                 ref['source_DOI'] = source_doi
                 references.append(ref)
     return references
@@ -32,12 +37,15 @@ def extract_refs(sample_works, filter_fun=is_unstructured):
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description='analyze a sample file')
+    parser = argparse.ArgumentParser(
+        description='export a sample of references and matches')
     parser.add_argument('-v', '--verbose', help='verbose output',
                         action='store_true')
     parser.add_argument('-s', '--sample', type=str, required=True)
     parser.add_argument('-n', '--references', type=int)
     parser.add_argument('-p', '--parsed', action='store_true')
+    parser.add_argument('-u', '--unparsed', action='store_true')
+    parser.add_argument('-j', '--journalfile', type=str)
     parser.add_argument('-o', '--output', type=str, required=True)
 
     args = parser.parse_args()
@@ -48,8 +56,10 @@ if __name__ == '__main__':
 
     if args.parsed:
         references = extract_refs(sample_data, filter_fun=is_structured)
-    else:
+    elif args.unparsed:
         references = extract_refs(sample_data, filter_fun=is_unstructured)
+    else:
+        references = extract_refs(sample_data)
     logging.info('Total number of references: {}'.format(len(references)))
 
     if args.references is not None:
@@ -57,21 +67,54 @@ if __name__ == '__main__':
 
     logging.info('Sampled number of references: {}'.format(len(references)))
 
-    matcher = matching.cr_search_validation_matcher.Matcher(0.4, -1)
+    data = [{'source_DOI': r.get('source_DOI', '').lower(),
+             'reference': r,
+             'publisher_link': r.get(dfk.CR_ITEM_DOI, '').lower()
+             if r.get(dfk.CR_ITEM_DOI_ASSERTED_BY) == 'publisher'
+             else None,
+             'open_url': None,
+             'sbmv_structured': None,
+             'simple_text_query': None,
+             'sbmv_unstructured': None}
+            for r in references]
+
+    journal_file = None
+    if args.journalfile is not None:
+        journal_file = args.journalfile
+    matcher = matching.cr_search_validation_matcher.Matcher(
+        0.4, -1, journal_file=journal_file)
+
+    refs_structured = [d for d in data if d['publisher_link'] is None]
     with Pool(config.THREADS) as p:
-        api_results = p.map(matcher.match, references)
+        results = p.map(matcher.match,
+                        [r['reference'] for r in refs_structured])
+    [d.update({'sbmv_structured': {'DOI': r[0], 'score': r[1]}})
+     for d, r in zip(refs_structured, results)]
+
+    refs_unstructured = [d for d in data
+                         if d['publisher_link'] is None
+                         and 'unstructured' in d['reference']]
+    with Pool(config.THREADS) as p:
+        results = p.map(matcher.match,
+                        [r['reference']['unstructured']
+                         for r in refs_unstructured])
+    [d.update({'sbmv_unstructured': {'DOI': r[0], 'score': r[1]}})
+     for d, r in zip(refs_unstructured, results)]
+
+    matcher = matching.openurl_query_matcher.Matcher()
+    with Pool(config.THREADS) as p:
+        results = p.map(matcher.match,
+                        [r['reference'] for r in refs_structured])
+    [d.update({'open_url': r[0]}) for d, r in zip(refs_structured, results)]
 
     matcher = matching.stq_matcher.Matcher()
     with Pool(config.THREADS) as p:
-        stq_results = p.map(matcher.match, references)
+        results = p.map(matcher.match,
+                        [r['reference']['unstructured']
+                         for r in refs_unstructured])
+    [d.update({'simple_text_query': r[0]})
+     for d, r in zip(refs_unstructured, results)]
 
-    save_json([{'source_DOI': r.get('source_DOI', '').lower(),
-                'reference': r,
-                'original_link': r.get(dfk.CR_ITEM_DOI, '').lower()
-                if r.get(dfk.CR_ITEM_DOI_ASSERTED_BY) == 'crossref'
-                else None,
-                'current_STQ_link': s[0] if s[0] is None else s[0].lower(),
-                'search_API_link': a[0] if a[0] is None else a[0].lower(),
-                'search_API_score': a[1]}
-               for r, s, a in zip(references, stq_results, api_results)],
-              args.output)
+    [d.update({'gt': ''}) for d in data]
+
+    save_json(data, args.output)
