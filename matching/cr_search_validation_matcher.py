@@ -264,26 +264,27 @@ class Matcher:
 
         # weights for title
         if ref.get('article-title', ''):
-            a = unidecode.unidecode(candidate.get('title', [''])[0]).lower()
-            b = unidecode.unidecode(ref.get('article-title', '')).lower()
+            a = self.get_cand_norm(candidate, 'title')
+            b = self.get_ref_norm(ref, 'article-title')
             cand_set['title'] = 1
             str_set['title'] = fuzz.ratio(a, b) / 100
 
         # weights for container-title
         if ref.get('journal-title', ''):
-            a = unidecode.unidecode(candidate.get('container-title', [''])[0])
-            a = a.lower()
-            b = unidecode.unidecode(ref.get('journal-title', '')).lower()
+            a = self.get_cand_norm(candidate, 'container-title')
+            b = self.get_ref_norm(ref, 'journal-title')
             cand_set['ctitle'] = 1
             str_set['ctitle'] = fuzz.ratio(a, b) / 100
 
         # weights for volume-title
         if ref.get('volume-title', ''):
-            a = unidecode.unidecode(candidate.get('title', [''])[0])
-            a = a.lower()
-            b = unidecode.unidecode(ref.get('volume-title', '')).lower()
+            a = self.get_cand_norm(candidate, 'title')
+            b = self.get_ref_norm(ref, 'volume-title')
+            title_ratio = fuzz.ratio(a, b)
+            a = self.get_cand_norm(candidate, 'container-title')
+            ctitle_ratio = fuzz.ratio(a, b)
             cand_set['vtitle'] = 1
-            str_set['vtitle'] = fuzz.ratio(a, b) / 100
+            str_set['vtitle'] = max(title_ratio, ctitle_ratio) / 100
 
         # weights for author
         if ref.get('author', ''):
@@ -291,21 +292,19 @@ class Matcher:
             if 'author' in candidate and candidate['author'] \
                     and 'family' in candidate['author'][0]:
                 a = unidecode.unidecode(candidate['author'][0]['family'])
-                a = a.lower()
-            b = unidecode.unidecode(ref.get('author', '')).lower()
-            ratio_author = fuzz.ratio(a, b)
+                a = a.lower().strip()
+            b = self.get_ref_norm(ref, 'author')
+            ratio_author = fuzz.partial_ratio(a, b) if ' ' in b \
+                else fuzz.ratio(a, b)
             a = ''
             if 'editor' in candidate and candidate['editor'] \
                     and 'family' in candidate['editor'][0]:
                 a = unidecode.unidecode(candidate['editor'][0]['family'])
-                a = a.lower()
-            ratio_editor = fuzz.ratio(a, b)
+                a = a.lower().strip()
+            ratio_editor = fuzz.partial_ratio(a, b) if ' ' in b \
+                else fuzz.ratio(a, b)
             cand_set['author'] = 1
             str_set['author'] = max(ratio_author, ratio_editor) / 100
-
-        print(candidate['DOI'])
-        print(cand_set)
-        print(str_set)
 
         support = 0
         for k, v in str_set.items():
@@ -348,6 +347,14 @@ class Matcher:
         if den == 0:
             return 1
         return num/den
+
+    def get_cand_norm(self, candidate, name):
+        return unidecode.unidecode(candidate.get(name, [''])[0]) \
+            .lower().strip()
+
+    def get_ref_norm(self, ref, name):
+        return unidecode.unidecode(ref.get(name, '')) \
+            .lower().strip()
 
     def update_weights_all(self, name, cand_str, ref_numbers, cand_set,
                            str_set, weight=1):
