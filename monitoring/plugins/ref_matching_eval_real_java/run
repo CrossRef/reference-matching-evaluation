@@ -5,6 +5,11 @@ cd $DIR
 git clone https://github.com/CrossRef/reference-matching-evaluation.git > /dev/null 2>&1
 export PYTHONPATH=$DIR/reference-matching-evaluation
 
+git clone git@github.com:CrossRef/cr-common.git > /dev/null 2>&1
+cd cr-common
+mvn install > /dev/null
+cd ..
+
 git clone https://github.com/CrossRef/search-based-reference-matcher.git > /dev/null 2>&1
 cd search-based-reference-matcher/
 mvn package > /dev/null
@@ -14,7 +19,7 @@ mkdir -p results
 DATE=$(date +"%Y-%m-%d")
 OUTPUT=results/output-$(date +"%Y-%m-%d").json
 
-java -cp $DIR/search-based-reference-matcher/target/reference-matching-jar-with-dependencies.jar org.crossref.refmatching.ReferenceMatcher -i txt -f strings.txt -o $OUTPUT > /dev/null
+java -cp $DIR/search-based-reference-matcher/target/reference-matching-jar-with-dependencies.jar org.crossref.refmatching.MainApp -it file -i strings.txt -o $OUTPUT > /dev/null
 ./run.py dataset.json $OUTPUT
 
-rm -rf $DIR/reference-matching-evaluation $DIR/search-based-reference-matcher
+rm -rf $DIR/reference-matching-evaluation $DIR/search-based-reference-matcher $DIR/cr-common

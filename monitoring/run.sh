@@ -9,9 +9,16 @@ LOG=$(mktemp)
 
 touch $DIR/plugins/$NAME/results.csv
 cp $DIR/plugins/$NAME/results.csv $LOG
-$DIR/plugins/$NAME/run $DIR/plugins/$NAME/ > $OUT && RESULT="$DATE,$(cat $OUT)" && echo $RESULT >> $LOG
-mv $LOG $DIR/plugins/$NAME/results.csv
+$DIR/plugins/$NAME/run $DIR/plugins/$NAME/ > $OUT 2>> $DIR/plugins/$NAME/log
+
+if [ -s $OUT ]
+then
+	RESULT="$DATE,$(cat $OUT)"
+	echo $RESULT >> $LOG
+	mv $LOG $DIR/plugins/$NAME/results.csv
+	/usr/local/bin/jupyter nbconvert --log-level WARN --execute $DIR/monitoring.ipynb
+else
+        echo "Error running $NAME"
+fi
 
 rm $OUT
-
-/usr/local/bin/jupyter nbconvert --log-level WARN --execute $DIR/monitoring.ipynb

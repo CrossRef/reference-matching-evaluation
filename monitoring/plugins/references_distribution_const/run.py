@@ -12,6 +12,7 @@ dois = [d.strip() for d in dois]
 with Pool(10) as p:
     sample = p.map(get_item, dois)
 
+sample = [item if item is not None else {} for item in sample]
 references = [r for item in sample for r in item.get('reference', [])]
 doi_publ = [r for r in references if r.get('doi-asserted-by') == 'publisher']
 doi_cr_str = [r for r in references
