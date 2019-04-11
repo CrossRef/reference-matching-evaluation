@@ -29,9 +29,12 @@ def stq_key():
 
 @lru_cache(maxsize=None)
 def load_key(key):
-    with open(Path.home() / key, mode='r') as kf:
-        key_value = kf.read()
-    return json.loads(key_value)
+    try:
+        with open(Path.home() / key, mode='r') as kf:
+            key_value = kf.read()
+        return json.loads(key_value)
+    except FileNotFoundError:
+        return {}
 
 
 API_KEY = crapi_key().get('Authorization')
