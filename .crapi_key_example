@@ -1,0 +1,6 @@
+{
+    "Comment": "copy this file into ~/.crapi_key and fill-in the settings below",
+    "Authorization": "<<Plus API token, for Plus users only>>",
+    "User-Agent": "<<polite user agent; including mailto:email address>>",
+    "Mailto": "<<email address>>"
+}

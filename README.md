@@ -8,6 +8,14 @@ This code allows for:
 
 Before running the scripts, add the code directory path to the environment variable PYTHONPATH.
 
+## Polite/Plus support
+
+Most scripts call [Crossref REST API](https://github.com/CrossRef/rest-api-doc)
+under the hood. To use the [polite pool](https://github.com/CrossRef/rest-api-doc#etiquette)
+or [Plus Service](https://www.crossref.org/services/metadata-delivery/plus-service/)
+when calling the API, simply copy the file `.crapi_key_example` to `~/.crapi_key`,
+and fill in the settings in the file.
+
 ## Dataset generation
 
 A dataset is generated in several steps:
