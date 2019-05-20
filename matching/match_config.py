@@ -12,7 +12,8 @@ import matching.openurl_query_matcher
 # MATCHER = matching.openurl_query_matcher.Matcher()
 
 # SBM matcher without exclusion
-# MATCHER = matching.cr_search_simple_matcher.Matcher(-1)
+# MATCHER = matching.cr_search_simple_matcher.Matcher(
+#    -1, journal_file='data/journal_abbreviations/journal-abbreviations.txt')
 
 # SBM matcher with exclusion
 # excluded = 'data/sbm_analysis/samples/sample-excluded-2500.json'
