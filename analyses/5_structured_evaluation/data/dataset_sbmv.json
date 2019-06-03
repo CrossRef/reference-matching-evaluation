@@ -380,7 +380,7 @@
                 "source_DOI": "10.1590/s1980-65742015000400004"
             },
             "target_gt": {
-                "DOI": "10.1037/0033-2909.103.3.411"
+                "DOI": ["10.1037/0033-2909.103.3.411", "10.1037//0033-2909.103.3.411"]
             },
             "target_test": {
                 "DOI": "10.1037//0033-2909.103.3.411"
@@ -655,7 +655,7 @@
                 "source_DOI": "10.1152/jappl.1996.81.5.2020"
             },
             "target_gt": {
-                "DOI": "10.1152/jappl.1960.15.4.727"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1152/jappl.1960.15.4.712"
@@ -891,7 +891,10 @@
                 "source_DOI": "10.1080/00275514.1969.12018823"
             },
             "target_gt": {
-                "DOI": "10.1080/00275514.1948.12017732"
+                "DOI": [
+                    "10.1080/00275514.1948.12017732",
+                    "10.2307/3755260"
+                ]
             },
             "target_test": {
                 "DOI": "10.2307/3755260"
@@ -1083,7 +1086,10 @@
                 "source_DOI": "10.1111/add.12512"
             },
             "target_gt": {
-                "DOI": "10.1046/j.1360-0443.1996.9118110.x"
+                "DOI": [
+                    "10.1046/j.1360-0443.1996.9118110.x",
+                    "10.1111/j.1360-0443.1996.tb03163.x"
+                ]
             },
             "target_test": {
                 "DOI": "10.1046/j.1360-0443.1996.9118110.x"
@@ -1229,7 +1235,7 @@
                 "source_DOI": "10.1002/andp.201800007"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1103/physrevlett.93.160408"
             },
             "target_test": {
                 "DOI": "10.1103/physrevlett.93.260402"
@@ -1346,7 +1352,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/978-1-137-07468-3_15"
+                "DOI": "10.1007/bf00412075"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -1509,7 +1515,7 @@
                 "source_DOI": "10.2165/00151829-200504030-00003"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/s0954-6111(06)80220-9"
             },
             "target_test": {
                 "DOI": "10.1016/s0954-6111(06)80220-9"
@@ -2330,7 +2336,7 @@
                 "source_DOI": "10.1039/c3gc41302k"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/j.catcom.2007.10.002"
             },
             "target_test": {
                 "DOI": "10.1016/j.catcom.2007.10.002"
@@ -2572,7 +2578,7 @@
                 "source_DOI": "10.1111/j.1475-4959.2009.00331.x"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1017/cbo9780511493386.003"
             },
             "target_test": {
                 "DOI": "10.1017/cbo9780511493386.003"
@@ -2695,7 +2701,10 @@
                 "source_DOI": "10.1002/zaac.200500466"
             },
             "target_gt": {
-                "DOI": "10.1002/1521-3757(20010105)113:1<96::aid-ange96>3.3.co;2-2"
+                "DOI": [
+                    "10.1002/1521-3757(20010105)113:1<96::aid-ange96>3.3.co;2-2",
+                    "10.1002/1521-3757(20010105)113:1<96::aid-ange96>3.0.co;2-b"
+                ]
             },
             "target_test": {
                 "DOI": "10.1002/1521-3757(20010105)113:1<96::aid-ange96>3.3.co;2-2"
@@ -3033,7 +3042,7 @@
                 "source_DOI": "10.1002/ejic.200701013"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1063/1.476695"
             },
             "target_test": {
                 "DOI": "10.1063/1.476695"
@@ -4175,7 +4184,7 @@
                 "source_DOI": "10.1002/cem.935"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1198/106186004x13118"
             },
             "target_test": {
                 "DOI": "10.1198/106186004x13118"
@@ -5214,7 +5223,7 @@
                 "source_DOI": "10.1080/01621459.1996.10476674"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/0378-3758(93)90086-l"
             },
             "target_test": {
                 "DOI": "10.1016/0378-3758(93)90086-l"
@@ -5308,7 +5317,7 @@
                 "source_DOI": "10.1081/cr-200057488"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1023/b:catl.0000014332.55594.34"
             },
             "target_test": {
                 "DOI": "10.1023/b:catl.0000014332.55594.34"
@@ -5812,7 +5821,7 @@
                 "source_DOI": "10.1017/s0022112094001096"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1098/rspa.1934.0215"
             },
             "target_test": {
                 "DOI": "10.1098/rspa.1934.0240"
@@ -6495,7 +6504,10 @@
                 "source_DOI": "10.1098/rspb.2007.0413"
             },
             "target_gt": {
-                "DOI": "10.2307/2411005"
+                "DOI": [
+                    "10.2307/2411005",
+                    "10.1111/j.1558-5646.1997.tb05106.x"
+                ]
             },
             "target_test": {
                 "DOI": "10.1111/j.0014-3820.2000.tb00728.x"
@@ -7095,7 +7107,7 @@
                 "source_DOI": "10.1126/science.1151751"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1146/annurev.ecolsys.35.112202.130137"
             },
             "target_test": {
                 "DOI": "10.1146/annurev.ecolsys.35.112202.130137"
@@ -7322,7 +7334,7 @@
                 "source_DOI": "10.1002/syn.20386"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1073/pnas.90.5.2092"
             },
             "target_test": {
                 "DOI": "10.1073/pnas.90.5.2092"
@@ -7709,7 +7721,10 @@
                 "source_DOI": "10.1002/1521-3757(20020517)114:10<1791::aid-ange1791>3.0.co;2-u"
             },
             "target_gt": {
-                "DOI": "10.1002/1521-3757(20010702)113:13<2571::aid-ange2571>3.3.co;2-b"
+                "DOI": [
+                    "10.1002/1521-3757(20010702)113:13<2571::aid-ange2571>3.3.co;2-b",
+                    "10.1002/1521-3757(20010702)113:13<2571::aid-ange2571>3.0.co;2-k"
+                ]
             },
             "target_test": {
                 "DOI": "10.1002/1521-3757(20010702)113:13<2571::aid-ange2571>3.3.co;2-b"
@@ -7787,7 +7802,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1128/aem.masthead.85-1"
+                "DOI": "10.1128/aem.masthead.85-12"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -8062,7 +8077,7 @@
                 "source_DOI": "10.2514/6.2018-3977"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.5194/isprs-archives-xli-b3-833-2016"
             },
             "target_test": {
                 "DOI": "10.5194/isprs-archives-xli-b3-833-2016"
@@ -8796,7 +8811,10 @@
                 "source_DOI": "10.1111/j.1600-0765.2010.01335.x"
             },
             "target_gt": {
-                "DOI": "10.1902/jop.1967.38.6.610"
+                "DOI": [
+                    "10.1902/jop.1967.38.6.610",
+                    "10.1902/jop.1967.38.6_part2.610"
+                ]
             },
             "target_test": {
                 "DOI": "10.1902/jop.1967.38.6.610"
@@ -9235,7 +9253,10 @@
                 "source_DOI": "10.1002/jocb.90"
             },
             "target_gt": {
-                "DOI": "10.2307/258140"
+                "DOI": [
+                    "10.2307/258140",
+                    "10.5465/amr.1985.4279045"
+                ]
             },
             "target_test": {
                 "DOI": "10.5465/amr.1985.4279045"
@@ -9255,7 +9276,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/bf03297715"
+                "DOI": "10.1007/978-3-319-12715-6_27"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -9336,7 +9357,10 @@
                 "source_DOI": "10.1081/ja-120017389"
             },
             "target_gt": {
-                "DOI": "10.1007/bf02111915"
+                "DOI": [
+                    "10.1007/bf02111915",
+                    "10.1002/jts.2490070110"
+                ]
             },
             "target_test": {
                 "DOI": "10.1007/bf02111915"
@@ -9394,7 +9418,7 @@
                 "source_DOI": "10.1074/jbc.m306124200"
             },
             "target_gt": {
-                "DOI": "10.1292/jvms1939.46.757"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.3412/jsb.39.757"
@@ -10100,7 +10124,7 @@
                 "source_DOI": "10.1073/pnas.0912938107"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/s0006-3495(93)81265-7"
             },
             "target_test": {
                 "DOI": "10.1016/s0006-3495(93)81265-7"
@@ -10466,7 +10490,7 @@
                 "source_DOI": "10.1051/jphys:01971003202-3011900"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1063/1.1748396"
             },
             "target_test": {
                 "DOI": "10.1063/1.1748396"
@@ -10528,7 +10552,7 @@
                 "source_DOI": "10.1002/jhet.1108"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1002/1521-3757(20001016)112:20<3741::aid-ange3741>3.0.co;2-p"
             },
             "target_test": {
                 "DOI": "10.1002/1521-3757(20001215)112:24<4641::aid-ange4641>3.0.co;2-m"
@@ -10747,7 +10771,10 @@
                 "source_DOI": "10.1093/jn/135.9.2159"
             },
             "target_gt": {
-                "DOI": "10.1042/0300-5127:0290272"
+                "DOI": [
+                    "10.1042/0300-5127:0290272",
+                    "10.1042/bst0290272"
+                ]
             },
             "target_test": {
                 "DOI": "10.1042/0300-5127:0290272"
@@ -11039,7 +11066,10 @@
                 "source_DOI": "10.4018/978-1-4666-4502-8.ch005"
             },
             "target_gt": {
-                "DOI": "10.2307/1177136"
+                "DOI": [
+                    "10.2307/1177136",
+                    "10.3102/0013189x019006002"
+                ]
             },
             "target_test": {
                 "DOI": "10.2307/1177136"
@@ -11601,7 +11631,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.3886/icpsr04503.v1"
+                "DOI": "10.3886/icpsr06388.v2"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -11682,7 +11712,7 @@
                 "source_DOI": "10.2165/00002018-200124100-00002"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/s0140-6736(97)05381-6"
             },
             "target_test": {
                 "DOI": "10.1016/s0140-6736(97)05381-6"
@@ -12067,7 +12097,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.18832/kp1965003"
+                "DOI": "10.1212/wnl.15.7.675"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -12315,7 +12345,7 @@
                 "source_DOI": "10.1080/00423110600871400"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1149/1.2428699"
             },
             "target_test": {
                 "DOI": "10.1149/1.2428699"
@@ -12337,7 +12367,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1158/1538-7445.am2015-4646"
+                "DOI": "10.1002/cncr.24673"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -12372,7 +12402,7 @@
                 "source_DOI": "10.1080/02533950308628652"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.2202/1554-8597.1044"
             },
             "target_test": {
                 "DOI": "10.2202/1554-8597.1044"
@@ -12687,7 +12717,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1002/tera.1420070304"
+                "DOI": "10.1002/tera.1420070211"
             },
             "score": 0.875,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -12706,7 +12736,7 @@
                 "source_DOI": "10.1002/9783527645787.ch9"
             },
             "target_gt": {
-                "DOI": "10.1016/s0376-7388(97)00334-7"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1016/j.jnoncrysol.2007.01.016"
@@ -13283,7 +13313,7 @@
                 "source_DOI": "10.1002/ejic.200600144"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1002/anie.200454013"
             },
             "target_test": {
                 "DOI": "10.1002/anie.200454013"
@@ -13406,7 +13436,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.3366/e1465359110001026"
+                "DOI": "10.1111/j.1478-1913.2010.01347.x"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -13463,7 +13493,7 @@
                 "source_DOI": "10.1017/s0952836904004856"
             },
             "target_gt": {
-                "DOI": "10.1017/cbo9780511549717"
+                "DOI": "10.1017/cbo9780511549717.002"
             },
             "target_test": {
                 "DOI": "10.1017/cbo9780511549717.002"
@@ -13805,7 +13835,7 @@
                 "source_DOI": "10.1111/nph.13217"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1002/tax.595006"
             },
             "target_test": {
                 "DOI": "10.1002/tax.595006"
@@ -14139,12 +14169,12 @@
                 "source_DOI": "10.1002/chin.199334162"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1002/jhet.5570300115"
             },
             "target_test": {
-                "DOI": "10.1002/chin.199334162"
+                "DOI": "10.1002/jhet.5570300115"
             },
-            "score": 0,
+            "score": 0.9983333333333334,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -14433,7 +14463,7 @@
                 "source_DOI": "10.1002/9781405198431.wbeal0248"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1075/pbns.124"
             },
             "target_test": {
                 "DOI": "10.1075/pbns.124"
@@ -14588,7 +14618,7 @@
                 "source_DOI": "10.1177/0164027593154005"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.2307/584577"
             },
             "target_test": {
                 "DOI": "10.2307/584577"
@@ -14909,7 +14939,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1590/s1414-32831998000100003"
+                "DOI": "10.5902/2316882x28866"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -15449,7 +15479,10 @@
                 "source_DOI": "10.1095/biolreprod60.2.461"
             },
             "target_gt": {
-                "DOI": "10.1210/en.136.6.2770"
+                "DOI": [
+                    "10.1210/en.136.6.2770",
+                    "10.1210/endo.136.6.7750502"
+                ]
             },
             "target_test": {
                 "DOI": "10.1210/en.136.6.2770"
@@ -15631,7 +15664,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1080/02561751.1933.9676324"
+                "DOI": "10.1080/02561751.1933.9676328"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -15971,7 +16004,7 @@
                 "source_DOI": "10.1080/09599910500163157"
             },
             "target_gt": {
-                "DOI": "10.1111/j.1751-0813.2000.tb10358.x"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1111/j.1751-0813.2000.tb10358.x"
@@ -16230,7 +16263,7 @@
                 "source_DOI": "10.3390/ijms19051494"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1073/pnas.0405015101"
             },
             "target_test": {
                 "DOI": "10.1073/pnas.0405015101"
@@ -16273,10 +16306,10 @@
                 "source_DOI": "10.1002/bit.260210604"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1080/00021369.1969.10859515"
             },
             "target_test": {
-                "DOI": "10.1080/00021369.1969.10859515"
+                "DOI": "10.1080/00021369.1969.10859307"
             },
             "score": 0.8,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -16652,7 +16685,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1541/ieejfms.128.329"
+                "DOI": "10.1541/ieejfms.123.398"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -16845,7 +16878,7 @@
                 "source_DOI": "10.1111/j.1365-2567.2005.02232.x"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1073/pnas.87.8.2921"
             },
             "target_test": {
                 "DOI": "10.1073/pnas.87.8.2921"
@@ -17135,7 +17168,7 @@
                 "source_DOI": "10.1590/s1980-65742015000400004"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/978-1-4899-2271-7"
             },
             "target_test": {
                 "DOI": "10.1007/978-1-4899-2271-7_2"
@@ -18222,7 +18255,7 @@
                 "source_DOI": "10.1111/j.1365-246x.1981.tb06949.x"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1111/j.1365-246x.1981.tb06948.x"
             },
             "target_test": {
                 "DOI": "10.1111/j.1365-246x.1981.tb06948.x"
@@ -18386,7 +18419,10 @@
                 "source_DOI": "10.1095/biolreprod60.2.461"
             },
             "target_gt": {
-                "DOI": "10.1111/j.1365-2184.1996.tb00091.x"
+                "DOI": [
+                    "10.1111/j.1365-2184.1996.tb00091.x",
+                    "10.1046/j.1365-2184.1996.d01-5.x"
+                ]
             },
             "target_test": {
                 "DOI": "10.1046/j.1365-2184.1996.d01-5.x"
@@ -18441,7 +18477,7 @@
                 "source_DOI": "10.1029/jb085ib11p06248"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/978-3-662-11720-0"
             },
             "target_test": {
                 "DOI": "10.1007/978-3-662-11720-0"
@@ -19275,7 +19311,7 @@
                 "source_DOI": "10.1179/2047971912y.0000000013"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1111/j.1745-493x.1998.tb00042.x"
             },
             "target_test": {
                 "DOI": "10.1111/j.1745-493x.1998.tb00042.x"
@@ -19405,7 +19441,7 @@
                 "source_DOI": "10.1155/2014/946859"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1093/ajcn/57.5.820s"
             },
             "target_test": {
                 "DOI": "10.1093/ajcn/57.1.2"
@@ -20336,7 +20372,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1016/s1574-0048(99)10031-4"
+                "DOI": "10.1016/s1574-0048(99)01003-4"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -20457,7 +20493,7 @@
                 "source_DOI": "10.1063/1.3488648"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/s0003-2670(00)82849-4"
             },
             "target_test": {
                 "DOI": "10.1016/s0003-2670(00)82849-4"
@@ -20736,7 +20772,7 @@
                 "source_DOI": "10.1515/joc.1999.20.4.126"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1117/12.50785"
             },
             "target_test": {
                 "DOI": "10.1117/12.50785"
@@ -21124,7 +21160,10 @@
                 "source_DOI": "10.1002/14651858.cd001760.pub2"
             },
             "target_gt": {
-                "DOI": "10.1080/009262399278832"
+                "DOI": [
+                    "10.1080/009262399278832",
+                    "10.1080/00926239908403995"
+                ]
             },
             "target_test": {
                 "DOI": "10.1080/00926239908403995"
@@ -21553,7 +21592,7 @@
                 "source_DOI": "10.1039/c7ra06244c"
             },
             "target_gt": {
-                "DOI": "10.1055/s-0035-1561593"
+                "DOI": "10.1055/s-0035-1560804"
             },
             "target_test": {
                 "DOI": "10.1055/s-0035-1561593"
@@ -21787,7 +21826,7 @@
                 "source_DOI": "10.1038/nrm4062"
             },
             "target_gt": {
-                "DOI": "10.1146/annurev.bi.63.070194.003231"
+                "DOI": ["10.1146/annurev.bi.63.070194.003231", "10.1146/annurev.biochem.63.1.639"]
             },
             "target_test": {
                 "DOI": "10.1146/annurev.biochem.63.1.639"
@@ -21965,7 +22004,7 @@
                 "source_DOI": "10.2752/175169713x13673499387046"
             },
             "target_gt": {
-                "DOI": "10.1093/acprof:oso/9780199661176.003.0002"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1093/acprof:oso/9780199661176.003.0002"
@@ -22240,7 +22279,10 @@
                 "source_DOI": "10.1080/09593980902782389"
             },
             "target_gt": {
-                "DOI": "10.1302/0301-620x.82b1.0820074"
+                "DOI": [
+                    "10.1302/0301-620x.82b1.0820074",
+                    "10.1302/0301-620x.82b1.9792"
+                ]
             },
             "target_test": {
                 "DOI": "10.1302/0301-620x.82b1.0820074"
@@ -22358,7 +22400,7 @@
                 "source_DOI": "10.1039/c4dt02257b"
             },
             "target_gt": {
-                "DOI": "10.1039/c4cp00311j"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1039/c4cp00345d"
@@ -22662,7 +22704,7 @@
                 "source_DOI": "10.1063/1.460212"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1515/zna-1980-0810"
             },
             "target_test": {
                 "DOI": "10.1515/zna-1980-0810"
@@ -23245,7 +23287,7 @@
                 "source_DOI": "10.1103/physrevb.73.045133"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1063/1.3023568"
             },
             "target_test": {
                 "DOI": "10.1063/1.3023568"
@@ -23423,7 +23465,7 @@
                 "source_DOI": "10.1110/ps.04762504"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1201/9781439822548.ch8"
             },
             "target_test": {
                 "DOI": "10.1201/9781439822548.ch8"
@@ -23500,7 +23542,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2139/ssrn.960458"
+                "DOI": "10.1111/j.1468-0335.2009.00841.x"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -23783,7 +23825,7 @@
                 "source_DOI": "10.1080/17452007.2018.1477727"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.4324/9781315774107"
             },
             "target_test": {
                 "DOI": "10.4324/9781315774107"
@@ -23844,7 +23886,10 @@
                 "source_DOI": "10.1111/jeb.12426"
             },
             "target_gt": {
-                "DOI": "10.2307/3078964"
+                "DOI": [
+                    "10.2307/3078964",
+                    "10.1086/319927"
+                ]
             },
             "target_test": {
                 "DOI": "10.2307/3078964"
@@ -24222,7 +24267,7 @@
                 "source_DOI": "10.1046/j.1365-2265.2003.01783.x"
             },
             "target_gt": {
-                "DOI": "10.1210/jc.85.1.361"
+                "DOI": ["10.1210/jc.85.1.361", "10.1210/jcem.85.1.6315"]
             },
             "target_test": {
                 "DOI": "10.1210/jcem.85.1.6315"
@@ -24240,7 +24285,7 @@
                 "source_DOI": "10.1103/physrevc.50.501"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1103/physrevc.45.601"
             },
             "target_test": {
                 "DOI": "10.1103/physrevc.45.601"
@@ -25001,7 +25046,7 @@
                 "source_DOI": "10.1364/josab.2.000794"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1080/01442358109353323"
             },
             "target_test": {
                 "DOI": "10.1080/01442358109353323"
@@ -25363,7 +25408,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2307/3773274"
+                "DOI": "10.2307/3773332"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -25579,7 +25624,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/978-3-662-39773-2_4"
+                "DOI": "10.1007/978-3-642-45835-4"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -26251,7 +26296,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/bf01821490"
+                "DOI": "10.1007/bf01825850"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -26460,7 +26505,7 @@
                 "source_DOI": "10.1002/app.23286"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1002/marc.1997.030180302"
             },
             "target_test": {
                 "DOI": "10.1002/marc.1997.030180302"
@@ -26479,7 +26524,7 @@
                 "source_DOI": "10.1038/nsmb1218"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1038/nature04916"
             },
             "target_test": {
                 "DOI": "10.1038/nature04916"
@@ -26790,7 +26835,7 @@
                 "source_DOI": "10.1002/ange.200504396"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1002/1521-3773(20020415)41:8<1363::aid-anie1363>3.0.co;2-g"
             },
             "target_test": {
                 "DOI": "10.1002/1521-3773(20020415)41:8<1363::aid-anie1363>3.0.co;2-g"
@@ -27152,7 +27197,7 @@
                 "source_DOI": "10.1080/15384047.2015.1071730"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.3892/or.2013.2831"
             },
             "target_test": {
                 "DOI": "10.3892/or.2013.2831"
@@ -28637,7 +28682,10 @@
                 "source_DOI": "10.1002/(sici)1099-0992(200003/04)30:2<255::aid-ejsp991>3.0.co;2-7"
             },
             "target_gt": {
-                "DOI": "10.1007/bf01000331"
+                "DOI": [
+                    "10.1007/bf01000331",
+                    "10.1111/j.1571-9979.1991.tb00633.x"
+                ]
             },
             "target_test": {
                 "DOI": "10.1007/bf01000331"
@@ -29526,7 +29574,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1037/0012-1649.19.2.243"
+                "DOI": "10.1037//0012-1649.19.2.243"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -29838,7 +29886,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/s004200050016"
+                "DOI": "10.1007/bf00380702"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -30134,7 +30182,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/s00508-014-0573-x"
+                "DOI": "10.1007/s00508-017-1226-7"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -30548,7 +30596,10 @@
                 "source_DOI": "10.1002/mde.2591"
             },
             "target_gt": {
-                "DOI": "10.2307/258557"
+                "DOI": [
+                    "10.2307/258557",
+                    "10.5465/amr.1989.4308385"
+                ]
             },
             "target_test": {
                 "DOI": "10.5465/amr.1989.4308385"
@@ -30587,7 +30638,7 @@
                 "source_DOI": "10.1051/vetres:2006004"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1111/j.1600-0897.1997.tb00247.x"
             },
             "target_test": {
                 "DOI": "10.1111/j.1600-0897.1997.tb00247.x"
@@ -30852,7 +30903,7 @@
                 "source_DOI": "10.1103/physreva.63.053808"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1142/p080"
             },
             "target_test": {
                 "DOI": "10.1142/p080"
@@ -31016,7 +31067,7 @@
                 "source_DOI": "10.1002/9780470697696.ch5"
             },
             "target_gt": {
-                "DOI": "10.2307/1504811"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.2307/1504811"
@@ -31077,7 +31128,7 @@
                 "source_DOI": "10.1002/tcr.201600143"
             },
             "target_gt": {
-                "DOI": "0.1016/s0891-5849(00)00235-5"
+                "DOI": "10.1016/s0891-5849(00)00235-5"
             },
             "target_test": {
                 "DOI": "10.1016/s0891-5849(00)00235-5"
@@ -31373,7 +31424,10 @@
                 "source_DOI": "10.1002/9781119196235.ch49"
             },
             "target_gt": {
-                "DOI": "10.1210/jc.77.6.1485"
+                "DOI": [
+                    "10.1210/jc.77.6.1485",
+                    "10.1210/jcem.77.6.7903311"
+                ]
             },
             "target_test": {
                 "DOI": "10.1210/jcem.77.6.7903311"
@@ -31870,7 +31924,7 @@
                 "source_DOI": "10.1111/j.2042-3306.1970.tb04185.x"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/s0007-1935(17)51701-7"
             },
             "target_test": {
                 "DOI": "10.1001/archneurpsyc.1953.02320330050006"
@@ -31930,7 +31984,7 @@
                 "source_DOI": "10.1590/s1677-04202006000100013"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1002/9780470690499.ch2"
             },
             "target_test": {
                 "DOI": "10.1002/9780470690499.ch2"
@@ -32069,7 +32123,7 @@
                 "source_DOI": "10.1002/jee.20199"
             },
             "target_gt": {
-                "DOI": "10.1037/0022-3514.51.6.1173"
+                "DOI": ["10.1037/0022-3514.51.6.1173", "10.1037//0022-3514.51.6.1173"]
             },
             "target_test": {
                 "DOI": "10.1037//0022-3514.51.6.1173"
@@ -32194,7 +32248,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2172/6186761"
+                "DOI": "10.2172/5679165"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -32231,7 +32285,10 @@
                 "source_DOI": "10.3109/08916939409009526"
             },
             "target_gt": {
-                "DOI": "10.1146/annurev.immunol.5.1.109"
+                "DOI": [
+                    "10.1146/annurev.immunol.5.1.109",
+                    "10.1146/annurev.iy.05.040187.000545"
+                ]
             },
             "target_test": {
                 "DOI": "10.1146/annurev.immunol.5.1.109"
@@ -32948,7 +33005,7 @@
                 "source_DOI": "10.1017/9781108289993.003"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1093/acprof:oso/9780198703747.001.0001"
             },
             "target_test": {
                 "DOI": "10.1093/acprof:oso/9780198703747.001.0001"
@@ -33201,7 +33258,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/3-540-48743-3_20"
+                "DOI": "10.1007/bfb0053031"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -33476,7 +33533,7 @@
                 "source_DOI": "10.1017/9781108289993.003"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1515/9783110876017"
             },
             "target_test": {
                 "DOI": "10.1515/9783110876017"
@@ -33716,7 +33773,7 @@
                 "source_DOI": "10.1038/nbt1486"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1073/pnas.0710982105"
             },
             "target_test": {
                 "DOI": "10.1073/pnas.0710982105"
@@ -33970,7 +34027,7 @@
                 "source_DOI": "10.1080/00275514.1963.12018042"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1080/00362176385190061"
             },
             "target_test": {
                 "DOI": "10.1093/sabouraudia/1.2.123-a"
@@ -35430,12 +35487,12 @@
                 "source_DOI": "10.1155/2013/510212"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1097/01.asn.0000077412.07578.44"
             },
             "target_test": {
-                "DOI": "10.1097/01.asn.0000083608.55625.67"
+                "DOI": "10.1097/01.asn.0000077412.07578.44"
             },
-            "score": 0.75,
+            "score": 1.0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -36476,7 +36533,7 @@
             "target_test": {
                 "DOI": "10.1017/s0081305200024961"
             },
-            "score": 1.0,
+            "score": 0.952,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -36845,7 +36902,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.25071/1916-0925.19775"
+                "DOI": "10.25071/1916-0925.19947"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -37110,7 +37167,7 @@
                 "source_DOI": "10.1002/9780471650126.dob0370.pub2"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/978-1-4613-0139-4"
             },
             "target_test": {
                 "DOI": "10.1007/978-1-4613-0139-4"
@@ -37438,7 +37495,7 @@
                 "source_DOI": "10.1111/j.1755-6686.2009.00099.x"
             },
             "target_gt": {
-                "DOI": "10.1093/ndt/gfh1031"
+                "DOI": "10.1093/ndt/gfh1032"
             },
             "target_test": {
                 "DOI": "10.1093/ndt/gfh1031"
@@ -37577,7 +37634,7 @@
                 "source_DOI": "10.1111/j.1432-1033.1986.tb10128.x"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1073/pnas.82.5.1396"
             },
             "target_test": {
                 "DOI": "10.1073/pnas.82.5.1396"
@@ -37635,7 +37692,7 @@
                 "source_DOI": "10.1002/chin.200011271"
             },
             "target_gt": {
-                "DOI": "10.1016/b978-044453347-0.50196-8"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1016/b978-044453347-0.50196-8"
@@ -37675,7 +37732,7 @@
                 "source_DOI": "10.1002/jlac.198719870211"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/s0008-6215(00)80205-0"
             },
             "target_test": {
                 "DOI": "10.1016/s0008-6215(00)85011-9"
@@ -38542,7 +38599,7 @@
                 "source_DOI": "10.1080/11250009109355728"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.4269/ajtmh.1984.33.1051"
             },
             "target_test": {
                 "DOI": "10.4269/ajtmh.1984.33.1051"
@@ -38855,7 +38912,7 @@
                 "source_DOI": "10.1039/b901212e"
             },
             "target_gt": {
-                "DOI": "10.1002/anie.200890155"
+                "DOI": "10.1002/anie.200800935"
             },
             "target_test": {
                 "DOI": "10.1002/anie.200800935"
@@ -39073,7 +39130,7 @@
                 "source_DOI": "10.1002/jocb.90"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1037/10594-003"
             },
             "target_test": {
                 "DOI": "10.1037/10594-003"
@@ -39095,7 +39152,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/978-3-642-93536-7"
+                "DOI": "10.1109/tasc.2005.848995"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -39131,7 +39188,7 @@
                 "source_DOI": "10.1111/j.1365-294x.2011.05337.x"
             },
             "target_gt": {
-                "DOI": "10.1016/s0169-5347(04)00107-7"
+                "DOI": ["10.1016/s0169-5347(04)00107-7", "10.1016/j.tree.2004.03.035"]
             },
             "target_test": {
                 "DOI": "10.1016/s0169-5347(04)00107-7"
@@ -39430,7 +39487,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.4324/9780429466670-3"
+                "DOI": "10.4324/9780429466670-4"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -39536,7 +39593,7 @@
                 "source_DOI": "10.1111/socf.12461"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.4324/9781315693415-10"
             },
             "target_test": {
                 "DOI": "10.4324/9781315693415-10"
@@ -39946,10 +40003,13 @@
                 "source_DOI": "10.1002/imhj.10008"
             },
             "target_gt": {
-                "DOI": "10.1111/j.1467-8624.1984.tb03809.x"
+                "DOI": [
+                    "10.1111/j.1467-8624.1984.tb03809.x",
+                    "10.2307/1130123"
+                ]
             },
             "target_test": {
-                "DOI": "10.1111/j.1467-8624.1984.tb03809.x"
+                "DOI": "10.2307/1130123"
             },
             "score": 1.0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"

@@ -1104,7 +1104,7 @@
                 ]
             },
             "target_test": {
-                "DOI": "10.2307/2286407"
+                "DOI": "10.1080/01621459.1979.10481038"
             },
             "score": 0.9983333333333334,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -1479,7 +1479,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.7312/blau17412-074"
+                "DOI": "10.7208/chicago/9780226264189.001.0001"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -1879,7 +1879,7 @@
                 "source_DOI": "10.1111/j.1365-2133.1985.tb15262.x"
             },
             "target_gt": {
-                "DOI": "10.2337/diab.32.7.680"
+                "DOI": ["10.2337/diab.32.7.680", "10.2337/diabetes.32.7.680"]
             },
             "target_test": {
                 "DOI": "10.2337/diabetes.32.7.680"
@@ -2239,7 +2239,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1016/b978-0-12-547620-1.50004-7"
+                "DOI": "10.1016/b978-0-12-547620-1.50007-2"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -2737,7 +2737,7 @@
                 "source_DOI": "10.3897/zookeys.586.8209"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.11646/zootaxa.2875.1.1"
             },
             "target_test": {
                 "DOI": "10.11646/zootaxa.2875.1.1"
@@ -3327,7 +3327,7 @@
                 "source_DOI": "10.3109/10253899609001094"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1152/ajpregu.1994.266.6.r1976"
             },
             "target_test": {
                 "DOI": "10.1152/ajpregu.1994.266.6.r1976"
@@ -3649,10 +3649,10 @@
                 "source_DOI": "10.1080/02692171.2010.512146"
             },
             "target_gt": {
-                "DOI": "10.1017/ccol0521633230.006"
+                "DOI": ["10.1017/ccol0521633230.006", "10.1017/cbo9781139052221.006"]
             },
             "target_test": {
-                "DOI": "10.1017/ccol521633230.006"
+                "DOI": "10.1017/cbo9781139052221.006"
             },
             "score": 0.8571428571428571,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -3733,7 +3733,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2307/j.ctv3dnrhs.4"
+                "DOI": "10.2307/3455844"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -4107,7 +4107,7 @@
                 "source_DOI": "10.1017/s0140525x00038917"
             },
             "target_gt": {
-                "DOI": "10.1016/0001-6918(69)90055-9"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1016/0001-6918(69)90055-9"
@@ -4183,9 +4183,9 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1201/9780429492679"
+                "DOI": null
             },
-            "score": 0,
+            "score": null,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -4659,7 +4659,7 @@
                 "DOI": "10.1136/bmj.38503.623646.8f"
             },
             "target_test": {
-                "DOI": "10.1136/bmj.331.7508.0-g"
+                "DOI": "10.1136/bmj.331.7509.0-g"
             },
             "score": 0.7555555555555555,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -5071,7 +5071,7 @@
                 "source_DOI": "10.1103/physreva.36.5832"
             },
             "target_gt": {
-                "DOI": "10.1063/1.3069010"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1063/1.3069010"
@@ -6146,9 +6146,9 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1017/cbo9780511618123"
+                "DOI": null
             },
-            "score": 0,
+            "score": null,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -6244,7 +6244,7 @@
                 "source_DOI": "10.1111/j.1365-2206.2010.00720.x"
             },
             "target_gt": {
-                "DOI": "10.1037/0022-006x.69.5.802"
+                "DOI": ["10.1037/0022-006x.69.5.802", "10.1037//0022-006x.69.5.802"]
             },
             "target_test": {
                 "DOI": "10.1037//0022-006x.69.5.802"
@@ -6448,7 +6448,7 @@
                 "source_DOI": "10.1177/1557085107308456"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1177/108876790200600302"
             },
             "target_test": {
                 "DOI": "10.1177/108876790200600302"
@@ -7881,7 +7881,7 @@
                 "source_DOI": "10.1260/1756-8293.4.1.51"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.2514/6.2006-448"
             },
             "target_test": {
                 "DOI": "10.2514/6.2006-448"
@@ -8082,7 +8082,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/s10273-013-1532-2"
+                "DOI": "10.1007/s10273-016-1997-x"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -8118,7 +8118,7 @@
                 "source_DOI": "10.1080/09663960220139725"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.4324/9780429493843-11"
             },
             "target_test": {
                 "DOI": "10.4324/9780429493843-11"
@@ -8212,7 +8212,7 @@
                 "source_DOI": "10.1101/gr.205948.116"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1093/oxfordjournals.molbev.a040567"
             },
             "target_test": {
                 "DOI": "10.1093/oxfordjournals.molbev.a040567"
@@ -9780,7 +9780,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.7326/0003-4819-68-2-502"
+                "DOI": "10.1097/00006842-196811000-00018"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -10290,7 +10290,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2307/j.ctv512s1z.7"
+                "DOI": "10.3733/ucanr.8594"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -10546,7 +10546,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/s00015-004-1122-9"
+                "DOI": "10.1111/j.1525-1314.1989.tb00574.x"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -10650,9 +10650,9 @@
                 "DOI": "10.1086/375135"
             },
             "target_test": {
-                "DOI": "10.1086/apj.2003.590.issue-1"
+                "DOI": "10.1086/375135"
             },
-            "score": 0,
+            "score": 0.8,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -10847,7 +10847,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1080/07383169.1986.10392789"
+                "DOI": "10.4324/9780429046964-2"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -12128,7 +12128,7 @@
                 "DOI": "10.1103/physrevd.78.064030"
             },
             "target_test": {
-                "DOI": "10.1103/physrevd.78.044040"
+                "DOI": "10.1103/physrevd.78.093001"
             },
             "score": 0.8888888888888888,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -12597,7 +12597,7 @@
                 "source_DOI": "10.1086/313498"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1093/ajhp/44.6.1353"
             },
             "target_test": {
                 "DOI": "10.1093/ajhp/44.6.1353"
@@ -12771,10 +12771,10 @@
                 "source_DOI": "10.1509/jmkg.72.2.63"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": ["10.1177/002224299405800201", "10.2307/1252265"]
             },
             "target_test": {
-                "DOI": "10.2307/1251912"
+                "DOI": "10.2307/1252265"
             },
             "score": 1.0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -12832,7 +12832,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/978-3-642-69478-3"
+                "DOI": "10.1007/978-3-642-69478-3_10"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -13048,7 +13048,7 @@
                 "source_DOI": "10.1177/0047287517741004"
             },
             "target_gt": {
-                "DOI": "10.1037/0022-3514.80.2.325"
+                "DOI": ["10.1037/0022-3514.80.2.325", "10.1037//0022-3514.80.2.325"]
             },
             "target_test": {
                 "DOI": "10.1037//0022-3514.80.2.325"
@@ -13481,7 +13481,7 @@
                 "source_DOI": "10.1002/adfm.201100415"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1117/12.371303"
             },
             "target_test": {
                 "DOI": "10.1117/2.3201612.03"
@@ -14487,7 +14487,7 @@
                 "source_DOI": "10.1081/e-eia-120053663"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1007/s10702-006-0520-9"
             },
             "target_test": {
                 "DOI": "10.1007/s10702-006-0520-9"
@@ -14991,7 +14991,7 @@
                 "source_DOI": "10.2514/6.2012-3152"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1017/cbo9780511624063"
             },
             "target_test": {
                 "DOI": "10.1017/cbo9780511624063"
@@ -16086,7 +16086,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/bf01495360"
+                "DOI": "10.1007/bf01495359"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -16855,7 +16855,7 @@
                 "source_DOI": "10.1074/jbc.m710114200"
             },
             "target_gt": {
-                "DOI": "10.1152/ajpcell.1999.277.6.ca1"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.1152/ajpcell.1999.277.6.ca1"
@@ -17844,7 +17844,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2307/3005956"
+                "DOI": "10.1007/978-1-349-01093-6_7"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -19847,7 +19847,7 @@
                 "DOI": "10.1080/00401706.1993.10485033"
             },
             "target_test": {
-                "DOI": "10.2307/1269656"
+                "DOI": "10.1080/00401706.1993.10485033"
             },
             "score": 1.0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -20546,7 +20546,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2307/j.ctt1t89j0f.6"
+                "DOI": "10.2307/j.ctt1t89j0f"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -20606,7 +20606,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1257/000282802320191787"
+                "DOI": "10.1257/aer.102.3.612"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -21082,7 +21082,7 @@
                 "DOI": "10.1002/(sici)1097-4636(19981205)42:3<465::aid-jbm17>3.0.co;2-f"
             },
             "target_test": {
-                "DOI": "10.1002/(sici)1097-4636(19981205)42:3<465::aid-jbm17>3.3.co;2-t"
+                "DOI": "10.1002/(sici)1097-4636(19981205)42:3<465::aid-jbm17>3.0.co;2-f"
             },
             "score": 0.914,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -21547,9 +21547,9 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1023/a:1006138601744"
+                "DOI": "10.1007/978-1-60327-261-2_13"
             },
-            "score": 0.576,
+            "score": 0.5933333333333333,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -22299,7 +22299,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.4135/9781412963855.n175"
+                "DOI": "10.30758/0555-2648-2018-64-4"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -22816,7 +22816,7 @@
                 "DOI": "10.1111/j.1745-3984.1989.tb00326.x"
             },
             "target_test": {
-                "DOI": "10.1111/j.1745-3984.1989.tb00331.x"
+                "DOI": "10.1111/j.1745-3984.1989.tb00326.x"
             },
             "score": 0.8,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -23615,7 +23615,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1057/9781137357748.0008"
+                "DOI": "10.1007/s10823-013-9219-0"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -24658,7 +24658,7 @@
                 ]
             },
             "target_test": {
-                "DOI": "10.1130/0091-7613(2000)028<0399:hfktcs>2.3.co;2"
+                "DOI": "10.1130/0091-7613(2000)28<399:hfktcs>2.0.co;2"
             },
             "score": 1.0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -24751,7 +24751,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.3790/schm.128.3.501"
+                "DOI": "10.1787/9789264175181-70-en"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -25493,7 +25493,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1016/0273-1177(82)90109-0"
+                "DOI": "10.1016/0032-0633(63)90064-3"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -25795,7 +25795,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1158/1538-7445.am2015-5543"
+                "DOI": "10.1158/0008-5472.can-64-21-cora"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -26248,7 +26248,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1093/fs/xli.4.468-b"
+                "DOI": "10.1017/s0021911800056710"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -26462,7 +26462,7 @@
                 "source_DOI": "10.1179/000705977798319107"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/0010-938x(77)90050-6"
             },
             "target_test": {
                 "DOI": "10.1016/0010-938x(77)90050-6"
@@ -27612,7 +27612,7 @@
                 "source_DOI": "10.1111/geob.12096"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.7208/chicago/9780226518404.001.0001"
             },
             "target_test": {
                 "DOI": "10.7208/chicago/9780226518404.001.0001"
@@ -27768,7 +27768,7 @@
                 "source_DOI": "10.1177/003335491212700103"
             },
             "target_gt": {
-                "DOI": "10.3201/eid1101.040272"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.3201/eid1106.050118"
@@ -28157,7 +28157,7 @@
                 "source_DOI": "10.1002/cbm.1995.5.4.439"
             },
             "target_gt": {
-                "DOI": "10.1037/0022-006x.63.4.560"
+                "DOI": ["10.1037/0022-006x.63.4.560", "10.1037//0022-006x.63.4.560"]
             },
             "target_test": {
                 "DOI": "10.1037//0022-006x.63.4.560"
@@ -28203,7 +28203,7 @@
                 "DOI": "10.1093/chromsci/32.9.367"
             },
             "target_test": {
-                "DOI": "10.1119/1.2344040"
+                "DOI": "10.1016/0094-5765(94)90088-4"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -28559,7 +28559,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1596/0-8213-4034-4"
+                "DOI": "10.1596/0-8213-4037-9"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -28583,7 +28583,7 @@
                 ]
             },
             "target_test": {
-                "DOI": "10.1111/j.1432-1033.1995.tb20231.x"
+                "DOI": "10.1111/j.1432-1033.1995.0074o.x"
             },
             "score": 1.0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -28661,7 +28661,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1186/1477-7525-11-85"
+                "DOI": "10.1186/1477-7525-10-89"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -28757,10 +28757,10 @@
                 "source_DOI": "10.1002/prac.18950520136"
             },
             "target_gt": {
-                "DOI": "10.1098/rstl.1870.0002"
+                "DOI": null
             },
             "target_test": {
-                "DOI": "10.1098/rstl.1870.0018"
+                "DOI": "10.1098/rstl.1870.0004"
             },
             "score": 0.6,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -28836,7 +28836,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.2307/2259939"
+                "DOI": "10.1007/978-94-011-0908-6"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -29891,7 +29891,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/bf03187662"
+                "DOI": "10.2305/iucn.uk.2017-2.rlts.t19802a22004019.en"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -30373,7 +30373,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1016/0003-9861(68)90523-7"
+                "DOI": "10.1016/0003-9861(68)90654-1"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -31032,7 +31032,7 @@
                 "source_DOI": "10.1002/admt.201800083"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1038/srep27542"
             },
             "target_test": {
                 "DOI": "10.1038/srep27542"
@@ -31406,7 +31406,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1038/169877a0"
+                "DOI": "10.1016/s0140-6736(52)90455-8"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -31995,7 +31995,7 @@
                 "source_DOI": "10.1002/path.1700280313"
             },
             "target_gt": {
-                "DOI": "10.1093/biomet/11.1-2.1"
+                "DOI": ["10.1093/biomet/11.1-2.1", "10.2307/2331880"]
             },
             "target_test": {
                 "DOI": "10.2307/2331880"
@@ -32409,7 +32409,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1353/crb.0.0104"
+                "DOI": "10.1353/crb.0.0100"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -32885,7 +32885,7 @@
                 "source_DOI": "10.3171/jns.2002.96.2.0294"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.3892/ijo.9.3.499"
             },
             "target_test": {
                 "DOI": "10.3892/ijo.9.3.499"
@@ -32983,7 +32983,7 @@
                 "source_DOI": "10.1179/2047773212y.0000000010"
             },
             "target_gt": {
-                "DOI": "10.4103/0255-0857.55447"
+                "DOI": null
             },
             "target_test": {
                 "DOI": "10.4103/0255-0857.55447"
@@ -33201,7 +33201,7 @@
                 "source_DOI": "10.1515/bchm2.1939.261.1-2.24"
             },
             "target_gt": {
-                "DOI": ""
+                "DOI": "10.1002/cber.19380711235"
             },
             "target_test": {
                 "DOI": "10.1002/cber.19380711235"
@@ -34536,7 +34536,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.4324/9780203006528"
+                "DOI": "10.4324/9780203699683"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -35025,7 +35025,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/978-1-935704-09-6_20"
+                "DOI": "10.1007/978-1-935704-09-6_19"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -35870,7 +35870,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/978-94-017-1731-1_20"
+                "DOI": "10.1007/978-94-017-1731-1_19"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -36455,7 +36455,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1158/1538-7445.am2013-1715"
+                "DOI": "10.1029/jz068i006p01715"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -36602,7 +36602,7 @@
                 "DOI": "10.1002/anie.199310851"
             },
             "target_test": {
-                "DOI": "10.1002/anie.199303131"
+                "DOI": "10.1002/anie.199303132"
             },
             "score": 0.8571428571428571,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -36771,7 +36771,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1103/physrevd.69.104015"
+                "DOI": "10.1007/978-3-319-40400-4_13"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -37174,7 +37174,7 @@
                 "source_DOI": "10.2514/6.1970-1520"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1063/1.3060308"
             },
             "target_test": {
                 "DOI": "10.1063/1.3060308"
@@ -37556,7 +37556,7 @@
                 "source_DOI": "10.1201/9781420017311.ch5"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1016/0891-5849(96)00175-x"
             },
             "target_test": {
                 "DOI": "10.1016/0891-5849(96)00175-x"
@@ -37730,7 +37730,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.3886/icpsr04156.v1"
+                "DOI": "10.3886/icpsr02986"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -38161,7 +38161,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1007/bfb0107084"
+                "DOI": "10.1007/bfb0041805"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
@@ -38800,9 +38800,9 @@
                 "DOI": "10.1002/ajmg.1320320120"
             },
             "target_test": {
-                "DOI": "10.1002/ajmg.1320320409"
+                "DOI": "10.1002/ajmg.1320320120"
             },
-            "score": 0.72,
+            "score": 0.866,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -39205,7 +39205,7 @@
                 "source_DOI": "10.1002/ejsp.2228"
             },
             "target_gt": {
-                "DOI": "10.1037/0022-3514.52.1.81"
+                "DOI": ["10.1037/0022-3514.52.1.81", "10.1037//0022-3514.52.1.81"]
             },
             "target_test": {
                 "DOI": "10.1037//0022-3514.52.1.81"
@@ -39477,7 +39477,7 @@
                 "source_DOI": "10.1002/wsbm.1242"
             },
             "target_gt": {
-                "DOI": "10.1093/biomet/71.2.323"
+                "DOI": ["10.1093/biomet/71.2.323", "10.2307/2336249"]
             },
             "target_test": {
                 "DOI": "10.2307/2336249"
@@ -39607,12 +39607,12 @@
                 "source_DOI": "10.1111/j.1365-3180.1991.tb01747.x"
             },
             "target_gt": {
-                "DOI": null
+                "DOI": "10.1017/s0043174500055818"
             },
             "target_test": {
-                "DOI": "10.3719/weed.34.suppl_107"
+                "DOI": "10.1017/s0043174500055818"
             },
-            "score": 0,
+            "score": 0.8,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
         },
         {
@@ -39664,7 +39664,7 @@
                 "DOI": null
             },
             "target_test": {
-                "DOI": "10.1515/9781400862832.13"
+                "DOI": "10.1007/978-1-349-17406-5_2"
             },
             "score": 0,
             "matcher": "Crossref search matcher with validation and minimum normalized relevance score 0.4 and minimum candidate similarity -1"
